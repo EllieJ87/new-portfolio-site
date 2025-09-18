@@ -1,0 +1,552 @@
+@use 'variables' as theme;
+
+.home-container { 
+  
+  .home-about {   
+    
+    .about-intro {
+      padding: 2rem 1rem;
+      display: grid;
+      gap: 1rem;
+      padding-bottom: 1.5rem;
+      
+      h1 {
+        @include theme.XLrgFontSize;
+        @include theme.MainTextCol
+      }
+      
+      .about-text {
+        display: grid;
+        gap: 1rem;
+        color: theme.$White;
+        order: 3;
+      }
+      
+      .about-img-container {
+        order: 2;
+        width: 100%;
+        height: 18rem;        
+        
+        .about-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center -4rem;
+        }
+      }
+    }    
+
+    .marquee {      
+      .marquee-container {        
+        h2 { padding: 0.5rem 1rem; }
+      }
+    }
+
+  }
+
+  .home-skills {
+    padding: 2rem 1rem;    
+
+    ul {
+      display: grid;
+      gap: 2rem;
+
+      li {
+        position: relative;
+        padding: 1.5rem 0 2rem;
+        display: grid;
+        gap: 1rem;
+
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, #67E8F9 50%, rgba(30, 41, 59, 0) 100%);
+        }
+
+        &:last-of-type::before { background: transparent; }
+
+        .skills-icon {
+          color: theme.$White;
+          display: flex;
+          gap: 1rem;
+          padding-bottom: 2.25rem;
+
+          &::before {
+            @include theme.IconStandard;
+            place-self: center;
+            width: 3.5rem;
+            height: 3.5rem;
+          }
+        }
+
+        .wd-icon {
+          @extend .skills-icon;
+          &::before { background-image: url(/images/site-icons/info-web-design.svg); }
+        }
+
+        .fed-icon {
+          @extend .skills-icon;
+          &::before { background-image: url(/images/site-icons/info-fed.svg); }
+        }
+
+        .di-icon {
+          @extend .skills-icon;
+          &::before { background-image: url(/images/site-icons/info-illustrator.svg); }
+        }
+       
+        .heading-container {
+          display: flex;
+          align-items: center;
+          position: relative;
+          margin-bottom: 2rem;
+
+          &::before, &::after {
+            content: "<h3>";
+            position: absolute;            
+            left: 0;
+            color: theme.$MidGrey;
+            font-size: 0.8rem;
+          }
+          
+          &::before { top: -30px; }
+
+          &::after { bottom: -30px; }
+          
+          .vertical-line {
+            width: 2px;
+            height: 100%;
+            background: #334155;
+            margin-left: 0.9rem;
+          }
+          
+          p { 
+            color: theme.$White; 
+            margin-left: 1rem;
+          }
+        }
+
+      }
+    }
+  }
+
+  .home-case-studies {
+    padding: 2rem 1rem; 
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    ul {
+      display: grid;
+      gap: 2rem;
+    }
+
+    .cs-cards {
+      width: 100%;
+      border: 1px solid theme.$LightGrey;
+      border-radius: 0.5rem;;      
+      place-self: center;
+      cursor: pointer;
+
+      .cs-cards-container {
+        display: grid;
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+
+        .img-container {
+          width: 100%;
+          height: 6rem;
+        
+          .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+        
+        h3, p { color: theme.$White; }
+      
+        h3 { text-align: center; }
+      
+        p { @include theme.LinkArrow; }
+      }
+
+      &:hover {
+        box-shadow: 0 0 8px 0 theme.$LightGrey;
+
+        p {
+          color: theme.$HotPink;
+  
+          &::after { background-image: url(/images/site-icons/icon-arrow-hv.svg); }
+        }
+      }
+    }
+
+    .project-btn {
+      @include theme.Btn;
+      @include theme.BtnMain;
+      place-self: center;
+    }
+  }
+}
+
+.case-study-list {
+  padding: 1.5rem 0.75rem;
+
+  .cs-list-container {
+    padding: 1rem 0;
+    display: grid;
+    gap: 2rem;
+
+    &:first-of-type { padding: 0 0 1rem; }
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+      place-self: center;
+    }
+
+    .case-grid {            
+      display: grid;
+      gap: 2rem;
+      
+      .case-card {
+        position: relative;
+        padding-bottom: 2rem;
+        display: grid;
+        gap: 1rem;
+        justify-items: center;
+        color: theme.$White;
+        
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, rgba(148, 163, 183, 50%) 50%, rgba(30, 41, 59, 0) 100%);
+        }
+
+        &:last-of-type::before { background: transparent; }
+
+        .cs-img-container {
+          width: 100%;
+          height: 7rem;
+        
+          .cs-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }        
+        }
+
+        .tech-imgs {
+          display: flex;
+          justify-content: space-between;
+          gap: 1rem;
+        }
+
+        p { text-align: center }
+      
+        .link-arrow { 
+          font-family: 'Halant', serif;
+          @include theme.LinkArrow;
+          font-size: 0.9rem;
+          width: 100%;
+          color: theme.$White; 
+        
+          &:hover {
+            color: theme.$HotPink;
+          
+            &::after { background-image: url(/images/site-icons/icon-arrow-hv.svg); }
+          }
+        }
+
+        .cs-mini-links {
+          width: 100%;          
+          display: flex;
+          justify-content: space-between;
+
+          a { 
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            font-family: 'Halant', serif;
+            font-size: 0.9rem;
+            color: theme.$White; 
+            transition: all 0.4s ease-in-out;
+            
+            &::before {
+              content: '';
+              display: block;
+              width: 1rem;
+              height: 1rem;
+              background-repeat: no-repeat;
+              background-size: contain;               
+            }
+
+            &:hover { color: theme.$Teal; }
+          }
+
+          .link-github {
+            &::before { background-image: url(/images/social-icons/social-github.svg); }
+          }
+
+          .link-live {
+            &::before { background-image: url(/images/site-icons/icon-globe.svg); }
+          }
+        }
+      }
+    }
+  }
+}
+
+.amends-container {
+  border: 1px solid white;
+  color: theme.$White;
+}
+
+.new-cs-container {
+  border: 1px solid yellow;
+  color: theme.$White;
+}
+
+.marquee {
+  padding-bottom: 1rem;
+
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .inner-scroll {
+      display: flex;
+      animation: scroll-left 30s linear infinite;
+      width: max-content;
+
+      ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+          @include theme.MedFontSize;
+          @include theme.GreyTextCol;
+          padding: 0 2rem;
+          flex: 0 0 auto;
+        }
+      }
+    }
+  }
+}
+
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* Wrapper for handle */
+.handleWrapper {
+  position: relative;
+  width: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* So the outer div doesn't block interaction */
+}
+
+/* Vertical line */
+.handleLine {
+  width: 2px;
+  height: 100%;
+  background-color: red;
+}
+
+/* Circle drag handle */
+.handleCircle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid red;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  pointer-events: auto; /* This is the actual draggable part */
+}
+
+footer {
+  display: grid;
+
+  ul {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem 0.25rem;
+    justify-content: center
+  }
+
+  .footer-icon { 
+    @include theme.FooterIcon; 
+    place-self: center;
+  }
+
+  .linkedin-icon {
+    background: url(/images/social-icons/social-linkedin.svg) no-repeat;
+
+    &:hover { background: url(/images/social-icons/social-linkedin-hv.svg) no-repeat; }
+  }
+  
+  .github-icon {
+    background: url(/images/social-icons/social-github.svg) no-repeat;
+    
+    &:hover { background: url(/images/social-icons/social-github-hv.svg) no-repeat; }
+  }
+  
+  .email-icon {
+    background: url(/images/social-icons/social-email.svg) no-repeat;
+    
+    &:hover { background: url(/images/social-icons/social-email-hv.svg) no-repeat; }
+  }
+
+  .instagram-icon {
+    background: url(/images/social-icons/social-instagram.svg) no-repeat;
+    
+    &:hover { background: url(/images/social-icons/social-instagram-hv.svg) no-repeat; }
+  }
+
+  .facebook-icon {
+    background: url(/images/social-icons/social-facebook.svg) no-repeat;
+    
+    &:hover { background: url(/images/social-icons/social-facebook-hv.svg) no-repeat; }
+  }
+
+  .x-icon {
+    background: url(/images/social-icons/social-x.svg) no-repeat;
+    
+    &:hover { background: url(/images/social-icons/social-x-hv.svg) no-repeat; }
+  }
+
+  .discord-icon {
+    background: url(/images/social-icons/social-discord.svg) no-repeat;
+    
+    &:hover { background: url(/images/social-icons/social-discord-hv.svg) no-repeat; }
+  }
+
+  p { 
+    color: theme.$White; 
+    place-self: center;
+  }
+}
+
+@media only screen and (min-width: 35rem) { }
+
+// @media only screen and (min-width: 40rem) {
+//   .body-container {
+
+//     .db-container { border: 1px solid purple; }    
+//   }
+// }
+
+@media only screen and (min-width: 52.5rem) {
+
+  .body-container {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+
+    .db-container {
+      grid-column: 2;
+      overflow-x: hidden;
+      max-width: 100%;
+    }
+    
+    .home-container {  
+      .home-about {
+        
+        .about-intro {
+          padding-left: 3rem;
+          grid-template-columns: 1fr 12rem;
+      
+          h1 { grid-column: 1; }
+      
+          .about-text {
+            order: initial;
+            grid-column: 1;
+          }
+      
+          .about-img-container {
+            order: initial;
+            padding-top: 1rem;
+            grid-column: 2;
+            grid-row: 1 / span 2;    
+          }
+        } 
+        
+        .marquee {          
+          .marquee-container {            
+            h2 { padding-left: 3rem; }
+          }
+        }
+      }
+  
+      .home-skills {
+        padding: 2rem 0;
+      }
+  
+      .home-case-studies { border: 1px solid yellow; }
+    }
+
+    footer { grid-column: 2; }
+
+  }
+
+}
+
+// @media only screen and (min-width: 66rem) {
+//   .body-container {
+
+//     .db-container { border: 1px solid black; }   
+//   }
+// }
+
+// @media only screen and (min-width: 92rem) {
+//   .body-container {
+
+//     .db-container { border: 1px solid yellow; } 
+//   }
+// }
+
+// @media only screen and (min-width: 106rem) {
+//   .body-container {
+    
+//     .db-container { border: 1px solid green; } 
+//   }
+// }
+
+// @media only screen and (min-width: 125rem) {
+//   .body-container {
+    
+//     .db-container { border: 1px solid navy; } 
+//   }
+// }

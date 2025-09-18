@@ -1,95 +1,113 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import React from 'react'
+import data from "@/libs/case-study-list.json"
+import Link from 'next/link';
+import Image from 'next/image'
 
-export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+import Marquee from './Components/Marquee';
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+
+function getRandomItems(array, count) {
+  const shuffled = [...array].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, count);
 }
+
+const allProjects = [
+  ...data.caseStudiesAmends,
+  ...data.newProjectsCaseStudies,
+  // ...data.miniProjects
+];
+
+const App = () => {
+  const randomProjects = getRandomItems(allProjects, 6);
+  // const randomAmends = getRandomItems(data.caseStudiesAmends, 2);
+  // const randomMini = getRandomItems(data.miniProjects, 1);
+
+  return (
+    <div className='db-container home-container'>
+      <section className='home-about'>
+        <div className='about-intro'>
+          <h1>About Me</h1>
+          <div className='about-text'>
+            <p>Creative problem-solver with a passion for thoughtful design and front-end development.  A Front End Developer and Web Designer with hands-on experience crafting responsive, user-focused websites for the ATTB Group. I specialize in building visually engaging, accessible digital experiences that meet modern performance and SEO standards.</p>
+            <p>Currently, I design interfaces and graphics, ensure mobile responsiveness, and enhance functionality using Adobe Creative Suite and basic scripting—always with a focus on usability and best practice.</p>
+            <p>Outside of work, creativity continues to drive me. I&apos;m inspired by Japanese culture, anime, and gaming, and spend my spare time knitting, drawing, and cooking—all of which sharpen my eye for design and detail.</p>
+          </div>
+
+          <div className='about-img-container'>
+            <Image
+              priority 
+              src='/images/me-2.jpg'
+              className='about-img'
+              alt='Picture of myself'
+              width={794}
+              height={1553}
+            />
+          </div>
+        </div>
+        
+        <div className='marquee'>
+          <Marquee />
+        </div>
+      </section>
+
+      <section className='home-skills'>
+        <ul>
+          <li>
+            <h3 className='skills-icon wd-icon'>Web Designer</h3>
+            <div className="heading-container">
+              <div className="vertical-line"></div>
+              <p>Designing responsive website wireframes in Figma for both desktop and mobile platforms.</p>
+            </div>
+          </li>
+          <li>
+            <h3 className='skills-icon fed-icon'>Front-End Developer</h3>
+            <div className="heading-container">
+              <div className="vertical-line"></div>
+              <p>Building and maintaining website front-ends using HTML, CSS, SCSS, JavaScript, React, and Next.js.</p>
+            </div>            
+          </li>
+          <li>
+            <h3 className='skills-icon di-icon'>Digital Illustrator</h3>
+            <div className="heading-container">
+              <div className="vertical-line"></div>
+              <p>Creating custom imagery and iconography to enhance website storytelling and meet business needs.</p>
+            </div>            
+          </li>
+        </ul>
+      </section>
+
+      <section className='home-case-studies'>
+        <h2>Case Studies</h2>
+
+        {randomProjects?.length ? (
+          <ul>
+            {randomProjects.map((item, index) => (
+              <li key={index} className='cs-cards'>
+                <Link href={`/casestudy/${item.slug}`} className='cs-cards-container'>
+                  <div className='img-container'>
+                    <Image
+                      priority
+                      src={item.CaseStudyImg.url}
+                      alt={item.CaseStudyImg.altTitle}
+                      width={item.CaseStudyImg.width}
+                      height={item.CaseStudyImg.height}
+                      className='card-img'
+                    />
+                  </div>                
+                  <h3>{item.CaseStudyTitle}</h3>
+                  <p className='link-arrow'>View Project</p>    
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : null }
+
+        <Link href='/casestudy' className='btn btn-main project-btn'>See What I&apos;ve Done ^_^</Link>
+        {/* <button href='/casestudy' className='btn btn-main'>See What I&apos;ve Done ^_^</button> */}
+      </section>
+    </div>
+  )
+}
+
+export default App
+

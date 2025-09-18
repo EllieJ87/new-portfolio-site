@@ -1,0 +1,137 @@
+$Onyx: #0B0B0B;
+$CeramicWhite: #FFFEFC;
+$CharcoalGrey: #36454F;
+$TealBlue: #009193;
+$Golden: #FCC200;
+$HawkesBlue: #D7E1E8;
+$Platinum: #D2EBEC;
+$Beige: #FFF1D4;
+
+$White: #FAFAFA;
+$Black: #000000;
+$Navy: #1E293B;
+
+$HotPink: #ED1E80;
+$Teal: #81D2E7;
+
+$LightGrey: #94A3B7;
+$MidGrey: #65748B;
+
+@mixin SmPadZeroPad { padding: 0.5rem 0; }
+@mixin MedPadZeroPad { padding: 1.25rem 0; }
+@mixin LrgPadZeroPad { padding: 2rem 0; }
+
+@mixin XsmFontSize { font-size: 0.875rem; }
+@mixin SmFontSize { font-size: 1rem; }
+@mixin MedFontSize { font-size: 1.1rem; }
+@mixin LrgFontSize { font-size: 1.25rem; }
+@mixin XLrgFontSize { font-size: 2rem; }
+
+@mixin bordered($color, $width) {
+  border: $width solid $color;
+}
+
+@mixin SmDimensions {
+  width: 0.5rem;
+  height: 0.5rem;
+} 
+
+@mixin MedDimensions {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+@mixin LrgDimensions {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@mixin IconStandard {
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
+@mixin BackgroundStandard {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin MainTextCol {
+  width: fit-content;
+  background: linear-gradient(90deg, $HotPink 0, $Teal 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+@mixin GreyTextCol {
+  width: fit-content;
+  background: linear-gradient(90deg, $LightGrey 0, $MidGrey 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+@mixin LinkArrow {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.4s ease-in-out;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-image: url(/images/site-icons/icon-arrow.svg);   
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+@mixin Btn {
+  position: relative;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;  
+  transition: all .4s ease-in-out;
+  z-index: 1; 
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0.1rem;
+    border: 3px solid black;
+    border-radius: 0.25rem;
+    z-index: -1;
+  }
+}
+
+@mixin BtnMain { 
+  background: linear-gradient(60deg, $HotPink, $Teal); 
+
+  &::before { background: linear-gradient(60deg, $HotPink, $Teal); }
+
+  &:hover::before { box-shadow: 0 0 3px 4px rgba(237, 30, 128, 0.5), 0 0 3px 4px rgba(129, 210, 100, 0.5); }
+}
+
+@mixin FooterIcon {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;    
+  background-position: center;
+  background-size: contain;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}

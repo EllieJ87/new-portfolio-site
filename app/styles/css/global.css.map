@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/global.scss","../scss/_variables.scss"],"names":[],"mappings":"AACQ;AAER;EAAI;;;AAEJ;EACE;EACA;EACA;;;AAGF;EAAoB;;;AAEpB;EACE;EACA,OCba;EDcb;;;AAGF;ECFsB;EDIpB;;;AAGF;ECRqB;EDUnB;;;AAGF;ECdqB;EDgBnB;;;AAGF;EACE;ECrBkB;;;ADyBpB;EACE;EACA;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;EACA","file":"global.css"}

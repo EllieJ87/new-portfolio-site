@@ -1,0 +1,547 @@
+{
+  "caseStudiesAmends": [
+    {
+      "id": 1,
+      "slug": "home-page",
+      "CaseStudyTitle": "Home Page Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/home-list.png",
+        "altTitle" : "The Bigjobsite website - home page",
+        "width" : 250,
+        "height" : 150
+      },
+
+      "Summary": "This project aimed to improve the homepage's user experience by addressing issues with navigation, content clarity, and the lack of a clear introduction to the site's services.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "job-results-page",
+      "CaseStudyTitle": "Results Page Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/results-list.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 250,
+        "height" : 150
+      },
+
+      "Summary": "This project focused on simplifying a cluttered job results page and improving the search and filtering experience.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "job-details-page",
+      "CaseStudyTitle": "Details Page Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/details-list.png",
+        "altTitle" : "The Bigjobsite website - job details page",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This project aimed to modernize the job details page by enhancing its clarity and engagement.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "email-signup-management",
+      "CaseStudyTitle": "Email Sign-up Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/email-alerts-list.png",
+        "altTitle" : "The Bigjobsite website - email sign-up",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This project focused on improving the user experience around email alert sign-ups and management for a job search platform.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "company-pages",
+      "CaseStudyTitle": "Company Pages Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/company-list.png",
+        "altTitle" : "The Bigjobsite website - company pages",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "In 2022, I led the design of a new Company Pages experience to allow employers to showcase their brand, culture, and open roles in a more engaging and customizable way.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "email-job-alerts",
+      "CaseStudyTitle": "Email's Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/email-list.png",
+        "altTitle" : "The Bigjobsite website - email",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This project focused on redesigning our job alert emails to be fully responsive, visually aligned with our core site experience, and compatible across all devices, email clients, and screen modes.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        }
+      ]
+    }
+  ],
+  
+  "newProjectsCaseStudies": [
+    {
+      "id": 1,
+      "slug": "commercial-product-pages",
+      "CaseStudyTitle": "Product Page's Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/product-list.png",
+        "altTitle" : "The Bigjobsite website - commercial product pages",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This project involved designing and developing a series of product pages to showcase our key services and offerings to both new users and potential partners.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "clicked365-redesign",
+      "CaseStudyTitle": "ATTC Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/attc-list.png",
+        "altTitle" : "Allthetopclicks website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This project involved a full rebranding and redesign of the outdated ATTC website to better reflect the service's modern capabilities under its new identity—Clicked365.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "disrupted-cloud",
+      "CaseStudyTitle": "Disrupted Cloud Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/dc-list.png",
+        "altTitle" : "Disrupted Cloud website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This project focused on establishing a strong online presence for Disrupted Cloud, a digital brand offering two core services",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "all-niche-sites",
+      "CaseStudyTitle": "Niche Sites Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/niche-list.png",
+        "altTitle" : "The IT Job Search website - part of niche sites",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This project focused on designing and building a suite of industry-specific niche job sites, each with a unique visual identity but sharing a consistent HTML structure.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "my-job-dna",
+      "CaseStudyTitle": "MyJobDNA Case Study",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/myjobdna-list.png",
+        "altTitle" : "MyJobDNA website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "MyJobDNA is an interactive web platform designed to help users uncover their ideal career paths through a personality-based quiz.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-react.svg",
+          "altTitle" : "React logo"
+        }
+      ]
+    }
+  ],
+  "miniProjects": [
+    {
+      "id": 1,
+      "CaseStudyTitle": "EllChan_Anime Project",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/ellchan-anime-list.png",
+        "altTitle" : "EllChan_Anime website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This is a website that I created for my personal sketching and drawing works. My website will be used by existing, new, and inspiring artists wanting to find more information about my work.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-adobe.svg",
+          "altTitle" : "Adobe logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        }
+      ],
+      "ProjectLinks": [
+        {
+          "githubTitle": "https://github.com/EllieJ87/ellchan-anime",
+          "projectLink": "https://elliej87.github.io/ellchan-anime"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "CaseStudyTitle": "Ranger Game",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/ranger-game-list.png",
+        "altTitle" : "Ranger Game website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This is a website that I created for my second milestone project. My personal admiration for gaming and storytelling made this website possible.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-adobe.svg",
+          "altTitle" : "Adobe logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ],
+      "ProjectLinks": [
+        {
+          "githubTitle": "https://github.com/EllieJ87/ranger-game",
+          "projectLink": "https://elliej87.github.io/ranger-game"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "CaseStudyTitle": "Ecommerce Project",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/ecommerce-page-list.png",
+        "altTitle" : "Ecommerce Project website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This is a website that I created for my final milestone project. To build an E-commerce product page.",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-scss.svg",
+          "altTitle" : "SCSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ],
+      "ProjectLinks": [
+        {
+          "githubTitle": "https://github.com/EllieJ87/ecommerce-product-page-main",
+          "projectLink": "https://elliej87.github.io/ecommerce-product-page-main"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "CaseStudyTitle": "Anime Generator Project",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/anime-generator-list.png",
+        "altTitle" : "Anime Generator website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "I wanted to develop a site where you could randomly have an Anime picked out for you, especially if you are stuck on what anime to watch next!",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        }
+      ],
+      "ProjectLinks": [
+        {
+          "githubTitle": "https://github.com/EllieJ87/AnimeGenerator",
+          "projectLink": "https://elliej87.github.io/AnimeGenerator"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "CaseStudyTitle": "Travel Journal Project",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/travel-journal-list.png",
+        "altTitle" : "Travel Journal website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This Project was built and developed by me, to test my React skills for Props, accessing data and trying to figure out how to add images by mapping (and using json data).",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-react.svg",
+          "altTitle" : "React logo"
+        }
+      ],
+      "ProjectLinks": [
+        {
+          "githubTitle": "https://github.com/EllieJ87/travel-journal",
+          "projectLink": "https://travel-journal-reupload.netlify.app"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "CaseStudyTitle": "EllChan Artwork Project",
+      "CaseStudyImg": {
+        "url" : "/images/case-study-list/favourite-artwork-list.png",
+        "altTitle" : "EllChan Artwork website",
+        "width" : 250,
+        "height" : 150
+      },
+      "Summary": "This Project was built and developed by me, to test my React skills for react.useState, Props, accessing data and trying to figure out how to add images by mapping (and using json data).",
+      "Techimages": [
+        {
+          "url" : "/images/tech-icons/tech-figma.svg",
+          "altTitle" : "Figma logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-html.svg",
+          "altTitle" : "HTML logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-css.svg",
+          "altTitle" : "CSS logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-js.svg",
+          "altTitle" : "JavaScript logo"
+        },
+        {
+          "url" : "/images/tech-icons/tech-react.svg",
+          "altTitle" : "React logo"
+        }
+      ],
+      "ProjectLinks": [
+        {
+          "githubTitle": "https://github.com/EllieJ87/favourite-artwork",
+          "projectLink": "https://ej-ellchan-anime-favourites.netlify.app"
+        }
+      ]
+    }
+  ]
+}

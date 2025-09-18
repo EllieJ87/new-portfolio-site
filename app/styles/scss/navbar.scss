@@ -1,0 +1,229 @@
+@use 'variables' as theme;
+
+// .body-container {
+//   display: block;
+
+  .dashboard-header {
+    position: sticky;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(-160deg, #000000  0%, #1E293B  100%);
+
+    .main-logo {
+      @include theme.MainTextCol;
+      @include theme.XLrgFontSize;
+    }
+
+    .nav-icon {
+      padding: 0.25rem 0.5rem;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      right: 0.5rem;
+      transform: translateY(-50%);
+      
+      &::after {
+        @include theme.IconStandard;
+        @include theme.LrgDimensions;
+        transition: 0.4s ease-in-out;
+        background-image: url(/images/site-icons/icon-burger-nav.svg);        
+      }
+      
+      &:hover::after { background-image: url(/images/site-icons/icon-burger-nav-hv.svg); }
+    }
+
+    .nav-icon.expanded {
+      transition: 0.4s ease-in-out;
+      
+      &::after { background-image: url(/images/site-icons/icon-close.svg); }
+      
+      &:hover::after { background-image: url(/images/site-icons/icon-close-hv.svg); }
+    }
+
+    .main-navbar {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 70px);
+      background: linear-gradient(-45deg, #000000  0%, #1E293B  100%);
+      display: none;
+
+      .navbar-menu {
+        padding: 1.25rem;
+
+        ul {
+          text-align: left;
+
+          li {
+            padding: 0.75rem 0;
+            display: grid;
+            cursor: pointer;           
+
+            a {
+              color: #FAFAFA;
+              @include theme.LrgFontSize;
+              font-weight: 300;
+              transition: 0.4s ease-in-out;     
+              
+              &:hover { @include theme.MainTextCol; }
+            }            
+          }
+        }
+
+        .nav-link {
+          display: flex;
+          gap: 1rem;
+          transition: 0.4s ease-in-out;
+        
+          &::before {
+            @include theme.IconStandard;
+            @include theme.MedDimensions;
+            transition: 0.4s ease-in-out;
+          }
+        }
+
+        .navbar-links {
+          padding: 1rem 0;       
+                    
+          .about-link {
+            @extend .nav-link;
+            &::before { background-image: url(/images/site-icons/nav-about.svg); }
+            
+            &:hover{
+              &::before { background-image: url(/images/site-icons/nav-about-hv.svg); }
+            }
+          }
+          
+          .about-link-active {            
+            @extend .nav-link;
+            @include theme.MainTextCol;
+            
+            &::before { background-image: url(/images/site-icons/nav-about.svg); }
+          }
+
+          .projects-link {
+            @extend .nav-link;
+            &::before { background-image: url(/images/site-icons/nav-projects.svg); }
+            
+            &:hover{
+              &::before { background-image: url(/images/site-icons/nav-projects-hv.svg); }
+            }
+          }
+          
+          .projects-link-active {            
+            @extend .nav-link;
+            @include theme.MainTextCol;
+            
+            &::before { background-image: url(/images/site-icons/nav-projects.svg); }
+          }
+
+          .contact-link {
+            @extend .nav-link;
+            &::before { background-image: url(/images/site-icons/nav-contact.svg); }
+            
+            &:hover{
+              &::before { background-image: url(/images/site-icons/nav-contact-hv.svg); }
+            }
+          }
+        }
+      }
+    }
+
+    .main-navbar.expanded { 
+      display: block;
+
+      .navbar-menu  {
+        ul {
+          display: grid;
+          gap: 3rem;
+
+          li { padding: 0 0; }
+        }
+      }
+    }
+  }
+
+
+
+// }
+
+
+@media only screen and (min-width: 29rem) {
+}
+
+@media only screen and (min-width: 35rem) {
+
+}
+
+@media only screen and (min-width: 40rem) {
+
+}
+
+@media only screen and (min-width: 52.5rem) {
+
+  .body-container {
+    // display: grid;
+    // grid-template-columns: 10rem 1fr;
+
+    .dashboard-header {
+      height: 100vh;
+      display: grid;
+      align-items: start;
+      padding: 1.5rem 1rem;
+      background: initial;
+
+      .nav-icon { display: none; }
+
+      .main-navbar {
+        display: grid;
+        background: inherit;
+        top: 100px;
+
+        .navbar-menu {
+          padding: 0 1.25rem;
+
+          .navbar-links {
+            display: grid;
+            gap: 2rem;
+            padding: 1rem 0;
+
+            a span { display: none; }
+          }
+
+          .nav-link {
+            
+            &::before {
+              @include theme.IconStandard;
+              @include theme.LrgDimensions;
+            }
+          }
+        }
+      }
+    }
+  }
+
+} 
+
+@media only screen and (min-width: 66rem) {
+
+}
+
+@media only screen and (min-width: 92rem) {
+ 
+}
+
+@media only screen and (min-width: 106rem) {
+
+}
+
+@media only screen and (min-width: 125rem) {
+
+}
+
