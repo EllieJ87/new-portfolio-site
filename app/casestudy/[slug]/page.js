@@ -36,28 +36,34 @@ const CaseStudyPage = async ({ params }) => {
       <>
         <AmendLayout data={amend} />
 
-        <div style={{ marginTop: "2rem"}}>
+        <div className={`cs-next-prev-container ${prev && next ? "both" : next ? "only-next" : "only--prev"}`}>
           {prev && 
-            <Link href={`/casestudy/${prev.slug}`}>
-              <Image
-                src={prev.CaseStudyImg[1].url}
-                alt={prev.CaseStudyImg[1].altTitle}
-                width={150}
-                height={100}
-              />
-              Previous : {prev.CaseStudyTitle}
+            <Link href={`/casestudy/${prev.slug}`} className='link-prev'>
+              <div className='img-container'>
+                <Image
+                  src={prev.CaseStudyImg[1].url}
+                  alt={prev.CaseStudyImg[1].altTitle}
+                  width={prev.CaseStudyImg[1].width}
+                  height={prev.CaseStudyImg[1].height}
+                />
+              </div>              
+              <p>{prev.CaseStudyTitle}</p>
+              <span className='icon-arrow prev-arrow'></span>   
             </Link>
           }
 
           {next && 
-            <Link href={`/casestudy/${next.slug}`} style={{marginLeft: "1rem"}}>
-              <Image
-                src={next.CaseStudyImg[1].url}
-                alt={next.CaseStudyImg[1].altTitle}
-                width={150}
-                height={100}
-              />
-              next : {next.CaseStudyTitle}
+            <Link href={`/casestudy/${next.slug}`} className=' link-next'>
+              <div className='img-container'>
+                <Image
+                  src={next.CaseStudyImg[1].url}
+                  alt={next.CaseStudyImg[1].altTitle}
+                  width={next.CaseStudyImg[1].width}
+                  height={next.CaseStudyImg[1].height}
+                />
+              </div>              
+              <p>{next.CaseStudyTitle}</p>
+              <span className='icon-arrow next-arrow'></span>              
             </Link>
           }
         </div>
@@ -73,28 +79,34 @@ const CaseStudyPage = async ({ params }) => {
       <>
         <NewCaseLayout data={newCase} />
          
-        <div style={{ marginTop: "2rem"}}>
+        <div className={`cs-next-prev-container ${prev && next ? "both" : next ? "only-next" : "only--prev"}`}>
           {prev && 
-            <Link href={`/casestudy/${prev.slug}`}>
-              <Image
-                src={prev.CaseStudyImg[0].url}
-                alt={prev.CaseStudyImg[0].altTitle}
-                width={150}
-                height={100}
-              />
-              Previous : {prev.CaseStudyTitle}
+            <Link href={`/casestudy/${prev.slug}`} className=' link-prev'>
+              <div className='img-container'>
+                <Image
+                  src={prev.CaseStudyImg[0].url}
+                  alt={prev.CaseStudyImg[0].altTitle}
+                  width={prev.CaseStudyImg[0].width}
+                  height={prev.CaseStudyImg[0].height}
+                />
+              </div>
+              <p>{prev.CaseStudyTitle}</p>
+              <span className='icon-arrow prev-arrow'></span>              
             </Link>
           }
 
           {next && 
-            <Link href={`/casestudy/${next.slug}`} style={{marginLeft: "1rem"}}>
-              <Image
-                src={next.CaseStudyImg[0].url}
-                alt={next.CaseStudyImg[0].altTitle}
-                width={150}
-                height={100}
-              />
-              next : {next.CaseStudyTitle}
+            <Link href={`/casestudy/${next.slug}`} className=' link-next'>
+              <div className='img-container'>
+                <Image
+                  src={next.CaseStudyImg[0].url}
+                  alt={next.CaseStudyImg[0].altTitle}
+                  width={next.CaseStudyImg[0].width}
+                  height={next.CaseStudyImg[0].height}
+                />
+              </div>
+              <p>{next.CaseStudyTitle}</p>
+              <span className='icon-arrow next-arrow'></span>              
             </Link>
           }
         </div>    

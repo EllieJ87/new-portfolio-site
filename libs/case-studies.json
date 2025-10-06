@@ -276,12 +276,16 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/results/dt-results-process-1-1.png",
+              "altTitle" : "The BIG Jobsite : 2 column cards results with left filter options",
+              "width" : 250,
+              "height" : 150
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/results/dt-results-process-1-2.png",
+              "altTitle" : "The BIG Jobsite : 1 card display with left filter options",
+              "width" : 250,
+              "height" : 150
             }
           ]
         },
@@ -311,16 +315,22 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/results/mob-results-process-2-1.png",
+              "altTitle" : "The BIG Jobsite : mobile search options",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/results/mob-results-process-2-2.png",
+              "altTitle" : "The BIG Jobsite : mobile search and filter options",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/results/mob-results-process-2-3.png",
+              "altTitle" : "The BIG Jobsite : mobile revised search option",
+              "width" : 235,
+              "height" : 499
             }
           ]
         }
@@ -381,12 +391,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/results/dt-results-cur.png",
+          "altTitle" : "The BIG Jobsite : current results page",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/results/mob-results-cur.png",
+          "altTitle" : "The BIG Jobsite : current results page",
+          "width" : 235,
+          "height" : 499
         }
       ]
     },
@@ -397,12 +411,16 @@
       
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/details/dt-details-og.png",
+          "altTitle" : "The BIG Jobsite : original results page",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/details/dt-details-cur.png",
+          "altTitle" : "The BIG Jobsite : current results page",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -417,8 +435,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/details/dt-details-og.png",
+          "altTitle" : "The BIG Jobsite : original results page",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "GoalPoints": [
@@ -457,12 +477,16 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/details/mob-details-process-1-1.png",
+              "altTitle" : "The BIG Jobsite : original details page with apply at the top",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/details/mob-details-process-1-2.png",
+              "altTitle" : "The BIG Jobsite : revised details page",
+              "width" : 235,
+              "height" : 499
             }
           ]
         },
@@ -485,16 +509,22 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/details/mob-details-process-2-1.png",
+              "altTitle" : "The BIG Jobsite : original details with similar jobs",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/details/mob-details-process-2-2.png",
+              "altTitle" : "The BIG Jobsite : 1st revised with email sign up and similar jobs",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/details/mob-details-process-2-3.png",
+              "altTitle" : "The BIG Jobsite : 2nd revised email sign up with similar jobs",
+              "width" : 235,
+              "height" : 499
             }
           ]
         }
@@ -531,12 +561,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/details/dt-details-cur.png",
+          "altTitle" : "The BIG Jobsite : current details page desktop",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/details/mob-details-cur.png",
+          "altTitle" : "The BIG Jobsite : current details page mobile",
+          "width" : 235,
+          "height" : 499
         }
       ]
     },
@@ -546,12 +580,16 @@
       "CaseStudyTitle": "Email Sign-up & Management",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-og.png",
+          "altTitle" : "The BIG Jobsite : original email sign up",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-cur.png",
+          "altTitle" : "The BIG Jobsite : current email sign up",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -567,8 +605,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-og.png",
+          "altTitle" : "The BIG Jobsite : original email sign up",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "GoalPoints": [
@@ -612,16 +652,22 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
+              "altTitle" : "The BIG Jobsite : original email sign up",
+              "width" : 235,
+              "height" : 499
             },              
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-2.png",
+              "altTitle" : "The BIG Jobsite : original email sign up with error messages",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-3.png",
+              "altTitle" : "The BIG Jobsite : revised email sign up",
+              "width" : 235,
+              "height" : 499
             }
           ]
         },
@@ -647,12 +693,10 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
-            },
-            {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-process-2-1.png",
+              "altTitle" : "The BIG Jobsite : current email management page",
+              "width" : 250,
+              "height" : 150
             }
           ]
         }
@@ -685,12 +729,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-cur-1.png",
+          "altTitle" : "The BIG Jobsite : current email sign-up page",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-cur.png",
+          "altTitle" : "The BIG Jobsite : current email management page mobile",
+          "width" : 235,
+          "height" : 499
         }
       ]
     },
@@ -701,11 +749,15 @@
       "CaseStudyImg": [
         {
           "url" : "/images/case-study/company/dt-company-og.png",
-          "altTitle" : "This is an image"
+          "altTitle" : "The BIG Jobsite : original company pages",
+          "width" : 250,
+          "height" : 150
         },
         {
           "url" : "/images/case-study/company/dt-company-cur.png",
-          "altTitle" : "This is an image"
+          "altTitle" : "The BIG Jobsite : revised company pages",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -718,8 +770,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/company/dt-company-og-1.png",
+          "altTitle" : "The BIG Jobsite : original company pages",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "GoalPoints": [
@@ -757,16 +811,22 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/company/mob-company-process-1-1.png",
+              "altTitle" : "The BIG Jobsite : original company pages mobile about section",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/company/mob-company-process-1-2.png",
+              "altTitle" : "The BIG Jobsite : 1st revised company page results",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/company/mob-company-process-1-3.png",
+              "altTitle" : "The BIG Jobsite : 2nd revised company page about",
+              "width" : 235,
+              "height" : 499
             }
           ]
         }
@@ -795,12 +855,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/company/dt-company-cur-1.png",
+          "altTitle" : "The BIG Jobsite : current company pages desktop",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/company/mob-company-cur.png",
+          "altTitle" : "The BIG Jobsite : current company page mobile",
+          "width" : 235,
+          "height" : 499
         }
       ]
     },
@@ -810,12 +874,16 @@
       "CaseStudyTitle": "Email Job Alerts",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-design/dt-email-og.png",
+          "altTitle" : "The BIG Jobsite : original email designs",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-design/dt-email-cur.png",
+          "altTitle" : "The BIG Jobsite : current email designs",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -831,8 +899,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-design/mob-email-og.png",
+          "altTitle" : "The BIG Jobsite : original email designs mobile",
+          "width" : 235,
+          "height" : 499
         }
       ],
       "GoalPoints": [
@@ -873,16 +943,22 @@
           ],
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/email-design/mob-email-process-1-2.png",
+              "altTitle" : "The BIG Jobsite : 1st revised option for email design (dark mode)",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/email-design/mob-email-cur-1.png",
+              "altTitle" : "The BIG Jobsite : 2nd revised email design feat top job (light mode)",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/email-design/mob-email-process-1-3.png",
+              "altTitle" : "The BIG Jobsite : 2nd revised email design footer (dark mode)",
+              "width" : 235,
+              "height" : 499
             }
           ]
         }
@@ -911,12 +987,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-design/dt-email-cur.png",
+          "altTitle" : "The BIG Jobsite : current email designs (light mode)",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/email-design/mob-email-cur-2.png",
+          "altTitle" : "The BIG Jobsite : 2nd revised email design feat top job (dark mode)",
+          "width" : 235,
+          "height" : 499
         }
       ]
     }    
@@ -929,8 +1009,10 @@
       "CaseStudyTitle": "Commerical Product Pages",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/product/dt-pa-1.png",
+          "altTitle" : "The BIG Jobsite : current premium ads product page",
+          "width" : 250,
+          "height" : 150
         }
       ],
 
@@ -950,16 +1032,22 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/product/mob-pa-1.png",
+              "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/product/mob-cvr-1.png",
+              "altTitle" : "The BIG Jobsite : cv review page upload file section",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/product/mob-about-1.png",
+              "altTitle" : "The BIG Jobsite : about page section to help the jobseekers",
+              "width" : 235,
+              "height" : 499
             }
           ],
           "subTitle": "Pages Included",
@@ -994,16 +1082,24 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-adobe.svg",
+              "altTitle" : "Adobe logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-figma.svg",
+              "altTitle" : "Figma logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-html.svg",
+              "altTitle" : "HTML logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-css.svg",
+              "altTitle" : "CSS logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-js.svg",
+              "altTitle" : "JavaScript logo"
             }
           ]
         }
@@ -1021,16 +1117,22 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/product/mob-company-2.png",
+              "altTitle" : "The BIG Jobsite : company page section tools / help",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/product/mob-company-1.png",
+              "altTitle" : "The BIG Jobsite : company page global reach section",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/product/mob-ces-1.png",
+              "altTitle" : "The BIG Jobsite : customer email services page section",
+              "width" : 235,
+              "height" : 499
             }
 
           ]
@@ -1051,12 +1153,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/product/dt-about-1.png",
+          "altTitle" : "The BIG Jobsite : about page for business section desktop",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/product/dt-crp-1.png",
+          "altTitle" : "The BIG Jobsite : cv products page pricing section",
+          "width" : 250,
+          "height" : 150
         }
       ]
     },
@@ -1066,8 +1172,10 @@
       "CaseStudyTitle": "Clicked365 Website Redesign (formerly AllTheTopClicks)",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/attc/dt-attc-1.png",
+          "altTitle" : "ATTC : home page desktop",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -1088,12 +1196,16 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/attc/mob-attc-2.png",
+              "altTitle" : "ATTC : partners section mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/attc/dt-attc-3.png",
+              "altTitle" : "ATTC : contact form section desktop",
+              "width" : 250,
+              "height" : 150
             }
           ],
           "subTitle": null,
@@ -1122,16 +1234,12 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-adobe.svg",
+              "altTitle" : "Adobe logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
-            },
-            {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-figma.svg",
+              "altTitle" : "Figma logo"
             }
           ]
         }
@@ -1151,16 +1259,16 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/attc/logos.png",
+              "altTitle" : "ATTC : logo concept designs",
+              "width" : 463,
+              "height" : 553
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
-            },
-            {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/attc/mob-attc-1.png",
+              "altTitle" : "ATTC : home section mobile",
+              "width" : 235,
+              "height" : 499
             }
 
           ]
@@ -1185,12 +1293,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/attc/dt-attc-1.png",
+          "altTitle" : "ATTC : top home section desktop",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/attc/dt-attc-2.png",
+          "altTitle" : "ATTC : services we offer section desktop",
+          "width" : 250,
+          "height" : 150
         }
       ]
     },
@@ -1200,8 +1312,10 @@
       "CaseStudyTitle": "Disrupted Cloud Website & Brand Design",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/disrupted-cloud/dt-dc-1.png",
+          "altTitle" : "Disrupted Cloud : top home section desktop",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -1220,16 +1334,22 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/mob-dc-1.png",
+              "altTitle" : "Disrupted Cloud : top home section mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/mob-dc-4.png",
+              "altTitle" : "Disrupted Cloud : niche sites list mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/mob-dc-6.png",
+              "altTitle" : "Disrupted Cloud : partner section mobile",
+              "width" : 235,
+              "height" : 499
             }
             
           ],
@@ -1241,12 +1361,16 @@
           ],
           "subImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/lightning-logo-main.svg",
+              "altTitle" : "Disrupted Cloud : lightning clicks logo",
+              "width" : 565,
+              "height" : 115
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/disrupted-cloud-logo.png",
+              "altTitle" : "Disrupted Cloud : disrupted cloud logo",
+              "width" : 1020,
+              "height" : 205
             }
           ]
         }
@@ -1272,16 +1396,24 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-adobe.svg",
+              "altTitle" : "Adobe logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-figma.svg",
+              "altTitle" : "Figma logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-html.svg",
+              "altTitle" : "HTML logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-css.svg",
+              "altTitle" : "CSS logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-js.svg",
+              "altTitle" : "JavaScript logo"
             }
           ]
         }
@@ -1301,16 +1433,22 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/mob-dc-3.png",
+              "altTitle" : "Disrupted Cloud : benefits section mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/mob-dc-2.png",
+              "altTitle" : "Disrupted Cloud : about section mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/disrupted-cloud/mob-dc-5.png",
+              "altTitle" : "Disrupted Cloud : benefits section mobile",
+              "width" : 235,
+              "height" : 499
             }
           ]
         }
@@ -1334,12 +1472,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/disrupted-cloud/dt-dc-3.png",
+          "altTitle" : "Disrupted Cloud : lightning clicks section desktop",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/disrupted-cloud/dt-dc-2.png",
+          "altTitle" : "Disrupted Cloud : niche site section desktop",
+          "width" : 250,
+          "height" : 150
         }
       ]
     },
@@ -1349,8 +1491,10 @@
       "CaseStudyTitle": "All Niche Sites",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/dc-niche-sites/dt-it-1.png",
+          "altTitle" : "Niche Sites : itjobsearch home page desktop",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -1366,16 +1510,22 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/mob-engineer-1.png",
+              "altTitle" : "Niche Sites : searchengineeringjobs home page mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/mob-retail-2.png",
+              "altTitle" : "Niche Sites : theretailjobsite home page mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/mob-marketing-2.png",
+              "altTitle" : "Niche Sites : latestmarketingjobs home page mobile",
+              "width" : 235,
+              "height" : 499
             }
           ],
           "subTitle": "Included in the scope",
@@ -1387,12 +1537,16 @@
           ],
           "subImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/logo-topendjobs.svg",
+              "altTitle" : "Niche Sites : topendjobs logo",
+              "width" : 424,
+              "height" : 64
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/logo-medicalandhealthjobs.svg",
+              "altTitle" : "Niche Sites : medicalandhealthjobs logo",
+              "width" : 430,
+              "height" : 49
             }
           ]
         }
@@ -1417,19 +1571,27 @@
             "Developed universal HTML with site-specific CSS themes for visual differentiation",
             "Collaborated with backend developers to streamline CMS and content population"
           ],
-
+          
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-adobe.svg",
+              "altTitle" : "Adobe logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-figma.svg",
+              "altTitle" : "Figma logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-html.svg",
+              "altTitle" : "HTML logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-css.svg",
+              "altTitle" : "CSS logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-js.svg",
+              "altTitle" : "JavaScript logo"
             }
           ]
         }
@@ -1448,16 +1610,22 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/mob-retail-1.png",
+              "altTitle" : "Niche Sites : theretailjobsite results page mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/mob-marketing-1.png",
+              "altTitle" : "Niche Sites : latestmarketingjobs home page mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/dc-niche-sites/mob-it-1.png",
+              "altTitle" : "Niche Sites : itjobsearch about page mobile",
+              "width" : 235,
+              "height" : 499
             }
           ]
         }
@@ -1481,12 +1649,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/dc-niche-sites/dt-engineer-1.png",
+          "altTitle" : "Niche Sites : searchengineeringjobs home page desktop",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/dc-niche-sites/dt-marketing-1.png",
+          "altTitle" : "Niche Sites : latestmarketingjobs details page desktop",
+          "width" : 250,
+          "height" : 150
         }
       ]
     },
@@ -1496,8 +1668,10 @@
       "CaseStudyTitle": "MyJobDNA",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/myjobdna/dt-myjobdna-1.png",
+          "altTitle" : "MyJobDNA : home page desktop",
+          "width" : 250,
+          "height" : 150
         }
       ],
       "Summary": [
@@ -1518,16 +1692,22 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/mob-myjobdna-5.png",
+              "altTitle" : "MyJobDNA : home page what to expect mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/mob-myjobdna-1.png",
+              "altTitle" : "MyJobDNA : quiz instructions mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/mob-myjobdna-4.png",
+              "altTitle" : "MyJobDNA : sign-up page mobile",
+              "width" : 235,
+              "height" : 499
             }
           ],
           "subTitle": "Included in the scope",
@@ -1541,12 +1721,16 @@
           ],
           "subImages": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/logos-first.png",
+              "altTitle" : "MyJobDNA : first logo concept ideas",
+              "width" : 551,
+              "height" : 250
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/logos-final.png",
+              "altTitle" : "MyJobDNA : final logo ideas",
+              "width" : 552,
+              "height" : 176
             }
           ]
         }
@@ -1575,16 +1759,28 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-adobe.svg",
+              "altTitle" : "Adobe logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-figma.svg",
+              "altTitle" : "Figma logo"
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/tech-icons/tech-html.svg",
+              "altTitle" : "HTML logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-css.svg",
+              "altTitle" : "CSS logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-js.svg",
+              "altTitle" : "JavaScript logo"
+            },
+            {
+              "url" : "/images/tech-icons/tech-react.svg",
+              "altTitle" : "React logo"
             }
           ]
         }
@@ -1604,16 +1800,22 @@
 
           "images": [
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/mob-myjobdna-3.png",
+              "altTitle" : "MyJobDNA : dna results breakdown mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/mob-myjobdna-2.png",
+              "altTitle" : "MyJobDNA : acount page mobile",
+              "width" : 235,
+              "height" : 499
             },
             {
-              "url" : "/images/case-study-list/test-img.png",
-              "altTitle" : "This is an image"
+              "url" : "/images/case-study/myjobdna/mob-myjobdna-6.png",
+              "altTitle" : "MyJobDNA : dna job matches mobile",
+              "width" : 235,
+              "height" : 499
             }
           ]
         }
@@ -1639,12 +1841,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/myjobdna/dt-myjobdna-3.png",
+          "altTitle" : "MyJobDNA : dna results job details page desktop",
+          "width" : 250,
+          "height" : 150
         },
         {
-          "url" : "/images/case-study-list/test-img.png",
-          "altTitle" : "This is an image"
+          "url" : "/images/case-study/myjobdna/dt-myjobdna-2.png",
+          "altTitle" : "MyJobDNA : dna results page certificate desktop",
+          "width" : 250,
+          "height" : 150
         }
       ]
     }          

@@ -152,7 +152,7 @@
     .cs-cards {
       width: 100%;
       border: 1px solid theme.$LightGrey;
-      border-radius: 0.5rem;;      
+      border-radius: 0.5rem;      
       place-self: center;
       cursor: pointer;
 
@@ -196,6 +196,171 @@
       place-self: center;
     }
   }
+}
+
+.about-container {
+
+  .about-header {
+    padding: 2rem 1rem;
+    display: grid;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+
+    h1 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+    
+    .about-text {
+      display: grid;
+      gap: 1rem;
+      color: theme.$White;
+    }
+
+    .about-imgs {
+      
+      .img-container {
+        width: 100%;
+        height: 100%;
+      
+        .about-img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    
+      .img-one, .img-three { display: none; }
+    }
+  }
+
+  .about-skills {
+    padding: 2rem 1rem;
+    display: grid;
+    gap: 1rem;
+    padding-bottom: 1.5rem;    
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem 0.75rem;
+
+      .skills-icon {
+        @include theme.SkillsIcon;
+        place-self: center;
+      }
+    
+      .adobe-icon { background: url(/images/tech-icons/tech-adobe.svg) no-repeat; }
+    
+      .figma-icon { background: url(/images/tech-icons/tech-figma.svg) no-repeat; }
+    
+      .responsive-icon { background: url(/images/tech-icons/tech-responsive.svg) no-repeat; }
+    
+      .uxui-icon { background: url(/images/tech-icons/tech-uxui.svg) no-repeat; }
+    
+      .html-icon { background: url(/images/tech-icons/tech-html.svg) no-repeat; }
+    
+      .bootstrap-icon { background: url(/images/tech-icons/tech-bootstrap.svg) no-repeat; }
+    
+      .css-icon { background: url(/images/tech-icons/tech-css.svg) no-repeat; }
+    
+      .scss-icon { background: url(/images/tech-icons/tech-scss.svg) no-repeat; }
+    
+      .js-icon { background: url(/images/tech-icons/tech-js.svg) no-repeat; }
+    
+      .jquery-icon { background: url(/images/tech-icons/tech-jquery.svg) no-repeat; }
+    
+      .react-icon { background: url(/images/tech-icons/tech-react.svg) no-repeat; }
+    }
+  }
+
+  .about-roles {
+    padding: 2rem 1rem;
+    display: grid;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    color: theme.$White;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .roles-header {
+      display: grid;
+      gap: 0.5rem;
+      padding: 1rem 0;
+
+      h3 {
+        @include theme.MedFontSize;
+        @include theme.GreyTextCol;
+        font-weight: 300;
+      }
+
+      .job-title, .job-date {
+        @include theme.MedFontSize; 
+        font-weight: 300;
+      }
+
+      .job-date { place-self: end; }
+    }
+
+    .role-ul-container {
+      position: relative;
+      padding: 1.5rem 0 2rem;
+      display: grid;
+      gap: 1rem;
+      
+      .role-ul-contents {
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-bottom: 1.25rem;
+        
+        &::before, &::after {
+          content: "<ul>";
+          position: absolute;
+          left: 0;
+          color: theme.$MidGrey;
+          font-size: 0.8rem;
+        }
+        
+        &::before { top: -30px; }
+        
+        &::after { bottom: -30px; }
+        
+        .vertical-line {
+          width: 2px;
+          height: 100%;
+          background: #334155;
+          margin-left: 0.9rem;
+        }
+        
+        ul {
+          color: theme.$White;
+          margin-left: 1rem;
+          display: grid;
+          gap: 1rem;
+        }
+      }
+    }
+
+    .ih-container {
+      padding: 1rem 0;
+
+      h3 {
+        @include theme.MedFontSize;
+        @include theme.GreyTextCol;
+        font-weight: 300;
+        padding-bottom: 1.5rem;
+      }
+    }
+  }  
 }
 
 .case-study-list {
@@ -312,13 +477,605 @@
 }
 
 .amends-container {
-  border: 1px solid white;
+  display: grid;
+  gap: 2rem;
   color: theme.$White;
+  padding: 1.5rem 0.75rem;
+
+
+  .amend-header {
+    display: grid;
+    gap: 1rem;
+    
+    h1 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .image-slider {
+      padding: 1rem 0;
+
+      /* Wrapper for handle */
+      .slider-wrapper {
+        position: relative;
+        width: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none; /* So the outer div doesn't block interaction */
+      }
+
+      /* Vertical line */
+      .wrapper-line {
+        width: 2px;
+        height: 100%;
+        background-color: theme.$Black;
+      }
+
+      /* drag handle */
+      .wrapper-handle {
+        position: absolute;
+        width: 0.5rem;
+        height: 2.5rem;
+        background-color: theme.$Black;
+        border: 2px solid theme.$Black;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        pointer-events: auto; /* This is the actual draggable part */
+      }
+    }
+  }
+
+  .amend-summary {
+    display: grid;
+    gap: 1rem;
+
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .summary-text {
+      display: grid;
+      gap: 1rem;
+    }
+  }
+
+  .amend-issues {
+    display: grid;
+    gap: 1rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .issues-text {
+      order: 2;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .img-container {
+      order: 1;
+      margin-bottom: 1rem;
+      width: 100%;
+      height: 11rem;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  
+  .amend-goals {
+    display: grid;
+    gap: 1.5rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .goals-list {
+      display: grid;
+      gap: 2rem;
+
+      li {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+        padding-bottom: 1rem;
+
+        .icon-goals {
+          @include theme.SkillsIcon; 
+          background: url(/images/site-icons/cs-goal.svg) no-repeat;
+        }
+        
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, rgba(148, 163, 183, 50%) 50%, rgba(30, 41, 59, 0) 100%);
+        }
+
+        &:last-of-type::before { background: transparent; }
+      }
+    }
+  }
+
+  .amend-process {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .process-container {
+      display: grid;
+      gap: 1.5rem;
+
+      .process-list {
+        order: 2;
+        display: grid;
+        gap: 1.25rem;
+
+        li {
+          display: grid;
+          gap: 1rem;
+          
+          h3 {
+            @include theme.LrgFontSize;
+            @include theme.GreyTextCol;
+          }
+        }
+      }
+
+      .process-imgs {
+        order: 1;
+        margin-bottom: 1rem;
+        display: flex;
+
+        .img-container {
+          width: 100%;
+          height: 11rem;
+          
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }      
+    }
+  }
+
+  .amend-solution {    
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .solution-list {
+      display: grid;
+      gap: 2rem;
+
+      li {
+        border: 1px solid theme.$LightGrey;
+        border-radius: 0.5rem;
+        padding: 2rem 1rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+
+        .icon-solution {
+          @include theme.SkillsIcon; 
+          background: url(/images/site-icons/cs-solution.svg) no-repeat;
+        }
+
+        h3 { @include theme.MedFontSize; }
+
+        p { grid-column: 1 / span 2; }
+      }
+    }
+  }
+  
+  .amend-reflection {    
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .reflection-text {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .reflection-imgs {
+      display: flex;
+      position: relative;
+      padding: 3rem 0;
+      width: fit-content;
+      place-self: center;
+      
+      .img-container {
+        width: auto;
+        height: 12rem;
+        
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .img-container:last-child {
+        position: absolute;
+        right: 0;
+        top: 5rem;
+      }
+    }
+  } 
 }
 
 .new-cs-container {
-  border: 1px solid yellow;
+  display: grid;
+  gap: 2rem;
   color: theme.$White;
+  padding: 1.5rem 0.75rem;
+  
+  .new-cs-header {
+    display: grid;
+    gap: 1rem;
+    
+    h1 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+    
+    .img-container {
+      width: 100%;
+      height: 11rem;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .new-cs-summary {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .sumary-text {
+      display: grid;
+      gap: 1rem;
+    }
+
+  }
+
+  .new-cs-overview {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .overview-container {      
+      display: grid;
+      gap: 1.5rem;
+
+      .overview-text {
+        order: 2;
+        display: grid;
+        gap: 1.25rem;
+      }
+
+      .overview-images {
+        order: 1;
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 1rem;
+        width: fit-content;
+        place-self: center;
+
+        .img-container {
+          width: 100%;
+          height: 11rem;
+          
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+
+      .overview-footer {
+        order: 3;
+        display: grid;
+        gap: 1.25rem;
+        
+        h3 {
+          @include theme.LrgFontSize;
+          @include theme.GreyTextCol;
+        }
+
+        ul {
+          display: grid;
+          gap: 1rem;
+          list-style: disc;
+          margin-left: 1.5rem;
+        }
+
+        .additional-imgs {
+          display: grid;
+          gap: 1rem;
+
+          .img-container {
+            width: 100%;
+            height: auto;
+          
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .new-cs-colours {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-self: center;
+      gap: 2rem;
+
+      li {        
+        width: fit-content;
+        place-self: center;
+        display: grid;
+        gap: 0.75rem;
+
+        .colours-dot {
+          border: 1px solid theme.$LightGrey;
+          height: 5rem;
+          width: 5rem;
+          border-radius: 50%;
+        }
+
+        p { text-align: center; }
+
+      }
+    }
+  }
+
+  .new-cs-role {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .role-container {      
+      display: grid;
+      gap: 1rem;
+
+      .role-reponsibility {
+        display: grid;
+        gap: 0.5rem;
+
+        ul {
+          display: grid;
+          gap: 1rem;
+          list-style: disc;
+          margin-left: 1.5rem;
+        }
+      }
+    }
+
+    .role-tech-imgs {
+      display: grid;
+      gap: 1.5rem;
+      
+      h3 {
+        @include theme.LrgFontSize;
+        @include theme.GreyTextCol;
+      }
+
+      .role-images {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+      }
+    }
+  }
+
+  .new-cs-goals {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .goals-container { 
+      display: grid;
+      gap: 1.5rem;
+
+      .goals-text {
+        order: 2;
+        display: grid;
+        gap: 1.25rem;
+      }
+
+      .goal-imgs-container {        
+        order: 1;
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 1rem;
+        width: fit-content;
+        place-self: center;
+
+        .img-container {
+          width: 100%;
+          height: 11rem;
+          
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+
+  .new-cs-highlights {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .highlights-list {      
+      display: grid;
+      gap: 1rem;
+
+      li {
+        padding: 2rem 1rem;
+        border: 1px solid theme.$LightGrey;
+        border-radius: 0.5rem;
+        display: grid;
+        gap: 1rem;
+
+        .icon-highlights {
+          @include theme.SkillsIcon; 
+          background: url(/images/site-icons/cs-highlights.svg) no-repeat;
+        }
+      }
+    }
+  }
+
+  .new-cs-reflection {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .reflection-text {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .reflection-imgs {
+      margin-bottom: 1rem;
+      display: grid;
+      gap: 1rem;
+      width: fit-content;
+      place-self: center;
+
+      .img-container {
+        width: 100%;
+        height: 11rem;
+        
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }       
+    }
+  }
+}
+
+.cs-next-prev-container {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    width: 10rem;
+    text-align: center;
+    color: theme.$White;
+    display: grid;
+    gap: 0.5rem;
+    justify-items: center;
+    
+    .img-container {
+      width: 100%;
+      height: 100%;
+      
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+
+    .icon-arrow {
+      @include theme.SkillsIcon;
+      height: 1.5rem;
+      background: url(/images/site-icons/icon-arrow.svg) no-repeat;
+    }
+
+    .prev-arrow { transform: scaleX(-1); }
+    
+    &:hover {
+      color: theme.$HotPink;
+      
+      .icon-arrow { background-image: url(/images/site-icons/icon-arrow-hv.svg); }
+    }
+  }
+
+  &.both { justify-content: space-between; }
+
+  &.only-next { justify-content: flex-end; }
+
+  &.only-prev { justify-content: flex-start; } 
 }
 
 .marquee {
@@ -363,37 +1120,6 @@
   100% {
     transform: translateX(-50%);
   }
-}
-
-
-/* Wrapper for handle */
-.handleWrapper {
-  position: relative;
-  width: 24px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none; /* So the outer div doesn't block interaction */
-}
-
-/* Vertical line */
-.handleLine {
-  width: 2px;
-  height: 100%;
-  background-color: red;
-}
-
-/* Circle drag handle */
-.handleCircle {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background-color: white;
-  border: 2px solid red;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  pointer-events: auto; /* This is the actual draggable part */
 }
 
 footer {
@@ -512,13 +1238,218 @@ footer {
   
       .home-skills {
         padding: 2rem 0;
+
+        ul {
+          grid-template-columns: repeat(3, 1fr);
+
+          li {
+
+            &::before { display: none; }
+          }
+        }
       }
   
-      .home-case-studies { border: 1px solid yellow; }
+      .home-case-studies { 
+        ul { grid-template-columns: repeat(2, 1fr); } 
+      }
     }
 
-    footer { grid-column: 2; }
+    .about-container {
 
+      .about-header {
+        grid-template-columns: repeat(2, 1fr);
+
+        h1 { grid-column: 1 / span 2; }
+      }
+
+      .about-skills {
+        .skills-container {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+
+      .about-roles {
+        .roles-header {
+          grid-template-columns: repeat(2, 1fr);
+
+          .job-title {
+            grid-column: 1;
+            place-self: start;
+          }
+        }
+      }
+
+      .interests-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        h2 { grid-column: 1 / span 2; }
+      }
+    }
+
+    .case-study-list {
+      .cs-list-container {
+        .case-grid {
+          grid-template-columns: repeat(2, 1fr);
+
+          .case-card {
+            padding: 1rem 2rem;
+            &::before { display: none; }
+          }
+        }
+      }
+    }
+
+    .amends-container {
+      .amend-issues {
+        grid-template-columns: repeat(2, 1fr);
+
+        h2 { grid-column: 1 / span 2; }
+
+        .issues-text { order: initial;}
+      }
+
+      .amend-process {
+        .process-container {
+          grid-template-columns: repeat(2, 1fr);
+
+          .process-summary { grid-column: 1 / span 2; }
+
+          &:nth-of-type(odd) {
+            .process-list { order: initial; }
+          }
+
+          .process-imgs {
+            gap: 1rem;
+            justify-content: center;
+            place-self: center;
+
+            .img-container { 
+              width: auto;
+              height: 18rem; 
+            }
+          }
+        }
+      }
+
+      .amend-solution {
+        .solution-list {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .amend-reflection {
+        .reflection-imgs {
+          .img-container {
+            height: 18rem;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    .new-cs-container {
+
+      .new-cs-header {
+        .img-container {
+          height: 18rem;
+          width: auto;
+        }
+      }
+
+      .new-cs-overview {
+
+        .overview-container {
+          grid-template-columns: repeat(2, 1fr);
+
+          .overview-text { order: 1; }
+
+          .overview-images {
+            .img-container {
+              height: 18rem;
+              width: auto;
+            }
+          }
+
+          .overview-footer {
+            grid-column: 1 / span 2;
+
+            grid-template-columns: repeat(2, 1fr);
+
+            ul {
+              grid-column: 1;
+            }
+          }
+        }
+      }
+
+      .new-cs-colours {
+        ul { display: flex; }
+      }
+
+      .new-cs-role {
+
+        .role-container {
+          grid-template-columns: repeat(2, 1fr);
+
+          .role-reponsibility { grid-column: 1; }
+
+          .role-tech-imgs {
+            grid-column: 2; 
+            
+            h3 { place-self: center; }
+          }
+        }        
+      }
+
+      .new-cs-goals {
+
+        .goals-container {
+          grid-template-columns: repeat(2, 1fr);
+
+          .goals-text { order: initial; }
+
+          .goal-imgs-container {
+            .img-container {
+              height: 18rem;
+              width: auto;
+            }
+          }
+        }
+      }
+
+      .new-cs-highlights {
+        .highlights-list {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .new-cs-reflection {
+        .reflection-imgs {
+          display: flex;
+
+          .img-container {
+            height: 15rem;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    .cs-next-prev-container { grid-column: 2; }
+
+    footer { 
+      grid-column: 2; 
+
+      ul {
+        display: flex;
+        justify-content: end;
+        gap: 1rem;
+      }
+      
+      p { place-self: end; }
+    }
   }
 
 }

@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     
     <header className='dashboard-header'>
-      <Link href='/' className='main-logo'>Logo</Link>
+      <Link href='/' className='main-logo'>Ellie</Link>
       
       <button 
         className={isNavExpanded ? 'nav-icon expanded' : 'nav-icon'} 

@@ -3,9 +3,9 @@ import Image from 'next/image'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 const CustomHandle = () => (
-  <div className="handleWrapper">
-    <div className="handleLine" />
-    <div className="handleCircle" />
+  <div className="slider-wrapper">
+    <div className="wrapper-line" />
+    <div className="wrapper-handle" />
   </div>
 );
 
@@ -16,9 +16,9 @@ const AmendLayout = ({ data }) => {
     <div className='db-container amends-container'>
       
       <section className='amend-header'>
-        <h1>{data.CaseStudyTitle}</h1>
+        <h1>Case Study: {data.CaseStudyTitle}</h1>
         
-        <div style={{ width: images[0].imgWidth, height: images[0].imgHeight }}>
+        <div style={{ width: images[0].imgWidth, height: images[0].imgHeight }} className='image-slider'>
           <ReactCompareSlider
             itemOne={<ReactCompareSliderImage src={images[0].url} alt={images[0].altTitle} />}
             itemTwo={<ReactCompareSliderImage src={images[1].url} alt={images[1].altTitle} />}
@@ -57,8 +57,8 @@ const AmendLayout = ({ data }) => {
               priority
               src={img.url}
               alt={img.altTitle}
-              width={250}
-              height={150}
+              width={img.width}
+              height={img.height}
             />
           </div>
         ))}
@@ -68,16 +68,10 @@ const AmendLayout = ({ data }) => {
         <h2>Goal</h2>
 
         {data.GoalPoints?.length > 0 && (
-          <ul>
+          <ul className='goals-list'>
             {data.GoalPoints?.map((list, index) => (
               <li key={index}>
-                <Image
-                  priority
-                  src='/images/site-icons/cs-goal.svg'
-                  alt=''
-                  width={50}
-                  height={50}
-                />
+                <span className='icon-goals'></span>
                 <p>{list}</p>
               </li>
             ))}
@@ -90,10 +84,14 @@ const AmendLayout = ({ data }) => {
         
         {data.process?.map((info, index) => (
           <article key={index} className='process-container'>
-            
-            {info.topSummary?.map((text, index) => (
-              <p key={index}>{text}</p>
-            ))}
+
+            {info.topSummary?.length > 0 && (
+              <div className='process-summary'>
+                {info.topSummary?.map((text, index) => (
+                  <p key={index}>{text}</p>
+                ))}
+              </div>
+            )}
             
             {info.steps?.length > 0 && (
               <ul className='process-list'>
@@ -108,17 +106,20 @@ const AmendLayout = ({ data }) => {
                 ))}
               </ul>
             )}
-            
-            {info.images?.map((img, index) => (
-              <div key={index} className='img-container'>
-                <Image
-                  src={img.url}
-                  alt={img.altTitle}
-                  width={250}
-                  height={150}
-                />
-              </div>
-            ))}
+
+            <div className='process-imgs'>
+              {info.images?.map((img, index) => (
+                <div key={index} className='img-container'>
+                  <Image
+                    src={img.url}
+                    alt={img.altTitle}
+                    width={img.width}
+                    height={img.height}
+                  />
+                </div>
+              ))}
+            </div>
+
           </article>
         ))}
       </section>
@@ -130,13 +131,7 @@ const AmendLayout = ({ data }) => {
           <ul key={index} className='solution-list'>
             {card.steps?.map((info, index) => (
               <li key={index}>
-                <Image
-                  priority
-                  src='/images/site-icons/cs-solution.svg'
-                  alt='Picture of myself'
-                  width={30}
-                  height={30}
-                />
+                <span className='icon-solution'></span>
                 <h3>{info.sectionTitle}</h3>
                 <p>{info.sectionPara}</p>
               </li>
@@ -148,21 +143,29 @@ const AmendLayout = ({ data }) => {
       <section className='amend-reflection'>
         <h2>Reflection</h2>
         
-        {data.Reflection?.map((text, index) => (
-          <p key={index}>{text}</p>
-        ))}
-        
-        {data.ReflectionImgs?.map((img, index) => (
-          <div key={index} className='img-container'>
-            <Image
-              key={index}
-              src={img.url}
-              alt={img.altTitle}
-              width={250}
-              height={150}
-            />
+        {data.Reflection?.length > 0 && (
+          <div className='reflection-text'>
+            {data.Reflection?.map((text, index) => (
+              <p key={index}>{text}</p>
+            ))}
           </div>
-        ))}
+        )}
+
+        {data.ReflectionImgs?.length > 0 && (
+          <div className='reflection-imgs'>
+            {data.ReflectionImgs?.map((img, index) => (
+              <div key={index} className='img-container'>
+                <Image
+                  key={index}
+                  src={img.url}
+                  alt={img.altTitle}
+                  width={img.width}
+                  height={img.height}
+                />
+              </div>
+            ))}
+          </div>
+        )}        
       </section>
     </div>
   )
