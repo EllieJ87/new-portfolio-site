@@ -36,7 +36,7 @@ const App = () => {
           <div className='about-img-container'>
             <Image
               priority 
-              src='/images/me-2.jpg'
+              src='/images/me-2.png'
               className='about-img'
               alt='Picture of myself'
               width={794}
@@ -53,21 +53,21 @@ const App = () => {
       <section className='home-skills'>
         <ul>
           <li>
-            <h3 className='skills-icon wd-icon'>Web Designer</h3>
+            <h3 className='wd-icon'>Web Designer</h3>
             <div className="heading-container">
               <div className="vertical-line"></div>
               <p>Designing responsive website wireframes in Figma for both desktop and mobile platforms.</p>
             </div>
           </li>
           <li>
-            <h3 className='skills-icon fed-icon'>Front-End Developer</h3>
+            <h3 className='fed-icon'>Front-End Developer</h3>
             <div className="heading-container">
               <div className="vertical-line"></div>
               <p>Building and maintaining website front-ends using HTML, CSS, SCSS, JavaScript, React, and Next.js.</p>
             </div>            
           </li>
           <li>
-            <h3 className='skills-icon di-icon'>Digital Illustrator</h3>
+            <h3 className='di-icon'>Digital Illustrator</h3>
             <div className="heading-container">
               <div className="vertical-line"></div>
               <p>Creating custom imagery and iconography to enhance website storytelling and meet business needs.</p>

@@ -13,21 +13,25 @@ const Marquee = () => {
 
   return (
     <div className="marquee-container">
-      <h2>エリーは大好き</h2>
+      {/* <h2>エリーは大好き</h2> */}
+      <h2>엘리는 사랑한다</h2>
       <div className="inner-scroll" ref={scrollRef}>
         <ul>
+          <li>Korea</li>
           <li>Code</li>
           <li>Anime</li>
           <li>Coffee</li>
           <li>Gaming</li>
+          <li>K Drama</li>
           <li>Knitting</li>
-          <li>Japan</li>
-          <li>Korea</li>
+          {/* <li>Japan</li> */}
+          {/* <li>Korea</li> */}
+          <li>Asia</li>
           <li>Design</li>
           <li>Cooking</li>
           <li>Travelling</li>
+          <li>Korean</li>
           <li>Drawing</li>
-          <li>Japanese</li>
           <li>Food</li>
         </ul>
       </div>

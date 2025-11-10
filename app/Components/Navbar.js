@@ -25,14 +25,29 @@ const Navbar = () => {
       <div className={isNavExpanded ? 'main-navbar expanded' : 'main-navbar'}>
         <nav className='navbar-menu'>
           <ul className='navbar-links'>
-            <li className={pathname === '/' ? 'account-link-active' : ''}>
-              <Link href="/">Home</Link>
+            <li className={pathname === '/' ? 'home-link-active' : 'nav-menu-link'}>
+              <Link href="/">
+                <span className='menu-icon home-icon'></span>
+                <p>Home</p>
+              </Link>
             </li>
-            <li className={pathname === '/about' ? 'account-link-active' : ''}>
-              <Link href="/about">About</Link>
+            <li className={pathname === '/about' ? 'about-link-active' : 'nav-menu-link'}>
+              <Link href="/about">
+                <span className='menu-icon about-icon'></span>
+                <p>About</p>              
+              </Link>
             </li>
-            <li className={pathname === '/casestudy' ? 'account-link-active' : ''}>
-              <Link href="/casestudy">Case Studys</Link>
+            <li className='nav-menu-link'>
+              <Link href="mailto:ellie_judge@hotmail.co.uk" target='_blank'>
+                <span className='menu-icon contact-icon'></span>
+                <p>Contact Me!</p>
+              </Link>
+            </li>
+            <li className={pathname === '/casestudy' ? 'projects-link-active' : 'nav-menu-link'}>
+              <Link href="/casestudy">
+                <span className='menu-icon projects-icon'></span>
+                <p>Case Studys</p>
+              </Link>
             </li>
           </ul>
         </nav>
