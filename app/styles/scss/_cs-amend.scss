@@ -1,0 +1,463 @@
+@use 'variables' as theme;
+
+.amends-container {
+  display: grid;
+  gap: 2rem;
+  color: theme.$White;
+  padding: 1.5rem 0.75rem;
+  
+  .amend-header {
+    display: grid;
+    gap: 1.5rem;
+    
+    h1 {
+      @include theme.EXLrgFontSize;
+      @include theme.MainTextCol;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .image-slider {
+
+      /* Wrapper for handle */
+      .slider-wrapper {
+        position: relative;
+        width: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none; /* So the outer div doesn't block interaction */
+      }
+
+      /* Vertical line */
+      .wrapper-line {
+        width: 2px;
+        height: 100%;
+        background-color: theme.$Black;
+      }
+
+      /* drag handle */
+      .wrapper-handle {
+        position: absolute;
+        width: 0.5rem;
+        height: 2.5rem;
+        background-color: theme.$Black;
+        border: 2px solid theme.$Black;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        pointer-events: auto; /* This is the actual draggable part */
+      }
+    }
+  }
+
+  .amend-summary {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .summary-text {
+      display: grid;
+      gap: 1rem;
+    }
+  }
+
+  .amend-issues {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .issues-text {
+      order: 2;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .img-container {
+      order: 1;
+      margin-bottom: 1rem;
+      width: 100%;
+      height: 100%;
+      max-height: 22rem;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  
+  .amend-goals {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .goals-list {
+      display: grid;
+      gap: 2rem;
+
+      li {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+        padding-bottom: 1rem;
+
+        .icon-goals {
+          @include theme.SkillsIcon; 
+          background: url(/images/site-icons/cs-goal.svg) no-repeat;
+        }
+        
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, rgba(148, 163, 183, 50%) 50%, rgba(30, 41, 59, 0) 100%);
+        }
+
+        &:last-of-type::before { background: transparent; }
+      }
+    }
+  }
+
+  .amend-process {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .process-container {
+      position: relative;
+      display: grid;
+      gap: 1.5rem;
+      padding-bottom: 2rem;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, rgba(148, 163, 183, 50%) 50%, rgba(30, 41, 59, 0) 100%);
+      }
+
+      &:last-of-type::before { display: none; }
+      
+      h3 {
+        @include theme.LrgFontSize;
+        @include theme.GreyTextCol;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .process-list {
+        display: grid;
+        gap: 1.25rem;
+        text-align: center;
+
+        li {
+          display: grid;
+          gap: 1rem;
+
+          .img-container {
+            width: 100%;
+            height: 100%;
+            max-height: 26rem;
+          
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          .process-text {
+            display: grid;
+            gap: 1rem;
+            justify-content: center;
+            text-align: center;
+          }
+        }
+      }     
+    }
+  }
+
+  .amend-solution {    
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .solution-list {
+      display: grid;
+      gap: 2rem;
+
+      li {
+        border: 1px solid theme.$LightGrey;
+        border-radius: 0.5rem;
+        padding: 2rem 1rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+
+        .icon-solution {
+          @include theme.SkillsIcon; 
+          background: url(/images/site-icons/cs-solution.svg) no-repeat;
+        }
+
+        h3 { @include theme.MedFontSize; }
+
+        p { grid-column: 1 / span 2; }
+      }
+    }
+  }
+  
+  .amend-reflection {    
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .reflection-text {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .reflection-imgs {
+
+      .img-container {
+        width: 100%;
+        height: 100%;
+        max-height: 26rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+        
+        &:first-child { display: none; }
+      }
+    }
+  } 
+}
+
+@media only screen and (min-width: 26rem) {  
+  
+  .amends-container { padding: 2.5rem 1.5rem; }
+}
+
+@media only screen and (min-width: 42rem) {
+  
+  .amends-container {
+    .amend-summary { max-width: 48rem; }
+    
+    .process-list {      
+      li {
+        .process-text {
+          width: 28rem;
+          margin: 0 auto;
+        }
+      }
+    }
+    
+    .amend-reflection {      
+      .reflection-imgs {
+        display: flex;
+        position: relative;
+        padding: 3rem 0;
+        width: fit-content;
+        place-self: center;
+      
+        .img-container {
+          width: auto;
+          height: 24rem;
+        
+          &:first-child { display: block; }
+        
+          &:last-child {
+            position: absolute;
+            right: 0;
+            top: 5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 52.5rem) {
+  
+  .amends-container {
+    padding: 2.5rem 1.5rem;
+    gap: 4rem;
+    
+    .amend-header {
+      .image-slider { margin: 0 auto; }
+    }
+
+    .amend-solution {
+      .solution-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }  
+}
+
+@media only screen and (min-width: 70rem) {
+  
+  .amends-container { 
+    padding: 2.5rem 2rem; 
+    
+    .amend-issues {
+      grid-template-columns: repeat(2, 1fr);
+
+      h2 { grid-column: 1 / span 2; }
+
+      .issues-text { 
+        order: initial;
+        align-self: start;
+        gap: 1.5rem;
+      }
+    }
+
+    .amend-goals {
+      .goals-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        
+        li {
+          padding: 2rem;
+          
+          &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 2px;
+            height: 100%;
+          }
+          
+          &:nth-of-type(1) {
+            &:after { background: linear-gradient(180deg, rgba(30, 41, 59, 0) 40%, rgba(148, 163, 183, 0.5) 100%); }
+            
+            &::before {
+              background: linear-gradient(90deg, rgba(30, 41, 59, 0) 40%, rgba(148, 163, 183, 0.5) 100%);
+            }
+          }
+          
+          &:nth-of-type(2) {
+            
+            &::before {
+              background: linear-gradient(90deg, rgba(148, 163, 183, 0.5) 0%, rgba(30, 41, 59, 0) 100%);
+            }
+          }
+          
+          &:nth-of-type(3) {
+            &:after { background: linear-gradient(180deg, rgba(148, 163, 183, 0.5) 0%, rgba(30, 41, 59, 0) 50%); }
+          
+            &:before { background: transparent; }
+          } 
+        }
+      }
+    }
+    
+    .amend-process {
+      .process-container {
+        
+        .process-list {
+          grid-template-columns: repeat(3, 1fr);
+          align-items: start;
+      
+          li {
+            .process-text {
+              width: initial;
+              margin: 0 auto;
+            }
+          }    
+        }
+      }
+    }
+    
+    .amend-reflection {
+      .reflection-imgs {
+        .img-container {
+          height: 32rem;
+          max-height: initial;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  
+  .amends-container {
+    padding: 2.5rem 0;
+    width: 79rem;
+    margin: 0 auto;
+    
+    .amend-header {
+      .image-slider {
+        width: 55rem;
+        margin: 0 auto;
+      }
+    }
+    
+    .amend-process {
+      .process-container {
+        .process-list {
+          li {
+            .img-container { max-height: 32rem; }
+          }
+        }
+      }
+    }
+    
+    .amend-solution {
+      .solution-list { grid-template-columns: repeat(3, 1fr); }
+    }
+    
+    .amend-reflection {
+      .reflection-imgs {
+        .img-container {
+          height: 40rem;
+          max-height: initial;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 106rem) {
+
+  .amends-container { width: 90rem; }
+}

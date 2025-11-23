@@ -39,8 +39,8 @@ const App = () => {
               src='/images/me-2.png'
               className='about-img'
               alt='Picture of myself'
-              width={794}
-              height={1553}
+              width={751}
+              height={896}
             />
           </div>
         </div>

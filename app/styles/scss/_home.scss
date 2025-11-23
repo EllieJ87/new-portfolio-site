@@ -1,0 +1,373 @@
+@use 'variables' as theme;
+
+.home-container {   
+  .home-about {
+    .about-intro {
+      padding: 2rem 1rem;
+      display: grid;
+      gap: 1rem;
+      padding-bottom: 1.5rem;
+      
+      h1 { @include theme.MainTextCol; }
+      
+      .about-text {
+        display: grid;
+        gap: 1rem;
+        color: theme.$White;
+        order: 3;
+      }
+      
+      .about-img-container {
+        order: 2;
+        width: 100%;
+        height: 100%;
+        max-height: 28rem;
+        
+        .about-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }    
+
+    .marquee {      
+      .marquee-container {        
+        h2 { padding: 0.5rem 1rem; }
+      }
+    }
+  }
+
+  .home-skills {
+    padding: 2rem 1rem;    
+
+    ul {
+      display: grid;
+      gap: 2rem;
+
+      li {
+        position: relative;
+        padding: 1.5rem 0 2rem;
+        display: grid;
+        gap: 1rem;
+
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, #67E8F9 50%, rgba(30, 41, 59, 0) 100%);
+        }
+
+        &:last-of-type::before { background: transparent; }
+
+        .skills-header {
+          color: theme.$White;
+          display: flex;
+          gap: 1rem;
+          padding-bottom: 2.25rem;
+
+          &::before {
+            @include theme.IconStandard;
+            place-self: center;
+            width: 3.5rem;
+            height: 3.5rem;
+          }
+        }
+
+        .wd-icon {
+          @extend .skills-header;
+          &::before { background-image: url(/images/site-icons/info-web-design.svg); }
+        }
+
+        .fed-icon {
+          @extend .skills-header;
+          &::before { background-image: url(/images/site-icons/info-fed.svg); }
+        }
+
+        .di-icon {
+          @extend .skills-header;
+          &::before { background-image: url(/images/site-icons/info-illustrator.svg); }
+        }
+       
+        .heading-container {
+          display: flex;
+          align-items: center;
+          position: relative;
+          margin-bottom: 2rem;
+
+          &::before, &::after {
+            content: "<h3>";
+            position: absolute;            
+            left: 0;
+            color: theme.$MidGrey;
+            font-size: 0.8rem;
+          }
+          
+          &::before { top: -30px; }
+
+          &::after { bottom: -30px; }
+          
+          .vertical-line {
+            width: 2px;
+            height: 100%;
+            background: #334155;
+            margin-left: 0.9rem;
+          }
+          
+          p { 
+            color: theme.$White; 
+            margin-left: 1rem;
+          }
+        }
+
+      }
+    }
+  }
+
+  .home-case-studies {
+    padding: 2rem 1rem; 
+    display: grid;
+    gap: 2rem;
+
+    h2 { @include theme.MainTextCol; }
+
+    ul {
+      display: grid;
+      gap: 2rem;
+    }
+
+    .cs-cards {
+      width: 100%;
+      border: 1px solid theme.$LightGrey;
+      border-radius: 0.5rem;      
+      place-self: center;
+      cursor: pointer;
+
+      .cs-cards-container {
+        display: grid;
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+
+        .img-container {
+          width: 100%;
+          height: 6rem;
+        
+          .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+        
+        h3, p { color: theme.$White; }
+      
+        h3 { 
+          @include theme.MedFontSize;
+          text-align: center; 
+        }
+      
+        p { 
+          @include theme.LinkArrow; 
+          padding-right: 0.5rem;
+
+          &::after { transition-duration: 0.1s; }
+        }
+      }
+
+      &:hover {
+        background: linear-gradient(-160deg, #000000  0%, #1E293B  100%);
+        box-shadow: 0 0 8px 0 theme.$LightGrey;
+
+        h3 {
+          @include theme.MainTextCol;
+          margin: 0 auto;
+        }
+
+        p {
+          color: theme.$HotPink;
+          padding-right: 0;
+  
+          &::after { 
+            background-image: url(/images/site-icons/icon-arrow-hv.svg); 
+            transform: translateX(0);
+          }
+        }
+      }
+    }
+
+    .project-btn {
+      @include theme.Btn;
+      @include theme.BtnMain;
+      place-self: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 26rem) {
+  
+  .home-container {
+    .home-about {
+      .about-intro {
+        padding: 2.5rem 1.5rem;
+        .about-img-container { max-height: 32rem; }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 42rem) {
+  
+  .home-container {     
+    .home-case-studies { 
+      ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      } 
+    }
+  }  
+}
+
+@media only screen and (min-width: 52.5rem) {
+  
+  .home-container {  
+    .home-about {      
+      .about-intro {
+        padding: 2.5rem 1.5rem 2.5rem 0;
+        grid-template-columns: 1fr 15rem;
+    
+        h1 { grid-column: 1; }
+    
+        .about-text {
+          order: initial;
+          grid-column: 1;
+        }
+    
+        .about-img-container {
+          order: initial;
+          padding-top: 1rem;
+          grid-column: 2;
+          grid-row: 1 / span 2;    
+        }
+      } 
+      
+      .marquee {          
+        .marquee-container {            
+          h2 { padding: 0.5rem 0; }
+        }
+      }
+    }
+
+    .home-skills {
+      padding: 2rem 1.5rem 2rem 0;
+
+      ul {
+        
+        li {
+          &::before { display: none; }
+          
+          &:last-of-type { 
+            grid-column: 1 / span 2;
+            width: 50%; 
+            place-self: center;
+          }
+        }
+      }
+    }
+
+    .home-case-studies { 
+      padding: 2rem 1.5rem 2rem 0;
+
+      ul { grid-template-columns: repeat(2, 1fr); } 
+    }
+  }
+}
+
+@media only screen and (min-width: 70rem) {
+  
+  .home-container {  
+    .home-about {
+      .about-intro { 
+        padding: 2.5rem 2rem 2.5rem 0; 
+        grid-template-columns: 1fr 18rem;
+      } 
+    }
+
+    .home-skills {
+      padding: 2rem 2rem 2rem 0;
+
+      ul {
+        grid-template-columns: repeat(3, 1fr);
+
+        li {
+          &:last-of-type { 
+            grid-column: 3;
+            width: initial; 
+          }
+        }
+      }
+    }
+
+    .home-case-studies { 
+      padding: 2rem 2rem 2rem 0;
+
+      ul { grid-template-columns: repeat(3, 1fr); } 
+    }
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  
+  .home-container { 
+    width: 79rem;      
+    margin: 0 auto;
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 1fr 20rem;
+
+    .home-about {
+      overflow-x: hidden;
+      max-width: 100%;
+      grid-column: 1;
+
+      .about-intro {
+        padding: 2.5rem 0 1rem; 
+      }
+    }
+
+    .home-skills {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      padding: 2.5rem 0 0; 
+
+      ul {
+        display: block;
+
+        li {
+          &::before { display: block; }
+
+          &:first-of-type {
+            padding: 0 0 2rem;
+          }
+        }
+      }
+    }
+
+    .home-case-studies {
+      grid-column: 1;
+      padding: 1rem 0;
+    }
+  } 
+}
+
+@media only screen and (min-width: 106rem) {
+
+  .home-container { 
+    width: 90rem;
+    gap: 2rem 5rem;
+  }   
+}

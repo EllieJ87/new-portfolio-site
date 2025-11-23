@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 
 import Marquee from '../Components/Marquee';
@@ -22,7 +21,7 @@ const About = () => {
           <div className='img-container img-one'>
             <Image
               priority
-              src='/images/me-kimonox.jpg'
+              src='/images/me-kimono.jpg'
               className='about-img'
               alt='Me in a kimono in a Japanes garden'
               width={768}
@@ -32,7 +31,7 @@ const About = () => {
           <div className='img-container img-two'>
             <Image
               priority
-              src='/images/me.jpg'
+              src='/images/me-shiho.jpg'
               className='about-img'
               alt='Me and my friend Shiho posing for the camera'
               width={720}
@@ -42,7 +41,7 @@ const About = () => {
           <div className='img-container img-three'>
             <Image
               priority
-              src='/images/me-bluex.jpg'
+              src='/images/me-blue.jpg'
               className='about-img'
               alt='Me and a tour guide called Blue posing for the camera'
               width={912}

@@ -84,6 +84,7 @@ const AmendLayout = ({ data }) => {
         
         {data.process?.map((info, index) => (
           <article key={index} className='process-container'>
+            <h3>{info.title}</h3>
 
             {info.topSummary?.length > 0 && (
               <div className='process-summary'>
@@ -98,28 +99,28 @@ const AmendLayout = ({ data }) => {
                 
                 {info.steps?.map((list, index) => (
                   <li key={index}>
-                    <h3>{list.sectionTitle}</h3>
-                    {list.sectionPara?.map((text, index) => (
-                      <p key={index}>{text}</p>
+                    <h4>{list.sectionTitle}</h4>
+                    
+                    {list.images?.map((img, index) => (
+                      <div key={index} className='img-container'>
+                        <Image
+                          src={img.url}
+                          alt={img.altTitle}
+                          width={img.width}
+                          height={img.height}
+                        />
+                      </div>
                     ))}
+
+                    <div className='process-text'>
+                      {list.sectionPara?.map((text, index) => (
+                        <p key={index}>{text}</p>
+                      ))}
+                    </div>
                   </li>
                 ))}
               </ul>
             )}
-
-            <div className='process-imgs'>
-              {info.images?.map((img, index) => (
-                <div key={index} className='img-container'>
-                  <Image
-                    src={img.url}
-                    alt={img.altTitle}
-                    width={img.width}
-                    height={img.height}
-                  />
-                </div>
-              ))}
-            </div>
-
           </article>
         ))}
       </section>

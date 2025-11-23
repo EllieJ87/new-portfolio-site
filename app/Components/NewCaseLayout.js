@@ -41,6 +41,7 @@ const NewCaseLayout = ({ data }) => {
         {data.projectOverview?.map((info, index) => (
           <article key={index} className='overview-container'> 
 
+          <div className='overview-header'>
             {info.topSummary?.length > 0 && (
               <div className='overview-text'>
                 {info.topSummary?.map((text, index) => (
@@ -50,7 +51,7 @@ const NewCaseLayout = ({ data }) => {
             )}
 
             {info.topImages?.length > 0 && (
-              <div className='overview-images'>
+              <>
                 {info.topImages?.map((img, index) => (
                   <div key={index} className='img-container'>
                     <Image
@@ -61,33 +62,30 @@ const NewCaseLayout = ({ data }) => {
                     />
                   </div>
                 ))}
-              </div>
+              </>
             )}
+            </div>
 
             <div className='overview-footer'>
               <h3>{info.subTitle}</h3>
-              
               {info.subSummary?.length > 0 && (
-                <ul>
-                  {info.subSummary?.map((li, index) => (
-                    <li key={index}>{li}</li>
+                <ul className='sub-summary'>
+                  {info.subSummary?.map((list, index) => (
+                    <li key={index}>
+                      <p>{list.title}</p>
+                      {list.subImage?.map((img, index) => (
+                        <div key={index} className='img-container'>
+                          <Image
+                            src={img.url}
+                            alt={img.altTitle}
+                            width={img.width}
+                            height={img.height}
+                          />
+                        </div>
+                      ))}
+                    </li>
                   ))}
                 </ul>
-              )}
-
-              {info.subImages?.length > 0 && (
-                <div className='additional-imgs'>
-                  {info.subImages?.map((img, index) => (
-                    <div key={index} className='img-container'>
-                      <Image
-                        src={img.url}
-                        alt={img.altTitle}
-                        width={img.width}
-                        height={img.height}
-                      />
-                    </div>
-                  ))}
-                </div>
               )}
             </div>
           </article>
@@ -147,40 +145,56 @@ const NewCaseLayout = ({ data }) => {
 
               </div>
             )}
+            
+            {info.additionalImages?.length > 0 && (
+              <ul className='additional-images'>
+                  {info.additionalImages?.map((info, index) => (
+                    <li key={index}>
+                      <p>{info.title}</p>
+                      {info.subImage?.map((img, index) => (
+                        <div key={index}  className='img-container'>
+                          <Image
+                            src={img.url}
+                            alt={img.altTitle}
+                            width={img.width}
+                            height={img.height}
+                          />
+                        </div>
+                      ))}
+                    </li>                    
+                  ))}
+              </ul>
+            )}
           </article>
         ))}
       </section>
 
       <section className='new-cs-goals'>
         <h2>Key Goals / Design Priorities</h2>
-        
-        {data.keyGoals?.map((info, index) => (
-          <article key={index} className='goals-container'>
 
-            {info.summary?.length > 0 && (
-              <ul className='goals-text'>
+        {data.keyGoals?.length > 0 && (
+          <>
+            {data.keyGoals?.map((info, index) => (
+              <ul key={index} className='goals-container'>
                 {info.summary?.map((li, index) => (
-                  <li key={index}>{li}</li>
+                  <li key={index}>
+                    <p>{li.title}</p>
+                    {li.images?.map((img, index) => (
+                      <div key={index} className='img-container'>
+                        <Image
+                          src={img.url}
+                          alt={img.altTitle}
+                          width={img.width}
+                          height={img.height}
+                        />
+                      </div>
+                    ))}
+                  </li>
                 ))}
               </ul>
-            )}
-
-            {info.images?.length > 0 && (
-              <div className='goal-imgs-container'>
-                {info.images?.map((img, index) => (
-                  <div key={index} className='img-container'>
-                    <Image
-                      src={img.url}
-                      alt={img.altTitle}
-                      width={img.width}
-                      height={img.height}
-                    />
-                  </div>
-                ))}                
-              </div>
-            )}
-          </article>
-        ))}
+            ))}
+          </>
+        )}
       </section>
 
       <section className='new-cs-highlights'>

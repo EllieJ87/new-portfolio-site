@@ -26,25 +26,25 @@ const Navbar = () => {
         <nav className='navbar-menu'>
           <ul className='navbar-links'>
             <li className={pathname === '/' ? 'home-link-active' : 'nav-menu-link'}>
-              <Link href="/">
+              <Link href="/" title="Take me Home">
                 <span className='menu-icon home-icon'></span>
                 <p>Home</p>
               </Link>
             </li>
             <li className={pathname === '/about' ? 'about-link-active' : 'nav-menu-link'}>
-              <Link href="/about">
+              <Link href="/about" title="About Me">
                 <span className='menu-icon about-icon'></span>
                 <p>About</p>              
               </Link>
             </li>
             <li className='nav-menu-link'>
-              <Link href="mailto:ellie_judge@hotmail.co.uk" target='_blank'>
+              <Link href="mailto:ellie_judge@hotmail.co.uk" target='_blank' title="Contact me">
                 <span className='menu-icon contact-icon'></span>
                 <p>Contact Me!</p>
               </Link>
             </li>
             <li className={pathname === '/casestudy' ? 'projects-link-active' : 'nav-menu-link'}>
-              <Link href="/casestudy">
+              <Link href="/casestudy" title="See my Projects">
                 <span className='menu-icon projects-icon'></span>
                 <p>Case Studys</p>
               </Link>

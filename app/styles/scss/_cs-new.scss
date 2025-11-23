@@ -1,0 +1,528 @@
+@use 'variables' as theme;
+
+.new-cs-container {
+  display: grid;
+  gap: 2rem;
+  color: theme.$White;
+  padding: 1.5rem 0.75rem;
+  
+  .new-cs-header {
+    display: grid;
+    gap: 1rem;
+    
+    h1 {
+      @include theme.EXLrgFontSize;
+      @include theme.MainTextCol;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .img-container {
+      width: 100%;
+      height: 100%;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .new-cs-summary {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .sumary-text {
+      display: grid;
+      gap: 1rem;
+    }
+
+  }
+
+  .new-cs-overview {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .overview-container {    
+      display: grid;
+      gap: 1.5rem;
+
+      .overview-header {
+        display: grid;
+        gap: 1.5rem;
+        
+        .overview-text {
+          order: 2;
+          display: grid;
+          gap: 1rem;
+        }
+
+        .img-container {
+          order: 1;
+          width: 100%;
+          height: 100%;
+          max-height: 22rem;
+          
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }        
+      }
+
+      .overview-footer {
+        // order: 3;
+        display: grid;
+        gap: 1rem;
+        
+        h3 {
+          @include theme.LrgFontSize;
+          @include theme.GreyTextCol;
+        }
+
+        ul {
+          display: grid;
+          gap: 2rem;
+
+          li {
+            position: relative;
+            display: grid;
+            gap: 1rem;
+            //justify-content: center;
+            padding: 1rem 0.5rem 2rem;
+            
+            &::before {
+              content: '';
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              left: 0;
+              width: 100%;
+              height: 2px;
+              background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, rgba(148, 163, 183, 50%) 50%, rgba(30, 41, 59, 0) 100%);
+            }
+
+            &:last-of-type::before { background: transparent; }
+
+            p { 
+              order: 2; 
+              text-align: center;
+            }
+          
+            .img-container {
+              order: 1;
+              width: 100%;
+              height: 100%;
+              max-height: 22rem;
+            
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .new-cs-colours {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-self: center;
+      gap: 2rem;
+
+      li {        
+        width: fit-content;
+        place-self: center;
+        display: grid;
+        gap: 1rem;
+
+        .colours-dot {
+          border: 1px solid theme.$LightGrey;
+          height: 5rem;
+          width: 5rem;
+          border-radius: 50%;
+        }
+
+        p { text-align: center; }
+
+      }
+    }
+  }
+
+  .new-cs-role {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .role-container {      
+      display: grid;
+      gap: 1rem;
+
+      .role-reponsibility {
+        display: grid;
+        gap: 0.5rem;
+
+        ul {
+          display: grid;
+          gap: 1rem;
+          list-style: disc;
+          margin-left: 1.5rem;
+        }
+      }
+      
+      .role-tech-imgs {
+        display: grid;
+        gap: 1.5rem;
+      
+        h3 {
+          @include theme.LrgFontSize;
+          @include theme.GreyTextCol;
+        }
+      
+        .role-images {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+        }
+      }
+
+      .additional-images {
+        display: grid;
+        gap: 1.5rem;
+        
+        li {
+          position: relative;
+          display: grid;
+          gap: 1.25rem;
+          justify-content: center;
+          padding: 1rem 0.5rem 2rem;
+          
+          &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, rgba(148, 163, 183, 50%) 50%, rgba(30, 41, 59, 0) 100%);
+          }
+          
+          &:last-of-type::before { background: transparent; }
+          
+          p {
+            order: 2;
+            text-align: center;
+          }
+          
+          .img-container {
+            order: 1;
+            width: 100%;
+            height: 100%;
+            max-height: 22rem;
+      
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .new-cs-goals {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .goals-container { 
+      display: grid;
+      gap: 1.5rem;
+
+      li {
+        position: relative;        
+        display: grid;
+        gap: 1.25rem;
+        justify-content: center;
+        padding: 1rem 0.5rem 2rem;
+        
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, rgba(30, 41, 59, 0) 0%, rgba(148, 163, 183, 50%) 50%, rgba(30, 41, 59, 0) 100%);
+        }
+        
+        &:last-of-type::before { background: transparent; }
+        
+        p {
+          order: 2;
+          text-align: center;
+        }
+        
+        .img-container {
+          order: 1;
+          width: 100%;
+          height: 100%;
+          max-height: 22rem;
+          
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+
+  .new-cs-highlights {
+    display: grid;
+    gap: 2rem;
+
+    h2 {
+      @include theme.XLrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .highlights-list {      
+      display: grid;
+      gap: 2rem;
+
+      li {
+        padding: 2rem 1rem;
+        border: 1px solid theme.$LightGrey;
+        border-radius: 0.5rem;
+        display: grid;
+        gap: 1rem;
+
+        .icon-highlights {
+          @include theme.SkillsIcon; 
+          background: url(/images/site-icons/cs-highlights.svg) no-repeat;
+        }
+      }
+    }
+  }
+
+  .new-cs-reflection {
+    display: grid;
+    gap: 2rem;
+    
+    h2 {
+      @include theme.LrgFontSize;
+      @include theme.MainTextCol;
+    }
+
+    .reflection-text {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .reflection-imgs {
+      margin-bottom: 1rem;
+      display: grid;
+      gap: 1rem;
+
+      .img-container {
+        width: 100%;
+        height: 100%;
+        
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+
+        &:last-child { display: none; }
+      }       
+    }
+  }
+}
+
+@media only screen and (min-width: 26rem) {
+
+  .new-cs-container { padding: 2.5rem 1.5rem; }
+}
+
+@media only screen and (min-width: 42rem) {
+
+  .new-cs-container {
+    .new-cs-summary {
+      .sumary-text { max-width: 48rem; }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 52.5rem) {
+
+  .new-cs-container {
+     padding: 2.5rem 1.5rem;
+
+    .new-cs-overview {
+
+      .overview-container {       
+
+        .overview-header {
+          grid-template-columns: repeat(2, 1fr);
+        
+          .overview-text { 
+            order: 1;
+            align-self: start;
+          }
+        }
+
+        .overview-footer {
+          ul {
+            grid-template-columns: repeat(2, 1fr);
+
+            li {
+              &:before { display: none; }
+            }
+          }
+        }
+      }
+    }
+
+    .new-cs-colours {
+      ul { display: flex; }
+    }
+
+    .new-cs-role {
+      .role-container {
+        gap: 1rem 3rem;
+        grid-template-columns: repeat(2, 1fr);
+
+        .role-reponsibility { grid-column: 1; }
+
+        .role-tech-imgs {          
+          grid-column: 2; 
+          align-items: start;
+          height: fit-content;
+
+          .role-images { justify-self: start; }
+        }
+        
+        .additional-images {
+          grid-column: 1 / span 2;
+          grid-template-columns: repeat(3, 1fr);
+
+          li {
+            &:before { display: none; }
+          }
+        }
+      }        
+    }
+
+    .new-cs-goals {
+      .goals-container {
+        grid-template-columns: repeat(2, 1fr);
+        
+        li {
+          align-items: start;
+          height: fit-content;
+          padding: 2rem 2rem;
+
+          &:before { display: none; }
+        }
+      }
+    }
+
+    .new-cs-highlights {
+      .highlights-list {
+        grid-template-columns: repeat(2, 1fr);
+
+        li { align-content: start; }
+      }
+    }
+  }  
+}
+
+@media only screen and (min-width: 70rem) {
+
+  .new-cs-container {
+    padding: 2.5rem 2rem; 
+    
+    .new-cs-overview {
+      .overview-container {
+        .overview-footer {
+          ul { grid-template-columns: repeat(3, 1fr); }
+        }
+      }      
+    }
+
+    .new-cs-highlights {
+      .highlights-list { grid-template-columns: repeat(3, 1fr); }
+    }
+    
+    .new-cs-reflection {
+      .reflection-imgs {
+        display: flex;
+        gap: 2rem;
+
+        .img-container {
+          height: 100%;
+
+          &:last-child { display: block; }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+
+  .new-cs-container {
+    padding: 2.5rem 0;
+    width: 79rem;
+    margin: 0 auto;
+
+    .new-cs-header {
+      .img-container { height: 40rem; } 
+    }
+  }
+}
+
+@media only screen and (min-width: 106rem) {
+
+  .new-cs-container { width: 90rem; }
+
+}

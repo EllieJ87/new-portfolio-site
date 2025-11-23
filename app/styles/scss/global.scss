@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Heebo:wght@100..900&display=swap');
 
+@import 'navbar';
+@import 'home';
+@import 'about';
+@import 'cs-list';
+@import 'cs-amend';
+@import 'cs-new';
+
 * { box-sizing: border-box; }
 
 body {

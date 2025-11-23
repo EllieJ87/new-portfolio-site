@@ -37,8 +37,8 @@ const CaseStudyCard = ({ item, linkLabel, showProjectLinks }) => (
     {showProjectLinks ? (
       item.ProjectLinks?.map((link, idx) => (
         <div key={`link-${item.id}-${idx}`} className='cs-mini-links'>
-          <Link href={link.githubTitle} className='link-github'>View GitHub</Link>
-          <Link href={link.projectLink} className='link-live'>View Live site</Link>
+          <Link href={link.githubTitle} className='link-github' target='_blank'>View GitHub</Link>
+          <Link href={link.projectLink} className='link-live' target='_blank'>View Live site</Link>
         </div>
       ))
     ) : (
