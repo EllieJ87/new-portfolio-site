@@ -6,16 +6,16 @@
       "CaseStudyTitle": "Home Page",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/home-page/dt-home-og.png",
+          "url" : "/images/case-study/home-page/dt-home-og.webp",
           "altTitle" : "The BIG Jobsite : original home page",
-          "width" : 719,
-          "height" : 421
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/home-page/dt-home-cur.png",
+          "url" : "/images/case-study/home-page/dt-home-cur.webp",
           "altTitle" : "The BIG Jobsite : current home page",
-          "width" : 719,
-          "height" : 421
+          "width" : 1320,
+          "height" : 771
         }
       ],
 
@@ -33,10 +33,10 @@
 
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study/home-page/dt-home-og.png",
+          "url" : "/images/case-study/home-page/dt-home-og.webp",
           "altTitle" : "The BIG Jobsite : original home page",
-          "width" : 719,
-          "height" : 421
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "GoalPoints": [
@@ -58,38 +58,38 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-1.png",
-                  "altTitle" : "The BIG Jobsite : home page industry search",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/home-page/mob-home-process-1-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
               "sectionTitle": "Early Explorations",
               "sectionPara": [
-                "Tested dropdowns, tabs, and overlay structures for both desktop and mobile views."
+                "Condensed the filters into an adaptive tab interface that toggles between Industry and City, simplifying the navigation experience across breakpoints."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-1.png",
-                  "altTitle" : "The BIG Jobsite : home page industry search",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/home-page/mob-home-process-1-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
               "sectionTitle": "Final Direction",
               "sectionPara": [
-                "Condensed the filters into an adaptive tab interface that toggles between Industry and City, simplifying the navigation experience across breakpoints."
+                "Implemented a more modernised approavh by introducing a carousel that could be tab between the 'Industy' & 'City' tab but still cycle through all the categories / locations."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-1.png",
-                  "altTitle" : "The BIG Jobsite : home page industry search",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/home-page/mob-home-process-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -105,10 +105,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-2-1.png",
-                  "altTitle" : "The BIG Jobsite : home page jobseeker help tools",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/home-page/mob-process-2-1.webp",
+                  "altTitle" : "The BIG Jobsite : previous home page with no helpful benefits for the jobseeker.",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -119,10 +119,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-2-2.png",
-                  "altTitle" : "The BIG Jobsite : home page industry jobseeker resources tools",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/home-page/mob-home-process-2-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -135,10 +135,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-2-3.png",
+                  "url" : "/images/case-study/home-page/mob-process-2-3.webp",
                   "altTitle" : "The BIG Jobsite : home page current jobseeker help tools",
-                  "width" : 235,
-                  "height" : 499
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -154,40 +154,41 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-3-1.png",
-                  "altTitle" : "The BIG Jobsite : home page top search",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/home-page/mob-process-3-1.webp",
+                  "altTitle" : "The BIG Jobsite : previous home page top search",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
             {
               "sectionTitle": "Early Explorations",
               "sectionPara": [
-                "Identified key service categories and considered layout variations to feature them more prominently."
+                "Enlarged the logo for brand presence.",
+                "Added a bold headline and compelling intro text.",
+                "Introduced a stacked layout with a visually distinct search module placed over a black background for stronger contrast and differentiation."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-3-2.png",
-                  "altTitle" : "The BIG Jobsite : home page current top search",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/home-page/mob-process-3-2.webp",
+                  "altTitle" : "The BIG Jobsite : home page a previous iteration of the top search / home.",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
             {
               "sectionTitle": "Final Direction",
               "sectionPara": [
-                "Enlarged the logo for brand presence",
-                "Added a bold headline and compelling intro text",
-                "Introduced a stacked layout with a visually distinct search module placed over a black background for stronger contrast and differentiation"
+                "Amended the heading strapline and to be bigger to reflect the logo sizing.",
+                "Added a strong background image that reflects the brand to give a more iconic and bold top fold."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/home-page/mob-process-3-2.png",
+                  "url" : "/images/case-study/home-page/mob-process-3-3.webp",
                   "altTitle" : "The BIG Jobsite : home page current top search",
-                  "width" : 235,
-                  "height" : 499
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -222,16 +223,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/home-page/dt-home-cur.png",
-          "altTitle" : "The BIG Jobsite : current desktop home page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/home-page/dt-home-cur.webp",
+          "altTitle" : "The BIG Jobsite : desktop current home page",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/home-page/mob-process-3-2.png",
-          "altTitle" : "The BIG Jobsite : current mobile home page",          
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/home-page/mob-process-3-3.webp",
+          "altTitle" : "The BIG Jobsite : mobile current current home page",
+          "width" : 390,
+          "height" : 771
         }
       ]
     },
@@ -241,16 +242,16 @@
       "CaseStudyTitle": "job Results Page",      
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/results/dt-results-og.png",
+          "url" : "/images/case-study/results/dt-results-og.webp",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 250,
-          "height" : 150
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/results/dt-results-cur.png",
-          "altTitle" : "The BIG Jobsite : current results page",          
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/results/dt-results-cur.webp",
+          "altTitle" : "The BIG Jobsite : current results page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -265,10 +266,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study/results/dt-results-og.png",
+          "url" : "/images/case-study/results/dt-results-og.webp",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 250,
-          "height" : 150
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "GoalPoints": [
@@ -290,10 +291,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/results/dt-results-process-1-1.png",
+                  "url" : "/images/case-study/results/dt-results-process-1-1.webp",
                   "altTitle" : "The BIG Jobsite : 2 column cards results with left filter options",
-                  "width" : 250,
-                  "height" : 150
+                  "width" : 1320,
+                  "height" : 771
                 }
               ]
             },
@@ -305,10 +306,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/results/dt-results-process-1-2.png",
+                  "url" : "/images/case-study/results/dt-results-process-1-2.webp",
                   "altTitle" : "The BIG Jobsite : 1 card display with left filter options",
-                  "width" : 250,
-                  "height" : 150
+                  "width" : 1320,
+                  "height" : 771
                 }
               ]
             },
@@ -321,10 +322,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/results/dt-results-process-1-2.png",
-                  "altTitle" : "The BIG Jobsite : 1 card display with left filter options",
-                  "width" : 250,
-                  "height" : 150
+                  "url" : "/images/case-study/results/dt-results-process-1-3.webp",
+                  "altTitle" : "The BIG Jobsite : 1 card display with right filter options",
+                  "width" : 1320,
+                  "height" : 771
                 }
               ]
             }
@@ -337,44 +338,45 @@
             {
               "sectionTitle": "Initial Layout",
               "sectionPara": [
-                "Search and filter features were separated across modals or tabs, adding unnecessary steps—especially frustrating on mobile."
+                "Search and filter features were separated across modals or tabs, adding unnecessary steps—especially frustrating on mobile.",
+                "Sticky search bar with separate modal dialogs for each filter type."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/results/mob-results-process-2-1.png",
-                  "altTitle" : "The BIG Jobsite : mobile search options",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/results/mob-results-process-2-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
               "sectionTitle": "Early Explorations",
               "sectionPara": [
-                "Sticky search bar with separate modal dialogs for each filter type.",
-                "Tabbed interfaces for toggling between 'Job Listings' and 'Filters.'"
+                "Desktop: On results and details pages: Search bar placed prominently across the top / Filters remain visible in the right-hand sidebar for real-time adjustments without losing context.",
+                "Mobile: A single icon triggers an overlay where users access both search and filters in one view / Filters expand beneath the search field, not replacing it — supporting continuity and minimizing taps / Advanced Search expands in-place for power users without hiding current inputs."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/results/mob-results-process-2-2.png",
-                  "altTitle" : "The BIG Jobsite : mobile search and filter options",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/results/mob-results-process-2-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
               "sectionTitle": "Final Direction",
               "sectionPara": [
-                "Desktop: Search bar placed prominently across the top / Filters remain visible in the right-hand sidebar for real-time adjustments without losing context.",
-                "Mobile: A single icon triggers an overlay where users access both search and filters in one view / Filters expand beneath the search field, not replacing it — supporting continuity and minimizing taps / Advanced Search expands in-place for power users without hiding current inputs."
+                "Desktop: moved the search into the header so this was present across all url pages.",
+                "Mobile: kept the same behaviour, added the background styling detail to give consistency and placed the whole nav & filters in front of a black background to give a more dynamic contrast & visual appeal."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/results/mob-results-process-2-3.png",
-                  "altTitle" : "The BIG Jobsite : mobile revised search option",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/results/mob-results-process-2-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -438,16 +440,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/results/dt-results-cur.png",
-          "altTitle" : "The BIG Jobsite : current results page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/results/dt-results-cur.webp",
+          "altTitle" : "The BIG Jobsite : desktop current results page",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/results/mob-results-cur.png",
-          "altTitle" : "The BIG Jobsite : current results page",
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/results/mob-results-cur.webp",
+          "altTitle" : "The BIG Jobsite : mobile current results page",
+          "width" : 390,
+          "height" : 771
         }
       ]
     },
@@ -458,16 +460,16 @@
       
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/details/dt-details-og.png",
-          "altTitle" : "The BIG Jobsite : original results page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/details/dt-details-og.webp",
+          "altTitle" : "The BIG Jobsite : original job details page",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/details/dt-details-cur.png",
-          "altTitle" : "The BIG Jobsite : current results page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/details/dt-details-cur.webp",
+          "altTitle" : "The BIG Jobsite : current job details page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -482,10 +484,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study/details/dt-details-og.png",
-          "altTitle" : "The BIG Jobsite : original results page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/details/dt-details-og.webp",
+          "altTitle" : "The BIG Jobsite : original job details page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "GoalPoints": [
@@ -507,10 +509,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/details/mob-details-process-1-1.png",
+                  "url" : "/images/case-study/details/mob-details-process-1-1.webp",
                   "altTitle" : "The BIG Jobsite : original details page with apply at the top",
-                  "width" : 235,
-                  "height" : 499
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -522,26 +524,26 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/details/mob-details-process-1-2.png",
-                  "altTitle" : "The BIG Jobsite : revised details page",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/details/mob-details-process-1-2.webp",
+                  "altTitle" : "The BIG Jobsite : previous iteration with the apply and share cta stuck at the bottom.",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
             {
               "sectionTitle": "Final Direction",
               "sectionPara": [
-                "Kept the CTA fixed on mobile and refined modal behaviour for sharing.",
-                "Added a search field to the top of the job detail page, giving users a clear path to explore other roles (especially useful for users arriving from external sources).",
-                "Implemented a simplified job alert form — pulling job title and location automatically to reduce user input."
+                "Key details breakdown from the job description added to the top",
+                "A top apply CTA and a bottom CTA to give the user options and easy action to apply straight away to the job.",
+                "Added a search field to the top of the job detail page, giving users a clear path to explore other roles (especially useful for users arriving from external sources)."
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/details/mob-details-process-1-2.png",
-                  "altTitle" : "The BIG Jobsite : revised details page",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/details/mob-details-process-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -557,10 +559,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/details/mob-details-process-2-1.png",
-                  "altTitle" : "The BIG Jobsite : original details with similar jobs",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/details/mob-details-process-2-1.webp",
+                  "altTitle" : "The BIG Jobsite : original simialr jobs and cta for email sign-up",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -571,10 +573,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/details/mob-details-process-2-2.png",
+                  "url" : "/images/case-study/details/mob-details-process-2-2.webp",
                   "altTitle" : "The BIG Jobsite : 1st revised with email sign up and similar jobs",
-                  "width" : 235,
-                  "height" : 499
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -586,10 +588,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/details/mob-details-process-2-3.png",
+                  "url" : "/images/case-study/details/mob-details-process-2-3.webp",
                   "altTitle" : "The BIG Jobsite : 2nd revised email sign up with similar jobs",
-                  "width" : 235,
-                  "height" : 499
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -628,16 +630,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/details/dt-details-cur.png",
-          "altTitle" : "The BIG Jobsite : current details page desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/details/dt-details-cur.webp",
+          "altTitle" : "The BIG Jobsite : desktop current job details page",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/details/mob-details-cur.png",
-          "altTitle" : "The BIG Jobsite : current details page mobile",
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/details/mob-details-cur.webp",
+          "altTitle" : "The BIG Jobsite : mobile current details page mobile",
+          "width" : 390,
+          "height" : 771
         }
       ]
     },
@@ -647,16 +649,16 @@
       "CaseStudyTitle": "Email Sign-up",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-og.png",
-          "altTitle" : "The BIG Jobsite : original email sign up",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-alerts/dt-email-alerts-og.webp",
+          "altTitle" : "The BIG Jobsite : original email sign up pop-up",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-cur.png",
-          "altTitle" : "The BIG Jobsite : current email sign up",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-alerts/dt-email-alerts-cur.webp",
+          "altTitle" : "The BIG Jobsite : current email sign up page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -674,10 +676,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-og.png",
-          "altTitle" : "The BIG Jobsite : original email sign up",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-alerts/dt-email-alerts-og.webp",
+          "altTitle" : "The BIG Jobsite : original email sign up pop-up",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "GoalPoints": [
@@ -698,10 +700,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-1.webp",
+                  "altTitle" : "The BIG Jobsite : original email sign up pop-up",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -712,10 +714,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-2.webp",
+                  "altTitle" : "The BIG Jobsite : previous design layout of email sign up pop-up",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -726,10 +728,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-3.webp",
+                  "altTitle" : "The BIG Jobsite : current email sign up page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -746,10 +748,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-2-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -760,10 +762,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-2-2.webp",
+                  "altTitle" : "The BIG Jobsite : previous behaviour to be fixed at the bottom of both the job details and results pages.",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -774,10 +776,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-2-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -794,10 +796,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-3-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -808,10 +810,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-3-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -842,16 +844,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-cur-1.png",
-          "altTitle" : "The BIG Jobsite : current email sign-up page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-alerts/dt-email-alerts-cur.webp",
+          "altTitle" : "The BIG Jobsite : desktop current email sign up page",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-cur.png",
-          "altTitle" : "The BIG Jobsite : current email management page mobile",
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-3.webp",
+          "altTitle" : "The BIG Jobsite : mobile original email sign up page",
+          "width" : 390,
+          "height" : 771
         }
       ]
     },
@@ -861,16 +863,16 @@
       "CaseStudyTitle": "Email Management",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-og.png",
-          "altTitle" : "The BIG Jobsite : original email sign up",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-manage/dt-email-manage-og.webp",
+          "altTitle" : "The BIG Jobsite : original email management page",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-cur.png",
-          "altTitle" : "The BIG Jobsite : current email sign up",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-manage/dt-email-manage-cur.webp",
+          "altTitle" : "The BIG Jobsite : current email management page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -886,10 +888,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-og.png",
-          "altTitle" : "The BIG Jobsite : original email sign up",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-manage/dt-email-manage-og.webp",
+          "altTitle" : "The BIG Jobsite : original email management page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "GoalPoints": [
@@ -911,10 +913,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-manage/mob-email-manage-process-1-1.webp",
+                  "altTitle" : "The BIG Jobsite : original email management page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -925,10 +927,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-manage/mob-email-manage-process-1-2.webp",
+                  "altTitle" : "The BIG Jobsite : current email management page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -945,10 +947,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/email-manage/mob-email-manage-process-2-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -959,10 +961,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/email-manage/mob-email-manage-process-2-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -979,10 +981,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-manage/mob-email-manage-process-3-1.webp",
+                  "altTitle" : "The BIG Jobsite : cta when a user is logged in to their email management account",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -993,10 +995,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original email sign up",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/email-manage/mob-email-manage-process-3-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -1027,16 +1029,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/email-alerts-manage/dt-email-alerts-cur-1.png",
-          "altTitle" : "The BIG Jobsite : current email sign-up page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-manage/dt-email-manage-cur.webp",
+          "altTitle" : "The BIG Jobsite : desktop current email management page",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/email-alerts-manage/mob-email-alerts-cur.png",
-          "altTitle" : "The BIG Jobsite : current email management page mobile",
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/email-manage/mob-email-manage-process-1-2.webp",
+          "altTitle" : "The BIG Jobsite : mobile current email management page",
+          "width" : 390,
+          "height" : 771
         }
       ]
     },
@@ -1046,16 +1048,16 @@
       "CaseStudyTitle": "Company Pages",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/company/dt-company-og.png",
+          "url" : "/images/case-study/company/dt-company-og.webp",
           "altTitle" : "The BIG Jobsite : original company pages",
-          "width" : 250,
-          "height" : 150
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/company/dt-company-cur.png",
-          "altTitle" : "The BIG Jobsite : revised company pages",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/company/dt-company-cur.webp",
+          "altTitle" : "The BIG Jobsite : current company pages",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -1068,10 +1070,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study/company/dt-company-og-1.png",
+          "url" : "/images/case-study/company/dt-company-og.webp",
           "altTitle" : "The BIG Jobsite : original company pages",
-          "width" : 250,
-          "height" : 150
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "GoalPoints": [
@@ -1092,10 +1094,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original company pages mobile about section",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/company/mob-company-process-1-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -1106,10 +1108,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-2.png",
-                  "altTitle" : "The BIG Jobsite : 1st revised company page results",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/company/mob-company-process-1-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -1120,10 +1122,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-3.png",
-                  "altTitle" : "The BIG Jobsite : 2nd revised company page about",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/company/mob-company-process-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -1140,10 +1142,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-1.png",
+                  "url" : "/images/case-study/company/mob-company-process-2-1.webp",
                   "altTitle" : "The BIG Jobsite : original company pages mobile about section",
-                  "width" : 235,
-                  "height" : 499
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1154,10 +1156,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-2.png",
+                  "url" : "/images/case-study/company/mob-company-process-2-2.webp",
                   "altTitle" : "The BIG Jobsite : 1st revised company page results",
-                  "width" : 235,
-                  "height" : 499
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1168,10 +1170,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-3.png",
-                  "altTitle" : "The BIG Jobsite : 2nd revised company page about",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/company/mob-company-process-2-3.webp",
+                  "altTitle" : "The BIG Jobsite : current company page about",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -1188,10 +1190,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-1.png",
-                  "altTitle" : "The BIG Jobsite : original company pages mobile about section",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/company/mob-company-process-3-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -1202,10 +1204,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-2.png",
-                  "altTitle" : "The BIG Jobsite : 1st revised company page results",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/company/mob-company-process-3-2.webp",
+                  "altTitle" : "The BIG Jobsite : revised version company page results page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1216,10 +1218,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/company/mob-company-process-1-3.png",
-                  "altTitle" : "The BIG Jobsite : 2nd revised company page about",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/company/mob-company-process-3-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -1250,16 +1252,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/company/dt-company-cur-1.png",
-          "altTitle" : "The BIG Jobsite : current company pages desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/company/dt-company-cur.webp",
+          "altTitle" : "The BIG Jobsite : desktop current company pages",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/company/mob-company-cur.png",
-          "altTitle" : "The BIG Jobsite : current company page mobile",
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/company/mob-company-process-2-3.webp",
+          "altTitle" : "The BIG Jobsite : mobile current company pages",
+          "width" : 390,
+          "height" : 771
         }
       ]
     },
@@ -1269,16 +1271,16 @@
       "CaseStudyTitle": "Email Job Alerts",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/email-design/dt-email-og.png",
+          "url" : "/images/case-study/email-design/dt-email-og.webp",
           "altTitle" : "The BIG Jobsite : original email designs",
-          "width" : 250,
-          "height" : 150
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/email-design/dt-email-cur.png",
+          "url" : "/images/case-study/email-design/dt-email-cur.webp",
           "altTitle" : "The BIG Jobsite : current email designs",
-          "width" : 250,
-          "height" : 150
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -1294,10 +1296,10 @@
       ],
       "CurrentIssuesImgs": [
         {
-          "url" : "/images/case-study/email-design/mob-email-og.png",
-          "altTitle" : "The BIG Jobsite : original email designs mobile",
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/email-design/dt-email-og.webp",
+          "altTitle" : "The BIG Jobsite : current email designs",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "GoalPoints": [
@@ -1322,10 +1324,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-design/mob-email-process-1-2.png",
-                  "altTitle" : "The BIG Jobsite : 1st revised option for email design (dark mode)",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-design/mob-email-process-1-1.webp",
+                  "altTitle" : "The BIG Jobsite : 1st revised option for email design",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1339,10 +1341,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-design/mob-email-cur-1.png",
-                  "altTitle" : "The BIG Jobsite : 2nd revised email design feat top job (light mode)",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-design/mob-email-process-1-2.webp",
+                  "altTitle" : "The BIG Jobsite : 2nd revised email design (dark mode)",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1356,10 +1358,10 @@
               ],
               "images": [
                 {
-                  "url" : "/images/case-study/email-design/mob-email-process-1-3.png",
-                  "altTitle" : "The BIG Jobsite : 2nd revised email design footer (dark mode)",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/email-design/mob-email-process-1-3.webp",
+                  "altTitle" : "The BIG Jobsite : current email design feat a top job design",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -1390,16 +1392,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/email-design/dt-email-cur.png",
-          "altTitle" : "The BIG Jobsite : current email designs (light mode)",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/email-design/dt-email-cur.webp",
+          "altTitle" : "The BIG Jobsite : desktop current email designs",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/email-design/mob-email-cur-2.png",
-          "altTitle" : "The BIG Jobsite : 2nd revised email design feat top job (dark mode)",
-          "width" : 235,
-          "height" : 499
+          "url" : "/images/case-study/email-design/mob-email-cur.webp",
+          "altTitle" : "The BIG Jobsite : mobile current email designs (dark mode)",
+          "width" : 390,
+          "height" : 771
         }
       ]
     }    
@@ -1412,10 +1414,10 @@
       "CaseStudyTitle": "Commerical Product Pages",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/product/dt-pa-1.png",
-          "altTitle" : "The BIG Jobsite : current premium ads product page",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/product/dt-ces-home.webp",
+          "altTitle" : "The BIG Jobsite : current Customer Email Services product page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
 
@@ -1435,10 +1437,10 @@
           
           "topImages": [
             {
-              "url" : "/images/case-study/product/mob-pa-1.png",
-              "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-              "width" : 235,
-              "height" : 499
+              "type": "video",
+              "url" : "/images/case-study/product/dt-po-about.mp4",
+              "width" : 776,
+              "height" : 458
             }
           ],
           "subTitle": "Pages Included",
@@ -1447,10 +1449,10 @@
               "title" : "CV Review Page (in partnership with WriteSea)",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-cvr-home.webp",
+                  "altTitle" : "The BIG Jobsite : mobile CV review product page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1458,10 +1460,10 @@
               "title" : "About Page",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-about-home.webp",
+                  "altTitle" : "The BIG Jobsite : mobile About product page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1469,10 +1471,10 @@
               "title" : "Company Pages",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-cp-home.webp",
+                  "altTitle" : "The BIG Jobsite : mobile Company product page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1480,10 +1482,10 @@
               "title" : "Premium Ads",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-pa-home.webp",
+                  "altTitle" : "The BIG Jobsite : mobile Premium Ads product page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1491,10 +1493,10 @@
               "title" : "CES (Customer Email Services)",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-ces-home.webp",
+                  "altTitle" : "The BIG Jobsite : mobile Customer Email Services product page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -1545,35 +1547,35 @@
           
           "additionalImages": [
             {
-              "title" : "Image - Description",
+              "title" : "Bespoke graphics for each product page but had the same design asthetics.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-ts-1-1.webp",
+                  "altTitle" : "The BIG Jobsite : mobile section of the CV Review help",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Partner section tailor a different feel and exploring more darker options.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/product/mob-ts-1-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Different layout apporaches and organising of key points and data.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/product/mob-ts-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -1589,10 +1591,10 @@
               "title" : "Establish a unified design system across all product pages.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-kg-1-1.webp",
+                  "altTitle" : "The BIG Jobsite : mobile global section used on all product pages",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1600,10 +1602,10 @@
               "title" : "Stay on-brand using consistent colour schemes and typography.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-kg-1-2.webp",
+                  "altTitle" : "The BIG Jobsite : mobile Premium Ads benefits section",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1611,10 +1613,10 @@
               "title" : "Create visually engaging layouts that feel dynamic and informative.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/product/mob-kg-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -1622,10 +1624,10 @@
               "title" : "Build with accessibility and usability in mind, ensuring content is readable and navigable for all users.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/product/mob-kg-1-4.webp",
+                  "altTitle" : "The BIG Jobsite : mobile universal contact form across all product pages",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -1647,29 +1649,29 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/product/dt-about-1.png",
-          "altTitle" : "The BIG Jobsite : about page for business section desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/product/dt-r-ces-wl.webp",
+          "altTitle" : "The BIG Jobsite : desktop customer email for their white label service",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/product/dt-crp-1.png",
-          "altTitle" : "The BIG Jobsite : cv products page pricing section",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/product/dt-r-cp-benefits.webp",
+          "altTitle" : "The BIG Jobsite : common how to get set-up section across most product pages",
+          "width" : 1320,
+          "height" : 771
         }
       ]
     },
     {
       "id": 2,
       "slug": "clicked365-redesign",
-      "CaseStudyTitle": "Clicked365 Website Redesign (formerly AllTheTopClicks)",
+      "CaseStudyTitle": "Clicked365 Website Redesign",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/attc/dt-attc-1.png",
+          "url" : "/images/case-study/attc/dt-attc-home.webp",
           "altTitle" : "ATTC : home page desktop",
-          "width" : 250,
-          "height" : 150
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -1690,16 +1692,10 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study/attc/mob-attc-2.png",
-              "altTitle" : "ATTC : partners section mobile",
-              "width" : 235,
-              "height" : 499
-            },
-            {
-              "url" : "/images/case-study/attc/dt-attc-3.png",
-              "altTitle" : "ATTC : contact form section desktop",
-              "width" : 250,
-              "height" : 150
+              "type": "video",
+              "url" : "/images/case-study/attc/dt-po-attc-home.mp4",
+              "width" : 776,
+              "height" : 458
             }
           ],
           "subTitle": null,
@@ -1737,35 +1733,35 @@
           ],
           "additionalImages": [
             {
-              "title" : "Image - Description",
+              "title" : "Revised logo designs for light and dark backgrounds.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/attc/attc-logos.svg",
+                  "altTitle" : "Clicked365 : Clicked365 logo designs",
+                  "width" : 400,
+                  "height" : 352
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Bespoke icon graphics designs, fitting for the new site.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/attc/attc-icons.svg",
+                  "altTitle" : "Clicked365 : updated and revised logo and graphic designs",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "updated top banner that is more captivating and highlights the companie presence.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/attc/hero-banner.png",
+                  "altTitle" : "Clicked365 : update banner design",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             }
@@ -1781,10 +1777,10 @@
               "title" : "Deliver a clean and modern layout that feels trustworthy and intuitive.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/attc/mob-kg-attc-1-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -1792,10 +1788,10 @@
               "title" : "Develop a visual identity (logo, colour scheme, typography) that differentiates Clicked365 from competitors.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/attc/mob-attc-kg-1-2.webp",
+                  "altTitle" : "Clicked365 : mobile top hero banner",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1803,10 +1799,10 @@
               "title" : "Use bespoke iconography and vector graphics to reinforce benefits and improve scannability.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/attc/mob-attc-kg-1-3.webp",
+                  "altTitle" : "Clicked365 : mobile icons for benefits sections",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1814,10 +1810,10 @@
               "title" : "Improve mobile responsiveness and follow accessibility best practices.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/attc/mob-attc-kg-1-4.webp",
+                  "altTitle" : "Clicked365 : mobile partner section",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -1825,10 +1821,10 @@
               "title" : "Maintain a consistent visual tone across the site that aligns with the new brand direction.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/attc/mob-attc-kg-1-5.webp",
+                  "altTitle" : "Clicked365 : mobile contact section",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -1854,16 +1850,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/attc/dt-attc-1.png",
-          "altTitle" : "ATTC : top home section desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/attc/dt-attc-r-benefits.webp",
+          "altTitle" : "Clicked365 : desktop benefits icon section",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/attc/dt-attc-2.png",
-          "altTitle" : "ATTC : services we offer section desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/attc/dt-attc-r-partners.webp",
+          "altTitle" : "Clicked365 : desktop partner section",
+          "width" : 1320,
+          "height" : 771
         }
       ]
     },
@@ -1873,10 +1869,10 @@
       "CaseStudyTitle": "Disrupted Cloud Website & Brand Design",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/disrupted-cloud/dt-dc-1.png",
-          "altTitle" : "Disrupted Cloud : top home section desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/disrupted-cloud/dt-dc-home.webp",
+          "altTitle" : "Disrupted Cloud : desktop hero section",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -1895,10 +1891,10 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study/disrupted-cloud/mob-dc-1.png",
-              "altTitle" : "Disrupted Cloud : top home section mobile",
-              "width" : 235,
-              "height" : 499
+              "type": "video",
+              "url" : "/images/case-study/disrupted-cloud/dt-po-dc-home.mp4",
+              "width" : 776,
+              "height" : 458
             }            
           ],
           "subTitle": "Deliverables also included",
@@ -1907,10 +1903,10 @@
               "title" : "New logo concepts for both Disrupted Cloud and Lightning Clicks.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/disrupted-cloud/dc-logos.png",
+                  "altTitle" : "Disrupted Cloud : Disrupted cloud and lightning clicks logo",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
@@ -1918,10 +1914,10 @@
               "title" : "Graphic assets that align with a modern tech-forward brand image.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/disrupted-cloud/dc-lightning-screen.png",
+                  "altTitle" : "Disrupted Cloud : lightning clicks laptop dashboard screen",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
@@ -1929,10 +1925,10 @@
               "title" : "Clear sectioning for service overviews, benefit highlights, and live previews of active niche sites",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/disrupted-cloud/mob-di-dc-home.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -1983,35 +1979,35 @@
           ],
           "additionalImages": [
             {
-              "title" : "Image - Description",
+              "title" : "Auto scrolling carousel of niche sites.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/disrupted-cloud/mob-ts-dc-niche-1-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Highlight page details in an auto scrolling carousel.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/disrupted-cloud/mob-ts-dc-lc-1-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Impactful top hero section with unique colours and text gradients.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/disrupted-cloud/mob-ts-home.webp",
+                  "altTitle" : "Disrupted Cloud : mobile top hero home page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -2027,10 +2023,10 @@
               "title" : "Establish a sleek, dark-themed homepage with bold contrast and clean UI flow.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -2038,10 +2034,10 @@
               "title" : "Create distinct visual identities for the parent brand and its service offerings.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -2049,10 +2045,10 @@
               "title" : "Incorporate scroll-triggered animations and modular layout patterns.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -2060,21 +2056,10 @@
               "title" : "Highlight active niche sites through an interactive showcase section.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
-                }
-              ]
-            },
-            {
-              "title" : "Ensure the design adapts seamlessly across devices and maintains high accessibility standards.",
-              "images": [
-                {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-4.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -2100,16 +2085,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/disrupted-cloud/dt-dc-3.png",
-          "altTitle" : "Disrupted Cloud : lightning clicks section desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/disrupted-cloud/dt-r-niche.webp",
+          "altTitle" : "Disrupted Cloud : desktop niche site section",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/disrupted-cloud/dt-dc-2.png",
-          "altTitle" : "Disrupted Cloud : niche site section desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/disrupted-cloud/dt-r-lc.webp",
+          "altTitle" : "Disrupted Cloud : desktop lightning clicks section",
+          "width" : 1320,
+          "height" : 771
         }
       ]
     },
@@ -2119,10 +2104,10 @@
       "CaseStudyTitle": "All Niche Sites",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/dc-niche-sites/dt-it-1.png",
-          "altTitle" : "Niche Sites : itjobsearch home page desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/dc-niche-sites/dt-niche-se-home.webp",
+          "altTitle" : "Niche Sites : SearchEngineerJobs home page desktop",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -2138,10 +2123,10 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study/dc-niche-sites/mob-engineer-1.png",
-              "altTitle" : "Niche Sites : searchengineeringjobs home page mobile",
-              "width" : 235,
-              "height" : 499
+              "type": "video",
+              "url" : "/images/case-study/dc-niche-sites/dt-po-catering-home.mp4",
+              "width" : 776,
+              "height" : 458
             }
           ],
           "subTitle": "Included in the scope",
@@ -2150,10 +2135,10 @@
               "title" : "Custom logo design and favicon per niche site",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/dc-niche-sites/niche-logos-1.png",
+                  "altTitle" : "Niche Sites : Logo designs",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
@@ -2161,10 +2146,10 @@
               "title" : "Bespoke banner and category icon graphics",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/dc-niche-sites/mob-is-marketing-1-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -2172,10 +2157,10 @@
               "title" : "Individual colour palettes and light/dark themes",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/dc-niche-sites/mob-niche-is-te-details.webp",
+                  "altTitle" : "Niche Sites : dark styling details page and error handling colour scheme",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -2183,10 +2168,10 @@
               "title" : "Fully responsive, mobile-first page layouts",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/dc-niche-sites/mob-is-teaching-1-4.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -2238,35 +2223,35 @@
           ],
           "additionalImages": [
             {
-              "title" : "Image - Description",
+              "title" : "Collection of custom logo and favicon designs for each Niche site.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/dc-niche-sites/niche-logos-2.png",
+                  "altTitle" : "Niche Sites : Logo designs",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Custom results page styling same functionality for additional search and filters.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/dc-niche-sites/mob-ts-medical-results-1-2.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Custom about page section tailored for each unique Niche site.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/dc-niche-sites/mob-ts-construction-about-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -2282,10 +2267,10 @@
               "title" : "Deliver visually unique yet structurally unified websites for each niche",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/dc-niche-sites/mob-kg-engineer-details-1-1.mp4",
+                  "width" : 776,
+                  "height" : 458
                 }
               ]
             },
@@ -2293,10 +2278,10 @@
               "title" : "Create full site templates including home, about, job listings, job details, and system pages (404, terms, privacy, etc.).",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/dc-niche-sites/mob-niche-kg-w-404.webp",
+                  "altTitle" : "Niche Sites : custom 404 pages with search feacture.",
+                  "width" : 390,  
+                  "height" : 771
                 }
               ]
             },
@@ -2304,21 +2289,21 @@
               "title" : "Implement responsive design with intuitive mobile navigation and search experience.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "type": "video",
+                  "url" : "/images/case-study/dc-niche-sites/mob-kg-driver-search-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
             {
-              "title" : "Design custom logos and icons that reflect each job sector'’'s personality",
+              "title" : "Design custom logos and icons that reflect each job sector's personality",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/dc-niche-sites/dt-kg-topend-results-1-4.mp4",
+                  "width" : 776,
+                  "height" : 458
                 }
               ]
             },
@@ -2326,10 +2311,10 @@
               "title" : "Coordinate with developers to minimize code duplication using shared HTML and dynamic content",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/dc-niche-sites/mob-niche-kg-c-about.webp",
+                  "altTitle" : "Niche Sites : custom about page for all sites that has unique copy/text.",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             }
@@ -2356,16 +2341,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/dc-niche-sites/dt-engineer-1.png",
-          "altTitle" : "Niche Sites : searchengineeringjobs home page desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/dc-niche-sites/dt-niche-r-c-details.webp",
+          "altTitle" : "Niche Sites : custom details page keeping with the niche site theme",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/dc-niche-sites/dt-marketing-1.png",
-          "altTitle" : "Niche Sites : latestmarketingjobs details page desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/dc-niche-sites/dt-niche-r-m-cat.webp",
+          "altTitle" : "Niche Sites : custom colour styling and icon graphics for each inderpendant site.",
+          "width" : 1320,
+          "height" : 771
         }
       ]
     },
@@ -2375,10 +2360,10 @@
       "CaseStudyTitle": "MyJobDNA",
       "CaseStudyImg": [
         {
-          "url" : "/images/case-study/myjobdna/dt-myjobdna-1.png",
-          "altTitle" : "MyJobDNA : home page desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/myjobdna/dt-myjobdna-home.webp",
+          "altTitle" : "MyJobDNA : desktop top heror section from the home page",
+          "width" : 1320,
+          "height" : 771
         }
       ],
       "Summary": [
@@ -2399,10 +2384,10 @@
 
           "topImages": [
             {
-              "url" : "/images/case-study/myjobdna/mob-myjobdna-5.png",
-              "altTitle" : "MyJobDNA : home page what to expect mobile",
-              "width" : 235,
-              "height" : 499
+              "type": "video",
+              "url" : "/images/case-study/myjobdna/dt-po-myjobdna-home.mp4",
+              "width" : 776,
+              "height" : 458
             }
           ],
           "subTitle": "Included in the scope",
@@ -2411,10 +2396,10 @@
               "title" : "Full site design (UI/UX)",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/mob-myjobdna-is-1-1.webp",
+                  "altTitle" : "MyJobDNA : mobile top hero section from the home page",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -2422,10 +2407,10 @@
               "title" : "Logo and brand identity development",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/myjobdna-development-logos.svg",
+                  "altTitle" : "MyJobDNA : Developed logos",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
@@ -2433,10 +2418,10 @@
               "title" : "Quiz functionality and logic",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/mob-myjobdna-is-1-3.webp",
+                  "altTitle" : "MyJobDNA : quiz instructions",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -2444,10 +2429,10 @@
               "title" : "Interactive dashboards and job result views",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/myjobdna/mob-is-myjobdna-1-6.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -2455,10 +2440,10 @@
               "title" : "Downloadable certificates",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/mob-myjobdna-is-1-5.webp",
+                  "altTitle" : "MyJobDNA : unique certificate with jobdan code, name and date.",
+                  "width" : 390,
+                  "height" : 771
                 }
               ]
             },
@@ -2466,10 +2451,10 @@
               "title" : "Mobile responsiveness and SEO optimisation",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/myjobdna/mob-is-myjobdna-1-4.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -2526,35 +2511,35 @@
           ],
           "additionalImages": [
             {
-              "title" : "Image - Description",
+              "title" : "Logo development and constructed feedback for the tone and look and feel for the site.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/myjobdna-final-logos.svg",
+                  "altTitle" : "MyJobDNA : Final Logos",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Uniquly styled and developed graphics across the site including the home page icons, dna icons and background imagery.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/myjobdna-final-icons.svg",
+                  "altTitle" : "MyJobDNA : ",
+                  "width" : 400,
+                  "height" : 360
                 }
               ]
             },
             {
-              "title" : "Image - Description",
+              "title" : "Tailored button styling / colours while ensuring colour contrast was maintained across the site.",
               "subImage": [
                 {
-                  "url" : "/images/case-study/product/mob-pa-1.png",
-                  "altTitle" : "The BIG Jobsite : premium ads product help tools boost section",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/myjobdna/mob-ts-myjobdna-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -2570,10 +2555,10 @@
               "title" : "Build a fun, intuitive quiz experience with accurate results logic.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/myjobdna/mob-kg-myjobdna-1-1.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -2581,10 +2566,10 @@
               "title" : "Craft a dashboard-style layout for logged-in users to view results and related jobs.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/dt-myjobdna-kg-1-2.webp",
+                  "altTitle" : "MyJobDNA : results dashboard of job categories",
+                  "width" : 1320,
+                  "height" : 771
                 }
               ]
             },
@@ -2592,10 +2577,10 @@
               "title" : "Provide accessible, SEO-friendly, and mobile-first design throughout.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/myjobdna/mob-kg-myjobdna-1-3.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             },
@@ -2603,10 +2588,10 @@
               "title" : "Implement strong brand visuals, including bespoke graphics and MyJobDNA design elements.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/dt-myjobdna-kg-1-4.webp",
+                  "altTitle" : "MyJobDNA : account login with solcial sign-in",
+                  "width" : 1320,
+                  "height" : 771
                 }
               ]
             },
@@ -2614,10 +2599,10 @@
               "title" : "IEnable users to download personalised certificates and access them via email.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                  "url" : "/images/case-study/myjobdna/dt-myjobdna-kg-1-5.webp",
+                  "altTitle" : "MyJobDNA : email design when the user takes the quiz / signs-in",
+                  "width" : 1320,
+                  "height" : 771
                 }
               ]
             },
@@ -2625,10 +2610,10 @@
               "title" : "Ensure technical scalability and smooth backend integration with TheBIGJobsite.",
               "images": [
                 {
-                  "url" : "/images/case-study/product/mob-company-2.png",
-                  "altTitle" : "The BIG Jobsite : company page section tools / help",
-                  "width" : 235,
-                  "height" : 499
+                 "type": "video",
+                  "url" : "/images/case-study/myjobdna/mob-kg-myjobdna-1-6.mp4",
+                  "width" : 288,
+                  "height" : 556
                 }
               ]
             }
@@ -2656,16 +2641,16 @@
       ],
       "ReflectionImgs": [
         {
-          "url" : "/images/case-study/myjobdna/dt-myjobdna-3.png",
-          "altTitle" : "MyJobDNA : dna results job details page desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/myjobdna/dt-myjobdna-r-certificate.webp",
+          "altTitle" : "MyJobDNA : main dashboard of results with featured personalised certificate",
+          "width" : 1320,
+          "height" : 771
         },
         {
-          "url" : "/images/case-study/myjobdna/dt-myjobdna-2.png",
-          "altTitle" : "MyJobDNA : dna results page certificate desktop",
-          "width" : 250,
-          "height" : 150
+          "url" : "/images/case-study/myjobdna/dt-myjobdna-r-dna.webp",
+          "altTitle" : "MyJobDNA : unique dna results with icongraphics for each dna",
+          "width" : 1320,
+          "height" : 771
         }
       ]
     }          

@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
@@ -15,12 +16,25 @@ const Navbar = () => {
   return (
     
     <header className='dashboard-header'>
-      <Link href='/' className='main-logo'>Ellie</Link>
+      <Link href='/' className='main-logo'>
+        <span className='sr-only'>Ellie J Logo</span>
+        <div className='img-container'>
+          <Image
+            priority
+            src='/images/logo-full.svg'
+            alt='Ellie J Logos'
+            width={300}
+            height={80}
+          />
+        </div>   
+      </Link>
       
       <button 
         className={isNavExpanded ? 'nav-icon expanded' : 'nav-icon'} 
         onClick={() => setIsNavExpanded(!isNavExpanded)}
-      ></button>
+      >
+        <span className='sr-only'>Mobile Menu navigation</span>
+      </button>
 
       <div className={isNavExpanded ? 'main-navbar expanded' : 'main-navbar'}>
         <nav className='navbar-menu'>

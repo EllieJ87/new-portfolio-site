@@ -54,12 +54,26 @@ const NewCaseLayout = ({ data }) => {
               <>
                 {info.topImages?.map((img, index) => (
                   <div key={index} className='img-container'>
-                    <Image
-                      src={img.url}
-                      alt={img.altTitle}
-                      width={img.width}
-                      height={img.height}
-                    />
+                    {img.type === "video" ? (
+                      <video
+                        width={img.width}
+                        height={img.height}
+                        muted
+                        loop
+                        autoPlay
+                        playsInline
+                        className='video-player'
+                      >
+                        <source src={img.url} type='video/mp4' />
+                      </video>
+                    ) : (
+                      <Image
+                        src={img.url}
+                        alt={img.altTitle}
+                        width={img.width}
+                        height={img.height}
+                      />
+                    )}
                   </div>
                 ))}
               </>
@@ -75,12 +89,26 @@ const NewCaseLayout = ({ data }) => {
                       <p>{list.title}</p>
                       {list.subImage?.map((img, index) => (
                         <div key={index} className='img-container'>
-                          <Image
-                            src={img.url}
-                            alt={img.altTitle}
-                            width={img.width}
-                            height={img.height}
-                          />
+                          {img.type === "video" ? (
+                            <video
+                              width={img.width}
+                              height={img.height}
+                              muted
+                              loop
+                              autoPlay
+                              playsInline
+                              className='video-player'
+                            >
+                              <source src={img.url} type='video/mp4' />
+                            </video>
+                          ) : (
+                            <Image
+                              src={img.url}
+                              alt={img.altTitle}
+                              width={img.width}
+                              height={img.height}
+                            />
+                          )}
                         </div>
                       ))}
                     </li>
@@ -153,12 +181,26 @@ const NewCaseLayout = ({ data }) => {
                       <p>{info.title}</p>
                       {info.subImage?.map((img, index) => (
                         <div key={index}  className='img-container'>
-                          <Image
-                            src={img.url}
-                            alt={img.altTitle}
-                            width={img.width}
-                            height={img.height}
-                          />
+                          {img.type === "video" ? (
+                            <video
+                              width={img.width}
+                              height={img.height}
+                              muted
+                              loop
+                              autoPlay
+                              playsInline
+                              className='video-player'
+                            >
+                              <source src={img.url} type='video/mp4' />
+                            </video>
+                          ) : (
+                            <Image
+                              src={img.url}
+                              alt={img.altTitle}
+                              width={img.width}
+                              height={img.height}
+                            />
+                          )}
                         </div>
                       ))}
                     </li>                    
@@ -181,12 +223,26 @@ const NewCaseLayout = ({ data }) => {
                     <p>{li.title}</p>
                     {li.images?.map((img, index) => (
                       <div key={index} className='img-container'>
-                        <Image
-                          src={img.url}
-                          alt={img.altTitle}
-                          width={img.width}
-                          height={img.height}
-                        />
+                          {img.type === "video" ? (
+                            <video
+                              width={img.width}
+                              height={img.height}
+                              muted
+                              loop
+                              autoPlay
+                              playsInline
+                              className='video-player'
+                            >
+                              <source src={img.url} type='video/mp4' />
+                            </video>
+                          ) : (
+                            <Image
+                              src={img.url}
+                              alt={img.altTitle}
+                              width={img.width}
+                              height={img.height}
+                            />
+                          )}
                       </div>
                     ))}
                   </li>

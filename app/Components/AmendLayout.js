@@ -13,8 +13,8 @@ const AmendLayout = ({ data }) => {
    const images = data.CaseStudyImg;
   if (!images || images.length < 2) return null;
   return (
-    <div className='db-container amends-container'>
-      
+    <main className='db-container amends-container'>
+           
       <section className='amend-header'>
         <h1>Case Study: {data.CaseStudyTitle}</h1>
         
@@ -95,20 +95,34 @@ const AmendLayout = ({ data }) => {
             )}
             
             {info.steps?.length > 0 && (
-              <ul className='process-list'>
-                
+              <ul className='process-list'>                
                 {info.steps?.map((list, index) => (
                   <li key={index}>
                     <h4>{list.sectionTitle}</h4>
                     
                     {list.images?.map((img, index) => (
                       <div key={index} className='img-container'>
-                        <Image
-                          src={img.url}
-                          alt={img.altTitle}
-                          width={img.width}
-                          height={img.height}
-                        />
+
+                        {img.type === "video" ? (
+                          <video
+                            width={img.width}
+                            height={img.height}
+                            muted
+                            loop
+                            autoPlay
+                            playsInline
+                            className='video-player'
+                          >
+                            <source src={img.url} type='video/mp4' />
+                          </video>
+                        ) : (
+                          <Image
+                            src={img.url}
+                            alt={img.altTitle}
+                            width={img.width}
+                            height={img.height}
+                          />
+                        )}
                       </div>
                     ))}
 
@@ -168,7 +182,7 @@ const AmendLayout = ({ data }) => {
           </div>
         )}        
       </section>
-    </div>
+    </main>
   )
 }
 

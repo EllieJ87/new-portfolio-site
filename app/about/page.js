@@ -21,7 +21,7 @@ const About = () => {
           <div className='img-container img-one'>
             <Image
               priority
-              src='/images/me-kimono.jpg'
+              src='/images/me-kimono.webp'
               className='about-img'
               alt='Me in a kimono in a Japanes garden'
               width={768}
@@ -31,7 +31,7 @@ const About = () => {
           <div className='img-container img-two'>
             <Image
               priority
-              src='/images/me-shiho.jpg'
+              src='/images/me-shiho.webp'
               className='about-img'
               alt='Me and my friend Shiho posing for the camera'
               width={720}
@@ -41,7 +41,7 @@ const About = () => {
           <div className='img-container img-three'>
             <Image
               priority
-              src='/images/me-blue.jpg'
+              src='/images/me-blue.webp'
               className='about-img'
               alt='Me and a tour guide called Blue posing for the camera'
               width={912}

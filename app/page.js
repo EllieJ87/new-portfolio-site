@@ -36,7 +36,7 @@ const App = () => {
           <div className='about-img-container'>
             <Image
               priority 
-              src='/images/me-2.png'
+              src='/images/me-2.webp'
               className='about-img'
               alt='Picture of myself'
               width={751}

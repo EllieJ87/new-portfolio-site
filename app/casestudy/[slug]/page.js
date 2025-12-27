@@ -36,7 +36,7 @@ const CaseStudyPage = async ({ params }) => {
       <>
         <AmendLayout data={amend} />
 
-        <div className={`cs-next-prev-container ${prev && next ? "both" : next ? "only-next" : "only--prev"}`}>
+        <nav className={`cs-next-prev-container ${prev && next ? "both" : next ? "only-next" : "only--prev"}`}>
           {prev && 
             <Link href={`/casestudy/${prev.slug}`} className='link-prev'>
               <div className='img-container'>
@@ -66,7 +66,7 @@ const CaseStudyPage = async ({ params }) => {
               <span className='icon-arrow next-arrow'></span>              
             </Link>
           }
-        </div>
+        </nav>
       </>
     )
   }
@@ -79,7 +79,7 @@ const CaseStudyPage = async ({ params }) => {
       <>
         <NewCaseLayout data={newCase} />
          
-        <div className={`cs-next-prev-container ${prev && next ? "both" : next ? "only-next" : "only--prev"}`}>
+        <nav className={`cs-next-prev-container ${prev && next ? "both" : next ? "only-next" : "only--prev"}`}>
           {prev && 
             <Link href={`/casestudy/${prev.slug}`} className=' link-prev'>
               <div className='img-container'>
@@ -109,7 +109,7 @@ const CaseStudyPage = async ({ params }) => {
               <span className='icon-arrow next-arrow'></span>              
             </Link>
           }
-        </div>    
+        </nav>    
       </>
     )
   }

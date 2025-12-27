@@ -70,11 +70,18 @@
           width: 100%;
           color: theme.$White;
           margin-top: auto;
+          padding-right: 0.75rem;
+          
+          &::after { transition-duration: 0.1s; }
         
           &:hover {
+            padding-right: 0;
             color: theme.$HotPink;
           
-            &::after { background-image: url(/images/site-icons/icon-arrow-hv.svg); }
+            &::after { 
+              background-image: url(/images/site-icons/icon-arrow-hv.svg);
+              transform: translateX(0);
+            }
           }
         }
 
