@@ -54,7 +54,7 @@ const Navbar = () => {
             <li className='nav-menu-link'>
               <Link href="mailto:ellie_judge@hotmail.co.uk" target='_blank' title="Contact me">
                 <span className='menu-icon contact-icon'></span>
-                <p>Contact Me!</p>
+                <p>Contact Me</p>
               </Link>
             </li>
             <li className={pathname === '/casestudy' ? 'projects-link-active' : 'nav-menu-link'}>

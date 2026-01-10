@@ -111,45 +111,45 @@ footer {
       .footer-icon { @include theme.FooterIcon; }
   
       .linkedin-icon {
-        background: url(/images/social-icons/svg/social-linkedin.svg) no-repeat;
+        background: url(/images/social-icons/social-linkedin.svg) no-repeat;
 
-        &:hover { background: url(/images/social-icons/svg/social-linkedin-hv.svg) no-repeat; }
+        &:hover { background: url(/images/social-icons/social-linkedin-hv.svg) no-repeat; }
       }
   
       .github-icon {
-        background: url(/images/social-icons/svg/social-github.svg) no-repeat;
+        background: url(/images/social-icons/social-github.svg) no-repeat;
 
-        &:hover { background: url(/images/social-icons/svg/social-github-hv.svg) no-repeat; }
+        &:hover { background: url(/images/social-icons/social-github-hv.svg) no-repeat; }
       }
   
       .email-icon {
-        background: url(/images/social-icons/svg/social-email.svg) no-repeat;
+        background: url(/images/social-icons/social-email.svg) no-repeat;
 
-        &:hover { background: url(/images/social-icons/svg/social-email-hv.svg) no-repeat; }
+        &:hover { background: url(/images/social-icons/social-email-hv.svg) no-repeat; }
       }
   
       .instagram-icon {
-        background: url(/images/social-icons/svg/social-instagram.svg) no-repeat;
+        background: url(/images/social-icons/social-instagram.svg) no-repeat;
 
-        &:hover { background: url(/images/social-icons/svg/social-instagram-hv.svg) no-repeat; }
+        &:hover { background: url(/images/social-icons/social-instagram-hv.svg) no-repeat; }
       }
   
       .facebook-icon {
-        background: url(/images/social-icons/svg/social-facebook.svg) no-repeat;
+        background: url(/images/social-icons/social-facebook.svg) no-repeat;
 
-        &:hover { background: url(/images/social-icons/svg/social-facebook-hv.svg) no-repeat; }
+        &:hover { background: url(/images/social-icons/social-facebook-hv.svg) no-repeat; }
       }
   
       .x-icon {
-        background: url(/images/social-icons/svg/social-x.svg) no-repeat;
+        background: url(/images/social-icons/social-x.svg) no-repeat;
 
-        &:hover { background: url(/images/social-icons/svg/social-x-hv.svg) no-repeat; }
+        &:hover { background: url(/images/social-icons/social-x-hv.svg) no-repeat; }
       }
   
       .discord-icon {
-        background: url(/images/social-icons/svg/social-discord.svg) no-repeat;
+        background: url(/images/social-icons/social-discord.svg) no-repeat;
 
-        &:hover { background: url(/images/social-icons/svg/social-discord-hv.svg) no-repeat; }
+        &:hover { background: url(/images/social-icons/social-discord-hv.svg) no-repeat; }
       }
     }
   }
@@ -157,6 +157,21 @@ footer {
   p { 
     color: theme.$White; 
     place-self: center;
+  }
+}
+
+.not-found-container {
+  height: calc(100vh - 191px);
+  
+  .inner-not-found {
+    padding: 3rem 0.75rem;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+  
+    h1 { @include theme.MainTextCol; }
+  
+    p { color: theme.$White; }
   }
 }
 
@@ -197,6 +212,8 @@ footer {
   .cs-next-prev-container {grid-column: 2; }
   
   footer { grid-column: 2; }
+
+  .not-found-container { height: calc(100% - 121px); }
 }
 
 @media only screen and (min-width: 70rem) { }

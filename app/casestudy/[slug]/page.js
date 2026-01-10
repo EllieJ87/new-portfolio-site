@@ -1,11 +1,16 @@
 import React from 'react';
-import data from "@/libs/case-studies.json";
+import data from "/libs/case-studies.json";
 import Link from 'next/link';
 import Image from 'next/image';
 
-import NewCaseLayout from '@/app/Components/NewCaseLayout';
-import AmendLayout from '@/app/Components/AmendLayout';
-import NotFound from '@/app/Components/NotFound';
+import NewCaseLayout from '/app/Components/NewCaseLayout';
+import AmendLayout from '/app/Components/AmendLayout';
+import CaseNotFound from '/app/Components/CaseNotFound';
+
+export const metadata = {
+  title: "EJ : Case Studies",
+  description: "Ellie J case studies and projects she has worked on",
+};
 
 export const dynamicParams = false;
 
@@ -26,7 +31,7 @@ const CaseStudyPage = async ({ params }) => {
   const newCase = newIndex !== -1 ? data.newCaseStudies[newIndex] : null;
 
   if (!amend && !newCase) {
-    return <NotFound />;
+    return <CaseNotFound />;
   }
 
   if (amend) {

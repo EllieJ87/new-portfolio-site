@@ -52,36 +52,60 @@
     }
 
     .skills-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 2rem 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2.5rem 1.25rem;
 
-      .skills-icon {
-        @include theme.SkillsIcon;
-        place-self: center;
+      .skill-item {
+        display: grid;
+        gap: 0.5rem;
+        text-align: center;
+        
+        .skills-icon {
+          @include theme.SkillsIcon;
+          place-self: center;
+        }
+    
+        .adobe-icon { background: url(/images/tech-icons/tech-adobe.svg) no-repeat; }
+      
+        .figma-icon { background: url(/images/tech-icons/tech-figma.svg) no-repeat; }
+        
+        .uxui-icon { background: url(/images/tech-icons/tech-uxui.svg) no-repeat; }
+      
+        .responsive-icon { background: url(/images/tech-icons/tech-responsive.svg) no-repeat; }
+      
+        .concept-icon { background: url(/images/tech-icons/tech-concept-art.svg) no-repeat; }
+
+        .illustration-icon { background: url(/images/tech-icons/tech-illustration.svg) no-repeat; }
+
+        .web-design-icon { background: url(/images/tech-icons/tech-web-design.svg) no-repeat; }
+      
+        .html-icon { background: url(/images/tech-icons/tech-html.svg) no-repeat; }
+        
+        .css-icon { background: url(/images/tech-icons/tech-css.svg) no-repeat; }
+        
+        .scss-icon { background: url(/images/tech-icons/tech-scss.svg) no-repeat; }
+        
+        .js-icon { background: url(/images/tech-icons/tech-js.svg) no-repeat; }
+      
+        .bootstrap-icon { background: url(/images/tech-icons/tech-bootstrap.svg) no-repeat; }
+      
+        .react-icon { background: url(/images/tech-icons/tech-react.svg) no-repeat; }
+
+        .nextjs-icon { background: url(/images/tech-icons/tech-nextjs.svg) no-repeat; }
+      
+        .jquery-icon { background: url(/images/tech-icons/tech-jquery.svg) no-repeat; }
+      
+        .net-icon { background: url(/images/tech-icons/tech-net.svg) no-repeat; }
+
+        .git-icon { background: url(/images/tech-icons/tech-git.svg) no-repeat; }
+
+        .skill-text {
+          color: theme.$White;
+          font-size: 0.9rem;
+          font-weight: 200;
+        }
       }
-    
-      .adobe-icon { background: url(/images/tech-icons/tech-adobe.svg) no-repeat; }
-    
-      .figma-icon { background: url(/images/tech-icons/tech-figma.svg) no-repeat; }
-    
-      .responsive-icon { background: url(/images/tech-icons/tech-responsive.svg) no-repeat; }
-    
-      .uxui-icon { background: url(/images/tech-icons/tech-uxui.svg) no-repeat; }
-    
-      .html-icon { background: url(/images/tech-icons/tech-html.svg) no-repeat; }
-    
-      .bootstrap-icon { background: url(/images/tech-icons/tech-bootstrap.svg) no-repeat; }
-    
-      .css-icon { background: url(/images/tech-icons/tech-css.svg) no-repeat; }
-    
-      .scss-icon { background: url(/images/tech-icons/tech-scss.svg) no-repeat; }
-    
-      .js-icon { background: url(/images/tech-icons/tech-js.svg) no-repeat; }
-    
-      .jquery-icon { background: url(/images/tech-icons/tech-jquery.svg) no-repeat; }
-    
-      .react-icon { background: url(/images/tech-icons/tech-react.svg) no-repeat; }
     }
   }
 
@@ -115,7 +139,12 @@
 
       .job-date { place-self: end; }
     }
-
+    
+    .role-container {
+      display: grid;
+      gap: 1rem;
+    }
+    
     .role-ul-container {
       position: relative;
       padding: 1.5rem 0 2rem;
@@ -153,8 +182,21 @@
           display: grid;
           gap: 1rem;
         }
+
+        .role-course-container {
+          gap: 2rem;
+          
+          .role-course {
+            display: grid;
+            gap: 0.5rem;
+
+            .job-title { font-weight: 500; }
+          }
+        }
       }
     }
+
+
     
     .interests-container {
       display: grid;
@@ -211,13 +253,13 @@
       }
     }
     
-    .about-skills {      
-      .skills-container {
-        display: flex;
-        justify-content: space-between;
-        gap: 0 0;
-      }
-    }
+    // .about-skills {      
+    //   .skills-container {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     gap: 0 0;
+    //   }
+    // }
   }
   
 }
@@ -226,41 +268,20 @@
   
   .about-container {
     .about-header {
-      padding: 2.5rem 1.5rem 2.5rem 0;
-      grid-template-columns: 1fr 15rem;
-      grid-template-areas: 
-      'header .'
-      'about-text about-imgs';
-
-      h1 { grid-area: header; }
-
-      .about-text { 
-        grid-area: about-text;
-        place-self: start;
-      } 
-      
       .about-imgs {
-        grid-area: about-imgs;
-        display: grid;
-        gap: 1.5rem;      
-        
-        .img-container {
-          max-height: initial;
-      
-          img { object-position: center; }            
-        }
-
-        .img-one, .img-three { display: block; }
+        .img-three { display: none; }
       }
     }
 
     .about-skills {
       padding: 1.5rem 1.5rem 1rem 0;
 
-      .skills-container {
-        display: flex;
-        justify-content: space-between;
-      }
+      // .skills-container {
+      //   display: flex;
+      //   flex-wrap: wrap;
+      //   justify-content: space-between;
+      //   gap: 2.5rem 1.25rem;
+      // }
     }
 
     .about-roles {
@@ -297,8 +318,9 @@
 
   .about-container {
     .about-header { 
-      grid-template-columns: 1fr 18rem; 
-      padding: 2.5rem 2rem 2.5rem 0; 
+      .about-imgs {
+        .img-three { display: block; }
+      }
     }
 
     .about-skills { padding: 1.5rem 2rem 1.25rem 0; }
@@ -313,7 +335,7 @@
 @media only screen and (min-width: 90rem) {
   
   .about-container {
-    width: 79rem;
+    width: 70rem;
     margin: 0 auto;
     
     .about-header {
@@ -323,8 +345,14 @@
       grid-template-areas: 
       'header .'
       'about-text about-imgs';
+
+      .about-text {
+        grid-area: about-text;
+        place-self: start;
+      }
       
       .about-imgs {
+        grid-area: about-imgs;
         display: grid;
         gap: 1.25rem 2rem;
         grid-template-rows: 5rem 1fr 5rem 1fr;
@@ -350,5 +378,5 @@
 
 @media only screen and (min-width: 106rem) {
   
-  .about-container { width: 90rem; }  
+  .about-container { width: 86rem; }  
 }

@@ -1,7 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-
 import Marquee from '../Components/Marquee';
+
+export const metadata = {
+  title: "EJ : About",
+  description: "About Ellie J and her life as a Web Designer / Front-End Developer",
+};
 
 const About = () => {
   return (
@@ -54,38 +58,73 @@ const About = () => {
       <section className='about-skills'>
         <h2>Skills</h2>
         <ul className='skills-container'>
-          <li>
+          <li className='skill-item'>
             <span className='skills-icon adobe-icon'></span>
+            <span className='skill-text'>Adobe</span>
           </li>
-          <li>
+          <li className='skill-item'>
             <span className='skills-icon figma-icon'></span>
+            <span className='skill-text'>Figma</span>
           </li>
-          <li>
-            <span className='skills-icon responsive-icon'></span>
-          </li>
-          <li>
+          <li className='skill-item'>
             <span className='skills-icon uxui-icon'></span>
+            <span className='skill-text'>UX / UI</span>
           </li>
-          <li>
+          <li className='skill-item'>
+            <span className='skills-icon responsive-icon'></span>
+            <span className='skill-text'>Responsive</span>
+          </li>
+          <li className='skill-item'>
+            <span className='skills-icon concept-icon'></span>
+            <span className='skill-text'>Concept Art</span>
+          </li>
+          <li className='skill-item'>
+            <span className='skills-icon illustration-icon'></span>
+            <span className='skill-text'>Illustrations</span>
+          </li>
+          <li className='skill-item'>
+            <span className='skills-icon web-design-icon'></span>
+            <span className='skill-text'>Web Design</span>
+          </li>
+          <li className='skill-item'>
             <span className='skills-icon html-icon'></span>
+            <span className='skill-text'>HTML</span>
           </li>
-          <li>
-            <span className='skills-icon bootstrap-icon'></span>
-          </li>
-          <li>
+          <li className='skill-item'>
             <span className='skills-icon css-icon'></span>
+            <span className='skill-text'>CSS</span>
           </li>
-          <li>
+          <li className='skill-item'>
             <span className='skills-icon scss-icon'></span>
+            <span className='skill-text'>SCSS</span>
           </li>
-          <li>
+          <li className='skill-item'>
             <span className='skills-icon js-icon'></span>
+            <span className='skill-text'>JavaScript</span>
           </li>
-          <li>
-            <span className='skills-icon jquery-icon'></span>
+          <li className='skill-item'>
+            <span className='skills-icon bootstrap-icon'></span>
+            <span className='skill-text'>Bootstrap</span>
           </li>
-          <li>
+          <li className='skill-item'>
             <span className='skills-icon react-icon'></span>
+            <span className='skill-text'>React</span>
+          </li>
+          <li className='skill-item'>
+            <span className='skills-icon nextjs-icon'></span>
+            <span className='skill-text'>Next.JS</span>
+          </li>
+          <li className='skill-item'>
+            <span className='skills-icon jquery-icon'></span>
+            <span className='skill-text'>jQueryp</span>
+          </li>
+          <li className='skill-item'>
+            <span className='skills-icon net-icon'></span>
+            <span className='skill-text'>. Net</span>
+          </li>
+          <li className='skill-item'>
+            <span className='skills-icon git-icon'></span>
+            <span className='skill-text'>Git</span>
           </li>
         </ul>
       </section>
@@ -96,23 +135,60 @@ const About = () => {
 
           <div className='roles-header'>
             <h3>Web Designer / Front-End Developer</h3>
-            <p className='job-title'>ATTB Group</p>
+            <p className='job-title'>AllTheTopBananas Group</p>
             <p className='job-date'>Jul 2022 - Present</p>
           </div>
 
-          <div className='role-ul-container'>
-            <div className="role-ul-contents">
-              <div className="vertical-line"></div>
-              
-              <ul>
-                <li>Designing the visuals, graphics, and functionality of the companies websites to reach maximum usability.</li>
-                <li>Use an understanding of user interface and user experience to create the companies websites.</li>
-                <li>Create responsive websites for mobile devices in accordance with W3C web standards.</li>
-                <li>Understanding and monitoring website performance, accessibility, best practice and SEO.</li>
-                <li>Use of Adobe suite and basic coding to create and maintain scripts.</li>
-                <li>Review HTML, CSS and JavaScript code, ensuring code is reusable and identifying improvements to streamline website performance.</li>
-              </ul>
-            </div> 
+          <div className='role-container'>
+            <p className='job-title'>Key Achievements & Responsibilities</p>
+
+            <div className='role-ul-container'>
+              <div className="role-ul-contents">
+                <div className="vertical-line"></div>              
+                <ul>
+                  <li>Designed and implemented responsive websites, improving mobile usability and driving a 70% increase in mobile engagement.</li>
+                  <li>Optimised website performance and accessibility, reducing page load times by 1 second and ensuring 100% accessibility.</li>
+                  <li>Developed reusable HTML, CSS, JavaScript, SCSS, jQuery and React components, cutting new page development time by 25%.</li>
+                  <li>Enhance website visuals, graphics, and UI elements, boosting user engagement with core site features.</li>
+                  <li>Created landing pages with strategic CTA’s, increasing conversions by 15%.</li>
+                  <li>Redesigned corporate websites, raising user engagement by 45% and enhancing overall user experience.</li>
+                  <li>Improved page load speeds by 35% through efficient coding and optimisation.</li>
+                  <li>Supported SEO campaigns, improving search engine visibility performance by 30%.</li>
+                  <li>Increased email click rates, through re-design and catering for dark screen users, and improving mobile usability by 80%.</li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+
+          <div className='role-container'>
+            <p className='job-title'>Technical Skills</p>
+
+            <div className='role-ul-container'>
+              <div className="role-ul-contents">
+                <div className="vertical-line"></div>              
+                <ul>
+                  <li>Front-End Development: HTML, CSS, SCSS, JavaScript, jQuery, React, .NET, Git, command line.</li>
+                  <li>UI / UX: Wireframes, user journeys, interface design, usability testing, accessibility compliance.</li>
+                  <li>Design & Graphics: Adobe Suite, iconography, typography, image editing, social & marketing assets.</li>
+                  <li>Website Management: WordPress development, content updates, site optimisation.</li>
+                  <li>Collaboration: Worked with sales, marketing teams to deliver business-aligned solutions.</li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+
+          <div className='role-container'>
+            <p className='job-title'>Projects & Platform</p>
+
+            <div className='role-ul-container'>
+              <div className="role-ul-contents">
+                <div className="vertical-line"></div>              
+                <ul>
+                  <li>Full website development: JobDNA (React, Next.js, TypeScript), TheBIGJobsite, Disrupted Cloud, Niche Sites.</li>
+                  <li>Marketing assets: Brochures, social graphics, email designs, promotional materials.</li>
+                </ul>
+              </div> 
+            </div>
           </div>
         </article>
 
@@ -122,6 +198,27 @@ const About = () => {
             <h3>Front-End Developer Course</h3>
             <p className='job-title'>The Learning People</p>
             <p className='job-date'>Jan 2021 - May 2022</p>
+          </div>
+
+          <div className='role-ul-container'>
+            <div className="role-ul-contents">
+              <div className="vertical-line"></div>              
+              <ul className='role-course-container'>
+                <li className='role-course'>
+                  <p className='job-title'>EllChan_Anime</p>
+                  <p>Developed a responsive web portfolio using HTML, CSS, and Bootstrap to showcase original artwork. An interactive gallery with compressed, responsive images and artwork descriptions, and implemented a validated contact form integrated with a third-party email service. Improved performance and mobile usability by resolving layout and navigation issues, including horizontal scrolling caused by banner imagery, and managed version control and deployment via GitHub.</p>
+                </li>
+                <li className='role-course'>
+                  <p className='job-title'>Ranger Game</p>
+                  <p>Developed a choice-based space adventure game using JavaScript, HTML, CSS, and Bootstrap. Utilised DOM manipulation and object-driven logic to dynamically update imagery, text, and user options based on player decisions. Implemented gameplay mechanics for health, ammo, and fuel that trigger branching scenarios and seven distinct endings. Enhanced engagement with CSS animations and JavaScript-controlled sound functionality</p>
+                </li>
+                <li className='role-course'>
+                  <p className='job-title'>E-commerce Product Page</p>
+                  <p>Developed an E-commerce product page for “Sneakers” using JavaScript, HTML, and SCSS. Built a mobile-friendly image carousel for browsing thumbnails and a desktop product modal with active thumbnails and carousel navigation. Implemented shopping cart functionality allowing users to add, remove, and checkout items, with toast pop-ups providing real-time feedback on interactions.</p>
+                </li>
+
+              </ul>
+            </div> 
           </div>
         </article>
 

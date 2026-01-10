@@ -3,7 +3,6 @@ import React from 'react'
 import { useState } from "react"
 
 import Link from 'next/link';
-import Image from 'next/image'
 
 const Footer = () => {
   const [date, setDate] = useState(new Date());

@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-
 const NewCaseLayout = ({ data }) => {
   return (
     <div className='db-container new-cs-container'>

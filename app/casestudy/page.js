@@ -1,7 +1,12 @@
 import React from 'react'
-import data from '@/libs/case-study-list.json'
+import data from '/libs/case-study-list.json'
 import Link from 'next/link'
 import Image from 'next/image'
+
+export const metadata = {
+  title: "EJ : Case Studies",
+  description: "Ellie J case studies and projects she has worked on",
+};
 
 const CaseStudyCard = ({ item, linkLabel, showProjectLinks }) => (
   <div className="case-card" key={item.id}>
