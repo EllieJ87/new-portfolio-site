@@ -3,8 +3,19 @@
 .new-cs-container {
   display: grid;
   gap: 2rem;
-  color: theme.$White;
+  // color: theme.$White;
   padding: 1.5rem 0.75rem;
+  
+  .img-container {
+    width: 100%;
+    height: auto;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
   
   .new-cs-header {
     display: grid;
@@ -12,7 +23,7 @@
     
     h1 {
       @include theme.EXLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
       margin: 0 auto;
       text-align: center;
     }
@@ -35,7 +46,7 @@
     
     h2 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .sumary-text {
@@ -51,7 +62,7 @@
     
     h2 {
       @include theme.LrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .overview-container {    
@@ -94,7 +105,7 @@
         
         h3 {
           @include theme.LrgFontSize;
-          @include theme.GreyTextCol;
+          // @include theme.GreyTextCol;
         }
 
         ul {
@@ -155,7 +166,7 @@
 
     h2 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     ul {
@@ -189,7 +200,7 @@
 
     h2 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .role-container {      
@@ -214,7 +225,7 @@
       
         h3 {
           @include theme.LrgFontSize;
-          @include theme.GreyTextCol;
+          // @include theme.GreyTextCol;
         }
       
         .role-images {
@@ -281,7 +292,7 @@
 
     h2 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .goals-container { 
@@ -340,7 +351,7 @@
 
     h2 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .highlights-list {      
@@ -368,7 +379,7 @@
     
     h2 {
       @include theme.LrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .reflection-text {

@@ -2,209 +2,82 @@
   "caseStudiesAmends": [
     {
       "id": 1,
-      "slug": "home-page",
-      "CaseStudyTitle": "Home Page Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/home-list.webp",
-        "altTitle" : "The Bigjobsite website - home page",
-        "width" : 420,
-        "height" : 246
-      },
+      "slug": "job-results-page",
+      "mainTitle": "Optimised Job Search", 
+      "mainTitleHighlight" : "Experience",
 
-      "Summary": "This project aimed to improve the homepage's user experience by addressing issues with navigation, content clarity, and the lack of a clear introduction to the site's services.",
-      "Techimages": [
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1200,
+        "height" : 800
+      },
+      
+      "role" :"Web Designer & Front-End Developer",
+      "timeLine" : "4 Months",
+
+      "overviewPoints" : [
         {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
+          "pointTitle": "Challenge",
+          "sectionPara": "The job results page was cluttered and hard to navigate, especially on mobile. Filters were fragmented, listings were crowded, and key content like featured jobs and tools was often overlooked."
         },
         {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
+          "pointTitle": "Solution",
+          "sectionPara": "We moved to a single-column job layout with a persistent sidebar for filters and tools. Search and filter actions were simplified, and strategic callouts—top-matching jobs, premium ads, and career tools—were integrated without disrupting flow, making the experience cleaner and more engaging."
         }
       ]
     },
     {
       "id": 2,
-      "slug": "job-results-page",
-      "CaseStudyTitle": "Results Page Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/results-list.webp",
-        "altTitle" : "The Bigjobsite website - results page",
-        "width" : 420,
-        "height" : 246
-      },
+      "slug": "job-details-page",
+      "mainTitle": "Clear & Engaging", 
+      "mainTitleHighlight" : "Job Details",
 
-      "Summary": "This project focused on simplifying a cluttered job results page and improving the search and filtering experience.",
-      "Techimages": [
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1200,
+        "height" : 800
+      },
+      
+      "role" :"Web Designer & Front-End Developer",
+      "timeLine" : "4 Months",
+
+      "overviewPoints" : [
         {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
+          "pointTitle": "Challenge",
+          "sectionPara": "The original job details page was functional but lacked visual clarity and modern design. Mobile users faced duplicate CTAs, confusing workflows, and extra steps to sign up for job alerts, while the “Similar Jobs” section was unstructured, reducing engagement and discoverability."
         },
         {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
+          "pointTitle": "Solution",
+          "sectionPara": "We streamlined the layout, removed redundant CTAs, and introduced a top search bar for easy navigation. An in-line, single-step email sign-up simplified alerts, while the “Similar Jobs” section and a new “Key Facts” summary improved content hierarchy and readability. These changes delivered a cleaner, more engaging, and mobile-friendly experience that increased usability and conversions."
         }
       ]
     },
     {
       "id": 3,
-      "slug": "job-details-page",
-      "CaseStudyTitle": "Details Page Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/details-list.webp",
-        "altTitle" : "The Bigjobsite website - job details page",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This project aimed to modernize the job details page by enhancing its clarity and engagement.",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "slug": "email-signup",
-      "CaseStudyTitle": "Email Sign-up Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/email-alerts-list.webp",
-        "altTitle" : "The Bigjobsite website - email sign-up",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This project focused on improving the user experience around email alert sign-ups and the behaviour to capture new jobseekers to sign-up to our email alerts.",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "slug": "email-management",
-      "CaseStudyTitle": "Email Management Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/email-manage-list.webp",
-        "altTitle" : "The Bigjobsite website - email management",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This project focused on improving the user experience around managing their email alerts.",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ]
-    },
-    {
-      "id": 6,
       "slug": "company-pages",
-      "CaseStudyTitle": "Company Pages Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/company-home-list.webp",
-        "altTitle" : "The Bigjobsite website - company pages",
-        "width" : 420,
-        "height" : 246
+      "mainTitle": "Customisable Company", 
+      "mainTitleHighlight" : "Profiles",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1200,
+        "height" : 800
       },
-      "Summary": "In 2022, I led the design of a new Company Pages experience to allow employers to showcase their brand, culture, and open roles in a more engaging and customizable way.",
-      "Techimages": [
+      
+      "role" :"Web Designer & Front-End Developer",
+      "timeLine" : "4 Months",
+ 
+      "overviewPoints" : [
         {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
+          "pointTitle": "Challenge",
+          "sectionPara": "The previous company pages were generic, visually uninspiring, and failed to reflect each employer's brand. Users struggled to explore companies, and employers had limited ways to showcase culture, values, or open roles."
         },
         {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "slug": "email-job-alerts",
-      "CaseStudyTitle": "Email's Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/email-list.webp",
-        "altTitle" : "The Bigjobsite website - email",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This project focused on redesigning our job alert emails to be fully responsive, visually aligned with our core site experience, and compatible across all devices, email clients, and screen modes.",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
+          "pointTitle": "Solution",
+          "sectionPara": "We introduced fully customisable landing pages with modular sections for storytelling, imagery, and values, along with dedicated job results pages. The new design improved engagement, allowed companies to highlight their uniqueness, and made it easier for jobseekers to discover meaningful opportunities."
         }
       ]
     }
@@ -213,363 +86,114 @@
   "newProjectsCaseStudies": [
     {
       "id": 1,
-      "slug": "commercial-product-pages",
-      "CaseStudyTitle": "Product Page's Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/pp-about-list.webp",
-        "altTitle" : "The Bigjobsite website - commercial product pages",
-        "width" : 420,
-        "height" : 246
+      "slug": "industry-job-platforms",
+      "mainTitle": "Scalable & Custom Career", 
+      "mainTitleHighlight" : "Experiences",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1200,
+        "height" : 800
       },
-      "Summary": "This project involved designing and developing a series of product pages to showcase our key services and offerings to both new users and potential partners.",
-      "Techimages": [
+      
+      "role" :"Web Designer & Front-End Developer",
+      "timeLine" : "4 Months",
+ 
+      "overviewPoints" : [
         {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
+          "pointTitle": "Challenge",
+          "sectionPara": "Launching multiple industry-specific job sites was complex, as each needed a distinct visual identity while maintaining consistent structure and UX. Without a scalable system, rolling out new sites was time-consuming and error-prone."
         },
         {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
+          "pointTitle": "Solution",
+          "sectionPara": "We created a unified HTML framework with shared structure and scalable CSS theming, allowing each site to have unique branding, icons, and colour palettes. The result was a family of visually distinct, responsive, SEO-friendly platforms that could be deployed efficiently and maintained consistently."
         }
       ]
     },
     {
       "id": 2,
-      "slug": "clicked365-redesign",
-      "CaseStudyTitle": "ATTC Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/attc-list.webp",
-        "altTitle" : "Allthetopclicks website",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This project involved a full rebranding and redesign of the outdated ATTC website to better reflect the service's modern capabilities under its new identity—Clicked365.",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "slug": "disrupted-cloud",
-      "CaseStudyTitle": "Disrupted Cloud Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/disrupted-cloud-list.webp",
-        "altTitle" : "Disrupted Cloud website",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This project focused on establishing a strong online presence for Disrupted Cloud, a digital brand offering two core services",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "slug": "all-niche-sites",
-      "CaseStudyTitle": "Niche Sites Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/niche-site-list.webp",
-        "altTitle" : "The IT Job Search website - part of niche sites",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This project focused on designing and building a suite of industry-specific niche job sites, each with a unique visual identity but sharing a consistent HTML structure.",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ]
-    },
-    {
-      "id": 5,
       "slug": "my-job-dna",
-      "CaseStudyTitle": "MyJobDNA Case Study",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/my-jobdna-list.webp",
-        "altTitle" : "MyJobDNA website",
-        "width" : 420,
-        "height" : 246
+      "mainTitle": "Interactive Career Path", 
+      "mainTitleHighlight" : "Finder",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1200,
+        "height" : 800
       },
-      "Summary": "MyJobDNA is an interactive web platform designed to help users uncover their ideal career paths through a personality-based quiz.",
-      "Techimages": [
+      
+      "role" :"Web Designer & Front-End Developer",
+      "timeLine" : "4 Months",
+
+      "overviewPoints" : [
         {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
+          "pointTitle": "Challenge",
+          "sectionPara": "Users lacked a clear way to explore career paths aligned with their personality and interests. The platform needed a fun, intuitive experience that provided personalised guidance while integrating with job listings and certificates."
         },
         {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-react.svg",
-          "altTitle" : "React logo"
+          "pointTitle": "Solution",
+          "sectionPara":  "We designed an interactive, personality-based quiz that generates unique DNA codes and tailored job recommendations. A dashboard lets users view results and access jobs, while downloadable certificates and bespoke branding create an engaging, mobile-friendly experience that connects users to real career opportunities."
         }
       ]
     }
   ],
+
   "miniProjects": [
     {
       "id": 1,
-      "CaseStudyTitle": "EllChan_Anime Project",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/ellchan-anime-list.webp",
-        "altTitle" : "EllChan_Anime website",
-        "width" : 420,
-        "height" : 246
+      "mainTitle": "Digital Brand Experience for", 
+      "mainTitleHighlight" : "Disrupted Cloud",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1200,
+        "height" : 800
       },
-      "Summary": "This is a website that I created for my personal sketching and drawing works. My website will be used by existing, new, and inspiring artists wanting to find more information about my work.",
-      "Techimages": [
+      
+      "role" :"Web Designer & Front-End Developer",
+      "timeLine" : "4 Months",
+
+      "overviewPoints" : [
         {
-          "url" : "/images/tech-icons/tech-adobe.svg",
-          "altTitle" : "Adobe logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
+          "pointTitle": "Overview",
+          "sectionPara": "A sleek, dark-themed homepage and full brand refresh for Disrupted Cloud, showcasing its suite of niche job sites and performance-driven advertising solution, Lightning Clicks. Bold visuals, interactive site previews, and modular design patterns make the platform engaging, modern, and mobile-ready."
         }
       ],
+
       "ProjectLinks": [
         {
-          "githubTitle": "https://github.com/EllieJ87/ellchan-anime",
-          "projectLink": "https://elliej87.github.io/ellchan-anime"
+          "projectLink": "https://www.disruptedcloud.com"
         }
       ]
     },
     {
       "id": 2,
-      "CaseStudyTitle": "Ranger Game",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/ranger-game-list.webp",
-        "altTitle" : "Ranger Game website",
-        "width" : 420,
-        "height" : 246
+      "mainTitle": "Ranger Game: Interactive", 
+      "mainTitleHighlight" : "Space Adventure",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1200,
+        "height" : 800
       },
-      "Summary": "This is a website that I created for my second milestone project. My personal admiration for gaming and storytelling made this website possible.",
-      "Techimages": [
+      
+      "role" :"Web Designer & Front-End Developer",
+      "timeLine" : "4 Months",
+
+      "overviewPoints" : [
         {
-          "url" : "/images/tech-icons/tech-adobe.svg",
-          "altTitle" : "Adobe logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
+          "pointTitle": "Overview",
+          "sectionPara": "Ranger Game is a fun, interactive text adventure inspired by classic space games and choose-your-own-path storytelling. Players navigate a mission-based journey, making decisions that impact outcomes, exploring multiple endings, and engaging with custom illustrations, sound effects, and a dynamic UI. Designed for both desktop and mobile, the game combines narrative, visuals, and interactivity for a truly immersive experience."
         }
       ],
+
       "ProjectLinks": [
         {
-          "githubTitle": "https://github.com/EllieJ87/ranger-game",
           "projectLink": "https://elliej87.github.io/ranger-game"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "CaseStudyTitle": "Ecommerce Project",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/ecommerce-page-list.webp",
-        "altTitle" : "Ecommerce Project website",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This is a website that I created for my final milestone project. To build an E-commerce product page.",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-scss.svg",
-          "altTitle" : "SCSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ],
-      "ProjectLinks": [
-        {
-          "githubTitle": "https://github.com/EllieJ87/ecommerce-product-page-main",
-          "projectLink": "https://elliej87.github.io/ecommerce-product-page-main"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "CaseStudyTitle": "Anime Generator Project",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/anime-generator-list.webp",
-        "altTitle" : "Anime Generator website",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "I wanted to develop a site where you could randomly have an Anime picked out for you, especially if you are stuck on what anime to watch next!",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        }
-      ],
-      "ProjectLinks": [
-        {
-          "githubTitle": "https://github.com/EllieJ87/AnimeGenerator",
-          "projectLink": "https://elliej87.github.io/AnimeGenerator"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "CaseStudyTitle": "Travel Journal Project",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/travel-journal-list.webp",
-        "altTitle" : "Travel Journal website",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This Project was built and developed by me, to test my React skills for Props, accessing data and trying to figure out how to add images by mapping (and using json data).",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-react.svg",
-          "altTitle" : "React logo"
-        }
-      ],
-      "ProjectLinks": [
-        {
-          "githubTitle": "https://github.com/EllieJ87/travel-journal",
-          "projectLink": "https://travel-journal-reupload.netlify.app"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "CaseStudyTitle": "EllChan Artwork Project",
-      "CaseStudyImg": {
-        "url" : "/images/case-study-list/ellchan-artwork-list.webp",
-        "altTitle" : "EllChan Artwork website",
-        "width" : 420,
-        "height" : 246
-      },
-      "Summary": "This Project was built and developed by me, to test my React skills for react.useState, Props, accessing data and trying to figure out how to add images by mapping (and using json data).",
-      "Techimages": [
-        {
-          "url" : "/images/tech-icons/tech-figma.svg",
-          "altTitle" : "Figma logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-html.svg",
-          "altTitle" : "HTML logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-css.svg",
-          "altTitle" : "CSS logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-js.svg",
-          "altTitle" : "JavaScript logo"
-        },
-        {
-          "url" : "/images/tech-icons/tech-react.svg",
-          "altTitle" : "React logo"
-        }
-      ],
-      "ProjectLinks": [
-        {
-          "githubTitle": "https://github.com/EllieJ87/favourite-artwork",
-          "projectLink": "https://ej-ellchan-anime-favourites.netlify.app"
         }
       ]
     }

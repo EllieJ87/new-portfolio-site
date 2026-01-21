@@ -1,11 +1,10 @@
 @use 'variables' as theme;
 
-@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 @import 'navbar';
 @import 'home';
 @import 'about';
-@import 'cs-list';
 @import 'cs-amend';
 @import 'cs-new';
 
@@ -14,14 +13,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Halant', serif;
-  background: linear-gradient(#000000 0%, #1E293B 5%, #1E293B 75%, #000000 100%);  
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: linear-gradient(theme.$TrueBlack 0%, theme.$SubBlack 50%, theme.$TrueBlack 100%);  
 }
 
 h1, h2, h3, h4, p { margin: 0; }
 
 h1, h2, h3, h4 {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 300;
 }
 
@@ -34,14 +33,14 @@ h3 { @include theme.LrgFontSize; }
 h4 { @include theme.MedFontSize; }
 
 p {
-  font-family: 'Halant', serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   @include theme.SmFontSize;
   font-weight: 300;
 }
 
 a {
   text-decoration: none;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 ul {
@@ -77,8 +76,8 @@ button {
   p { @include theme.SmMedFontSize; }
 }
 
-@media only screen and (min-width: 70rem) {  
+// @media only screen and (min-width: 70rem) {  
   
-  body { background: linear-gradient(#000000 0%, #1E293B 15%, #1E293B 75%, #000000 100%); }
-}
+//   body { background: linear-gradient(#000000 0%, #1E293B 15%, #1E293B 75%, #000000 100%); }
+// }
 

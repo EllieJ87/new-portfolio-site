@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Marquee from '../Components/Marquee';
+import ImageMarquee from '../Components/ImageMarquee';
+import Link from 'next/link';
 
 export const metadata = {
   title: "EJ : About",
@@ -11,127 +12,26 @@ const About = () => {
   return (
     <div className='db-container about-container'>
       <section className='about-header'>
-        <h1>About Me</h1>
+        
+        <div className='marquee'>
+          <ImageMarquee />
+        </div>
+
+        <p>Cafting Engaging Digital Experiences</p>
+
+        <h1>UI Developer <span>& Design Enthusiast</span></h1>
 
         <div className='about-text'>
-          <p>With a strong foundation in front-end development and a creative eye for design, I bring digital experiences to life through clean code and intuitive interfaces. Front End Developer and Web Designer with hands-on experience designing and developing responsive websites for the ATTB Group. I focus on creating visually engaging, user-friendly websites that prioritize functionality, accessibility, and performance—always aligned with best practices and SEO standards.</p>
-          <p>Prior to my current role, I completed a Diploma in Full Stack Software Development with Code Institute, where I discovered a strong drive for problem-solving and building seamless user experiences. This foundation has enabled me to write clean, maintainable, and reusable code using HTML, CSS, and JavaScript, and confidently review and optimize front-end performance.</p>
-          <p>In my current position, I design visuals, graphics, and user interfaceswhile ensuring mobile responsiveness and W3C compliance. I regularlymonitor site performance and accessibility, and I use tools like Adobe Creative Suite along with basic scripting to enhance functionality.</p>
-          <p>Outside of work, I&apos;m a curious and creative individual with a love for Japanese culture, anime, and gaming. I enjoy knitting, drawing, and cooking, and I find inspiration in everything from beautifully designed interfaces to a great cup of coffee. These passions fuel my creativity and attention to detail in everything I build.</p>
-          <p>I&apos;m excited to continue growing as a Front End Developer, bringing thoughtful design and clean code together to craft engaging digital experiences.</p>
+          <p>I combine front-end development with a <span>creative eye</span> for design to build responsive, user-friendly websites that balance functionality, accessibility, and visual appeal. At ATTB Group, I <span>craft clean, maintainable code</span> using HTML, CSS, JavaScript, and React, while optimizing performance and enhancing usability.</p>
+          <p><span>Inspired</span> by everything from <span>beautifully designed interfaces</span> to Asian culture, anime and gaming, I bring curiosity and attention to detail to every project. My goal is to create <span>digital experiences</span> that are intuitive, engaging, and visually compelling.</p>
         </div>
 
-        <div className='about-imgs'>
-          <div className='img-container img-one'>
-            <Image
-              priority
-              src='/images/me-kimono.webp'
-              className='about-img'
-              alt='Me in a kimono in a Japanes garden'
-              width={768}
-              height={1020}
-            />
-          </div>
-          <div className='img-container img-two'>
-            <Image
-              priority
-              src='/images/me-shiho.webp'
-              className='about-img'
-              alt='Me and my friend Shiho posing for the camera'
-              width={720}
-              height={959}
-            />
-          </div>
-          <div className='img-container img-three'>
-            <Image
-              priority
-              src='/images/me-blue.webp'
-              className='about-img'
-              alt='Me and a tour guide called Blue posing for the camera'
-              width={912}
-              height={684}
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className='about-skills'>
-        <h2>Skills</h2>
-        <ul className='skills-container'>
-          <li className='skill-item'>
-            <span className='skills-icon adobe-icon'></span>
-            <span className='skill-text'>Adobe</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon figma-icon'></span>
-            <span className='skill-text'>Figma</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon uxui-icon'></span>
-            <span className='skill-text'>UX / UI</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon responsive-icon'></span>
-            <span className='skill-text'>Responsive</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon concept-icon'></span>
-            <span className='skill-text'>Concept Art</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon illustration-icon'></span>
-            <span className='skill-text'>Illustrations</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon web-design-icon'></span>
-            <span className='skill-text'>Web Design</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon html-icon'></span>
-            <span className='skill-text'>HTML</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon css-icon'></span>
-            <span className='skill-text'>CSS</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon scss-icon'></span>
-            <span className='skill-text'>SCSS</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon js-icon'></span>
-            <span className='skill-text'>JavaScript</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon bootstrap-icon'></span>
-            <span className='skill-text'>Bootstrap</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon react-icon'></span>
-            <span className='skill-text'>React</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon nextjs-icon'></span>
-            <span className='skill-text'>Next.JS</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon jquery-icon'></span>
-            <span className='skill-text'>jQueryp</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon net-icon'></span>
-            <span className='skill-text'>. Net</span>
-          </li>
-          <li className='skill-item'>
-            <span className='skills-icon git-icon'></span>
-            <span className='skill-text'>Git</span>
-          </li>
-        </ul>
+        <a href="/images/placeholder-image.png" download="placeholder-image.png">Download Resume</a>
       </section>
 
       <section className='about-roles'>
         <article>
-          <h2>Current Role</h2>
+          <h2>Current Work</h2>
 
           <div className='roles-header'>
             <h3>Web Designer / Front-End Developer</h3>
@@ -155,37 +55,6 @@ const About = () => {
                   <li>Improved page load speeds by 35% through efficient coding and optimisation.</li>
                   <li>Supported SEO campaigns, improving search engine visibility performance by 30%.</li>
                   <li>Increased email click rates, through re-design and catering for dark screen users, and improving mobile usability by 80%.</li>
-                </ul>
-              </div> 
-            </div>
-          </div>
-
-          <div className='role-container'>
-            <p className='job-title'>Technical Skills</p>
-
-            <div className='role-ul-container'>
-              <div className="role-ul-contents">
-                <div className="vertical-line"></div>              
-                <ul>
-                  <li>Front-End Development: HTML, CSS, SCSS, JavaScript, jQuery, React, .NET, Git, command line.</li>
-                  <li>UI / UX: Wireframes, user journeys, interface design, usability testing, accessibility compliance.</li>
-                  <li>Design & Graphics: Adobe Suite, iconography, typography, image editing, social & marketing assets.</li>
-                  <li>Website Management: WordPress development, content updates, site optimisation.</li>
-                  <li>Collaboration: Worked with sales, marketing teams to deliver business-aligned solutions.</li>
-                </ul>
-              </div> 
-            </div>
-          </div>
-
-          <div className='role-container'>
-            <p className='job-title'>Projects & Platform</p>
-
-            <div className='role-ul-container'>
-              <div className="role-ul-contents">
-                <div className="vertical-line"></div>              
-                <ul>
-                  <li>Full website development: JobDNA (React, Next.js, TypeScript), TheBIGJobsite, Disrupted Cloud, Niche Sites.</li>
-                  <li>Marketing assets: Brochures, social graphics, email designs, promotional materials.</li>
                 </ul>
               </div> 
             </div>
@@ -223,7 +92,7 @@ const About = () => {
         </article>
 
         <article>
-          <h2>Past Employment</h2>
+          <h2>Past Experience</h2>
           <ul>
             <li>
               <div className='roles-header'>
@@ -264,43 +133,36 @@ const About = () => {
         </article>
 
         <article className='interests-container'>
-          <h2>Interests</h2>
+          <h2>My Enjoyment</h2>
 
-          <div className='ih-container'>
-            <h3>Languages</h3>
-            <div className='role-ul-container'>
-              <div className="role-ul-contents">
-                <div className="vertical-line"></div>
-                <ul>
-                  <li>English</li>
-                  <li>Japanes (basic & learning)</li>
-                  <li>Danish</li>
-                </ul>
-              </div> 
-            </div>
-          </div>
-          
-          <div className='ih-container'>
-            <h3>Hobbies</h3>
-            <div className='role-ul-container'>
-              <div className="role-ul-contents">
-                <div className="vertical-line"></div>
-                <ul>
-                  <li>Travelling</li>
-                  <li>Knitting, Crochet & Crafting</li>
-                  <li>Drawing by Hand & Computer</li>
-                  <li>Gaming</li>
-                  <li>Learning new languages</li>
-                </ul>
-              </div> 
-            </div>
-          </div>
+          <ul>
+            <li>
+              <h2>Knitting & Crafting</h2>
+              <p>I enjoy working with my hands through knitting, crochet, and other crafts, which encourages patience, precision, and an appreciation for structure. Creating something from scratch—stitch by stitch—mirrors how I approach building interfaces and refining details in my design work.</p>
+            </li>
+            <li>
+              <h2>Languages</h2>
+              <p>I have a strong interest in learning languages and exploring different cultures. I&apos;ve studied Danish and Japanese and am currently learning Korean, driven by curiosity around communication, cultural nuance, and how people interact across different contexts—both digitally and in everyday life.</p>
+            </li>
+            <li>
+              <h2>Drawing</h2>
+              <p>Drawing both by hand and digitally allows me to explore composition, form, and visual storytelling outside of code. It&apos;s a creative outlet that helps sharpen my eye for layout, balance, and detail, which naturally feeds back into my UI and design work.</p>
+            </li>
+            <li>
+              <h2>Travelling</h2>
+              <p>Travelling across Asia and Europe has given me exposure to diverse cultures, design styles, and ways of thinking. Experiencing different environments and perspectives continually influences how I approach accessibility, usability, and user-centred design.</p>
+            </li>
+          </ul>
         </article>
       </section>
-      
-      <div className='marquee'>
-        <Marquee />
-      </div>
+
+      <section className='about-header'>
+        <h2>I craft digitial experiences that are intuitive as they are visually engaging, <span>blending clean code with thoughtful design.</span></h2>
+        
+        <a href="/images/placeholder-image.png" download="placeholder-image.png">Download Resume</a>
+
+      </section>
+
     </div>
   )
 }

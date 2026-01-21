@@ -10,13 +10,13 @@
 
     h1 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
     
     .about-text {
       display: grid;
       gap: 1rem;
-      color: theme.$White;
+      // color: theme.$White;
     }
 
     .about-imgs {      
@@ -48,7 +48,7 @@
 
     h2 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .skills-container {
@@ -101,7 +101,7 @@
         .git-icon { background: url(/images/tech-icons/tech-git.svg) no-repeat; }
 
         .skill-text {
-          color: theme.$White;
+          // color: theme.$White;
           font-size: 0.9rem;
           font-weight: 200;
         }
@@ -114,11 +114,11 @@
     display: grid;
     gap: 1rem;
     padding-bottom: 1.5rem;
-    color: theme.$White;
+    // color: theme.$White;
 
     h2 {
       @include theme.XLrgFontSize;
-      @include theme.MainTextCol;
+      // @include theme.MainTextCol;
     }
 
     .roles-header {
@@ -128,7 +128,7 @@
 
       h3 {
         @include theme.MedFontSize;
-        @include theme.GreyTextCol;
+        // @include theme.GreyTextCol;
         font-weight: 300;
       }
 
@@ -161,7 +161,7 @@
           content: "<ul>";
           position: absolute;
           left: 0;
-          color: theme.$MidGrey;
+          // color: theme.$MidGrey;
           font-size: 0.8rem;
         }
         
@@ -177,7 +177,7 @@
         }
         
         ul {
-          color: theme.$White;
+          // color: theme.$White;
           margin-left: 1rem;
           display: grid;
           gap: 1rem;
@@ -206,7 +206,7 @@
         
         h3 {
           @include theme.MedFontSize;
-          @include theme.GreyTextCol;
+          // @include theme.GreyTextCol;
           font-weight: 300;
           padding-bottom: 1.5rem;
         }
@@ -340,32 +340,32 @@
     
     .about-header {
       padding: 2.5rem 0 2.5rem; 
-      grid-template-columns: repeat(2, 1fr);
+      // grid-template-columns: repeat(2, 1fr);
       gap: 0.75rem 2rem;
-      grid-template-areas: 
-      'header .'
-      'about-text about-imgs';
+      // grid-template-areas: 
+      // 'header .'
+      // 'about-text about-imgs';
 
       .about-text {
-        grid-area: about-text;
+        // grid-area: about-text;
         place-self: start;
       }
       
-      .about-imgs {
-        grid-area: about-imgs;
-        display: grid;
-        gap: 1.25rem 2rem;
-        grid-template-rows: 5rem 1fr 5rem 1fr;
-        grid-template-areas:
-        ' . . img-two img-two'
-        'img-one img-one img-two img-two'
-        'img-one img-one . .'
-        '. img-three img-three img-three';
+      // .about-imgs {
+      //   grid-area: about-imgs;
+      //   display: grid;
+      //   gap: 1.25rem 2rem;
+      //   grid-template-rows: 5rem 1fr 5rem 1fr;
+      //   grid-template-areas:
+      //   ' . . img-two img-two'
+      //   'img-one img-one img-two img-two'
+      //   'img-one img-one . .'
+      //   '. img-three img-three img-three';
         
-        .img-one { grid-area: img-one; }
-        .img-two { grid-area: img-two; }
-        .img-three { grid-area: img-three; }
-      }
+      //   .img-one { grid-area: img-one; }
+      //   .img-two { grid-area: img-two; }
+      //   .img-three { grid-area: img-three; }
+      // }
     }
     
     .about-skills { padding: 1.5rem 0 1rem;  ; }

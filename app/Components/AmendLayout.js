@@ -1,58 +1,58 @@
 import React from 'react'
 import Image from 'next/image'
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
-
-const CustomHandle = () => (
-  <div className="slider-wrapper">
-    <div className="wrapper-line" />
-    <div className="wrapper-handle" />
-  </div>
-);
+import Link from 'next/link'
+import BackButton from './BackButton'
 
 const AmendLayout = ({ data }) => {
-   const images = data.CaseStudyImg;
-  if (!images || images.length < 2) return null;
+
   return (
+
     <main className='db-container amends-container'>
+      <BackButton />
            
       <section className='amend-header'>
-        <h1>Case Study: {data.CaseStudyTitle}</h1>
-        
-        <div style={{ width: images[0].imgWidth, height: images[0].imgHeight }} className='image-slider'>
-          <ReactCompareSlider
-            itemOne={<ReactCompareSliderImage src={images[0].url} alt={images[0].altTitle} />}
-            itemTwo={<ReactCompareSliderImage src={images[1].url} alt={images[1].altTitle} />}
-            handle={<CustomHandle />}
-            style={{ width: '100%', height: '100%' }}
+        <h1>{data.mainTitle} {data.mainTitleHighlight}</h1>
+
+        <div className='img-container'>
+          <Image
+            priority
+            src={data.mainImage.url}
+            alt={data.mainImage.altTitle}
+            width={data.mainImage.width}
+            height={data.mainImage.height}
           />
         </div>
+
+        <h2>Role</h2>
+        <p>{data.role}</p>
+
+        <h2>Expertise</h2>
+        <p>{data.expertise}</p>
+
+        <h2>Tools</h2>
+        <p>{data.tools}</p>
+
+        <h2>Time Line</h2>
+        <p>{data.timeLine}</p>
       </section>
 
       <section className='amend-summary'>
-        <h2>Summary</h2>
+        <h2>{data.summary.title}</h2>
+        <p>{data.summary.mainSummary}</p>
 
-        {data.Summary?.length > 0 && (
+        {data.summary.overviewPoints?.length > 0 && (
           <div className='summary-text'>
-            {data.Summary?.map((text, index) => (
-              <p key={index}>{text}</p>
-            ))}
-          </div>
-        )}
-      </section>
-
-      <section className='amend-issues'>
-        <h2>Current Issues</h2>
-
-        {data.CurrentIssues?.length > 0 && (
-          <div className='issues-text'>
-            {data.CurrentIssues?.map((text, index) => (
-              <p key={index}>{text}</p>
+            {data.summary.overviewPoints.map((point) => (
+              <div key={point.id}>
+                <h3>{point.pointTitle}</h3>
+                <p>{point.pointPara}</p>
+              </div>
             ))}
           </div>
         )}
         
-        {data.CurrentIssuesImgs?.map((img, index) => (
-          <div key={index} className='img-container'>
+        {data.showCaseImages?.map((img, idx) => (
+          <div key={idx} className='img-container'>
             <Image
               priority
               src={img.url}
@@ -63,125 +63,60 @@ const AmendLayout = ({ data }) => {
           </div>
         ))}
       </section>
+      
+      <section className='amend-summary'>
+        <h2>{data.evaluateEnhance.title}</h2>
+        <p>{data.evaluateEnhance.evaluateEnhanceSummary}</p>
 
-      <section className='amend-goals'>
-        <h2>Goal</h2>
-
-        {data.GoalPoints?.length > 0 && (
-          <ul className='goals-list'>
-            {data.GoalPoints?.map((list, index) => (
-              <li key={index}>
-                <span className='icon-goals'></span>
-                <p>{list}</p>
-              </li>
-            ))}
-          </ul>
-        )}
-      </section>
-
-      <section className='amend-process'>
-        <h2>Process</h2>
-        
-        {data.process?.map((info, index) => (
-          <article key={index} className='process-container'>
-            <h3>{info.title}</h3>
-
-            {info.topSummary?.length > 0 && (
-              <div className='process-summary'>
-                {info.topSummary?.map((text, index) => (
-                  <p key={index}>{text}</p>
-                ))}
-              </div>
-            )}
-            
-            {info.steps?.length > 0 && (
-              <ul className='process-list'>                
-                {info.steps?.map((list, index) => (
-                  <li key={index}>
-                    <h4>{list.sectionTitle}</h4>
-                    
-                    {list.images?.map((img, index) => (
-                      <div key={index} className='img-container'>
-
-                        {img.type === "video" ? (
-                          <video
-                            width={img.width}
-                            height={img.height}
-                            muted
-                            loop
-                            autoPlay
-                            playsInline
-                            className='video-player'
-                          >
-                            <source src={img.url} type='video/mp4' />
-                          </video>
-                        ) : (
-                          <Image
-                            src={img.url}
-                            alt={img.altTitle}
-                            width={img.width}
-                            height={img.height}
-                          />
-                        )}
-                      </div>
-                    ))}
-
-                    <div className='process-text'>
-                      {list.sectionPara?.map((text, index) => (
-                        <p key={index}>{text}</p>
-                      ))}
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </article>
-        ))}
-      </section>
-
-      <section className='amend-solution'>        
-        <h2>The Solution</h2>
-        
-        {data.solution?.map((card, index) => (
-          <ul key={index} className='solution-list'>
-            {card.steps?.map((info, index) => (
-              <li key={index}>
-                <span className='icon-solution'></span>
-                <h3>{info.sectionTitle}</h3>
-                <p>{info.sectionPara}</p>
-              </li>
-            ))}
-          </ul>
-        ))}
-      </section>
-
-      <section className='amend-reflection'>
-        <h2>Reflection</h2>
-        
-        {data.Reflection?.length > 0 && (
-          <div className='reflection-text'>
-            {data.Reflection?.map((text, index) => (
-              <p key={index}>{text}</p>
-            ))}
+        {data.evaluateEnhance.evaluateEnhanceImages?.map((img, idx) => (
+          <div key={idx} className='img-container'>
+            <Image
+              priority
+              src={img.url}
+              alt={img.altTitle}
+              width={img.width}
+              height={img.height}
+            />
           </div>
-        )}
-
-        {data.ReflectionImgs?.length > 0 && (
-          <div className='reflection-imgs'>
-            {data.ReflectionImgs?.map((img, index) => (
-              <div key={index} className='img-container'>
-                <Image
-                  key={index}
-                  src={img.url}
-                  alt={img.altTitle}
-                  width={img.width}
-                  height={img.height}
-                />
+        ))}
+      </section>
+      
+      <section className='amend-summary'>
+        <h2>{data.improvements.title}</h2>
+        <p>{data.improvements.mainSummary}</p>
+        
+        {data.improvements.points?.length > 0 && (
+          <div className='summary-text'>
+            {data.improvements.points.map((point) => (
+              <div key={point.id}>
+                <h3>{point.sectionTitle}</h3>
+                <p>{point.sectionPara}</p>
               </div>
             ))}
           </div>
-        )}        
+        )}
       </section>
+
+      <section className='amend-summary'>
+        <h2>{data.wireframe.title}</h2>
+        <div className='img-container'>
+          <Image
+            priority
+            src={data.wireframe.wireframeImage.url}
+            alt={data.wireframe.wireframeImage.altTitle}
+            width={data.wireframe.wireframeImage.width}
+            height={data.wireframe.wireframeImage.height}
+          />
+        </div>
+      </section>
+      
+      <section className='amend-summary'>
+        <h2>{data.outcome.title}</h2>
+        <p>{data.outcome.outcomeSummary}</p>
+
+        <Link href={data.outcome.outcomeLink} className='link-live' target='_blank'>Live preview</Link>
+      </section>
+
     </main>
   )
 }

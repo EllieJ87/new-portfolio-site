@@ -2,2657 +2,691 @@
   "caseStudiesAmends": [
     {
       "id": 1,
-      "slug": "home-page",
-      "CaseStudyTitle": "Home Page",
-      "CaseStudyImg": [
+      "slug": "job-results-page",
+      "mainTitle": "Optimised Job Search", 
+      "mainTitleHighlight" : "Experience",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The BIG Jobsite : original results page",          
+        "width" : 1200,
+        "height" : 800
+      },
+
+      "role" :"Web Designer & Front-End Developer",
+      "expertise" : "UX/UI Design",
+      "tools" : "Figma | .Net",
+      "timeLine" : "4 Months",
+      
+      "summary": {
+        "title" : "Project Overview",
+        "mainSummary" : "This project focused on simplifying a cluttered job results page and improving the search and filtering experience. The original layout was overwhelming, and users struggled with fragmented navigation, particularly on mobile. As the lead designer, I aimed to modernize the page by prioritizing job listings, streamlining filters, and improving mobile functionality. The solution involved transitioning to a single-column job card layout, creating a clearer visual hierarchy, and refining the search and filter experience. We added strategic callouts like top-matching jobs and premium ads, ensuring a more cohesive and engaging experience. These changes led to improved user focus and engagement across both desktop and mobile platforms.",
+
+        "overviewPoints" : [
+          {
+            "id": 1,
+            "pointTitle": "Objective",
+            "pointPara": "Modernise the job results page by prioritising clarity, usability, and engagement. Ensure users can easily scan job listings, adjust filters, and discover relevant content, all in a responsive, mobile-first environment."
+          },
+          {
+            "id": 2,
+            "pointTitle": "Core Challenge",
+            "pointPara": "The previous layout was overwhelming, with cluttered content above the fold and fragmented search/filter workflows. Two-column job cards made it hard for listings to stand out, and value-added content like premium ads and career tools was often overlooked. The challenge was to create a clear visual hierarchy and seamless cross-device experience without sacrificing utility or engagement opportunities."
+          }
+        ]
+      },
+
+      "showCaseImages": [
         {
-          "url" : "/images/case-study/home-page/dt-home-og.webp",
-          "altTitle" : "The BIG Jobsite : original home page",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         },
         {
-          "url" : "/images/case-study/home-page/dt-home-cur.webp",
-          "altTitle" : "The BIG Jobsite : current home page",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         }
       ],
 
-      "Summary": [
-        "This project aimed to improve the homepage's user experience by addressing issues with navigation, content clarity, and the lack of a clear introduction to the site's services.",
-        "The quick links were confusing, and the top fold didn't effectively communicate the site's purpose. As the lead designer, I focused on simplifying the navigation, modernizing the layout, and creating a clearer visual hierarchy.",
-        "Key solutions included introducing a tabbed filter interface to streamline navigation, revamping the services section with more engaging content, and redesigning the top fold with a stronger callout and more dynamic layout. These changes enhanced user engagement and made the site more accessible, especially on mobile devices."
-      ],
+      "evaluateEnhance": {
+        "title" : "Evaluate & Enhance",
+        "evaluateEnhanceSummary" : [
+          "The redesign focused on reducing clutter, improving content hierarchy, and consolidating search and filter interactions. A split layout with job results on the left and filters/tools on the right created a clear reading flow, while strategic callouts—such as top-matching jobs, premium ads, and promotional tools—were integrated without disrupting the experience. Mobile interactions were carefully refined to minimise taps, maintain context, and ensure consistent visual appeal. These enhancements improved user focus, reduced cognitive load, and created a more conversion-friendly experience across devices."
+        ],
 
-      "CurrentIssues": [
-        "The quick links navigation at the top of the homepage was confusing and overwhelming.",
-        "Homepage content didn't clearly communicate the full range of services offered.",
-        "The top fold lacked a strong introductory message or clear callout to explain the site's purpose, especially around the search functionality."
-      ],
+        "evaluateEnhanceImages": [
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          }
+        ]
+      },
+      
+      "improvements": {
+        "title": "Opportunities for Improvement",
+        "mainSummary" : "Although the new layout significantly improved usability and engagement, further refinements could enhance personalisation, content relevance, and discovery for users.",
 
-      "CurrentIssuesImgs": [
-        {
-          "url" : "/images/case-study/home-page/dt-home-og.webp",
-          "altTitle" : "The BIG Jobsite : original home page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "GoalPoints": [
-        "Improve navigation clarity for both desktop and mobile users.",
-        "Help users more quickly understand what the site offers — including job tools, services, and relevant content.",
-        "Modernize the homepage layout with a more engaging and accessible user experience.",
-        "Introduce clearer visual hierarchy and value-based content to encourage exploration."
-      ],
+        "points": [
+          {
+            "id": 1,
+            "sectionTitle": "Dynamic Recommendations",
+            "sectionPara": "Tailor “Top-Matching Jobs” based on user behaviour or search history to improve relevance."
+          },
+          {
+            "id": 2,
+            "sectionTitle": "Enhanced Filter Analytics",
+            "sectionPara": "Track which filters users frequently engage with to optimise default options and layout."
+          },
+          {
+            "id": 3,
+            "sectionTitle": "Content Personalisation",
+            "sectionPara": "Inject targeted tools, guides, or premium ads based on user profile or search behaviour."
+          },
+          {
+            "id": 4,
+            "sectionTitle": "Mobile Enhancements",
+            "sectionPara": "Test alternative mobile layouts or filter interactions to further reduce taps and improve accessibility."
+          },
+          {
+            "id": 5,
+            "sectionTitle": "Continuous A/B Testing",
+            "sectionPara": "Evaluate placement of callouts, promotional cards, and alerts to optimise conversion and engagement."
+          }
+        ]
+      },
+      
+      "wireframe": {
+        "title" : "Finalised Wireframe",
 
-      "process": [
-        {
-          "title": "Navigation Update",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Dual filters (Industry & City) were presented as two separate lists across an 8-column layout, making it difficult to scan."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/home-page/mob-home-process-1-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Condensed the filters into an adaptive tab interface that toggles between Industry and City, simplifying the navigation experience across breakpoints."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/home-page/mob-home-process-1-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Implemented a more modernised approavh by introducing a carousel that could be tab between the 'Industy' & 'City' tab but still cycle through all the categories / locations."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/home-page/mob-home-process-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Services Section Revamp",
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "No dedicated space to showcase services such as CV help, job alerts, and tools — making them difficult for users to discover."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/home-page/mob-process-2-1.webp",
-                  "altTitle" : "The BIG Jobsite : previous home page with no helpful benefits for the jobseeker.",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Identified key service categories and considered layout variations to feature them more prominently."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/home-page/mob-home-process-2-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Introduced four content areas: 'How We Help Your Job Search' / 'Useful Tools' (blogs, job alerts, CV reviews) / App download CTA",
-                "Human-centered visual enhancements",
-                "Used icons with brand colours and stackable cards for better engagement and scannability."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/home-page/mob-process-2-3.webp",
-                  "altTitle" : "The BIG Jobsite : home page current jobseeker help tools",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Top Fold / Hero Area Redesign",
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "The existing top fold was visually bland, lacked a strong value statement, and blended in with generic job boards."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/home-page/mob-process-3-1.webp",
-                  "altTitle" : "The BIG Jobsite : previous home page top search",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Enlarged the logo for brand presence.",
-                "Added a bold headline and compelling intro text.",
-                "Introduced a stacked layout with a visually distinct search module placed over a black background for stronger contrast and differentiation."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/home-page/mob-process-3-2.webp",
-                  "altTitle" : "The BIG Jobsite : home page a previous iteration of the top search / home.",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Amended the heading strapline and to be bigger to reflect the logo sizing.",
-                "Added a strong background image that reflects the brand to give a more iconic and bold top fold."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/home-page/mob-process-3-3.webp",
-                  "altTitle" : "The BIG Jobsite : home page current top search",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
+        "wireframeImage": {
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
+        }
+      },
 
-        }
-      ],
-      "solution": [
-        {
-          "title": "The Solution",
-          "steps": [
-            {
-              "sectionTitle": "Navigation",
-              "sectionPara": "Created a tabbed container for Industry and City filters, defaulting to Industry. Simplified the layout from an 8-column view to a single-panel format, reducing cognitive load and improving mobile usability."
-            },
-            {
-              "sectionTitle": "Services Section",
-              "sectionPara": "Used card-based layout and added icons in brand colours. Initially launched with four content areas; later condensed to three for clarity and moved non-critical content (e.g., blog links) to the footer."
-            },
-            {
-              "sectionTitle": "Top Fold",
-              "sectionPara": "Revamped with an engaging intro, clearer headline, stronger brand presence, and a right-side search module placed over a bold background to draw attention and improve brand confidence."
-            }
-          ]
-        }
-      ],
-      "Reflection": [
-        "The adaptive tab UX for filters improved accessibility and reduced overwhelm, especially on mobile.",
-        "The updated services section added clarity and user value, making the homepage feel more purposeful.",
-        "The redesigned top fold elevated first impressions and helped differentiate the brand from competitors.",
-        "Future iterations could involve A/B testing homepage variations to further enhance engagement and conversion."
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/home-page/dt-home-cur.webp",
-          "altTitle" : "The BIG Jobsite : desktop current home page",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/home-page/mob-process-3-3.webp",
-          "altTitle" : "The BIG Jobsite : mobile current current home page",
-          "width" : 390,
-          "height" : 771
-        }
-      ]
+      "outcome": {
+        "title" : "The Outcome",
+        "outcomeSummary" : [
+          "The redesigned job results page delivered a cleaner, more intuitive experience across desktop and mobile. Job listings are more readable, filters are consolidated into a single-step process, and value-added content is strategically highlighted without disrupting flow. Users can now focus on their search while easily accessing top jobs, premium ads, and career tools. Positive feedback highlighted the improved visual hierarchy, reduced friction, and enhanced mobile experience. The split layout and mobile-first design also provide a scalable framework for future iterations, ensuring the platform remains efficient, engaging, and user-centric."
+        ],
+
+        "outcomeLink" : "https://www.thebigjobsite.com/results?"
+      }
     },
     {
       "id": 2,
-      "slug": "job-results-page",
-      "CaseStudyTitle": "job Results Page",      
-      "CaseStudyImg": [
+      "slug": "job-details-page",
+      "mainTitle": "Clear & Engaging", 
+      "mainTitleHighlight" : "Job Details",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The BIG Jobsite : original results page",          
+        "width" : 1200,
+        "height" : 800
+      },
+
+      "role" :"Web Designer & Front-End Developer",
+      "expertise" : "UX/UI Design",
+      "tools" : "Figma | .Net",
+      "timeLine" : "4 Months",
+      
+      "summary": {
+        "title" : "Project Overview",
+        "mainSummary" : "The Job Details Page was redesigned to improve clarity, engagement, and conversion for jobseekers. The previous layout was functional but lacked modern visual appeal, and mobile users faced friction due to duplicated CTAs and convoluted job alert sign-ups. The redesign focused on streamlining interactions, improving hierarchy, and adding intuitive features like a top search bar and a single-step email sign-up form.",
+
+        "overviewPoints" : [
+          {
+            "id": 1,
+            "pointTitle": "Objective",
+            "pointPara": "Modernise the job details page to enhance usability, engagement, and conversion. Ensure jobseekers can easily scan critical information, apply for roles, sign up for alerts, and explore similar jobs—all in a mobile-first, visually clean layout."
+          },
+          {
+            "id": 2,
+            "pointTitle": "Core Challenge",
+            "pointPara": "The original page suffered from redundancy on mobile, unclear content hierarchy, and underutilised engagement tools like email sign-ups and “Similar Jobs.” The challenge was to simplify and modernise the layout while keeping all functionality accessible and intuitive across devices."
+          }
+        ]
+      },
+
+      "showCaseImages": [
         {
-          "url" : "/images/case-study/results/dt-results-og.webp",
+          "url" : "/images/placeholder-image.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1320,
-          "height" : 771
+          "width" : 1200,
+          "height" : 800
         },
         {
-          "url" : "/images/case-study/results/dt-results-cur.webp",
-          "altTitle" : "The BIG Jobsite : current results page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project focused on simplifying a cluttered job results page and improving the search and filtering experience. The original layout was overwhelming, and users struggled with fragmented navigation, particularly on mobile. As the lead designer, I aimed to modernize the page by prioritizing job listings, streamlining filters, and improving mobile functionality.",
-        "The solution involved transitioning to a single-column job card layout, creating a clearer visual hierarchy, and refining the search and filter experience. We added strategic callouts like top-matching jobs and premium ads, ensuring a more cohesive and engaging experience. These changes led to improved user focus and engagement across both desktop and mobile platforms."
-      ],
-      "CurrentIssues": [
-        "The original job results layout was overcrowded, especially above the fold, with no clear focal point.",
-        "Search and filter functionality was unintuitive, particularly on mobile, with fragmented overlays and disjointed workflows.",
-        "The two-column job card layout made it difficult for individual listings to stand out.",
-        "Value-added content (like featured jobs or tools) was buried and often overlooked."
-      ],
-      "CurrentIssuesImgs": [
-        {
-          "url" : "/images/case-study/results/dt-results-og.webp",
+          "url" : "/images/placeholder-image.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1320,
-          "height" : 771
+          "width" : 1200,
+          "height" : 800
         }
-      ],
-      "GoalPoints": [
-        "Simplify and modernize the job results layout for clarity and usability.",
-        "Shift from a two-column job listing to a single-column layout, allowing job cards to be more detailed and readable.",
-        "Create a more intuitive and consolidated search and filter experience across desktop and mobile.",
-        "Introduce strategic callouts (e.g. top-matching jobs, premium ads, email prompts, and career tools) to improve utility and user engagement."
       ],
 
-      "process": [
-        {
-          "title": "Main Layout",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Job cards were visually competing with dense sidebar content and header elements. The layout felt chaotic, making it hard for users to focus on key tasks like scanning results or applying filters."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/results/dt-results-process-1-1.webp",
-                  "altTitle" : "The BIG Jobsite : 2 column cards results with left filter options",
-                  "width" : 1320,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Tested removing right-hand content to create a two-column flow (filters + job results).",
-                "Assessed how users interacted with footer-level CTAs like sign-ups or tools."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/results/dt-results-process-1-2.webp",
-                  "altTitle" : "The BIG Jobsite : 1 card display with left filter options",
-                  "width" : 1320,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Adopted a split layout",
-                "Left column: Job results aligned with reading flow.",
-                "Right column: Search filters and tools in a persistent sidebar for scannability."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/results/dt-results-process-1-3.webp",
-                  "altTitle" : "The BIG Jobsite : 1 card display with right filter options",
-                  "width" : 1320,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
+      "evaluateEnhance": {
+        "title" : "Evaluate & Enhance",
+        "evaluateEnhanceSummary" : [
+          "The redesign focused on creating a cleaner, more conversion-optimised page. Key changes included removing duplicate CTAs on mobile, adding a one-step email sign-up form above the “Similar Jobs” section, and improving the layout hierarchy with a “Key Facts” summary at the top. A persistent top search bar was also introduced to guide users toward additional opportunities, increasing engagement and reducing friction. These enhancements made the page more usable, visually appealing, and effective at converting visits into applications or sign-ups."
+        ],
 
-        },
-        {
-          "title": "Search & Filters Navigation",
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Search and filter features were separated across modals or tabs, adding unnecessary steps—especially frustrating on mobile.",
-                "Sticky search bar with separate modal dialogs for each filter type."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/results/mob-results-process-2-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Desktop: On results and details pages: Search bar placed prominently across the top / Filters remain visible in the right-hand sidebar for real-time adjustments without losing context.",
-                "Mobile: A single icon triggers an overlay where users access both search and filters in one view / Filters expand beneath the search field, not replacing it — supporting continuity and minimizing taps / Advanced Search expands in-place for power users without hiding current inputs."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/results/mob-results-process-2-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Desktop: moved the search into the header so this was present across all url pages.",
-                "Mobile: kept the same behaviour, added the background styling detail to give consistency and placed the whole nav & filters in front of a black background to give a more dynamic contrast & visual appeal."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/results/mob-results-process-2-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
+        "evaluateEnhanceImages": [
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          }
+        ]
+      },
+      
+      "improvements": {
+        "title": "Opportunities for Improvement",
+        "mainSummary" : "While the new design improved clarity and engagement, further opportunities exist to increase user interaction, personalise content, and measure effectiveness.",
 
+        "points": [
+          {
+            "id": 1,
+            "sectionTitle": "A/B Testing of CTA Placement",
+            "sectionPara": "Experiment top vs bottom CTA positions and in-line email form placement to optimise click-through and scroll depth."
+          },
+          {
+            "id": 2,
+            "sectionTitle": "Dynamic 'Similar Jobs'",
+            "sectionPara": "Personalise suggestions based on user behaviour, past searches, or profile data."
+          },
+          {
+            "id": 3,
+            "sectionTitle": "Job Alert Personalisation",
+            "sectionPara": "Allow users to customise alert preferences or receive role-specific notifications."
+          },
+          {
+            "id": 4,
+            "sectionTitle": "Interactive Key Facts",
+            "sectionPara": "Expand the top “Key Facts” section to include badges, skill highlights, or quick apply options."
+          },
+          {
+            "id": 5,
+            "sectionTitle": "Analytics Integration",
+            "sectionPara": "Track which sections drive applications and sign-ups for continuous optimisation."
+          }
+        ]
+      },
+      
+      "wireframe": {
+        "title" : "Finalised Wireframe",
+
+        "wireframeImage": {
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         }
-      ],
-      "solution": [
-        {
-          "title": "Solution",
-          "steps": [
-            {
-              "sectionTitle": "Final Layout",
-              "sectionPara": "Shifted to a split view with job listings on the left and filters/tools on the right."
-            },
-            {
-              "sectionTitle": "Final Layout",
-              "sectionPara": "Removed non-critical elements from the sidebar and repositioned them as supportive “footer” content."
-            },
-            {
-              "sectionTitle": "Final Layout",
-              "sectionPara": "Featured content (premium ads, CV tools, email sign-ups) appears as injected cards between job results to avoid interrupting flow."
-            },
-            {
-              "sectionTitle": "Search & Filters (Cross-Device)",
-              "sectionPara": "Consolidated interactions into a single-step search + filter process."
-            },
-            {
-              "sectionTitle": "Search & Filters (Cross-Device)",
-              "sectionPara": "Maintained visibility of the search field even while expanding filters. Reduced clicks and cognitive load, especially on mobile."
-            },
-            {
-              "sectionTitle": "Strategic Enhancements",
-              "sectionPara": "Highlighted top-matching jobs at the top of results."
-            },
-            {
-              "sectionTitle": "Strategic Enhancements",
-              "sectionPara": "Introduced custom-styled premium ad placements."
-            },
-            {
-              "sectionTitle": "Strategic Enhancements",
-              "sectionPara": "Injected promotional cards for tools like CV writing/reviews."
-            },
-            {
-              "sectionTitle": "Strategic Enhancements",
-              "sectionPara": "Prompted users to sign up for job alerts at logical breakpoints."
-            }
-          ]
-        }
-      ],
-      "Reflection": [
-        "The redesigned layout improved user focus on job listings and streamlined the filtering experience across devices.",
-        "Positive feedback was received on the cleaner look and fewer steps needed to refine searches.",
-        "Balancing helpful callouts (ads, tools) without disrupting user flow was difficult. Strategic placement after key sections helped maintain layout clarity.",
-        "Mobile interaction required multiple iterations to minimize friction and avoid redundant modals.",
-        "Iterative prototyping led to clearer, more effective solutions.",
-        "A mobile-first mindset early in the design process is critical for scalable usability",
-        "Creating continuity between components (search + filters) greatly enhances the user journey.",
-        "Initiate user testing earlier to catch pain points sooner.",
-        "Include more diverse user groups in usability testing for broader accessibility insights."
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/results/dt-results-cur.webp",
-          "altTitle" : "The BIG Jobsite : desktop current results page",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/results/mob-results-cur.webp",
-          "altTitle" : "The BIG Jobsite : mobile current results page",
-          "width" : 390,
-          "height" : 771
-        }
-      ]
+      },
+
+      "outcome": {
+        "title" : "The Outcome",
+        "outcomeSummary" : [
+          "The Job Details Page redesign delivered a modern, mobile-first experience that streamlined user interactions and improved engagement. Redundant CTAs were removed, a single-step email sign-up simplified job alert subscriptions, and a “Key Facts” summary at the top enhanced content readability. The “Similar Jobs” section was reorganised for clarity and relevance, and the top search bar allowed users to quickly explore other roles. Overall, the page became visually cleaner, easier to navigate, and more conversion-focused, balancing usability, engagement, and a seamless experience across devices."
+        ],
+
+        "outcomeLink" : "https://www.thebigjobsite.com/details/5CE6D9C536F192501895ED31FD9D5F41/sales-executive-sales-executive"
+      }
     },
     {
       "id": 3,
-      "slug": "job-details-page",
-      "CaseStudyTitle": "Job Details Page",
-      
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/details/dt-details-og.webp",
-          "altTitle" : "The BIG Jobsite : original job details page",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/details/dt-details-cur.webp",
-          "altTitle" : "The BIG Jobsite : current job details page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project aimed to modernize the job details page by enhancing its clarity and engagement. The previous layout was functional but lacked a modern visual appeal, and mobile users faced redundancy with duplicated CTAs. Additionally, the “Similar Jobs” section lacked structure, and there was no easy way to sign up for job alerts.",
-        "The solution involved streamlining the CTAs by removing the duplication on mobile, adding a single-step email sign-up form, and improving the layout for better readability. We also enhanced the 'Similar Jobs' section and added a top search bar for easier navigation. These updates resulted in a more user-friendly, conversion-optimized job details page."
-      ],
-      "CurrentIssues": [
-        "The overall layout of the job details page was functional but lacked a modern touch and visual clarity.",
-        "On mobile, the call-to-action (CTA) to apply and sign up for job alerts was duplicated — appearing both at the top and bottom — causing unnecessary repetition and potential user confusion..",
-        "The “Similar Jobs” card design had been revised multiple times to improve page hierarchy and readability.",
-        "There was no immediate email sign-up field; users had to go through extra steps to receive job alerts."
-      ],
-      "CurrentIssuesImgs": [
-        {
-          "url" : "/images/case-study/details/dt-details-og.webp",
-          "altTitle" : "The BIG Jobsite : original job details page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "GoalPoints": [
-        "Modernise and simplify the job details page layout for better clarity and engagement.",
-        "Eliminate duplicate CTAs on mobile to reduce friction and streamline user journeys.",
-        "Enhance the visual layout and hierarchy of “Similar Jobs” for easier scanning. Introduce a single-step email sign-up form directly within the page content to increase sign-ups.",
-        "Introduce strategic callouts (e.g. top-matching jobs, premium ads, email prompts, and career tools) to improve utility and user engagement."
-      ],
-
-      "process": [
-        {
-          "title": "Layout & CTA Structure",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "The page had a clean base layout, but duplication of CTA buttons and inconsistent modal behaviour impacted usability."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/details/mob-details-process-1-1.webp",
-                  "altTitle" : "The BIG Jobsite : original details page with apply at the top",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Tested mobile CTA placement — ensuring “Apply” and “Share” buttons remained fixed at the bottom for constant visibility.",
-                "Explored modal designs for sharing jobs across social platforms."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/details/mob-details-process-1-2.webp",
-                  "altTitle" : "The BIG Jobsite : previous iteration with the apply and share cta stuck at the bottom.",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Key details breakdown from the job description added to the top",
-                "A top apply CTA and a bottom CTA to give the user options and easy action to apply straight away to the job.",
-                "Added a search field to the top of the job detail page, giving users a clear path to explore other roles (especially useful for users arriving from external sources)."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/details/mob-details-process-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Similar Jobs & Email Sign-up",
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Similar jobs section lacked structure, and the absence of an easy sign-up form meant missed engagement."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/details/mob-details-process-2-1.webp",
-                  "altTitle" : "The BIG Jobsite : original simialr jobs and cta for email sign-up",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Implemented a simplified job alert form — pulling job title and location automatically to reduce user input."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/details/mob-details-process-2-2.webp",
-                  "altTitle" : "The BIG Jobsite : 1st revised with email sign up and similar jobs",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Inserted an in-line email sign-up field just above the “Similar Jobs” section, minimising clicks and simplifying the process.",
-                "Streamlined the job cards to reduce visual noise and prioritise relevance."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/details/mob-details-process-2-3.webp",
-                  "altTitle" : "The BIG Jobsite : 2nd revised email sign up with similar jobs",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "solution": [
-        {
-          "title": "Solution",
-          "steps": [
-            {
-              "sectionTitle": null,
-              "sectionPara": "Created a cleaner, more focused layout for job details that improved content readability and CTA visibility."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Introduced a top-of-page search bar for users to quickly explore other opportunities."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Simplified the job alert signup to a one-field form, improving accessibility and reducing steps."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Added “Key Facts” extracted from the job content, displayed at the top of the job page to help users scan for crucial info quickly."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Optimised mobile layout with persistent CTA bar and removed duplicated sections."
-            }
-          ]
-        }
-      ],
-      "Reflection": [
-        "This project showed how small UI changes can have a big impact on usability, especially for mobile-first users. By simplifying redundant CTAs, improving job content hierarchy, and reducing friction in the sign-up flow, we delivered a cleaner, more conversion-friendly job detail page. In the future, I'd love to A/B test the placement of the email form and “Similar Jobs” to see how it affects scroll depth and sign-ups."        
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/details/dt-details-cur.webp",
-          "altTitle" : "The BIG Jobsite : desktop current job details page",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/details/mob-details-cur.webp",
-          "altTitle" : "The BIG Jobsite : mobile current details page mobile",
-          "width" : 390,
-          "height" : 771
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "slug": "email-signup",
-      "CaseStudyTitle": "Email Sign-up",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/email-alerts/dt-email-alerts-og.webp",
-          "altTitle" : "The BIG Jobsite : original email sign up pop-up",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/email-alerts/dt-email-alerts-cur.webp",
-          "altTitle" : "The BIG Jobsite : current email sign up page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project focused on improving the user experience around email alert sign-ups and the behaviour to capture new jobseekers to sign-up to our email alerts.",
-        "The original experience was disruptive and unclear—pop-ups appeared too frequently and messaging lacked clarity.",
-        "Working collaboratively with developers, I redesigned key touchpoints to create a more seamless, helpful, and visually consistent experience.",
-        "This included refining pop-up behaviour, improving feedback messaging and aligning layouts across touchpoints.",
-        "The result was a more user-friendly flow that encouraged sign-ups without overwhelming users."
-
-      ],
-      "CurrentIssues": [
-        "Users were immediately shown an email sign-up pop-up on every page load, including redirect and exit pages, leading to a frustrating experience.",
-        "Error and success messages lacked clarity and a human-friendly tone.",
-        "Inconsistent layout between the pop-up and its dedicated URL page, making the experience feel disjointed."
-      ],
-      "CurrentIssuesImgs": [
-        {
-          "url" : "/images/case-study/email-alerts/dt-email-alerts-og.webp",
-          "altTitle" : "The BIG Jobsite : original email sign up pop-up",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "GoalPoints": [
-        "Collaborate with developers to trigger the email pop-up at more appropriate moments—mainly on the results page or when exiting through it.",
-        "Improve feedback messaging with clearer, more human language.",
-        "Redesign the pop-up to include helpful tips, soft vector graphics, and clear value props to encourage sign-ups."
-      ],
-
-      "process": [
-        {
-          "title": "Design Layout",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Cluttered form layout, particularly challenging on mobile."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-1.webp",
-                  "altTitle" : "The BIG Jobsite : original email sign up pop-up",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Focused on mobile usability: Collaborated with developers to reduce form fields, removing non-essential inputs like first and last name."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-2.webp",
-                  "altTitle" : "The BIG Jobsite : previous design layout of email sign up pop-up",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Implemented consistent layout and tone across both entry points."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-3.webp",
-                  "altTitle" : "The BIG Jobsite : current email sign up page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Behaviour & Placement",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Overwhelming and repetitive pop-ups on every page view, presences on the page was not very strong."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-2-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Determined optimal trigger moments for the pop-up (results page, exit intent, redirect pages), sticky email banner."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-2-2.webp",
-                  "altTitle" : "The BIG Jobsite : previous behaviour to be fixed at the bottom of both the job details and results pages.",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Email Sign-up card added to results page less space taken up on mobile views and simpler form to fill out but with the option to customise the keyword and location fields."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-2-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Error Handling",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Minimal feedback during and after submission."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-3-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Researched and implemented more user-friendly feedback messages."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/email-alerts/mob-email-alerts-process-3-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "solution": [
-        {
-          "title": "Solution",
-          "steps": [
-            {
-              "sectionTitle": null,
-              "sectionPara": "Streamlined the user journey to prevent overexposure to pop-ups."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Introduced clearer, friendlier messaging and redirect logic for registered users. Maintained consistent visual and structural design across all email alert touchpoints."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Maintained consistent visual and structural design across all email alert touchpoints."
-            }
-          ]
-        }
-      ],
-      "Reflection": [
-        "Reflecting on this project, it reinforced the importance of timing and context in user experience. By observing real user pain points and working closely with developers, we were able to improve not just the visual layout, but the overall logic of how and when these features show up. One takeaway was how small tweaks in micro copy or layout consistency can have a big impact on user trust and engagement."        
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/email-alerts/dt-email-alerts-cur.webp",
-          "altTitle" : "The BIG Jobsite : desktop current email sign up page",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/email-alerts/mob-email-alerts-process-1-3.webp",
-          "altTitle" : "The BIG Jobsite : mobile original email sign up page",
-          "width" : 390,
-          "height" : 771
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "slug": "email-management",
-      "CaseStudyTitle": "Email Management",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/email-manage/dt-email-manage-og.webp",
-          "altTitle" : "The BIG Jobsite : original email management page",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/email-manage/dt-email-manage-cur.webp",
-          "altTitle" : "The BIG Jobsite : current email management page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project focused on improving the user experience around managing their email alerts.",
-        "The original experience was outdated and not in-line with TheBIGJobsite brand which lead to user confusion.",
-        "Working collaboratively with developers, to keep track if the user is signed in or add a email input to be able to log back into their account.",
-        "The end result was much more modernised and gave the user a much more clear indication on what email alerts were active."
-      ],
-      "CurrentIssues": [
-        "The existing 'Edit Alert' feature linked from emails led to a confusing and outdated email management page with unclear options.",
-        "Not on brand with TheBIGJobsite, using an old colour theme and url path, brand logo was also not clearly visible either.",
-        "Mobile responsive was cluttered with a horizonal scroll which made it difficult for users to navigate and organise."
-      ],
-      "CurrentIssuesImgs": [
-        {
-          "url" : "/images/case-study/email-manage/dt-email-manage-og.webp",
-          "altTitle" : "The BIG Jobsite : original email management page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "GoalPoints": [
-        "Assist with the Developers to create an 'account profile icon' on the home page so the user could see if they were logged in.  Added wording changes in footer: 'Get Email Job Alerts' to 'Manage Email Job Alerts'.",
-        "Overhaul the email management page to improve usability, layout clarity, and allow users to manage or add job alerts easily.",
-        "Ensured the Manage Email page was responsive for the user.",
-        "Added help topics to aid the user for better Email results which fell inline with out system database logic."
-      ],
-
-      "process": [
-        {
-          "title": "Design Layout",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Outdated, unclear design, which was not on brand, and brand logo was not clear."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-manage/mob-email-manage-process-1-1.webp",
-                  "altTitle" : "The BIG Jobsite : original email management page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Modernised the layout for a cleaner, more intuitive experience, added icon graphics for 'edit' and 'delete' options."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-manage/mob-email-manage-process-1-2.webp",
-                  "altTitle" : "The BIG Jobsite : current email management page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Responsive Layout",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Cluttered horizontal scrolling email alerts layout made it particularly challenging on mobile."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/email-manage/mob-email-manage-process-2-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Clear stackable with an accordion like feel for managing email alerts, making the first email alert open for easy readability."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/email-manage/mob-email-manage-process-2-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "User Messages",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Profile Icon & Footer",
-              "sectionPara": [
-                "Clear profile icon in header and footer text changed when a user is logged in."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-manage/mob-email-manage-process-3-1.webp",
-                  "altTitle" : "The BIG Jobsite : cta when a user is logged in to their email management account",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Better Email Searches",
-              "sectionPara": [
-                "No guidance on improving alert accuracy or relevance, so added Included tips and soft visual elements to better communicate the value of email alerts."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/email-manage/mob-email-manage-process-3-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "solution": [
-        {
-          "title": "Solution",
-          "steps": [
-            {
-              "sectionTitle": null,
-              "sectionPara": "Updated the visual layout to be more on brand and modernised structural design."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Redesigned the Email Management page to be more informative, easier to navigate, and action-oriented."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Empowered users to better manage and customize their alerts for more accurate job matches."
-            }
-          ]
-        }
-      ],
-      "Reflection": [
-        "Reflecting on this project, it reinforced the importance of brand consistency and how this can effect the user journey.  By keeping the user engaged with our site and add small details to help them know if they have signed up to email alerts by added a profile icon.  I would like to expand on this page more and add more sections including; 'saving jobs', keywords they have searched for and locations, and potentially including the option to upload their CV and make amends when applying directing to jobs."        
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/email-manage/dt-email-manage-cur.webp",
-          "altTitle" : "The BIG Jobsite : desktop current email management page",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/email-manage/mob-email-manage-process-1-2.webp",
-          "altTitle" : "The BIG Jobsite : mobile current email management page",
-          "width" : 390,
-          "height" : 771
-        }
-      ]
-    },
-    {
-      "id": 6,
       "slug": "company-pages",
-      "CaseStudyTitle": "Company Pages",
-      "CaseStudyImg": [
+      "mainTitle": "Customisable Company", 
+      "mainTitleHighlight" : "Profiles",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The BIG Jobsite : original results page",          
+        "width" : 1200,
+        "height" : 800
+      },
+
+      "role" :"Web Designer & Front-End Developer",
+      "expertise" : "UX/UI Design",
+      "tools" : "Figma | .Net",
+      "timeLine" : "4 Months",
+      
+      "summary": {
+        "title" : "Project Overview",
+        "mainSummary" : "Company Pages was redesigned to allow employers to showcase their brand, culture, and open roles in a visually engaging and flexible way. The goal was to transform a generic, uninspiring layout into a modular, brand-rich experience while keeping the broader platform familiar and navigable for jobseekers.",
+
+        "overviewPoints" : [
+          {
+            "id": 1,
+            "pointTitle": "Objective",
+            "pointPara": "Redesign company pages to give each employer a unique, customizable presence that reflects their brand identity and highlights key content such as culture, values, employee stories, and job listings. Improve the jobseeker experience by making company exploration more engaging and intuitive." 
+          },
+          {
+            "id": 2,
+            "pointTitle": "Core Challenge",
+            "pointPara": "The previous pages were cluttered, uninspiring, and offered minimal differentiation. Generic layouts and slow-loading results pages especially hurt mobile experiences. The challenge was to create flexible templates and modular components that allowed companies to express their uniqueness while maintaining a scalable, consistent framework across the platform."
+          }
+        ]
+      },
+
+      "showCaseImages": [
         {
-          "url" : "/images/case-study/company/dt-company-og.webp",
-          "altTitle" : "The BIG Jobsite : original company pages",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         },
         {
-          "url" : "/images/case-study/company/dt-company-cur.webp",
-          "altTitle" : "The BIG Jobsite : current company pages",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         }
-      ],
-      "Summary": [
-        "In 2022, I led the design of a new Company Pages experience to allow employers to showcase their brand, culture, and open roles in a more engaging and customizable way. The original layout lacked visual appeal and differentiation, resulting in low user engagement. Through research, layout redesign, and bespoke features for each employer, we created a scalable solution that gave companies more ownership over their presence on the platform while improving jobseeker experience."
-      ],
-      "CurrentIssues": [
-        "The previous layout was cluttered and uninspiring. Job listings appeared on the left, with a pop-up opening on click—creating a poor experience, especially on mobile.",
-        "There was minimal visual engagement: little imagery, little differentiation, and a layout nearly identical to the main results page.",
-        "As a result, company pages lacked personality and didn't reflect each employer's unique brand."
-      ],
-      "CurrentIssuesImgs": [
-        {
-          "url" : "/images/case-study/company/dt-company-og.webp",
-          "altTitle" : "The BIG Jobsite : original company pages",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "GoalPoints": [
-        "Create a visually rich and structured company index that allows users to explore employers at a glance, with filtering options and short company intros.",
-        "Design dedicated company homepages with flexible, customisable modules that companies can use to highlight what matters most to them (e.g., culture, values, employee stories, imagery).",
-        "Offer a tailored job results page for each company, maintaining some familiarity with the broader site structure but with a focused, branded feel."
       ],
 
-      "process": [
-        {
-          "title": "Top Hero Section",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Generic design with little room for companies to stand out."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/company/mob-company-process-1-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Introduced more imagery and branding content, provided by companies, to make each page feel unique."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/company/mob-company-process-1-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Each signed-up company now receives a fully dedicated landing page."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/company/mob-company-process-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "About Section & Additional Content",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Jobseekers found little incentive to explore as this was in a separate tab and jobseekers might miss seeing what the company has to offer or engage beyond a simple job listing."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/company/mob-company-process-2-1.webp",
-                  "altTitle" : "The BIG Jobsite : original company pages mobile about section",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Designed modular page templates with optional sections (e.g., about the team, job category, company values)."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/company/mob-company-process-2-2.webp",
-                  "altTitle" : "The BIG Jobsite : 1st revised company page results",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Pages include rich visuals, tailored content, and flexible layout options."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/company/mob-company-process-2-3.webp",
-                  "altTitle" : "The BIG Jobsite : current company page about",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Company Results Page",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Slow-loading, clunky job interactions on mobile."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/company/mob-company-process-3-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Built a stand alone results page for each company, featuring tailored job filters relevant to that company's structure or roles."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/company/mob-company-process-3-2.webp",
-                  "altTitle" : "The BIG Jobsite : revised version company page results page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Jobseekers can explore all roles for that company in a clean, structured results page, by keeping it within theBIGJobsite brand."
-              ],
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/company/mob-company-process-3-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "solution": [
-        {
-          "title": "Solution",
-          "steps": [
-            {
-              "sectionTitle": null,
-              "sectionPara": "A fully customizable company landing page for each employer, with optional modules for storytelling and branding."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Dedicated results pages showcasing jobs for a single company, with consistent but focused filtering."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "A refined index page with clear company overviews, improved navigation, and filtering by sector or type."
-            }
-          ]
-        }
-      ],
-      "Reflection": [
-        "This project reinforced the value of giving users — both jobseekers and companies — more control and clarity. By designing flexible templates and incorporating more visual storytelling, we helped employers better represent their brand while making it easier for jobseekers to explore meaningful opportunities. A key learning was how design systems and modular thinking can scale well across different needs without sacrificing individuality."        
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/company/dt-company-cur.webp",
-          "altTitle" : "The BIG Jobsite : desktop current company pages",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/company/mob-company-process-2-3.webp",
-          "altTitle" : "The BIG Jobsite : mobile current company pages",
-          "width" : 390,
-          "height" : 771
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "slug": "email-job-alerts",
-      "CaseStudyTitle": "Email Job Alerts",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/email-design/dt-email-og.webp",
-          "altTitle" : "The BIG Jobsite : original email designs",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/email-design/dt-email-cur.webp",
-          "altTitle" : "The BIG Jobsite : current email designs",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project focused on redesigning our job alert emails to be fully responsive, visually aligned with our core site experience, and compatible across all devices, email clients, and screen modes.",
-        "The previous design was outdated, hard to read on mobile, and inconsistent across light and dark modes. My goal was to create a mobile-first, accessible layout that maintained brand integrity while improving readability, usability, and technical performance across environments."
-      ],
-      "CurrentIssues": [
-        "The email design was originally desktop-first, resulting in small, hard-to-read text and poor usability on mobile devices.",
-        "Visually outdated compared to competitors, with minimal branding or hierarchy.",
-        "It wasn't clear where users had signed up from, making tracking and contextual relevance challenging.",
-        "Emails rendered inconsistently across clients and screen modes (dark/light),",
-        "creating unpredictable user experiences."
-      ],
-      "CurrentIssuesImgs": [
-        {
-          "url" : "/images/case-study/email-design/dt-email-og.webp",
-          "altTitle" : "The BIG Jobsite : current email designs",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "GoalPoints": [
-        "Redesign with a mobile-first approach to improve readability and accessibility.",
-        "Align the layout with our main results page design to provide a consistent experience across touchpoints.",
-        "Ensure the layout renders properly across all common email clients (Gmail, Apple Mail, Outlook) and devices (iOS, Android).",
-        "Design and test for dark and light mode compatibility to maintain brand integrity regardless of system settings."
-      ],
+      "evaluateEnhance": {
+        "title" : "Evaluate & Enhance",
+        "evaluateEnhanceSummary" : [
+          "The redesign introduced fully dedicated landing pages for each company with optional modules for storytelling, culture, and imagery. Modular layouts were tested to ensure visual balance and engagement, while dedicated company job results pages improved mobile performance and filtering relevance. By consolidating content and refining interactions, we enhanced clarity and usability for both employers and jobseekers."
+        ],
 
-      "process": [
-        {
-          "title": "Email Alerts Design",
-          "topSummary": [],
-          "steps": [
-            {
-              "sectionTitle": "Initial Layout",
-              "sectionPara": [
-                "Inadequate testing environment made it hard to simulate real-world email rendering scenarios.",
-                "Fonts and layout broke at smaller screen widths.",
-                "Inconsistent rendering in dark mode across devices and clients.",
-                "Lack of hierarchy and visual clarity."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-design/mob-email-process-1-1.webp",
-                  "altTitle" : "The BIG Jobsite : 1st revised option for email design",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Early Explorations",
-              "sectionPara": [
-                "Built a robust email testing workflow that one of our developers had used making it easy to debug issues.",
-                "Prioritized mobile layout first, with clear hierarchy, larger tap targets, and legible font sizes.",
-                "Designed flexible colour schemes and layouts that adjusted based on device and dark/light mode detection.",
-                "Used email client friendly inline CSS and tested fallbacks to ensure wide compatibility."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-design/mob-email-process-1-2.webp",
-                  "altTitle" : "The BIG Jobsite : 2nd revised email design (dark mode)",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "sectionTitle": "Final Direction",
-              "sectionPara": [
-                "Clean, full-width mobile-friendly layout with job results as the focal point.",
-                "Simplified design with consistent font sizes and spacing for easy scanning.",
-                "Self-service testing setup allowed me to validate designs without relying on developers.",
-                "Minimal colour palette ensured consistent appearance across all modes and clients."
-              ],
-              "images": [
-                {
-                  "url" : "/images/case-study/email-design/mob-email-process-1-3.webp",
-                  "altTitle" : "The BIG Jobsite : current email design feat a top job design",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
+        "evaluateEnhanceImages": [
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          }
+        ]
+      },
+      
+      "improvements": {
+        "title": "Opportunities for Improvement",
+        "mainSummary" : "Although the new design significantly improved engagement and flexibility, there are still opportunities to enhance analytics, personalization, and interactivity for both employers and jobseekers.",
+
+        "points": [
+          {
+            "id": 1,
+            "sectionTitle": "Analytics & Insights",
+            "sectionPara": "Provide companies with metrics on page visits, module engagement, and job application conversion rates."
+          },
+          {
+            "id": 2,
+            "sectionTitle": "Personalisation for Users",
+            "sectionPara": "Enable jobseekers to save favourite companies or receive alerts when new roles are posted."
+          },
+          {
+            "id": 3,
+            "sectionTitle": "Interactive Modules",
+            "sectionPara": "Introduce features like embedded videos, employee testimonials, or interactive culture maps."
+          },
+          {
+            "id": 4,
+            "sectionTitle": "Content Management Tools",
+            "sectionPara": "Offer easier CMS options for employers to update modules without developer support."
+          }
+        ]
+      },
+      
+      "wireframe": {
+        "title" : "Finalised Wireframe",
+
+        "wireframeImage": {
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         }
-      ],
-      "solution": [
-        {
-          "title": "Solution",
-          "steps": [
-            {
-              "sectionTitle": null,
-              "sectionPara": "A responsive, branded, and visually consistent email layout that works seamlessly on all devices."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Streamlined design that's easy to maintain and scalable across the business for different use cases."
-            },
-            {
-              "sectionTitle": null,
-              "sectionPara": "Consistent experience for users regardless of their device, screen mode, or email client."
-            }
-          ]
-        }
-      ],
-      "Reflection": [
-        "This project was a great reminder of how much complexity sits behind email design—especially when aiming for consistency across a fragmented ecosystem of devices and clients. By focusing on mobile-first design, simplifying layout and colour schemes, and improving the testing environment, I was able to deliver a more reliable and polished experience. One key takeaway was the importance of building workflows that support autonomy—having a test setup I could use independently significantly sped up iteration and improved final outcomes."        
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/email-design/dt-email-cur.webp",
-          "altTitle" : "The BIG Jobsite : desktop current email designs",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/email-design/mob-email-cur.webp",
-          "altTitle" : "The BIG Jobsite : mobile current email designs (dark mode)",
-          "width" : 390,
-          "height" : 771
-        }
-      ]
-    }    
+      },
+
+      "outcome": {
+        "title" : "The Outcome",
+        "outcomeSummary" : [
+          "The redesigned Company Pages provide a scalable and visually rich experience for both employers and jobseekers. Employers can now fully customise landing pages with modular storytelling, visuals, and flexible content to showcase their brand identity, while jobseekers benefit from structured company overviews and dedicated results pages for easier exploration of roles. The refined index page, improved navigation, and sector-based filtering enhance discoverability, engagement, and overall usability. By combining modular design, visual storytelling, and consistent UX patterns, the platform now balances individuality for companies with a coherent experience for users."
+        ],
+
+        "outcomeLink" : "https://www.thebigjobsite.com/companies/the-john%20lewis%20partnership"
+      }
+    }   
   ],
   
   "newCaseStudies": [
     {
-      "id": 1,
-      "slug": "commercial-product-pages",
-      "CaseStudyTitle": "Commerical Product Pages",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/product/dt-ces-home.webp",
-          "altTitle" : "The BIG Jobsite : current Customer Email Services product page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-
-      "Summary": [
-        "This project involved designing and developing a series of product pages to showcase our key services and offerings to both new users and potential partners. Each page was tailored to reflect the unique value of its respective service—ranging from CV reviews to premium advertising—while maintaining a consistent brand experience. The goal was to combine clear messaging, visual engagement, and functional consistency to drive interest, trust, and conversions."
-      ],
-      
-      "projectOverview": [
-        {
-          "title": "Project Overview",
-          "topSummary": [
-            "Create a cohesive suite of branded product pages to:",
-            "Clearly communicate the value of each service.",
-            "Engage new users and attract potential partners.",
-            "Provide a visually engaging, user-friendly experience."
-          ],
-          
-          "topImages": [
-            {
-              "type": "video",
-              "url" : "/images/case-study/product/dt-po-about.mp4",
-              "width" : 776,
-              "height" : 458
-            }
-          ],
-          "subTitle": "Pages Included",
-          "subSummary": [
-            {
-              "title" : "CV Review Page (in partnership with WriteSea)",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/product/mob-cvr-home.webp",
-                  "altTitle" : "The BIG Jobsite : mobile CV review product page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "About Page",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/product/mob-about-home.webp",
-                  "altTitle" : "The BIG Jobsite : mobile About product page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Company Pages",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/product/mob-cp-home.webp",
-                  "altTitle" : "The BIG Jobsite : mobile Company product page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Premium Ads",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/product/mob-pa-home.webp",
-                  "altTitle" : "The BIG Jobsite : mobile Premium Ads product page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "CES (Customer Email Services)",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/product/mob-ces-home.webp",
-                  "altTitle" : "The BIG Jobsite : mobile Customer Email Services product page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        }
-      ],
-
-      "colours": [
-        "#0E0E0E",
-        "#663399",
-        "#FFAF1B",
-        "#D64005",
-        "#F7F7F7"
-      ],
-      
-      "roleTech": [
-        {
-          "title": "Your Role & Tech Stack",
-          "role": "Web Designer & Front-End Developer",
-          "responsibilities": [
-            "Scoped and created wireframes and high-fidelity designs.",
-            "Built front-end code and addressed UI/UX challenges",
-            "Designed custom graphics and imagery tailored to each service."
-          ],
-
-          "images": [
-            {
-              "url" : "/images/tech-icons/tech-adobe.svg",
-              "altTitle" : "Adobe logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-figma.svg",
-              "altTitle" : "Figma logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-html.svg",
-              "altTitle" : "HTML logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-css.svg",
-              "altTitle" : "CSS logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-js.svg",
-              "altTitle" : "JavaScript logo"
-            }
-          ],
-          
-          "additionalImages": [
-            {
-              "title" : "Bespoke graphics for each product page but had the same design asthetics.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/product/mob-ts-1-1.webp",
-                  "altTitle" : "The BIG Jobsite : mobile section of the CV Review help",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Partner section tailor a different feel and exploring more darker options.",
-              "subImage": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/product/mob-ts-1-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Different layout apporaches and organising of key points and data.",
-              "subImage": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/product/mob-ts-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      
-      "keyGoals": [
-        {
-          "title": "Key Goals / Design Priorities",
-          "summary": [
-            {
-              "title" : "Establish a unified design system across all product pages.",
-              "images": [
-                {
-                  "url" : "/images/case-study/product/mob-kg-1-1.webp",
-                  "altTitle" : "The BIG Jobsite : mobile global section used on all product pages",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Stay on-brand using consistent colour schemes and typography.",
-              "images": [
-                {
-                  "url" : "/images/case-study/product/mob-kg-1-2.webp",
-                  "altTitle" : "The BIG Jobsite : mobile Premium Ads benefits section",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Create visually engaging layouts that feel dynamic and informative.",
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/product/mob-kg-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Build with accessibility and usability in mind, ensuring content is readable and navigable for all users.",
-              "images": [
-                {
-                  "url" : "/images/case-study/product/mob-kg-1-4.webp",
-                  "altTitle" : "The BIG Jobsite : mobile universal contact form across all product pages",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        }
-      ],
-
-      "highlights": [
-        "Visually engaging custom graphics and icons.",
-        "Human-friendly tone and clear messaging tailored to both users and partners.  Modular, reusable layout structures to maintain consistency while allowing customization.",
-        "Accessible design patterns with proper contrast, spacing, and font sizing.  Unique branding elements per page to give each service a distinct identity."
-      ],
-      "Reflection": [
-        "This project allowed for a more expressive and creative design approach while staying grounded in usability.",
-        "Successfully merged branded consistency with individual page personality.",
-        "Introduced subtle scroll animations and motion design to enhance interactivity.",
-        "Incorporated more human-centric imagery, though future iterations could include real-life product visuals or user screenshots to add further authenticity.",
-        "The self-contained nature of each page made it easier to repurpose layouts across marketing efforts, saving time and design resources long term."
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/product/dt-r-ces-wl.webp",
-          "altTitle" : "The BIG Jobsite : desktop customer email for their white label service",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/product/dt-r-cp-benefits.webp",
-          "altTitle" : "The BIG Jobsite : common how to get set-up section across most product pages",
-          "width" : 1320,
-          "height" : 771
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "slug": "clicked365-redesign",
-      "CaseStudyTitle": "Clicked365 Website Redesign",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/attc/dt-attc-home.webp",
-          "altTitle" : "ATTC : home page desktop",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project involved a full rebranding and redesign of the outdated ATTC website to better reflect the service's modern capabilities under its new identity—Clicked365. The goal was to deliver a more engaging, accessible, and mobile-friendly experience while clearly communicating the platform's core offering and benefits to both users and partners. The redesign also included a new logo, updated visual language, and SEO-focused layout enhancements."
-      ],
-      
-      "projectOverview": [
-        {
-          "title": "Project Overview",
-          "topSummary": [
-            "Redesign the existing ATTC (AllTheTopClicks) website with a fresh, modern layout and new brand identity—Clicked365.",
-            "Simplify and clearly communicate the service offering and value proposition.",
-            "Highlight core benefits using engaging icons and vector illustrations.",
-            "Showcase current partners to build trust and credibility.",
-            "Ensure mobile responsiveness and SEO best practices are integrated.",
-            "Create a new brand logo and colour palette aligned with the updated tone and visual direction."
-          ],
-
-          "topImages": [
-            {
-              "type": "video",
-              "url" : "/images/case-study/attc/dt-po-attc-home.mp4",
-              "width" : 776,
-              "height" : 458
-            }
-          ],
-          "subTitle": null,
-          "subSummary": []
-        }
-      ],
-
-      "colours": [
-        "#0B0B0B",
-        "#009193",
-        "#CCF0F1",
-        "#FAFCFB"
-      ],
-      
-      "roleTech": [
-        {
-          "title": "Your Role & Tech Stack",
-          "role": "Web Designer (end-to-end creative lead)",
-          "responsibilities": [
-            "Scoped and developed wireframes and high-fidelity designs.",
-            "Led the rebranding effort, including the new Clicked365 logo design.",
-            "Designed all supporting graphics, icons, and layout elements.",
-            "Collaborated with stakeholders for feedback iterations and brand positioning."
-          ],
-
-          "images": [
-            {
-              "url" : "/images/tech-icons/tech-adobe.svg",
-              "altTitle" : "Adobe logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-figma.svg",
-              "altTitle" : "Figma logo"
-            }
-          ],
-          "additionalImages": [
-            {
-              "title" : "Revised logo designs for light and dark backgrounds.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/attc/attc-logos.svg",
-                  "altTitle" : "Clicked365 : Clicked365 logo designs",
-                  "width" : 400,
-                  "height" : 352
-                }
-              ]
-            },
-            {
-              "title" : "Bespoke icon graphics designs, fitting for the new site.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/attc/attc-icons.svg",
-                  "altTitle" : "Clicked365 : updated and revised logo and graphic designs",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "updated top banner that is more captivating and highlights the companie presence.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/attc/hero-banner.png",
-                  "altTitle" : "Clicked365 : update banner design",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      
-      "keyGoals": [
-        {
-          "title": "Key Goals / Design Priorities",          
-          "summary": [
-            {
-              "title" : "Deliver a clean and modern layout that feels trustworthy and intuitive.",
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/attc/mob-kg-attc-1-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Develop a visual identity (logo, colour scheme, typography) that differentiates Clicked365 from competitors.",
-              "images": [
-                {
-                  "url" : "/images/case-study/attc/mob-attc-kg-1-2.webp",
-                  "altTitle" : "Clicked365 : mobile top hero banner",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Use bespoke iconography and vector graphics to reinforce benefits and improve scannability.",
-              "images": [
-                {
-                  "url" : "/images/case-study/attc/mob-attc-kg-1-3.webp",
-                  "altTitle" : "Clicked365 : mobile icons for benefits sections",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Improve mobile responsiveness and follow accessibility best practices.",
-              "images": [
-                {
-                  "url" : "/images/case-study/attc/mob-attc-kg-1-4.webp",
-                  "altTitle" : "Clicked365 : mobile partner section",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Maintain a consistent visual tone across the site that aligns with the new brand direction.",
-              "images": [
-                {
-                  "url" : "/images/case-study/attc/mob-attc-kg-1-5.webp",
-                  "altTitle" : "Clicked365 : mobile contact section",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        }
-      ],
-
-      "highlights": [
-        "Full rebranding: new logo, typography, and brand colour palette.",
-        "Use of modular, reusable design components for scalability.",
-        "Engaging banner graphics and supporting visuals tailored to user segments.",
-        "Section highlighting trusted partners, improving perceived credibility.",
-        "Mobile-first design, with optimal text scaling, contrast, and spacing.",
-        "SEO-friendly content structure with a focus on performance and readability."
-
-      ],
-      "Reflection": [
-        "Successfully delivered a modern, branded redesign that clearly reflects the value of the Clicked365 platform.",
-        "Created a visual identity that feels both professional and user-friendly, supported by positive internal feedback.",
-        "Introduced more flexibility in brand assets (logo variants, icon packs, colour styles) for future campaigns.",
-        "Learned the importance of iterating quickly based on stakeholder feedback—particularly during the logo approval phase.",
-        "The final design balanced visual creativity with functionality, delivering a responsive, engaging experience across all devices."
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/attc/dt-attc-r-benefits.webp",
-          "altTitle" : "Clicked365 : desktop benefits icon section",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/attc/dt-attc-r-partners.webp",
-          "altTitle" : "Clicked365 : desktop partner section",
-          "width" : 1320,
-          "height" : 771
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "slug": "disrupted-cloud",
-      "CaseStudyTitle": "Disrupted Cloud Website & Brand Design",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/disrupted-cloud/dt-dc-home.webp",
-          "altTitle" : "Disrupted Cloud : desktop hero section",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project focused on establishing a strong online presence for Disrupted Cloud, a digital brand offering two core services: a collection of niche job sites and a performance-driven solution called Lightning Clicks. The challenge was to build a sleek, modern homepage that communicated the value of each offering, reinforced the brand identity through a bold visual style, and ensured seamless user experience across devices. The project included a full visual rebrand, with custom logo design, a dark-themed UI, and hand-crafted illustrations, all while maintaining SEO performance and accessibility standards."
-      ],
-      
-      "projectOverview": [
-        {
-          "title": "Project Overview",
-          "topSummary": [
-            "The goal was to design and develop a striking homepage for Disrupted Cloud, presenting a clear, engaging narrative around its two main services:",
-            "A growing suite of niche job sites.",
-            "Lightning Clicks, a targeted performance advertising solution.",
-            "The site needed to balance both offerings while providing clarity to new users and potential partners. The approach emphasized mobile-first design, SEO-conscious layout decisions, and a visually rich experience with dark UI foundations and vibrant accents."
-          ],
-
-          "topImages": [
-            {
-              "type": "video",
-              "url" : "/images/case-study/disrupted-cloud/dt-po-dc-home.mp4",
-              "width" : 776,
-              "height" : 458
-            }            
-          ],
-          "subTitle": "Deliverables also included",
-          "subSummary": [
-            {
-              "title" : "New logo concepts for both Disrupted Cloud and Lightning Clicks.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/disrupted-cloud/dc-logos.webp",
-                  "altTitle" : "Disrupted Cloud : Disrupted cloud and lightning clicks logo",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "Graphic assets that align with a modern tech-forward brand image.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/disrupted-cloud/dc-lightning-screen.webp",
-                  "altTitle" : "Disrupted Cloud : lightning clicks laptop dashboard screen",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "Clear sectioning for service overviews, benefit highlights, and live previews of active niche sites",
-              "subImage": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/disrupted-cloud/mob-di-dc-home.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-
-        }
-      ],
-
-      "colours": [
-        "#01040F",
-        "#36F7F4",
-        "#FCF76D",
-        "#FAF9F6"
-      ],
-      
-      "roleTech": [
-        {
-          "title": "Your Role & Tech Stack",
-          "role": "Web Designer & Front-End Developer",
-          "responsibilities": [
-            "Led the UX/UI direction through wireframing, prototyping, and final visual designs.",
-            "Designed new brand identities and visual systems for both Disrupted Cloud and Lightning Clicks.",
-            "Developed custom HTML, CSS, and JavaScript layouts.",
-            "Collaborated with internal stakeholders throughout design reviews and branding iterations."
-          ],
-
-          "images": [
-            {
-              "url" : "/images/tech-icons/tech-adobe.svg",
-              "altTitle" : "Adobe logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-figma.svg",
-              "altTitle" : "Figma logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-html.svg",
-              "altTitle" : "HTML logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-css.svg",
-              "altTitle" : "CSS logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-js.svg",
-              "altTitle" : "JavaScript logo"
-            }
-          ],
-          "additionalImages": [
-            {
-              "title" : "Auto scrolling carousel of niche sites.",
-              "subImage": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/disrupted-cloud/mob-ts-dc-niche-1-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Highlight page details in an auto scrolling carousel.",
-              "subImage": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/disrupted-cloud/mob-ts-dc-lc-1-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Impactful top hero section with unique colours and text gradients.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/disrupted-cloud/mob-ts-home.webp",
-                  "altTitle" : "Disrupted Cloud : mobile top hero home page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      
-      "keyGoals": [
-        {
-          "title": "Key Goals / Design Priorities",
-          "summary": [
-            {
-              "title" : "Establish a sleek, dark-themed homepage with bold contrast and clean UI flow.",
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Create distinct visual identities for the parent brand and its service offerings.",
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Incorporate scroll-triggered animations and modular layout patterns.",
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Highlight active niche sites through an interactive showcase section.",
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/disrupted-cloud/mob-kg-dc-niche-1-4.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-
-      "highlights": [
-        "Fully custom logos and branding for Disrupted Cloud and Lightning Clicks.",
-        "Bespoke icons and banners tailored to a modern, tech-savvy audience.",
-        "Interactive carousel showcasing live niche websites with direct links.",
-        "Mobile-optimized layout with fluid spacing and scalable typography.",
-        "Strong focus on performance and SEO-readiness, ensuring fast loads and search visibility.",
-        "Flexible design system for future product/service expansion."
-
-      ],
-      "Reflection": [
-        "This project provided a great opportunity to dive deeper into brand-driven design and explore creative UI patterns while keeping functionality top of mind.",
-        "Balancing a bold visual style (dark mode, vibrant contrast) with usability required careful testing across devices.",
-        "Iterating branding alongside the UI made it easier to align visual tone across assets from day one.",
-        "Introducing animation and modular design patterns added a more dynamic and memorable user experience.",
-        "The result was a polished, versatile homepage that now acts as a strong digital front door for the brand and its offerings."
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/disrupted-cloud/dt-r-niche.webp",
-          "altTitle" : "Disrupted Cloud : desktop niche site section",
-          "width" : 1320,
-          "height" : 771
-        },
-        {
-          "url" : "/images/case-study/disrupted-cloud/dt-r-lc.webp",
-          "altTitle" : "Disrupted Cloud : desktop lightning clicks section",
-          "width" : 1320,
-          "height" : 771
-        }
-      ]
-    },
-    {
       "id": 4,
-      "slug": "all-niche-sites",
-      "CaseStudyTitle": "All Niche Sites",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/dc-niche-sites/dt-niche-se-home.webp",
-          "altTitle" : "Niche Sites : SearchEngineerJobs home page desktop",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "This project focused on designing and building a suite of industry-specific niche job sites, each with a unique visual identity but sharing a consistent HTML structure. The goal was to provide partners with tailored platforms targeting distinct job sectors, while keeping front-end development scalable and maintainable. Each site included custom branding elements, thematic colour palettes, unique category icons, and responsive layouts optimized for mobile and SEO performance."
-      ],
+      "slug": "industry-job-platforms",
+      "mainTitle": "Scalable & Custom Career", 
+      "mainTitleHighlight" : "Experiences",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The BIG Jobsite : original results page",          
+        "width" : 1200,
+        "height" : 800
+      },
+
+      "role" :"Web Designer & Front-End Developer",
+      "expertise" : "UX/UI Design",
+      "tools" : "Figma | .Net",
+      "timeLine" : "4 Months",
       
-      "projectOverview": [
+      "summary": {
+        "title" : "Project Overview",
+        "mainSummary" : "Industry Job Platforms is a suite of industry-specific job boards, each with a unique visual identity but built on a shared HTML structure. The project aimed to provide partners with tailored platforms for different job sectors while maintaining scalability, efficiency, and a consistent user experience across all sites.",
+
+        "overviewPoints" : [
+          {
+            "id": 1,
+            "pointTitle": "Objective",
+            "pointPara": "Design and develop multiple niche job sites with distinct branding while using a unified HTML foundation to reduce code redundancy. Each site needed to be visually appealing, responsive, SEO-friendly, and easy to maintain and scale for new industries." 
+          },
+          {
+            "id": 2,
+            "pointTitle": "Core Challenge",
+            "pointPara": "Balancing uniqueness and consistency was the main challenge. Each Industry Job Platforms required its own branding, icons, and colour palette, but the underlying structure and UX had to remain consistent. The project also demanded a scalable front-end approach to ensure future sites could be launched quickly without repeating development work." 
+          }
+        ]
+      },
+
+      "showCaseImages": [
         {
-          "title": "Project Overview",
-          "topSummary": [
-            "The objective was to create a family of niche job boards, each with its own branding and styling, while sharing the same HTML foundation to reduce code redundancy. This allowed the business to scale its offering quickly and efficiently for multiple job sectors, making each site attractive to partners targeting specific industries."
-          ],
-
-          "topImages": [
-            {
-              "type": "video",
-              "url" : "/images/case-study/dc-niche-sites/dt-po-catering-home.mp4",
-              "width" : 776,
-              "height" : 458
-            }
-          ],
-          "subTitle": "Included in the scope",
-          "subSummary": [
-            {
-              "title" : "Custom logo design and favicon per niche site",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/dc-niche-sites/niche-logos-1.webp",
-                  "altTitle" : "Niche Sites : Logo designs",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "Bespoke banner and category icon graphics",
-              "subImage": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/dc-niche-sites/mob-is-marketing-1-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Individual colour palettes and light/dark themes",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/dc-niche-sites/mob-niche-is-te-details.webp",
-                  "altTitle" : "Niche Sites : dark styling details page and error handling colour scheme",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Fully responsive, mobile-first page layouts",
-              "subImage": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/dc-niche-sites/mob-is-teaching-1-4.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-
-      "colours": [
-        "#97D8E7",
-        "#B83138",
-        "#F7B050",
-        "#C8D9F0",
-        "1A4879"
-      ],
-      
-      "roleTech": [
-        {
-          "title": "Your Role & Tech Stack",
-          "role": "Web Designer & Front-End Developer",
-          "responsibilities": [
-            "Led UX/UI design and front-end development",
-            "Created high-fidelity wireframes and prototypes",
-            "Designed logos, favicons, and supporting brand assets for each niche site",
-            "Developed universal HTML with site-specific CSS themes for visual differentiation",
-            "Collaborated with backend developers to streamline CMS and content population"
-          ],
-          
-          "images": [
-            {
-              "url" : "/images/tech-icons/tech-adobe.svg",
-              "altTitle" : "Adobe logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-figma.svg",
-              "altTitle" : "Figma logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-html.svg",
-              "altTitle" : "HTML logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-css.svg",
-              "altTitle" : "CSS logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-js.svg",
-              "altTitle" : "JavaScript logo"
-            }
-          ],
-          "additionalImages": [
-            {
-              "title" : "Collection of custom logo and favicon designs for each Niche site.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/dc-niche-sites/niche-logos-2.webp",
-                  "altTitle" : "Niche Sites : Logo designs",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "Custom results page styling same functionality for additional search and filters.",
-              "subImage": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/dc-niche-sites/mob-ts-medical-results-1-2.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Custom about page section tailored for each unique Niche site.",
-              "subImage": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/dc-niche-sites/mob-ts-construction-about-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      
-      "keyGoals": [
-        {
-          "title": "Key Goals / Design Priorities",
-          "summary": [
-            {
-              "title" : "Deliver visually unique yet structurally unified websites for each niche",
-              "images": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/dc-niche-sites/mob-kg-engineer-details-1-1.mp4",
-                  "width" : 776,
-                  "height" : 458
-                }
-              ]
-            },
-            {
-              "title" : "Create full site templates including home, about, job listings, job details, and system pages (404, terms, privacy, etc.).",
-              "images": [
-                {
-                  "url" : "/images/case-study/dc-niche-sites/mob-niche-kg-w-404.webp",
-                  "altTitle" : "Niche Sites : custom 404 pages with search feacture.",
-                  "width" : 390,  
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Implement responsive design with intuitive mobile navigation and search experience.",
-              "images": [
-                {
-                  "type": "video",
-                  "url" : "/images/case-study/dc-niche-sites/mob-kg-driver-search-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Design custom logos and icons that reflect each job sector's personality",
-              "images": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/dc-niche-sites/dt-kg-topend-results-1-4.mp4",
-                  "width" : 776,
-                  "height" : 458
-                }
-              ]
-            },
-            {
-              "title" : "Coordinate with developers to minimize code duplication using shared HTML and dynamic content",
-              "images": [
-                {
-                  "url" : "/images/case-study/dc-niche-sites/mob-niche-kg-c-about.webp",
-                  "altTitle" : "Niche Sites : custom about page for all sites that has unique copy/text.",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            }
-          ]
-
-        }
-      ],
-
-      "highlights": [
-        "Custom logos, iconography, and branding for each site, Individualised banner graphics that visually communicate the niche focus",
-        "Category icons themed by site colour palettes",
-        "SEO-optimized layout structure and fast-loading responsive pages",
-        "Interactive carousels for job categories and related listings",
-        "Mobile-friendly navigation toggle between main and search menus",
-        "Scalable design system to allow new sites to be rolled out with minimal effort"
-
-      ],
-      "Reflection": [
-        "This was a complex, long-term project that evolved significantly as company priorities shifted. It provided valuable experience in scalable front-end architecture and dynamic theming across multiple branded experiences.",
-        "Designed a repeatable, efficient system for launching multiple sites under the same structure",
-        "Delivered consistent UX while maintaining unique brand identities for each site",
-        "Developed HTML templates with minimal duplication, using conditional logic to populate site-specific content",
-        "Successfully rolled out a full suite of pages per site including core content and legal/system pages"
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/dc-niche-sites/dt-niche-r-c-details.webp",
-          "altTitle" : "Niche Sites : custom details page keeping with the niche site theme",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         },
         {
-          "url" : "/images/case-study/dc-niche-sites/dt-niche-r-m-cat.webp",
-          "altTitle" : "Niche Sites : custom colour styling and icon graphics for each inderpendant site.",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         }
-      ]
+      ],
+
+      "validationNextSteps": {
+        "title" : "Validation & Next Steps",
+        "validationSummary" : [
+          "Early planning focused on creating a flexible, reusable system that could adapt to different industries without compromising UX or performance. Wireframes, prototypes, and style guides were used to validate layouts, navigation, and visual hierarchy for each Industry Job Platform, ensuring consistency and clarity across the suite. Concept diagrams and layout prototypes helped test responsive behaviour and content structure before full development, while shared HTML and CSS frameworks were designed for scalability, allowing new sites to be rolled out efficiently. Post-launch validation is planned to track user engagement, navigation patterns, and site-specific SEO performance to guide future optimisations."
+        ],
+
+        "validationImages": [
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          }
+        ]
+      },
+      
+      "improvements": {
+        "title": "Future Enhancements",
+        "mainSummary" : "While the core framework is fully functional, additional features are planned to enhance user engagement, content management, and scalability for future niches. These improvements focus on expanding partner capabilities and refining the user experience across devices.",
+
+        "points": [
+          {
+            "id": 1,
+            "sectionTitle": "Dynamic Dashboards",
+            "sectionPara": "Introduce dynamic dashboards for industry trends and job analytics."
+          },
+          {
+            "id": 2,
+            "sectionTitle": "Customisable Widgets",
+            "sectionPara": "Add customisable widgets for partner-specific promotions or content."
+          },
+          {
+            "id": 3,
+            "sectionTitle": "Enhance",
+            "sectionPara": "Enhance category filtering and search tools to improve user navigation."
+          },
+          {
+            "id": 4,
+            "sectionTitle": "Expand",
+            "sectionPara": "Expand accessibility features and mobile interactions."
+          },
+          {
+            "id": 5,
+            "sectionTitle": "Streamline",
+            "sectionPara": "Streamline CMS integration to allow partners to manage content with minimal developer support."
+          }
+        ]
+      },
+      
+      "wireframe": {
+        "title" : "Finalised Wireframe",
+
+        "wireframeImage": {
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
+        }
+      },
+
+      "outcome": {
+        "title" : "The Outcome",
+        "outcomeSummary" : [
+          "The Industry Job Platforms project delivered a suite of visually unique, mobile-optimized job boards built on a scalable and maintainable HTML foundation. Each site features custom branding, themed icons, responsive layouts, and SEO-friendly structures while sharing a consistent underlying architecture. The modular design system allows new niche sites to be deployed efficiently, reducing development effort and ensuring consistent UX across the suite. The project successfully balanced individuality with consistency, providing partners with tailored platforms that can be expanded and enhanced over time."
+        ],
+
+        "outcomeLink" : "https://www.searchengineerjobs.com"
+      }
     },
     {
       "id": 5,
       "slug": "my-job-dna",
-      "CaseStudyTitle": "MyJobDNA",
-      "CaseStudyImg": [
-        {
-          "url" : "/images/case-study/myjobdna/dt-myjobdna-home.webp",
-          "altTitle" : "MyJobDNA : desktop top heror section from the home page",
-          "width" : 1320,
-          "height" : 771
-        }
-      ],
-      "Summary": [
-        "MyJobDNA is an interactive web platform designed to help users uncover their ideal career paths through a personality-based quiz. By answering a series of questions, users receive a unique 3-letter DNA code, which corresponds to curated job recommendations aligned with their traits and interests. The platform is intended for a broad audience—whether starting a career, pivoting mid-journey, or simply exploring new opportunities."
-      ],
+      "mainTitle": "Interactive Career Path", 
+      "mainTitleHighlight" : "Finder",
+
+      "mainImage": {
+        "url" : "/images/placeholder-image.png",
+        "altTitle" : "The BIG Jobsite : original results page",          
+        "width" : 1200,
+        "height" : 800
+      },
+
+      "role" :"Web Designer & Front-End Developer",
+      "expertise" : "UX/UI Design",
+      "tools" : "Figma | .Net",
+      "timeLine" : "4 Months",
       
-      "projectOverview": [
+      "summary": {
+        "title" : "Project Overview",
+        "mainSummary" : "MyJobDNA is an interactive platform designed to help users discover their ideal career paths through a personality-based quiz. Users receive a unique 3-letter DNA code that corresponds to curated job recommendations, helping them explore careers in a fun, personalised, and engaging way. The platform combines quiz logic, user dashboards, and downloadable certificates, all built to be mobile-friendly, visually appealing, and connected to TheBIGJobsite's job listings.",
+
+        "overviewPoints" : [
+          {
+            "id": 1,
+            "pointTitle": "Objective",
+            "pointPara": "Design and develop an interactive web platform that guides users toward ideal career paths through a personality-based quiz. The platform needed to be engaging, intuitive, and fully responsive, offering personalised MyJobDNA results, curated job recommendations, and downloadable certificates—all while connecting seamlessly to TheBIGJobsite." 
+          },
+          {
+            "id": 2,
+            "pointTitle": "Core Challenge",
+            "pointPara": "Building a fun, accurate, and scalable quiz experience from scratch presented both UX and technical challenges. Key hurdles included designing an intuitive quiz flow, generating meaningful DNA results, creating a dashboard for logged-in users, and integrating certificates and job data in a way that maintained speed, responsiveness, and clarity across devices." 
+          }
+        ]
+      } ,
+
+      "showCaseImages": [
         {
-          "title": "Project Overview",
-          "topSummary": [
-            "The goal was to design and develop a fully responsive, mobile-optimized platform that:",
-            "Engages users through a quiz-based experience",
-            "Generates personalised MyJobDNA codes",
-            "Offers tailored job suggestions",
-            "Provides access to job detail pages that link back to TheBIGJobsite",
-            "Includes user accounts, login, and downloadable certificate features"
-          ],
-
-          "topImages": [
-            {
-              "type": "video",
-              "url" : "/images/case-study/myjobdna/dt-po-myjobdna-home.mp4",
-              "width" : 776,
-              "height" : 458
-            }
-          ],
-          "subTitle": "Included in the scope",
-           "subSummary": [
-            {
-              "title" : "Full site design (UI/UX)",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/myjobdna/mob-myjobdna-is-1-1.webp",
-                  "altTitle" : "MyJobDNA : mobile top hero section from the home page",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Logo and brand identity development",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/myjobdna/myjobdna-development-logos.svg",
-                  "altTitle" : "MyJobDNA : Developed logos",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "Quiz functionality and logic",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/myjobdna/mob-myjobdna-is-1-3.webp",
-                  "altTitle" : "MyJobDNA : quiz instructions",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Interactive dashboards and job result views",
-              "subImage": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/myjobdna/mob-is-myjobdna-1-6.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Downloadable certificates",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/myjobdna/mob-myjobdna-is-1-5.webp",
-                  "altTitle" : "MyJobDNA : unique certificate with jobdan code, name and date.",
-                  "width" : 390,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Mobile responsiveness and SEO optimisation",
-              "subImage": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/myjobdna/mob-is-myjobdna-1-4.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-
-      "colours": [
-        "#009193",
-        "#FCC200",
-        "#FFFEFC",
-        "#D2ECEC",
-        "#0B0B0B"
-      ],
-      
-      "roleTech": [
-        {
-          "title": "Your Role & Tech Stack",
-          "role": "Web Designer & Front-End Developer",
-          "responsibilities": [
-            "Led the UX/UI design process: wireframes, prototypes, and visual assets",
-            "Designed the logo, icon set, DNA illustrations, and dashboard-style layout",
-            "Built custom quiz UI with local storage tracking and logic flows",
-            "Developed React components using the Next.js framework for optimized routing",
-            "Integrated front-end features with backend logic in collaboration with developers",
-            "Used and implemented a 3rd party PDF generator to create a dynamic certificate using the user's data"
-          ],
-
-          "images": [
-            {
-              "url" : "/images/tech-icons/tech-adobe.svg",
-              "altTitle" : "Adobe logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-figma.svg",
-              "altTitle" : "Figma logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-html.svg",
-              "altTitle" : "HTML logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-css.svg",
-              "altTitle" : "CSS logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-js.svg",
-              "altTitle" : "JavaScript logo"
-            },
-            {
-              "url" : "/images/tech-icons/tech-react.svg",
-              "altTitle" : "React logo"
-            }
-          ],
-          "additionalImages": [
-            {
-              "title" : "Logo development and constructed feedback for the tone and look and feel for the site.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/myjobdna/myjobdna-final-logos.svg",
-                  "altTitle" : "MyJobDNA : Final Logos",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "Uniquly styled and developed graphics across the site including the home page icons, dna icons and background imagery.",
-              "subImage": [
-                {
-                  "url" : "/images/case-study/myjobdna/myjobdna-final-icons.svg",
-                  "altTitle" : "MyJobDNA : ",
-                  "width" : 400,
-                  "height" : 360
-                }
-              ]
-            },
-            {
-              "title" : "Tailored button styling / colours while ensuring colour contrast was maintained across the site.",
-              "subImage": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/myjobdna/mob-ts-myjobdna-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      
-      "keyGoals": [
-        {
-          "title": "Key Goals / Design Priorities",
-          "summary": [
-            {
-              "title" : "Build a fun, intuitive quiz experience with accurate results logic.",
-              "images": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/myjobdna/mob-kg-myjobdna-1-1.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Craft a dashboard-style layout for logged-in users to view results and related jobs.",
-              "images": [
-                {
-                  "url" : "/images/case-study/myjobdna/dt-myjobdna-kg-1-2.webp",
-                  "altTitle" : "MyJobDNA : results dashboard of job categories",
-                  "width" : 1320,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Provide accessible, SEO-friendly, and mobile-first design throughout.",
-              "images": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/myjobdna/mob-kg-myjobdna-1-3.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            },
-            {
-              "title" : "Implement strong brand visuals, including bespoke graphics and MyJobDNA design elements.",
-              "images": [
-                {
-                  "url" : "/images/case-study/myjobdna/dt-myjobdna-kg-1-4.webp",
-                  "altTitle" : "MyJobDNA : account login with solcial sign-in",
-                  "width" : 1320,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "IEnable users to download personalised certificates and access them via email.",
-              "images": [
-                {
-                  "url" : "/images/case-study/myjobdna/dt-myjobdna-kg-1-5.webp",
-                  "altTitle" : "MyJobDNA : email design when the user takes the quiz / signs-in",
-                  "width" : 1320,
-                  "height" : 771
-                }
-              ]
-            },
-            {
-              "title" : "Ensure technical scalability and smooth backend integration with TheBIGJobsite.",
-              "images": [
-                {
-                 "type": "video",
-                  "url" : "/images/case-study/myjobdna/mob-kg-myjobdna-1-6.mp4",
-                  "width" : 288,
-                  "height" : 556
-                }
-              ]
-            }
-          ]
-        }
-      ],
-
-      "highlights": [
-        "Custom branding and a full design system tailored to the platform",
-        "Dynamic quiz logic that stores answers and generates a unique DNA result",
-        "Responsive user dashboard showing quiz results and matched job sectors",
-        "Job detail pages with skill breakdowns and resource links",
-        "PDF certificate generator with user name and DNA code",
-        "Secure login and account settings for personalisation and data control",
-        "SEO-optimised structure with fast loading and mobile-first design",
-        "Interactive carousels to showcase each DNA type on the homepage"
-
-      ],
-      "Reflection": [
-        "This was a deeply rewarding project that combined design freedom with technical growth. Working from scratch allowed for end-to-end ownership of design and front-end development while learning and implementing Next.js in a real-world context.",
-        "Developed a solid understanding of React/Next.js for a scalable web app",
-        "Solved UX challenges in quiz logic and certificate generation",
-        "Learned to manage evolving requirements while maintaining clear design systems",
-        "Created a fully responsive product that connects users to real job listings via TheBIGJobsite"
-      ],
-      "ReflectionImgs": [
-        {
-          "url" : "/images/case-study/myjobdna/dt-myjobdna-r-certificate.webp",
-          "altTitle" : "MyJobDNA : main dashboard of results with featured personalised certificate",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         },
         {
-          "url" : "/images/case-study/myjobdna/dt-myjobdna-r-dna.webp",
-          "altTitle" : "MyJobDNA : unique dna results with icongraphics for each dna",
-          "width" : 1320,
-          "height" : 771
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
         }
-      ]
+      ],
+
+      "validationNextSteps": {
+        "title" : "Validation & Next Steps",
+        "validationSummary" : [
+          "Before launch, the platform was designed with validation and scalability in mind. Early concept mapping and UX flows ensured the quiz experience was intuitive, the DNA logic accurate, and the dashboard interactions clear, providing a solid foundation for real user testing and ongoing optimisation. Early experience mapping helped validate the end-to-end journey—from quiz entry to DNA result and dashboard interactions—ensuring smooth navigation and logical handoffs. The modular component structure, built with the Next.js framework, supports scalable updates and future feature expansions. Planned usability testing will measure quiz completion, result engagement, and job click-through rates across diverse user groups to guide continuous improvement."
+        ],
+
+        "validationImages": [
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          },
+          {
+            "url" : "/images/placeholder-image.png",
+            "altTitle" : "The BIG Jobsite : original results page",          
+            "width" : 1200,
+            "height" : 800
+          }
+        ]
+      },
+      
+      "improvements": {
+        "title": "Future Enhancements",
+        "mainSummary" : "The MyJobDNA platform is built to grow, and several enhancements are planned to deepen user engagement, refine results, and expand functionality. These improvements focus on personalised career guidance, interactive dashboards, and sharing capabilities while maintaining a clean, responsive experience.",
+
+        "points": [
+          {
+            "id": 1,
+            "sectionTitle": "Expand",
+            "sectionPara": "Expand DNA logic to include more granular personality traits and refined job-matching rules."
+          },
+          {
+            "id": 2,
+            "sectionTitle": "Introduce",
+            "sectionPara": "Introduce saved results and historical tracking so users can revisit recommendations over time."
+          },
+          {
+            "id": 3,
+            "sectionTitle": "Enhance",
+            "sectionPara": "Enhance dashboards with skill progression insights, learning resources, and career planning tools."
+          },
+          {
+            "id": 4,
+            "sectionTitle": "Enable",
+            "sectionPara": "Enable social sharing of results and certificates to increase engagement and reach."
+          },
+          {
+            "id": 5,
+            "sectionTitle": "Scale",
+            "sectionPara": "Scale job data integrations and add new features as user needs evolve."
+          }
+        ]
+      },
+      
+      "wireframe": {
+        "title" : "Finalised Wireframe",
+
+        "wireframeImage": {
+          "url" : "/images/placeholder-image.png",
+          "altTitle" : "The BIG Jobsite : original results page",          
+          "width" : 1200,
+          "height" : 800
+        }
+      },
+
+      "outcome": {
+        "title" : "The Outcome",
+        "outcomeSummary" : [
+          "The MyJobDNA platform successfully delivered a fully responsive, mobile-first experience that guides users through a personality-based quiz to discover career paths. Users receive unique DNA codes linked to curated job recommendations and can access a personalised dashboard to track their results and download certificates. Custom branding, illustrations, and interactive components created an engaging experience, while a modular React/Next.js framework ensured scalability and future feature expansion. By integrating directly with TheBIGJobsite, the platform connects users to live job listings, offering a seamless, intuitive, and launch-ready career exploration tool."
+        ],
+
+        "outcomeLink" : "https://www.myjobdna.com"
+      }
     }          
   ]
 }

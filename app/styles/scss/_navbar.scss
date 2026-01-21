@@ -1,50 +1,48 @@
 @use 'variables' as theme;
 
 .dashboard-header {
-  position: sticky;
-  z-index: 10;
+  border: 1px solid theme.$WhiteOpacityLight;
+  // position: sticky;
+  // z-index: 10;
   display: flex;
   align-items: center;
-  top: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
-  padding: 1rem;
-  background: linear-gradient(-160deg, #000000  0%, #1E293B  100%);
+  justify-content: space-between;
+  // top: 0;
+  // left: 0;
+  // height: 70px;
+  // width: 100%;
+  padding: 1rem 2rem;
+  background: linear-gradient(theme.$AccentBlack 0%, theme.$SubBlack 50%, theme.$AccentBlack 100%);  
+  margin: 1rem;
+  border-radius: 1.75rem;
 
-  .main-logo {
-    box-sizing: border-box;
-    height: 100%;
-
-    .img-container {
-      width: 100%;
-      height: 100%;
-    
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-    }      
+  h2 {
+    @include theme.SmFontSize;
+    color: theme.$White;
   }
 
   .nav-icon {
-    padding: 0.25rem 0.5rem;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 0.5rem;
-    transform: translateY(-50%);
-    
-    &::after {
-      @include theme.IconStandard;
-      @include theme.XLrgDimensions;
-      transition: 0.4s ease-in-out;
-      background-image: url(/images/site-icons/icon-burger-nav.svg);        
-    }
-    
-    &:hover::after { background-image: url(/images/site-icons/icon-burger-nav-hv.svg); }
+    @include theme.SmFontSize;
+    color: theme.$White;
   }
+
+  // .nav-icon {
+  //   padding: 0.25rem 0.5rem;
+  //   cursor: pointer;
+  //   // position: absolute;
+  //   // top: 50%;
+  //   // right: 0.5rem;
+  //   transform: translateY(-50%);
+    
+  //   &::after {
+  //     @include theme.IconStandard;
+  //     @include theme.XLrgDimensions;
+  //     transition: 0.4s ease-in-out;
+  //     background-image: url(/images/site-icons/icon-burger-nav.svg);        
+  //   }
+    
+  //   &:hover::after { background-image: url(/images/site-icons/icon-burger-nav-hv.svg); }
+  // }
 
   .nav-icon.expanded {
     transition: 0.4s ease-in-out;
@@ -54,135 +52,40 @@
     &:hover::after { background-image: url(/images/site-icons/icon-close-hv.svg); }
   }
 
-  .main-navbar {
-    position: absolute;
+  .main-navbar { display: none; }
+
+  .main-navbar.expanded { 
+    display: grid;
+    position: fixed;
     top: 70px;
     left: 0;
     width: 100%;
     height: calc(100vh - 70px);
-    background: linear-gradient(-45deg, #000000  0%, #1E293B  100%);
-    display: none;
-
-    .navbar-menu {
-      padding: 1.25rem;
-
-      .navbar-links {
-        text-align: left;
-        padding: 1rem 0;
-
-        li {
-          padding: 0.75rem 0;
-          display: grid;
-          cursor: pointer;
-
-          a {
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-            transition: 0.4s ease-in-out;
-            
-            p {
-              color: theme.$LightGrey;
-              @include theme.LrgFontSize;
-              font-weight: 300;
-              font-family: 'Heebo', sans-serif;
-            }
-
-            .menu-icon { @include theme.NavIcon; }
-            
-            .home-icon { background: url(/images/site-icons/logo-initial.svg) no-repeat; }
-
-            .about-icon { background: url(/images/site-icons/nav-about.svg) no-repeat; }
-
-            .contact-icon { background: url(/images/site-icons/nav-contact.svg) no-repeat; }
-
-            .projects-icon { background: url(/images/site-icons/nav-projects.svg) no-repeat; }
-          }
-
-          &:hover { 
-            @include theme.MainTextCol; 
-            
-            .home-icon { background: url(/images/site-icons/logo-initial.svg) no-repeat; }
-
-            .about-icon { background: url(/images/site-icons/nav-about-hv.svg) no-repeat; } 
-
-            .contact-icon { background: url(/images/site-icons/nav-contact-hv.svg) no-repeat; }
-
-            .projects-icon { background: url(/images/site-icons/nav-projects-hv.svg) no-repeat; }
-          }
-        }
-
-        .home-link-active {            
-          @include theme.MainTextCol; 
-          
-          // .home-icon { background: url(/images/site-icons/logo-initial.svg) no-repeat; }
-        }
-
-        .about-link-active {            
-          @include theme.MainTextCol; 
-          
-          // .about-icon { background: url(/images/site-icons/nav-about-hv.svg) no-repeat; } 
-        }
-
-        .projects-link-active {            
-          @include theme.MainTextCol; 
-          
-          // .projects-icon { background: url(/images/site-icons/nav-projects-hv.svg) no-repeat; }
-        }
-      }
-    }
-  }
-
-  .main-navbar.expanded { 
-    display: block;
+    background: linear-gradient(theme.$TrueBlack 0%, theme.$SubBlack 50%, theme.$TrueBlack 100%);  
 
     .navbar-menu  {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+
       .navbar-links {
         display: grid;
         gap: 3rem;
 
         li { 
           padding: 0 0;
+          text-align: center;
           
           a {
-            
-            .home-icon { background: url(/images/site-icons/logo-initial.svg) no-repeat; }
+            transition: 0.4s ease-in-out;
+            color: rgba(228, 228, 228, 0.7);
+            @include theme.MedLrgFontSize;
+            font-weight: 200;
 
-            .about-icon { background: url(/images/site-icons/nav-about-hv.svg) no-repeat; }
-
-            .contact-icon { background: url(/images/site-icons/nav-contact-hv.svg) no-repeat; }
-
-            .projects-icon { background: url(/images/site-icons/nav-projects-hv.svg) no-repeat; }
+            &:hover {
+              color: theme.$Cream;
+            }
           }
-
-          &:hover { 
-            
-            .home-icon { background: url(/images/site-icons/logo-initial.svg) no-repeat; }
-
-            .about-icon { background: url(/images/site-icons/nav-about.svg) no-repeat; } 
-
-            .contact-icon { background: url(/images/site-icons/nav-contact.svg) no-repeat; }
-
-            .projects-icon { background: url(/images/site-icons/nav-projects.svg) no-repeat; }
-          }
-        }
-        
-        .home-link-active {            
-          @include theme.MainTextCol; 
-          
-          .home-icon { background: url(/images/site-icons/logo-initial.svg) no-repeat; }
-        }
-
-        .about-link-active {            
-          @include theme.MainTextCol; 
-          
-          .about-icon { background: url(/images/site-icons/nav-about.svg) no-repeat; } 
-        }
-
-        .projects-link-active {            
-          @include theme.MainTextCol; 
-          
-          .projects-icon { background: url(/images/site-icons/nav-projects.svg) no-repeat; }
         }
       }
     }
@@ -193,53 +96,38 @@
 
   .body-container {
     .dashboard-header {
-      
-      height: 100vh;
-      display: grid;
-      align-items: start;
-      padding: 1.5rem 2rem;
-      background: initial;
-
-      &::after {
-        content: '';
-        position: absolute;
-        top: 100px;
-        right:  0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(180deg, rgba(30, 41, 59, 0) 0%, rgba(255, 1, 129, 0.2) 10%, rgba(103, 232, 249, 0.5) 50%, rgba(255, 1, 129, 0.2) 90%) rgba(30, 41, 59, 0) 100%,;
-      }
-      
-      .main-logo { height: initial; }
+      display: flex;
+      padding: 0.5rem 0.75rem 0.5rem 2rem;
 
       .nav-icon { display: none; }
 
       .main-navbar {
-        display: grid;
-        background: inherit;
-        top: 100px;
+        display: block;
 
         .navbar-menu {
-          padding: 0 1rem 0 2.25rem;
 
           .navbar-links {
-            display: grid;
-            gap: 1rem;
-            padding: 1rem 0;
-            // justify-content: center;
-
-            a p { @include theme.MedLrgFontSize; }
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
             
-            .home-link-active p,
-            .about-link-active p,
-            .projects-link-active p { font-weight: 500; }
-          }
-
-          .nav-link {
+            li { 
+              padding: 0 0;
+              text-align: center;
+          
+              a {
+                transition: 0.4s ease-in-out;
+                color: theme.$WhiteOpacityMid;
+                @include theme.SmFontSize;
+                font-weight: 200;
             
-            &::before {
-              @include theme.IconStandard;
-              @include theme.LrgDimensions;
+                &:hover { color: theme.$Cream; }
+              }
+            }
+
+            .contact-link {
+              @include theme.BtnMain;
+              padding: 0.5rem 0.75rem;
             }
           }
         }
