@@ -15,9 +15,9 @@ const Marquee = () => {
   }, []);
 
   return (
-    <div className="marquee-container">
+    <div className='marquee-container'>
 
-      <div className="inner-scroll" ref={scrollRef}>
+      <div className='inner-scroll' ref={scrollRef}>
         <ul>
           <li>
             <div className='about-img-container'>

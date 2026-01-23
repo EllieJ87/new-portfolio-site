@@ -3,380 +3,236 @@
 .about-container {
 
   .about-header {
-    padding: 2rem 1rem;
-    display: grid;
-    gap: 1rem;
-    padding-bottom: 1.5rem;
-
-    h1 {
-      @include theme.XLrgFontSize;
-      // @include theme.MainTextCol;
-    }
     
-    .about-text {
-      display: grid;
-      gap: 1rem;
-      // color: theme.$White;
-    }
-
-    .about-imgs {      
-      .img-container {
+    .marquee {
+      overflow: hidden;
+    
+      .marquee-container {
         width: 100%;
-        height: 100%;
-        max-height: 28rem;
-        border-radius: 0.5rem;
-        box-shadow: 0 0 12px 0 rgba(250, 250, 250, 0.3);
-        
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: center;
-          border-radius: 0.5rem;
-        }
-      }
-    
-      .img-one, .img-three { display: none; }
-    }
-  }
-
-  .about-skills {
-    padding: 2rem 1rem;
-    display: grid;
-    gap: 1rem;
-    padding-bottom: 1.5rem;    
-
-    h2 {
-      @include theme.XLrgFontSize;
-      // @include theme.MainTextCol;
-    }
-
-    .skills-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2.5rem 1.25rem;
-
-      .skill-item {
-        display: grid;
-        gap: 0.5rem;
-        text-align: center;
-        
-        .skills-icon {
-          @include theme.SkillsIcon;
-          place-self: center;
-        }
-    
-        .adobe-icon { background: url(/images/tech-icons/tech-adobe.svg) no-repeat; }
       
-        .figma-icon { background: url(/images/tech-icons/tech-figma.svg) no-repeat; }
+        .inner-scroll {
+          display: flex;
+          animation: scroll-left 30s linear infinite;
+          width: max-content;
         
-        .uxui-icon { background: url(/images/tech-icons/tech-uxui.svg) no-repeat; }
-      
-        .responsive-icon { background: url(/images/tech-icons/tech-responsive.svg) no-repeat; }
-      
-        .concept-icon { background: url(/images/tech-icons/tech-concept-art.svg) no-repeat; }
-
-        .illustration-icon { background: url(/images/tech-icons/tech-illustration.svg) no-repeat; }
-
-        .web-design-icon { background: url(/images/tech-icons/tech-web-design.svg) no-repeat; }
-      
-        .html-icon { background: url(/images/tech-icons/tech-html.svg) no-repeat; }
-        
-        .css-icon { background: url(/images/tech-icons/tech-css.svg) no-repeat; }
-        
-        .scss-icon { background: url(/images/tech-icons/tech-scss.svg) no-repeat; }
-        
-        .js-icon { background: url(/images/tech-icons/tech-js.svg) no-repeat; }
-      
-        .bootstrap-icon { background: url(/images/tech-icons/tech-bootstrap.svg) no-repeat; }
-      
-        .react-icon { background: url(/images/tech-icons/tech-react.svg) no-repeat; }
-
-        .nextjs-icon { background: url(/images/tech-icons/tech-nextjs.svg) no-repeat; }
-      
-        .jquery-icon { background: url(/images/tech-icons/tech-jquery.svg) no-repeat; }
-      
-        .net-icon { background: url(/images/tech-icons/tech-net.svg) no-repeat; }
-
-        .git-icon { background: url(/images/tech-icons/tech-git.svg) no-repeat; }
-
-        .skill-text {
-          // color: theme.$White;
-          font-size: 0.9rem;
-          font-weight: 200;
-        }
-      }
-    }
-  }
-
-  .about-roles {
-    padding: 2rem 1rem;
-    display: grid;
-    gap: 1rem;
-    padding-bottom: 1.5rem;
-    // color: theme.$White;
-
-    h2 {
-      @include theme.XLrgFontSize;
-      // @include theme.MainTextCol;
-    }
-
-    .roles-header {
-      display: grid;
-      gap: 0.5rem;
-      padding: 1rem 0;
-
-      h3 {
-        @include theme.MedFontSize;
-        // @include theme.GreyTextCol;
-        font-weight: 300;
-      }
-
-      .job-title, .job-date {
-        @include theme.MedFontSize; 
-        font-weight: 300;
-      }
-
-      .job-date { place-self: end; }
-    }
-    
-    .role-container {
-      display: grid;
-      gap: 1rem;
-    }
-    
-    .role-ul-container {
-      position: relative;
-      padding: 1.5rem 0 2rem;
-      display: grid;
-      gap: 1rem;
-      
-      .role-ul-contents {
-        display: flex;
-        align-items: center;
-        position: relative;
-        margin-bottom: 1.25rem;
-        
-        &::before, &::after {
-          content: "<ul>";
-          position: absolute;
-          left: 0;
-          // color: theme.$MidGrey;
-          font-size: 0.8rem;
-        }
-        
-        &::before { top: -30px; }
-        
-        &::after { bottom: -30px; }
-        
-        .vertical-line {
-          width: 2px;
-          height: 100%;
-          background: #334155;
-          margin-left: 0.9rem;
-        }
-        
-        ul {
-          // color: theme.$White;
-          margin-left: 1rem;
-          display: grid;
-          gap: 1rem;
-        }
-
-        .role-course-container {
-          gap: 2rem;
-          
-          .role-course {
-            display: grid;
-            gap: 0.5rem;
-
-            .job-title { font-weight: 500; }
+          ul {
+            display: flex;
+            gap: 3rem;
+            padding: 1.5rem 0;
+            margin: 0;
+            list-style: none;
+            
+            li {
+              &:last-of-type { margin-right: 3rem; }
+            }
           }
         }
       }
     }
 
-
-    
-    .interests-container {
+    .about-top {
       display: grid;
-      gap: 1rem;
+      justify-items: center;
       
-      .ih-container {
-        
-        h3 {
-          @include theme.MedFontSize;
-          // @include theme.GreyTextCol;
-          font-weight: 300;
-          padding-bottom: 1.5rem;
-        }
+      .spaced-text-lrg {
+        color: theme.$WhiteOpacityMid;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+        @include theme.XsmFontSize;
+        padding-bottom: 0.25rem;
+        text-align: center;
       }
-    }
-  } 
-  
-  .marquee {
-    .marquee-container {
-      h2 { padding: 0 0 1rem 1rem; }
-    }
-  }
-}
-
-@media only screen and (min-width: 26rem) {  
-  
-  .about-container {
-    .about-header { 
-      .about-imgs {        
-        .img-container {
-          max-height: 32rem;
+    
+      h1 {
+        display: grid;
+        @include theme.EXLrgFontSize;
+        justify-items: center;
       
-          img { object-position: top; }
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 42rem) {
-  .about-container {
-    .about-header {
-      .about-imgs {
-        display: flex;
-        gap: 1.5rem;
-
-        .img-container {
-          max-height: initial;
+        .main-text-col { @include theme.MainTextCol; }
       
-          img { object-position: center; }
-        }
+        .coral-text-col { @include theme.CoralTextCol; }
+      }
     
-        .img-one, .img-three { display: block; }
-      }
-    }
-    
-    // .about-skills {      
-    //   .skills-container {
-    //     display: flex;
-    //     justify-content: space-between;
-    //     gap: 0 0;
-    //   }
-    // }
-  }
-  
-}
-
-@media only screen and (min-width: 52.5rem) {
-  
-  .about-container {
-    .about-header {
-      .about-imgs {
-        .img-three { display: none; }
-      }
-    }
-
-    .about-skills {
-      padding: 1.5rem 1.5rem 1rem 0;
-
-      // .skills-container {
-      //   display: flex;
-      //   flex-wrap: wrap;
-      //   justify-content: space-between;
-      //   gap: 2.5rem 1.25rem;
-      // }
-    }
-
-    .about-roles {
-      padding: 1.5rem 1.5rem 1rem 0;
-
-      .roles-header {
-        grid-template-columns: repeat(2, 1fr);
-
-        .job-title {
-          grid-column: 1;
-          place-self: start;
-        }
-      }
-    }
-
-    .interests-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-
-      h2 { grid-column: 1 / span 2; }
-    }
-    
-    .marquee {
-      padding: 0 1.5rem 0 0;
-      .marquee-container {
-        h2 { padding: 0 0 1.5rem 0; }
-      }
-    }
-  }
-  
-}
-
-@media only screen and (min-width: 70rem) {
-
-  .about-container {
-    .about-header { 
-      .about-imgs {
-        .img-three { display: block; }
-      }
-    }
-
-    .about-skills { padding: 1.5rem 2rem 1.25rem 0; }
-
-    .about-roles { padding: 1.5rem 2rem 1.25rem 0; }
-
-    .marquee { padding: 0 2rem 0 0; }
-  }
-  
-}
-
-@media only screen and (min-width: 90rem) {
-  
-  .about-container {
-    width: 70rem;
-    margin: 0 auto;
-    
-    .about-header {
-      padding: 2.5rem 0 2.5rem; 
-      // grid-template-columns: repeat(2, 1fr);
-      gap: 0.75rem 2rem;
-      // grid-template-areas: 
-      // 'header .'
-      // 'about-text about-imgs';
-
       .about-text {
-        // grid-area: about-text;
-        place-self: start;
-      }
+        display: grid;
+        gap: 1rem;
+        text-align: center;
+        padding: 1.5rem 0 4rem;
       
-      // .about-imgs {
-      //   grid-area: about-imgs;
-      //   display: grid;
-      //   gap: 1.25rem 2rem;
-      //   grid-template-rows: 5rem 1fr 5rem 1fr;
-      //   grid-template-areas:
-      //   ' . . img-two img-two'
-      //   'img-one img-one img-two img-two'
-      //   'img-one img-one . .'
-      //   '. img-three img-three img-three';
-        
-      //   .img-one { grid-area: img-one; }
-      //   .img-two { grid-area: img-two; }
-      //   .img-three { grid-area: img-three; }
-      // }
-    }
+        p {
+          color: theme.$WhiteOpacityMid;
+          line-height: 1.8;
+
+          .contrast-col { color: theme.$Cream; }
+        }
+      }
     
-    .about-skills { padding: 1.5rem 0 1rem;  ; }
-
-    .about-roles { padding: 1rem 0 1rem; ; }
-
-    .marquee { padding: 0 0 0 0; }      
-  }     
-}
-
-@media only screen and (min-width: 106rem) {
+      .download-link {
+        @include theme.BtnMain;
+        padding: 0.5rem 0.75rem;
+        color: theme.$WhiteOpacityMid;
+      }
+    }
+  }
   
-  .about-container { width: 86rem; }  
+  .about-roles {
+
+    .roles-container {
+
+      .inner-container {
+        margin: 1rem;
+        padding: 1.5rem;
+        background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+        border-left: 1px solid theme.$WhiteOpacityMid;
+
+        .roles-header {
+          display: grid;
+          gap: 0.5rem;
+        
+          h3 {
+            @include theme.CoralTextCol;
+            @include theme.MedLrgFontSize;
+          }
+        
+          p {
+            color: theme.$White;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            @include theme.XsmFontSize;
+          }
+        }
+      
+        .work-container {
+          display: grid;
+          gap: 1.25rem;
+        
+          .sub-header {
+            color: rgba(228, 228, 228, 0.9);
+            letter-spacing: 0.09rem;
+          }
+        
+          .current-work {
+            display: grid;
+            gap: 1.25rem;
+            margin-left: 1rem;
+            padding-left: 1rem;
+            list-style: disc;
+          
+            li {
+              color: theme.$WhiteOpacityMid;
+              line-height: 1.6;
+              font-style: 300;
+            }
+          }
+
+          .course-work {
+            display: grid;
+            gap: 1.5rem;
+
+            .role-course {
+              display: grid;
+              gap: 0.75rem;
+
+              .job-title {
+                color: rgba(228, 228, 228, 0.9);
+                letter-spacing: 0.09rem;
+              }
+
+              p {
+                color: theme.$WhiteOpacityMid;
+                line-height: 1.6;
+              }
+            }
+          }
+        }
+      }
+
+      .previous-work {
+
+        li {
+          margin: 1rem;
+          padding: 1.5rem;
+          background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+          border-left: 1px solid theme.$WhiteOpacityMid;
+        
+          .roles-header {
+            display: grid;
+            gap: 0.5rem;
+          
+            h3 {
+              @include theme.CoralTextCol;
+              @include theme.MedLrgFontSize;
+            }
+          
+            p {
+              color: theme.$White;
+              letter-spacing: 0.1rem;
+              text-transform: uppercase;
+              @include theme.XsmFontSize;
+            }
+          }
+        }
+      }
+
+      .current-interests {
+        
+        li {
+          margin: 1rem;
+          padding: 1.5rem;
+          background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+          border-left: 1px solid theme.$WhiteOpacityMid;
+          display: grid;
+          gap: 1rem;
+          
+          h3 {
+            @include theme.CoralTextCol;
+            @include theme.MedLrgFontSize;
+          }
+          
+          p {
+            color: theme.$WhiteOpacityMid;
+            @include theme.XsmFontSize;
+          }          
+        }
+      }
+    }
+  }
+
+  .ending-quote {
+    padding: 4rem 0.75rem;
+    display: grid;
+    gap: 4rem;
+    justify-items: center;
+    
+    h2 {
+      @include theme.MedLrgFontSize;
+      text-align: center;
+      
+      .main-text-col { @include theme.MainTextCol; }
+
+      .coral-text-col { @include theme.CoralTextCol; }
+    }
+
+    .download-link {      
+      @include theme.BtnMain;
+      padding: 0.5rem 0.75rem;
+      color: theme.$WhiteOpacityMid;
+      width: fit-content;
+    }
+  }
+
+
+
 }
+
+@media only screen and (min-width: 26rem) { }
+
+@media only screen and (min-width: 42rem) { }
+
+@media only screen and (min-width: 52.5rem) { }
+
+@media only screen and (min-width: 70rem) { }
+
+@media only screen and (min-width: 90rem) { }
+
+@media only screen and (min-width: 106rem) { }

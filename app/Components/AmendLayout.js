@@ -7,11 +7,13 @@ const AmendLayout = ({ data }) => {
 
   return (
 
-    <main className='db-container amends-container'>
+    <main className='works-container'>
       <BackButton />
            
-      <section className='amend-header'>
-        <h1>{data.mainTitle} {data.mainTitleHighlight}</h1>
+      <section className='works-header'>
+        <h1>
+          <span className='main-text-col'>{data.mainTitle}</span> <span className='coral-text-col'>{data.mainTitleHighlight}</span>           
+        </h1>
 
         <div className='img-container'>
           <Image
@@ -23,27 +25,34 @@ const AmendLayout = ({ data }) => {
           />
         </div>
 
-        <h2>Role</h2>
-        <p>{data.role}</p>
-
-        <h2>Expertise</h2>
-        <p>{data.expertise}</p>
-
-        <h2>Tools</h2>
-        <p>{data.tools}</p>
-
-        <h2>Time Line</h2>
-        <p>{data.timeLine}</p>
+        <ul className='sub-info'>
+          <li>
+            <p className='sub-title'>Role</p>
+            <p className='sub-text'>{data.role}</p>
+          </li>
+          <li>
+            <p className='sub-title'>Expertise</p>
+            <p className='sub-text'>{data.expertise}</p>
+          </li>
+          <li>
+            <p className='sub-title'>Tools</p>
+            <p className='sub-text'>{data.tools}</p>
+          </li>
+          <li>
+            <p className='sub-title'>Time Line</p>
+            <p className='sub-text'>{data.timeLine}</p>
+          </li>
+        </ul>
       </section>
 
-      <section className='amend-summary'>
+      <section className='works-overview'>
         <h2>{data.summary.title}</h2>
-        <p>{data.summary.mainSummary}</p>
+        <p className='summary-overview'>{data.summary.mainSummary}</p>
 
         {data.summary.overviewPoints?.length > 0 && (
-          <div className='summary-text'>
+          <div className='overview-info'>
             {data.summary.overviewPoints.map((point) => (
-              <div key={point.id}>
+              <div key={point.id} className='overview-point'>
                 <h3>{point.pointTitle}</h3>
                 <p>{point.pointPara}</p>
               </div>
@@ -64,40 +73,42 @@ const AmendLayout = ({ data }) => {
         ))}
       </section>
       
-      <section className='amend-summary'>
+      <section className='works-enhance'>
         <h2>{data.evaluateEnhance.title}</h2>
         <p>{data.evaluateEnhance.evaluateEnhanceSummary}</p>
 
-        {data.evaluateEnhance.evaluateEnhanceImages?.map((img, idx) => (
-          <div key={idx} className='img-container'>
-            <Image
-              priority
-              src={img.url}
-              alt={img.altTitle}
-              width={img.width}
-              height={img.height}
-            />
-          </div>
-        ))}
+        <div className='enhance-images'>
+          {data.evaluateEnhance.evaluateEnhanceImages?.map((img, idx) => (
+            <div key={idx} className='img-container'>
+              <Image
+                priority
+                src={img.url}
+                alt={img.altTitle}
+                width={img.width}
+                height={img.height}
+              />
+            </div>
+          ))}
+        </div>
       </section>
       
-      <section className='amend-summary'>
+      <section className='works-improvements'>
         <h2>{data.improvements.title}</h2>
         <p>{data.improvements.mainSummary}</p>
         
         {data.improvements.points?.length > 0 && (
-          <div className='summary-text'>
+          <ul className='improvements-points'>
             {data.improvements.points.map((point) => (
-              <div key={point.id}>
+              <li key={point.id}>
                 <h3>{point.sectionTitle}</h3>
                 <p>{point.sectionPara}</p>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         )}
       </section>
 
-      <section className='amend-summary'>
+      <section className='works-wireframe'>
         <h2>{data.wireframe.title}</h2>
         <div className='img-container'>
           <Image
@@ -110,11 +121,11 @@ const AmendLayout = ({ data }) => {
         </div>
       </section>
       
-      <section className='amend-summary'>
+      <section className='works-outcome'>
         <h2>{data.outcome.title}</h2>
         <p>{data.outcome.outcomeSummary}</p>
 
-        <Link href={data.outcome.outcomeLink} className='link-live' target='_blank'>Live preview</Link>
+        <Link href={data.outcome.outcomeLink} className='live-link' target='_blank'>Live preview</Link>
       </section>
 
     </main>

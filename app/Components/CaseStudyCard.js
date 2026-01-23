@@ -5,7 +5,9 @@ import Image from 'next/image'
 const CaseStudyCard = ({ item, linkLabel, showProjectLinks }) => (
   <li className="case-card" key={item.id}>
 
-    <h3>{item.mainTitle} <span>{item.mainTitleHighlight}</span></h3>
+    <h3>
+      <span className='main-text-col'>{item.mainTitle}</span> <span className='coral-text-col'>{item.mainTitleHighlight}</span>
+    </h3>
 
     <div className='img-container'>
       <Image

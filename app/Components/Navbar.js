@@ -46,16 +46,16 @@ const Navbar = () => {
         <nav className='navbar-menu'>
           <ul className='navbar-links'>
             <li className={pathname === '/' ? 'home-link-active' : 'nav-menu-link'}>
-              <Link href="/" title="Take me Home">Home</Link>
+              <Link href='/' title='Take me Home'>Home</Link>
             </li>
             <li className={pathname === '/about' ? 'about-link-active' : 'nav-menu-link'}>
-              <Link href="/about" title="About Me">About</Link>
+              <Link href='/about' title='About Me'>About</Link>
             </li>
             <li className={pathname === 'work' ? 'projects-link-active' : 'nav-menu-link'}>
-              <Link href="/work" title="See my Projects">Work</Link>
+              <Link href='/work' title='See my Projects'>Work</Link>
             </li>
             <li className='nav-menu-link contact-link'>
-              <Link href="mailto:ellie_judge@hotmail.co.uk" target='_blank' title="Contact me">Get in touch</Link>
+              <Link href='mailto:ellie_judge@hotmail.co.uk' target='_blank' title='Contact me'>Get in touch</Link>
             </li>
 
           </ul>

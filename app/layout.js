@@ -32,9 +32,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>
-        <div className="body-container">
+        <div className='body-container'>
           <Navbar />
           {children}
           <Footer />

@@ -57,7 +57,7 @@
   .main-navbar.expanded { 
     display: grid;
     position: fixed;
-    top: 70px;
+    top: 87px;
     left: 0;
     width: 100%;
     height: calc(100vh - 70px);
@@ -82,9 +82,7 @@
             @include theme.MedLrgFontSize;
             font-weight: 200;
 
-            &:hover {
-              color: theme.$Cream;
-            }
+            &:hover { color: theme.$Cream;}
           }
         }
       }
@@ -94,44 +92,44 @@
 
 @media only screen and (min-width: 52.5rem) {
 
-  .body-container {
-    .dashboard-header {
-      display: flex;
-      padding: 0.5rem 0.75rem 0.5rem 2rem;
+  .dashboard-header {
+    display: flex;
+    padding: 0.5rem 0.75rem 0.5rem 2rem;
 
-      .nav-icon { display: none; }
+    .nav-icon { display: none; }
 
-      .main-navbar {
-        display: block;
+    .main-navbar {
+      display: block;
 
-        .navbar-menu {
+      .navbar-menu {
 
-          .navbar-links {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            
-            li { 
-              padding: 0 0;
-              text-align: center;
+        .navbar-links {
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
           
-              a {
-                transition: 0.4s ease-in-out;
-                color: theme.$WhiteOpacityMid;
-                @include theme.SmFontSize;
-                font-weight: 200;
-            
-                &:hover { color: theme.$Cream; }
-              }
+          li { 
+            padding: 0 0;
+            text-align: center;
+        
+            a {
+              transition: 0.4s ease-in-out;
+              color: theme.$WhiteOpacityMid;
+              @include theme.SmFontSize;
+              font-weight: 200;
             }
+          }
 
-            .contact-link {
-              @include theme.BtnMain;
-              padding: 0.5rem 0.75rem;
+          .contact-link {
+            @include theme.BtnMain;
+            padding: 0.5rem 0.75rem;
+
+            &:hover a {
+              color: theme.$Cream;
             }
           }
         }
       }
     }
-  }
+  }  
 } 

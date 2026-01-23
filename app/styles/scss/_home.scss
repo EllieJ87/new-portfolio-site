@@ -17,13 +17,14 @@
         @include theme.XsmFontSize;
         padding-bottom: 0.25rem;
       }
-
+            
       h1 {
-        @include theme.MainTextCol;
         display: grid;
         @include theme.EXLrgFontSize;
-
-        span { @include theme.CoralTextCol; }
+        
+        .main-text-col { @include theme.MainTextCol; }
+        
+        .coral-text-col { @include theme.CoralTextCol; }
       }
 
       .text-body {
@@ -44,11 +45,6 @@
     padding: 2rem 1rem;
     display: grid;
     gap: 4rem;
-
-    h2 {
-      @include theme.MainTextCol;
-      @include theme.XLrgFontSize;
-    }
 
     .skills-container {
       display: flex;

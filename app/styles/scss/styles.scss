@@ -1,68 +1,9 @@
 @use 'variables' as theme;
 
-.cs-next-prev-container {
-  padding: 0 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-
-  a {
-    width: 10rem;
-    text-align: center;
-    // color: theme.$White;
-    display: grid;
-    gap: 0.5rem;
-    justify-items: center;
-    border: 1px solid theme.$LightGrey;
-    box-shadow: 0 0 8px 0 theme.$LightGrey;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    transition: 0.4s all ease-in-out;
-    
-    .img-container {
-      width: 100%;
-      height: 100%;
-      
-      img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-      }
-    }
-
-    .icon-arrow {
-      @include theme.SkillsIcon;
-      height: 1.5rem;
-      background: url(/images/site-icons/icon-arrow.svg) no-repeat;
-    }
-
-    .prev-arrow { transform: scaleX(-1); }
-    
-    &:hover {
-      // color: theme.$HotPink;
-      // border: 1px solid theme.$Teal;
-      // box-shadow: 0 0 12px 0 theme.$Teal;
-      
-      .icon-arrow { background-image: url(/images/site-icons/icon-arrow-hv.svg); }
-    }
-  }
-
-  &.both { justify-content: space-between; }
-
-  &.only-next { justify-content: flex-end; }
-
-  &.only-prev { justify-content: flex-start; } 
-}
-
 .home-case-studies {
   padding: 2rem 1rem;
   display: grid;
   gap: 4rem;
-  
-  h2 {
-    @include theme.MainTextCol;
-    @include theme.XLrgFontSize;
-  }
   
   .img-container { @include theme.ImgMain; }
 
@@ -74,13 +15,14 @@
     .case-card {
       display: grid;
       padding: 1rem;
-      gap: 2rem;
+      gap: 2rem;      
       
       h3 {
-        @include theme.MainTextCol;
         @include theme.LrgFontSize;
-      
-        span { @include theme.CoralTextCol; }
+        
+        .main-text-col { @include theme.MainTextCol; }
+        
+        .coral-text-col { @include theme.CoralTextCol; }
       }
 
       .cs-info {
@@ -123,11 +65,7 @@
         padding: 0.5rem 1.25rem;
         color: theme.$WhiteOpacityMid;
         transition: 0.4s ease-in-out;
-
-        &:hover { color: theme.$Cream; }
       }
-
-
     }
   }
 
@@ -164,7 +102,7 @@ footer {
             @include theme.XsmFontSize;
             font-weight: 300;
 
-            &:last-of-type { margin-right: 1.5rem; }
+            &:last-of-type { margin-right: 3rem; }
           }
         }
       }
@@ -181,25 +119,95 @@ footer {
   }
 
   .footer-inner {
-    border: 1px solid white;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0 3rem;
 
-    .footer-contact-info {
-      border: 1px solid yellow;
-    }
-
+    
     .footer-navigation {
-      padding: 2rem 0;
-      border: 1px solid pink;
 
       .footer-nav-links {
         display: grid;
-        gap: 1rem;
+        gap: 2rem;
         justify-content: center;
 
         .footer-links {
-          border: 1px solid red;
+          text-align: center;
+
+          a {
+            color: theme.$White;
+            @include theme.XsmFontSize;
+            transition: 0.4s ease-in-out;
+
+            &:hover { color: theme.$Cream; }
+          }
         }
       }
+    }
+
+    .footer-contact-info {
+      display: grid;
+      gap: 2rem;
+      justify-content: center;
+      justify-items: center;
+      
+      h2 {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        @include theme.XLrgFontSize;        
+        
+        .main-text-col { @include theme.MainTextCol; }
+
+        .coral-text-col { @include theme.CoralTextCol; }
+      }
+
+      ul {
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+
+        li {
+          cursor: pointer;          
+          padding: 0.5rem;
+          border: 2px solid theme.$CoralOpacity;
+          border-radius: 50%;
+          transition: all .4s ease-in-out;
+          background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+
+          &:hover {
+            border: 2px solid theme.$Coral;
+            background: linear-gradient(theme.$AccentBlack 0%, theme.$SubBlack 50%, theme.$AccentBlack 100%);  
+          }
+
+          .footer-icon { @include theme.FooterIcon; }
+        
+          .linkedin-icon { background-image: url(/images/icons/linkedin-icon.svg); }
+
+          .github-icon { background-image: url(/images/icons/github-icon.svg); }
+
+          .instagram-icon { background-image: url(/images/icons/instagram-icon.svg); }
+        }
+      }
+      
+      .contact-link {
+        @include theme.BtnMain;
+        padding: 0.5rem 0.75rem;
+        transition: 0.4s ease-in-out;
+        color: theme.$WhiteOpacityMid;
+        @include theme.SmFontSize;
+        font-weight: 200;
+        width: fit-content;
+      }
+    }
+
+    .copy-name {
+      color: theme.$WhiteOpacityMid;
+      letter-spacing: 0.3rem;
+      text-transform: uppercase;
+      @include theme.XsmFontSize;
+      text-align: center;
     }
   }
 }
@@ -212,65 +220,17 @@ footer {
     display: grid;
     gap: 1rem;
     justify-content: center;
-  
-    // h1 { @include theme.MainTextCol; }
-  
-    // p { color: theme.$White; }
   }
 }
 
 @media only screen and (min-width: 26rem) { }
 
-@media only screen and (min-width: 42rem) {
-  
-  // footer {
+@media only screen and (min-width: 42rem) { }
 
-  //   ul {
-  //     padding: 2rem 1.5rem 1rem 0;
-  //     display: flex;
-  //     justify-content: end;
-  //     gap: 1.5rem;
-  //   }
-    
-  //   p {
-  //     padding: 0.5rem 1.5rem 1rem 0;
-  //     place-self: end;
-  //   }
-  // }
-}
-
-@media only screen and (min-width: 52.5rem) {
-
-  // .body-container {
-  //   display: grid;
-  //   // grid-template-columns: 16rem 1fr;
-  //   gap: 2rem;
-
-  //   // .db-container {
-  //     // grid-column: 2;
-  //     // overflow-x: hidden;
-  //     // max-width: 100%;
-  //   // }
-  // }
-  
-  // .cs-next-prev-container {grid-column: 2; }
-  
-  // footer { grid-column: 2; }
-
-  // .not-found-container { height: calc(100% - 121px); }
-}
+@media only screen and (min-width: 52.5rem) { }
 
 @media only screen and (min-width: 70rem) { }
 
-@media only screen and (min-width: 90rem) {
-
-  // .body-container {
-
-  //   .db-container {
-  //     overflow: auto;
-  //     max-width: initial;
-  //   }
-  // }    
-}
+@media only screen and (min-width: 90rem) { }
 
 @media only screen and (min-width: 106rem) { }

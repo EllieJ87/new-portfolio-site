@@ -1,0 +1,217 @@
+@use 'variables' as theme;
+
+.img-container {
+  width: 100%;
+  height: auto;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+} 
+
+.works-container {
+  display: grid;
+  gap: 2rem;
+  padding: 1.5rem 0.75rem;
+
+  .back-btn {
+    color: theme.$WhiteOpacityMid;
+    width: fit-content;
+    @include theme.XsmFontSize;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+
+    &:hover { color: theme.$White; }
+  }
+
+  .works-header {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem 0;
+    
+    h1 {
+      place-self: center;
+      @include theme.EXLrgFontSize;
+      width: fit-content;
+      
+      .main-text-col { @include theme.MainTextCol; }
+      
+      .coral-text-col { @include theme.CoralTextCol; }
+    }
+
+    .sub-info {
+      display: grid;
+      gap: 1rem;
+
+      li {
+        display: grid;
+        gap: 0.5rem;
+
+        .sub-title {
+          color: theme.$White;
+          letter-spacing: 0.3rem;
+          text-transform: uppercase;
+        }
+
+        .sub-text { color: theme.$WhiteOpacityMid; }
+      }
+    }
+  }
+
+  .works-overview {
+    display: grid;
+    gap: 1.25rem;    
+
+    .summary-overview { color: theme.$WhiteOpacityMid; }
+
+    .overview-info {
+      display: grid;
+      gap: 1.25rem;
+
+      .overview-point {
+        display: grid;
+        gap: 0.75rem;
+        margin: 0.5rem;
+        padding: 1rem;
+        background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+        border-left: 1px solid theme.$WhiteOpacityMid;
+
+        h3 {
+          color: theme.$White;
+          letter-spacing: 0.3rem;
+          text-transform: uppercase;
+          @include theme.SmFontSize;
+        }
+
+        p {
+          color: theme.$WhiteOpacityMid;
+          @include theme.XsmFontSize;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+
+  .works-enhance {
+    display: grid;
+    gap: 1.25rem; 
+
+    p {
+      color: theme.$WhiteOpacityMid;
+      line-height: 1.6;
+    }
+
+    .enhance-images {
+      padding: 1rem 0.5rem;
+      background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+      border: 1px solid theme.$WhiteOpacityMid;
+      border-radius: 0.5rem;
+    }
+  }
+
+  .works-improvements {
+    display: grid;
+    gap: 1.25rem;
+
+    h2 { @include theme.LrgFontSize; }
+
+    p {
+      color: theme.$WhiteOpacityMid;
+      line-height: 1.6;
+    }
+
+    .improvements-points {
+      display: grid;
+      gap: 1.25rem;
+
+      li {
+        display: grid;
+        gap: 0.75rem;
+        margin: 0.5rem;
+        padding: 1rem;
+        background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+        border-left: 1px solid theme.$WhiteOpacityMid;
+
+        h3 {
+          color: theme.$White;
+          letter-spacing: 0.09rem;
+          text-transform: uppercase;
+          @include theme.SmFontSize;
+        }
+
+        p { @include theme.XsmFontSize; }
+      }      
+    }
+  }
+
+  .works-wireframe {
+    display: grid;
+    gap: 1.25rem;
+
+    h2 { @include theme.LrgFontSize; }
+  }
+
+  .works-outcome {
+    display: grid;
+    gap: 1.25rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+
+    p {
+      color: theme.$WhiteOpacityMid;
+      line-height: 1.6;
+    }
+
+    .live-link {
+      @include theme.BtnMain;
+      padding: 0.5rem 0.75rem;      
+      place-self: center;
+      color: theme.$WhiteOpacityMid;
+    }
+  }
+}
+
+.other-works {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1.5rem 0.75rem;
+
+  .work-card {
+    display: grid;
+    gap: 1.25rem;
+    padding: 1rem 0.5rem;
+    background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+    border: 1px solid theme.$WhiteOpacityMid;
+    border-radius: 0.5rem;
+    
+    h3 {
+      @include theme.MedLrgFontSize;
+      width: fit-content;
+      
+      .main-text-col { @include theme.MainTextCol; }
+      
+      .coral-text-col { @include theme.CoralTextCol; }
+    }
+
+    .link-arrow {
+      @include theme.BtnMain;
+      padding: 0.5rem 0.75rem;      
+      place-self: center;
+      color: theme.$WhiteOpacityMid;
+    }
+  }
+}
+
+@media only screen and (min-width: 26rem) { }
+
+@media only screen and (min-width: 42rem) { }
+
+@media only screen and (min-width: 52.5rem) { }
+
+@media only screen and (min-width: 70rem) { }
+
+@media only screen and (min-width: 90rem) { }
+
+@media only screen and (min-width: 106rem) { }

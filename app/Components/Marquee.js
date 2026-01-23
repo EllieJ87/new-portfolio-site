@@ -13,20 +13,8 @@ const Marquee = () => {
   }, []);
 
   return (
-    <div className="marquee-container">
-      {/* <h2>
-        <TypewriterComponent options={{
-            strings: ['Ellie likes...', 'エリーは大好き...', '엘리는 사랑한다...'],
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </h2> */}
-
-      {/* <h2>Ellie likes</h2>
-      <h2>エリーは大好き</h2>
-      <h2>엘리는 사랑한다</h2> */}
-      <div className="inner-scroll" ref={scrollRef}>
+    <div className='marquee-container'>
+      <div className='inner-scroll' ref={scrollRef}>
         <ul>
           <li>Prototyping</li>
           <li>Web Design</li>

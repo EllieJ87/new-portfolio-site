@@ -5,8 +5,7 @@
 @import 'navbar';
 @import 'home';
 @import 'about';
-@import 'cs-amend';
-@import 'cs-new';
+@import 'works';
 
 * { box-sizing: border-box; }
 
@@ -24,13 +23,10 @@ h1, h2, h3, h4 {
   font-weight: 300;
 }
 
-h1 { @include theme.EXLrgFontSize; }
-
-h2 { @include theme.XLrgFontSize; }
-
-h3 { @include theme.LrgFontSize; }
-
-h4 { @include theme.MedFontSize; }
+h2 { 
+  @include theme.MainTextCol;
+  @include theme.XLrgFontSize;
+}
 
 p {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -41,6 +37,8 @@ p {
 a {
   text-decoration: none;
   font-family: "Plus Jakarta Sans", sans-serif;
+  @include theme.SmFontSize;
+  font-weight: 300;
 }
 
 ul {
@@ -70,14 +68,3 @@ button {
 }
 
 #detach-button-host { display: none; }
-
-@media only screen and (min-width: 26rem) {  
-  
-  p { @include theme.SmMedFontSize; }
-}
-
-// @media only screen and (min-width: 70rem) {  
-  
-//   body { background: linear-gradient(#000000 0%, #1E293B 15%, #1E293B 75%, #000000 100%); }
-// }
-

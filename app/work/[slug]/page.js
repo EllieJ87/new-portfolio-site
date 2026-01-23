@@ -40,10 +40,11 @@ const CaseStudyPage = async ({ params }) => {
         <NewCaseLayout data={currentCase} />
       )}
       
-      <nav className='cs-next-prev-container'>
+      <nav className='other-works'>
+        <h2>More Works</h2>
         {randomCase.map((item) => {
           return (
-            <div key={item.id} className='random-case-card'>
+            <div key={item.id} className='work-card'>
               <div className='img-container'>
                 <Image
                   src={item.mainImage.url}
@@ -52,9 +53,10 @@ const CaseStudyPage = async ({ params }) => {
                   height={100}
                 />
               </div>
-
-              <h3>{item.mainTitle} {item.mainTitleHighlight}</h3>
-              <Link href={`/work/${item.slug}`} className='btn'>View Case Study</Link>
+              <h3>
+                <span className='main-text-col'>{item.mainTitle}</span> <span className='coral-text-col'>{item.mainTitleHighlight}</span>
+              </h3>
+              <Link href={`/work/${item.slug}`} className='link-arrow'>View Case Study</Link>
             </div>
           );
         })}
