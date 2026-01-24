@@ -34,11 +34,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body>
-        <div className='body-container'>
+        {/* <div className='body-container'> */}
           <Navbar />
           {children}
           <Footer />
-        </div>
+        {/* </div> */}
       </body>
     </html>
   );

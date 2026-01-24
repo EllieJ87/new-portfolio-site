@@ -16,7 +16,7 @@ const CaseStudy = () => {
   ]
 
   return (    
-    <section className='home-case-studies'>
+    <section className='home-case-studies case-study-page'>
       <h2>My Featured Works</h2>
       <CaseStudyList sections={sections} /> 
     </section>

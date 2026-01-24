@@ -3,22 +3,23 @@
 .home-case-studies {
   padding: 2rem 1rem;
   display: grid;
-  gap: 4rem;
+  gap: 2rem;
   
   .img-container { @include theme.ImgMain; }
 
   .case-study-list {
     display: grid;
-    gap: 2rem;
+    gap: 4rem;
     padding: 0 0;
 
     .case-card {
       display: grid;
-      padding: 1rem;
+      padding: 1rem 0.5rem;
       gap: 2rem;      
       
       h3 {
-        @include theme.LrgFontSize;
+        @include theme.SmMedFontSize;
+        text-align: center;
         
         .main-text-col { @include theme.MainTextCol; }
         
@@ -26,13 +27,16 @@
       }
 
       .cs-info {
-        display: flex;
+        display: grid;
         gap: 1rem;
+        text-align: center;
 
         p {
           color: theme.$WhiteOpacityMid;
           @include theme.XsmFontSize;
-        }          
+        }
+        
+        .cs-dot { display: none; }
       }
 
       .cs-description {
@@ -43,8 +47,10 @@
           display: grid;
           gap: 1.25rem;
           background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
-          border-left: 1px solid theme.$WhiteOpacityMid;
-          padding: 2rem;
+          border: 1px solid theme.$WhiteOpacityLight;
+          border-radius: 0.5rem;
+          padding: 1.25rem 1rem;
+          text-align: center;
 
           h4 {
             color: theme.$Cream;
@@ -60,19 +66,39 @@
       }
 
       .link-arrow {
+        place-self: center;
         @include theme.BtnMain;
         width: fit-content;
         padding: 0.5rem 1.25rem;
         color: theme.$WhiteOpacityMid;
         transition: 0.4s ease-in-out;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+       
+        &::after {
+          content: '';
+          @include theme.FooterIcon;
+          width: 1rem;
+          height: 1rem;
+          background-image: url(/images/icons/arrow-redirect-icon.svg);
+        }
       }
     }
   }
+}
 
+.case-study-page {
+  h2 { 
+    @include theme.MedLrgFontSize;
+    text-align: center;
+    place-self: center;
+  }
 }
 
 footer {
   display: grid;
+  margin-top: 4rem;
 
   .marquee {
     border-top: 1px solid theme.$WhiteOpacityLight;
@@ -156,7 +182,7 @@ footer {
         display: grid;
         justify-items: center;
         text-align: center;
-        @include theme.XLrgFontSize;        
+        @include theme.LrgFontSize;        
         
         .main-text-col { @include theme.MainTextCol; }
 
@@ -192,13 +218,21 @@ footer {
       }
       
       .contact-link {
-        @include theme.BtnMain;
+        @include theme.BtnMainSecondary;
         padding: 0.5rem 0.75rem;
         transition: 0.4s ease-in-out;
         color: theme.$WhiteOpacityMid;
         @include theme.SmFontSize;
         font-weight: 200;
         width: fit-content;
+        display: flex;
+        gap: 0.5rem;
+        
+        &::before {
+          content: '';
+          @include theme.FooterIcon;
+          background-image: url(/images/icons/contact-icon.svg);
+        }
       }
     }
 

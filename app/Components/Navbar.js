@@ -8,11 +8,48 @@ import TypewriterComponent from 'typewriter-effect';
 const Navbar = () => {
   const pathname = usePathname();
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [showHeader, setShowHeader] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
   
+  // Close menu on route change
   useEffect(() => {
     setIsNavExpanded(false);
   }, [pathname]);
 
+  // Detect Mobile vs Desktop
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 840);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Scroll-up hide header
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      if (isNavExpanded && isMobile) {
+        setShowHeader(true);
+        return;
+      }
+
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY < lastScrollY) {
+        setShowHeader(true);
+      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setShowHeader(false);
+      }
+
+      lastScrollY = currentScrollY
+    };
+
+    window.addEventListener('scroll', handleScroll, {passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isNavExpanded, isMobile]);
+
+  // Handle Resize
   useEffect(() => {
     const handleResize = () => {
       setIsNavExpanded(false);
@@ -22,46 +59,72 @@ const Navbar = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  // Prevent background scroll on mobile menu open
+  useEffect(() => {
+    document.body.style.overflow = isNavExpanded ? 'hidden' : '';
+  }, [isNavExpanded]);
+
+  // Menu Links
+  const navLinks = [
+    { href: '/', label: 'Home' },
+    { href: '/about', label: 'About' },
+    { href: '/work', label: 'Work' },
+    { href: 'mailto:ellie_judge@hotmail.co.uk', label: 'Get in Touch', isContact: true },
+  ];
+
+  // Render Menu
+  const renderMenu = () => (
+    <div className={isNavExpanded || !isMobile ? 'main-navbar expanded' : 'main-navbar'}>
+      <nav className='navbar-menu'>
+        <ul className='navbar-links'>
+          {navLinks.map((link, idx) => (
+            <li
+              key={link.href}
+              className={`${link.isContact ? 'contact-link' : ''} ${
+                pathname === link.href ? `${link.label.toLocaleLowerCase()}-link-active` : 'nav-menu-link'}`}
+            >
+              <Link
+                href={link.href}
+                target={link.isContact ? '_blank' : '_self'}
+                title={link.label}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  );
+
   return (
-    
-    <header className='dashboard-header'>
-      <h2>
-        <TypewriterComponent options={{
-            strings: ["Ellie's Portfolio", 'UI Developer', 'Web Designer', 'Front-End Developer'],
-            autoStart: true,
-            loop: true,
-          }}
-        />
-      </h2>
+    <>
+      <header className={`dashboard-header ${showHeader ? 'visible' : 'hidden'}`}>
+        <h2>
+          <TypewriterComponent options={{
+              strings: ["Ellie's Portfolio", 'UI Developer', 'Web Designer', 'Front-End Developer'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h2>
 
-      <button 
-        className={isNavExpanded ? 'nav-icon expanded' : 'nav-icon'} 
-        onClick={() => setIsNavExpanded(!isNavExpanded)}
-      >
-        X
-        {/* <span className='sr-only'>Mobile Menu navigation</span> */}
-      </button>
+        <button 
+          className={isNavExpanded ? 'nav-icon expanded' : 'nav-icon'} 
+          onClick={() => setIsNavExpanded(!isNavExpanded)}
+        >
+          <span className='sr-only'>Mobile Menu navigation</span>
+        </button>
 
-      <div className={isNavExpanded ? 'main-navbar expanded' : 'main-navbar'}>
-        <nav className='navbar-menu'>
-          <ul className='navbar-links'>
-            <li className={pathname === '/' ? 'home-link-active' : 'nav-menu-link'}>
-              <Link href='/' title='Take me Home'>Home</Link>
-            </li>
-            <li className={pathname === '/about' ? 'about-link-active' : 'nav-menu-link'}>
-              <Link href='/about' title='About Me'>About</Link>
-            </li>
-            <li className={pathname === 'work' ? 'projects-link-active' : 'nav-menu-link'}>
-              <Link href='/work' title='See my Projects'>Work</Link>
-            </li>
-            <li className='nav-menu-link contact-link'>
-              <Link href='mailto:ellie_judge@hotmail.co.uk' target='_blank' title='Contact me'>Get in touch</Link>
-            </li>
+        {/* Desktop menu: render inside header */}
+        {!isMobile && renderMenu()}
+      </header>
 
-          </ul>
-        </nav>
-      </div>
-    </header>
+      {/* Mobile menu: render outside header */}
+      {isMobile && renderMenu()}
+
+    </>   
+
   )
 }
 

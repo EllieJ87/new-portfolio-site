@@ -35,6 +35,8 @@ p {
 }
 
 a {
+  box-sizing: border-box;
+  display: block;
   text-decoration: none;
   font-family: "Plus Jakarta Sans", sans-serif;
   @include theme.SmFontSize;

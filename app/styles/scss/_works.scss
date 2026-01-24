@@ -1,20 +1,17 @@
 @use 'variables' as theme;
 
-.img-container {
-  width: 100%;
-  height: auto;
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-} 
-
 .works-container {
   display: grid;
   gap: 2rem;
   padding: 1.5rem 0.75rem;
+
+  .img-container { @include theme.ImgMain; } 
+
+  h2 { 
+    @include theme.MedLrgFontSize;
+    text-align: center;
+    place-self: center;
+  }
 
   .back-btn {
     color: theme.$WhiteOpacityMid;
@@ -22,18 +19,27 @@
     @include theme.XsmFontSize;
     transition: all 0.4s ease-in-out;
     cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
 
     &:hover { color: theme.$White; }
+
+    &::before {
+      content: '';
+      @include theme.FooterIcon;
+      background-image: url(/images/icons/arrow-icon.svg);
+      transform: scaleX(-1);
+    }
   }
 
   .works-header {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 1rem 0;
     
     h1 {
-      place-self: center;
-      @include theme.EXLrgFontSize;
+      text-align: center;
+      @include theme.XLrgFontSize;
       width: fit-content;
       
       .main-text-col { @include theme.MainTextCol; }
@@ -50,7 +56,7 @@
         gap: 0.5rem;
 
         .sub-title {
-          color: theme.$White;
+          color: theme.$Cream;
           letter-spacing: 0.3rem;
           text-transform: uppercase;
         }
@@ -62,9 +68,12 @@
 
   .works-overview {
     display: grid;
-    gap: 1.25rem;    
+    gap: 2.5rem;    
 
-    .summary-overview { color: theme.$WhiteOpacityMid; }
+    .summary-overview { 
+      color: theme.$WhiteOpacityMid;
+      text-align: center;
+    }
 
     .overview-info {
       display: grid;
@@ -73,13 +82,14 @@
       .overview-point {
         display: grid;
         gap: 0.75rem;
-        margin: 0.5rem;
-        padding: 1rem;
         background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
-        border-left: 1px solid theme.$WhiteOpacityMid;
+        border: 1px solid theme.$WhiteOpacityLight;
+        border-radius: 0.5rem;
+        padding: 1.25rem 1rem;
+        text-align: center;
 
         h3 {
-          color: theme.$White;
+          color: theme.$Cream;
           letter-spacing: 0.3rem;
           text-transform: uppercase;
           @include theme.SmFontSize;
@@ -96,11 +106,12 @@
 
   .works-enhance {
     display: grid;
-    gap: 1.25rem; 
+    gap: 2.5rem; 
 
     p {
       color: theme.$WhiteOpacityMid;
       line-height: 1.6;
+      text-align: center;
     }
 
     .enhance-images {
@@ -115,24 +126,24 @@
     display: grid;
     gap: 1.25rem;
 
-    h2 { @include theme.LrgFontSize; }
-
     p {
       color: theme.$WhiteOpacityMid;
       line-height: 1.6;
+      text-align: center;
     }
 
     .improvements-points {
       display: grid;
-      gap: 1.25rem;
+      gap: 2rem;
 
       li {
         display: grid;
         gap: 0.75rem;
-        margin: 0.5rem;
-        padding: 1rem;
         background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
-        border-left: 1px solid theme.$WhiteOpacityMid;
+        border: 1px solid theme.$WhiteOpacityLight;
+        border-radius: 0.5rem;
+        padding: 1.5rem 1rem;
+        text-align: center;
 
         h3 {
           color: theme.$White;
@@ -162,6 +173,7 @@
     p {
       color: theme.$WhiteOpacityMid;
       line-height: 1.6;
+      text-align: center;
     }
 
     .live-link {
@@ -169,26 +181,50 @@
       padding: 0.5rem 0.75rem;      
       place-self: center;
       color: theme.$WhiteOpacityMid;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      
+      &::after {
+        content: '';
+        @include theme.FooterIcon;
+        width: 1rem;
+        height: 1rem;
+        background-image: url(/images/icons/arrow-redirect-icon.svg);
+      }
     }
   }
 }
 
 .other-works {
   display: grid;
-  gap: 1.25rem;
+  gap: 2rem;
   padding: 1.5rem 0.75rem;
+  
+  h2 { 
+    @include theme.MedLrgFontSize;
+    text-align: center;
+    place-self: center;
+  }
 
   .work-card {
     display: grid;
-    gap: 1.25rem;
+    gap: 1.5rem;
     padding: 1rem 0.5rem;
     background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
-    border: 1px solid theme.$WhiteOpacityMid;
+    border: 1px solid theme.$WhiteOpacityLight;
     border-radius: 0.5rem;
     
+    .img-container {
+      order: 2;
+      @include theme.ImgMain;
+    }
+    
     h3 {
-      @include theme.MedLrgFontSize;
+      order: 1;
+      @include theme.SmMedFontSize;
       width: fit-content;
+      text-align: center;
       
       .main-text-col { @include theme.MainTextCol; }
       
@@ -196,10 +232,22 @@
     }
 
     .link-arrow {
+      order: 3;
       @include theme.BtnMain;
       padding: 0.5rem 0.75rem;      
       place-self: center;
       color: theme.$WhiteOpacityMid;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+       &::after {
+        content: '';
+        @include theme.FooterIcon;
+        width: 1rem;
+        height: 1rem;
+        background-image: url(/images/icons/arrow-redirect-icon.svg);
+      }        
     }
   }
 }

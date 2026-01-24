@@ -18,7 +18,7 @@ const BackButton = ({ fallback = '/'}) => {
       onClick={handleBack}
       className='back-btn'
     >
-      ← Back      
+      Back      
     </button>
   )
 }

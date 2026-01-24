@@ -20,7 +20,7 @@ const CaseStudyCard = ({ item, linkLabel, showProjectLinks }) => (
 
     <div className='cs-info'>
       <p>{item.role}</p>
-      <p>&#x2022;</p>
+      <p className='cs-dot'>&#x2022;</p>
       <p>{item.timeLine}</p>
     </div>
 

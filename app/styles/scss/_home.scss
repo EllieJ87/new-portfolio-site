@@ -1,7 +1,15 @@
 @use 'variables' as theme;
 
 .home-container { 
-  
+  display: grid;
+  gap: 3rem;
+
+  h2 { 
+    @include theme.MedLrgFontSize;
+    text-align: center;
+    place-self: center;
+  }
+
   .home-about {
     padding: 2rem 1rem;
     display: grid;
@@ -9,18 +17,21 @@
 
     .about-text {
       display: grid;
+      order: 2;
+      justify-items: center;
+      text-align: center;
 
       .spaced-text-lrg {
         color: theme.$WhiteOpacityMid;
         letter-spacing: 0.3rem;
         text-transform: uppercase;
         @include theme.XsmFontSize;
-        padding-bottom: 0.25rem;
+        padding-bottom: 0.5rem;
       }
             
       h1 {
         display: grid;
-        @include theme.EXLrgFontSize;
+        @include theme.XLrgFontSize;
         
         .main-text-col { @include theme.MainTextCol; }
         
@@ -31,14 +42,16 @@
         color: theme.$WhiteOpacityMid;
         @include theme.SmFontSize;
         line-height: 1.8;
+        padding: 2rem 0 1rem;
 
-        span {
-          color: theme.$Cream;
-        }
+        span { color: theme.$Cream; }
       }
     }
     
-    .img-container { @include theme.ImgMain; }
+    .img-container { 
+      @include theme.ImgMain;
+      order: 1;
+    }
   }
 
   .about-skills {
@@ -100,10 +113,119 @@
       }
     }
   }
-  
 }
 
-@media only screen and (min-width: 26rem) { }
+@media only screen and (min-width: 28rem) {
+  .home-container {
+    border: 1px solid white;
+    
+    h2 { @include theme.LrgFontSize; }
+  
+    .home-about {
+      padding: 2rem 1rem;
+      display: grid;
+      gap: 1rem;
+
+    .about-text {
+      display: grid;
+      order: 2;
+      justify-items: center;
+      text-align: center;
+
+      .spaced-text-lrg {
+        color: theme.$WhiteOpacityMid;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+        @include theme.XsmFontSize;
+        padding-bottom: 0.5rem;
+      }
+            
+      h1 {
+        display: grid;
+        @include theme.EXLrgFontSize;
+        
+        .main-text-col { @include theme.MainTextCol; }
+        
+        .coral-text-col { @include theme.CoralTextCol; }
+      }
+
+      .text-body {
+        color: theme.$WhiteOpacityMid;
+        @include theme.SmFontSize;
+        line-height: 1.8;
+        padding: 2rem 0 1rem;
+
+        span { color: theme.$Cream; }
+      }
+    }
+    
+    .img-container { 
+      @include theme.ImgMain;
+      order: 1;
+    }
+  }
+
+  // .about-skills {
+  //   padding: 2rem 1rem;
+  //   display: grid;
+  //   gap: 4rem;
+
+  //   .skills-container {
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //     gap: 4rem 2rem;
+  //     justify-content: center;
+
+  //     .skill-item {
+  //       display: grid;
+  //       gap: 0.5rem;
+  //       justify-items: center;
+  //       padding: 0 1rem;
+
+  //       .skills-icon { @include theme.SkillsIcon; }
+
+  //       .adobe-icon { background-image: url(/images/focus-imgs/adobe-icon.svg); }
+
+  //       .figma-icon { background-image: url(/images/focus-imgs/figma-icon.svg); }
+
+  //       .responsive-icon { background-image: url(/images/focus-imgs/responsive-icon.svg); }
+
+  //       .uxui-icon { background-image: url(/images/focus-imgs/uxui-icon.svg); }
+
+  //       .illustration-icon { background-image: url(/images/focus-imgs/illustrations-icon.svg); }
+
+  //       .digital-icon { background-image: url(/images/focus-imgs/digital-icon.svg); }
+
+  //       .web-design-icon { background-image: url(/images/focus-imgs/web-icon.svg); }
+
+  //       .concept-icon { background-image: url(/images/focus-imgs/concept-icon.svg); }
+
+  //       .html-icon { background-image: url(/images/focus-imgs/html-icon.svg); }
+
+  //       .css-icon { background-image: url(/images/focus-imgs/css-icon.svg); }
+
+  //       .scss-icon { background-image: url(/images/focus-imgs/sass-icon.svg); }
+
+  //       .js-icon { background-image: url(/images/focus-imgs/js-icon.svg); }
+
+  //       .react-icon { background-image: url(/images/focus-imgs/react-icon.svg); }
+
+  //       .net-icon { background-image: url(/images/focus-imgs/net-icon.svg); }
+
+  //       .nextjs-icon { background-image: url(/images/focus-imgs/next-icon.svg); }
+
+  //       .git-icon { background-image: url(/images/focus-imgs/git-icon.svg); }
+
+  //       .skill-text {
+  //         @include theme.XsmFontSize;
+  //         color: theme.$WhiteOpacityMid;
+  //         letter-spacing: 0.2em;
+  //       }
+  //     }
+  //   }
+  // }
+}
+}
 
 @media only screen and (min-width: 42rem) { }
 

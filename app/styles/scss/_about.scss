@@ -1,6 +1,12 @@
 @use 'variables' as theme;
 
 .about-container {
+  
+  h2 { 
+    @include theme.MedLrgFontSize;
+    text-align: center;
+    place-self: center;
+  }
 
   .about-header {
     
@@ -32,7 +38,9 @@
 
     .about-top {
       display: grid;
-      justify-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1rem;
       
       .spaced-text-lrg {
         color: theme.$WhiteOpacityMid;
@@ -45,8 +53,7 @@
     
       h1 {
         display: grid;
-        @include theme.EXLrgFontSize;
-        justify-items: center;
+        @include theme.XLrgFontSize;
       
         .main-text-col { @include theme.MainTextCol; }
       
@@ -68,33 +75,59 @@
       }
     
       .download-link {
-        @include theme.BtnMain;
+        @include theme.BtnMainSecondary;
         padding: 0.5rem 0.75rem;
         color: theme.$WhiteOpacityMid;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        width: fit-content;
+        place-self: center;
+      
+        &::before {
+          content: '';
+          @include theme.FooterIcon;
+          width: 1rem;
+          height: 1rem;
+          background-image: url(/images/icons/download-icon.svg);
+        }
       }
     }
   }
   
   .about-roles {
+    display: grid;
+    gap: 4rem;
+    padding: 2rem 1rem;
 
     .roles-container {
+      display: grid;
+      gap: 2rem;
+      justify-content: center;
 
       .inner-container {
-        margin: 1rem;
-        padding: 1.5rem;
+        display: grid;
+        gap: 2rem;
         background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
-        border-left: 1px solid theme.$WhiteOpacityMid;
+        border: 1px solid theme.$WhiteOpacityLight;
+        border-radius: 0.5rem;
+        padding: 1.25rem 1rem;
 
         .roles-header {
           display: grid;
-          gap: 0.5rem;
+          gap: 1rem;
         
           h3 {
             @include theme.CoralTextCol;
-            @include theme.MedLrgFontSize;
+            @include theme.SmMedFontSize;
+            text-align: center;
           }
+
+          .work-title,
+          .work-date { color: theme.$Cream; }
         
           p {
+            text-align: center;
             color: theme.$White;
             letter-spacing: 0.1rem;
             text-transform: uppercase;
@@ -109,6 +142,7 @@
           .sub-header {
             color: rgba(228, 228, 228, 0.9);
             letter-spacing: 0.09rem;
+            text-align: center;
           }
         
           .current-work {
@@ -132,6 +166,7 @@
             .role-course {
               display: grid;
               gap: 0.75rem;
+              text-align: center;
 
               .job-title {
                 color: rgba(228, 228, 228, 0.9);
@@ -148,50 +183,61 @@
       }
 
       .previous-work {
+        display: grid;
+        gap: 2rem;
+        justify-content: center;
 
         li {
-          margin: 1rem;
-          padding: 1.5rem;
+          padding: 1.25rem 1rem;
           background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
-          border-left: 1px solid theme.$WhiteOpacityMid;
+          border: 1px solid theme.$WhiteOpacityLight;
+          border-radius: 0.5rem;
         
           .roles-header {
             display: grid;
-            gap: 0.5rem;
+            gap: 1.5rem;
+            justify-items: center;
           
             h3 {
               @include theme.CoralTextCol;
-              @include theme.MedLrgFontSize;
+              @include theme.SmMedFontSize;
+              text-align: center;
             }
           
             p {
-              color: theme.$White;
+              color: theme.$Cream;
               letter-spacing: 0.1rem;
               text-transform: uppercase;
               @include theme.XsmFontSize;
+              text-align: center;
             }
           }
         }
       }
 
       .current-interests {
+        display: grid;
+        gap: 2rem;
+        justify-content: center;
         
         li {
-          margin: 1rem;
-          padding: 1.5rem;
-          background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
-          border-left: 1px solid theme.$WhiteOpacityMid;
+          padding: 1.25rem 1rem;
+          border: 1px solid theme.$WhiteOpacityLight;
+          border-radius: 0.5rem;
           display: grid;
           gap: 1rem;
+          justify-items: center;
           
           h3 {
             @include theme.CoralTextCol;
-            @include theme.MedLrgFontSize;
+            @include theme.SmMedFontSize;
+            text-align: center;
           }
           
           p {
             color: theme.$WhiteOpacityMid;
             @include theme.XsmFontSize;
+            text-align: center;
           }          
         }
       }
@@ -214,10 +260,21 @@
     }
 
     .download-link {      
-      @include theme.BtnMain;
+      @include theme.BtnMainSecondary;
       padding: 0.5rem 0.75rem;
       color: theme.$WhiteOpacityMid;
       width: fit-content;
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      
+      &::before {
+        content: '';
+        @include theme.FooterIcon;
+        width: 1rem;
+        height: 1rem;
+        background-image: url(/images/icons/download-icon.svg);
+      } 
     }
   }
 

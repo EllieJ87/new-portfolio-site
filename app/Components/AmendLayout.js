@@ -125,7 +125,7 @@ const AmendLayout = ({ data }) => {
         <h2>{data.outcome.title}</h2>
         <p>{data.outcome.outcomeSummary}</p>
 
-        <Link href={data.outcome.outcomeLink} className='live-link' target='_blank'>Live preview</Link>
+        <Link href={data.outcome.outcomeLink} className='live-link' target='_blank'>Live Preview</Link>
       </section>
 
     </main>
