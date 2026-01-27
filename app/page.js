@@ -23,7 +23,7 @@ const App = () => {
             <span className='main-text-col'>Design Driven &</span>
             <span className='coral-text-col'>Engaging Interfaces</span>
           </h1>
-          <p className='text-body'>I transform ideas into visually compelling, <span>user-friendly</span>user-friendly digital experiences. Combining a designer&apos;s eye with a developer&apos;s precision, I create responsive websites and <span>interactive interfaces</span> that are as functional as they are beautiful. Every project I touch prioritises accessibility, performance, and intuitive usability. Crafting experiences that <span>users enjoy</span> and remember.</p>
+          <p className='text-body'>I transform ideas into visually compelling, <span>user-friendly</span> user-friendly digital experiences. Combining a designer&apos;s eye with a developer&apos;s precision, I create responsive websites and <span>interactive interfaces</span> that are as functional as they are beautiful. Every project I touch prioritises accessibility, performance, and intuitive usability. Crafting experiences that <span>users enjoy</span> and remember.</p>
         </div>
         
         <div className='img-container'>

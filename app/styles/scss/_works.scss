@@ -3,7 +3,7 @@
 .works-container {
   display: grid;
   gap: 2rem;
-  padding: 1.5rem 0.75rem;
+  padding: 2rem 1rem;
 
   .img-container { @include theme.ImgMain; } 
 
@@ -21,6 +21,7 @@
     cursor: pointer;
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 
     &:hover { color: theme.$White; }
 
@@ -36,11 +37,11 @@
     display: grid;
     gap: 1.5rem;
     padding: 1rem 0;
+
     
     h1 {
       text-align: center;
       @include theme.XLrgFontSize;
-      width: fit-content;
       
       .main-text-col { @include theme.MainTextCol; }
       
@@ -73,6 +74,7 @@
     .summary-overview { 
       color: theme.$WhiteOpacityMid;
       text-align: center;
+      line-height: 1.6;
     }
 
     .overview-info {
@@ -102,6 +104,11 @@
         }
       }
     }
+
+    .overview-images {
+      display: grid;
+      gap: 1rem;
+    }
   }
 
   .works-enhance {
@@ -115,6 +122,8 @@
     }
 
     .enhance-images {
+      display: grid;
+      gap: 0.25rem;
       padding: 1rem 0.5rem;
       background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
       border: 1px solid theme.$WhiteOpacityMid;
@@ -124,7 +133,7 @@
 
   .works-improvements {
     display: grid;
-    gap: 1.25rem;
+    gap: 2.5rem;
 
     p {
       color: theme.$WhiteOpacityMid;
@@ -146,7 +155,7 @@
         text-align: center;
 
         h3 {
-          color: theme.$White;
+          color: theme.$Cream;
           letter-spacing: 0.09rem;
           text-transform: uppercase;
           @include theme.SmFontSize;
@@ -160,8 +169,6 @@
   .works-wireframe {
     display: grid;
     gap: 1.25rem;
-
-    h2 { @include theme.LrgFontSize; }
   }
 
   .works-outcome {
@@ -179,6 +186,7 @@
     .live-link {
       @include theme.BtnMain;
       padding: 0.5rem 0.75rem;      
+      margin-top: 2rem;
       place-self: center;
       color: theme.$WhiteOpacityMid;
       display: flex;
@@ -199,10 +207,9 @@
 .other-works {
   display: grid;
   gap: 2rem;
-  padding: 1.5rem 0.75rem;
+  padding: 2rem 1rem;
   
   h2 { 
-    @include theme.MedLrgFontSize;
     text-align: center;
     place-self: center;
   }
@@ -210,10 +217,11 @@
   .work-card {
     display: grid;
     gap: 1.5rem;
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 1rem;
     background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
     border: 1px solid theme.$WhiteOpacityLight;
     border-radius: 0.5rem;
+    justify-items: center;
     
     .img-container {
       order: 2;
@@ -234,7 +242,8 @@
     .link-arrow {
       order: 3;
       @include theme.BtnMain;
-      padding: 0.5rem 0.75rem;      
+      padding: 0.5rem 0.75rem;
+      margin-top: 2rem;      
       place-self: center;
       color: theme.$WhiteOpacityMid;
       display: flex;
@@ -252,14 +261,149 @@
   }
 }
 
-@media only screen and (min-width: 26rem) { }
+@media only screen and (min-width: 28rem) {
+
+  .works-container {
+    
+    h2 { @include theme.LrgXFontSize; }
+  
+    .back-btn { @include theme.SmFontSize; }
+  
+    .works-header {
+      h1 { @include theme.EXLrgFontSize; }
+    }
+  
+    .works-overview {
+      .overview-info {
+        .overview-point { padding: 2rem 1.5rem; }
+      }
+    }
+  
+    .works-improvements {
+      .improvements-points {
+        li { padding: 2rem 1.5rem; }      
+      }
+    }
+  }
+
+  .other-works {
+    .work-card {
+    
+      h3 { @include theme.MedLrgFontSize; }
+    }
+  }
+}
 
 @media only screen and (min-width: 42rem) { }
 
-@media only screen and (min-width: 52.5rem) { }
+@media only screen and (min-width: 52.5rem) {
+  
+  .works-container {
+    padding: 2.5rem 1.5rem;
+    
+    h2 {
+      @include theme.XLrgFontSize;
+      text-align: left;
+      place-self: start;
+    }
+    
+    .works-header {
+      h1 { @include theme.EXXLrgFontSize; }
 
-@media only screen and (min-width: 70rem) { }
+      .sub-info {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  
+    .works-overview {
 
-@media only screen and (min-width: 90rem) { }
+      .summary-overview { text-align: left; }
 
-@media only screen and (min-width: 106rem) { }
+      .overview-info {
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+
+        .overview-point { 
+          border: initial;
+          border-left: 1px solid theme.$WhiteOpacityMid;
+          border-radius: 0;
+          text-align: left;
+          align-content: flex-start;
+        }
+      }
+      
+      .overview-images { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .works-enhance {
+      p { text-align: left; }
+
+      .enhance-images { 
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 1rem;
+      }
+    }
+  
+    .works-improvements {
+      p { text-align: left; }
+
+      .improvements-points {
+        gap: 4rem 2rem;
+        grid-template-columns: repeat(2, 1fr);
+
+        li {
+          border: initial;
+          border-left: 1px solid theme.$WhiteOpacityMid;
+          border-radius: 0;
+          text-align: left;
+          align-content: flex-start;
+        }      
+      }
+    }
+
+    .works-outcome {
+      p { text-align: left; }
+    }
+  }
+
+  .other-works {
+    grid-template-columns: repeat(2, 1fr);
+
+    h2 { grid-column: 1 / span 2; }
+
+    .work-card {
+      padding: 0 0;
+
+      .img-container { order: 1; }
+
+      h3 {
+        order: 2;
+        text-align: left;
+        padding: 0 1rem;
+      }
+
+      .link-arrow {
+        order: 3;
+        place-self: end;
+        margin: 0 1rem 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+
+  .works-container,
+  .other-works {
+    width: 70rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 100rem) {
+
+  .works-container,
+  .other-works { width: 85rem;  }
+}

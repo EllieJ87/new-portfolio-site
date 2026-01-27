@@ -36,7 +36,7 @@ const About = () => {
 
       <section className='about-roles'>
 
-        <article className='roles-container'>
+        <article className='roles-container sub-container'>
           <h2>Current Work</h2>
           
           <div className='inner-container'>
@@ -64,7 +64,7 @@ const About = () => {
           </div>
         </article>
 
-        <article className='roles-container'>
+        <article className='roles-container sub-container'>
           <h2>Courses</h2>
 
           <div className='inner-container'>
@@ -96,7 +96,7 @@ const About = () => {
 
         </article>
 
-        <article className='roles-container'>
+        <article className='roles-container sub-container'>
           <h2>Past Experience</h2>
           <ul className='previous-work'>
             <li>

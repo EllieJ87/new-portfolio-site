@@ -257,14 +257,215 @@ footer {
   }
 }
 
-@media only screen and (min-width: 26rem) { }
+@media only screen and (min-width: 28rem) {
+
+  .home-case-studies {
+    .case-study-list {
+      .case-card {
+        h3 { @include theme.MedLrgFontSize; }
+      
+        .cs-info {
+          display: flex;
+          justify-content: center;
+        
+          .cs-dot { display: block; }
+        }
+      
+        .cs-description {
+          li { padding: 2rem 1.5rem; }
+        }
+      }
+    }
+  }
+
+  .case-study-page {
+    h2 { @include theme.LrgXFontSize; }
+  }
+}
 
 @media only screen and (min-width: 42rem) { }
 
-@media only screen and (min-width: 52.5rem) { }
+@media only screen and (min-width: 52.5rem) {
 
-@media only screen and (min-width: 70rem) { }
+  .home-case-studies {
+    padding: 2.5rem 1.5rem;
 
-@media only screen and (min-width: 90rem) { }
+    .case-study-list {
+      .case-card {
+        gap: 0;
 
-@media only screen and (min-width: 106rem) { }
+        h3 { 
+          @include theme.EXLrgFontSize;
+          order: 2;
+          text-align: left;
+          padding: 1.5rem 0 0.5rem;
+        }
+
+        .img-container { order: 1; }
+
+        .cs-info {
+          justify-content: start;
+          order: 3;
+        }
+
+        .cs-description {
+          order: 4;
+          padding: 3rem 0;
+          grid-template-columns: repeat(2, 1fr);
+
+          li {
+            border: initial;
+            border-left: 1px solid theme.$WhiteOpacityMid;
+            border-radius: 0;
+            text-align: left;
+            align-content: flex-start;
+          }
+        }
+
+        .link-arrow {
+          order: 5;
+          align-items: start;
+          place-self: start;
+        }
+      }
+    }
+  }
+  
+  .case-study-page {
+    h2 { 
+      @include theme.XLrgFontSize;
+      text-align: left;
+      place-self: start;
+    }
+  }
+
+  footer {
+    .footer-inner {
+      gap: 1rem;
+      justify-content: center;
+      padding: 4rem 1.75rem 3rem;
+      grid-template-columns: 1fr auto;
+    
+      .footer-navigation {
+        order: 2;
+      
+        .footer-nav-links {
+          display: flex;
+          gap: 2.5rem;
+          justify-content: end;
+        }
+      }
+    
+      .footer-contact-info {
+        order: 1;
+        display: grid;
+        gap: 2rem;
+        justify-content: initial;
+        justify-items: initial;
+      
+        h2 {
+          justify-items: start;
+          text-align: left;
+          @include theme.XLrgFontSize;
+        }
+      
+        ul { justify-content: start; }
+      }
+    
+      .copy-name {
+        order: 3;
+        grid-column: 2;
+        text-align: right;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 65rem) {
+  
+  .home-case-studies {
+    
+    .case-study-list {
+      grid-template-columns: repeat(2, 1fr);
+      
+      .case-card {
+
+        &:first-child {
+          gap: 2rem;
+          grid-column: 1 / span 2;
+          grid-template-columns: repeat(2, 1fr);
+          
+          .img-container {
+            grid-row: 1 / span 5;
+
+            img { object-fit: cover; }
+          }
+          
+          .cs-description {
+            grid-template-columns: 1fr;
+            padding: 0;
+            
+            li {
+              &:first-child {
+                grid-column: 1;
+                grid-template-columns: 1fr;
+              }
+            }
+          }
+        }
+
+        h3 { padding: 0; }
+        
+        .cs-description {
+          grid-template-columns: 1fr;
+          padding: 0;
+          
+          li {
+            &:first-child {
+              grid-column: 1;
+              grid-template-columns: 1fr;
+            }
+          }
+        }
+
+        &:nth-child(2n + 2),
+        &:nth-child(3n + 2),
+        &:nth-child(2n + 3) {
+          gap: 1rem;
+
+          .cs-description {
+            padding: 1rem 0 2rem;
+
+            li { padding: 1rem; }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 75rem) {
+  
+  footer {
+    .footer-inner {
+      width: 70rem;
+      margin: 0 auto;
+    }
+  }
+
+  .case-study-page {
+    width: 70rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 100rem) {
+  
+  footer {
+    .footer-inner { width: 85rem; }
+  }
+
+  .case-study-page { width: 85rem;  }
+}

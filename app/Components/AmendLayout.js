@@ -59,18 +59,20 @@ const AmendLayout = ({ data }) => {
             ))}
           </div>
         )}
-        
-        {data.showCaseImages?.map((img, idx) => (
-          <div key={idx} className='img-container'>
-            <Image
-              priority
-              src={img.url}
-              alt={img.altTitle}
-              width={img.width}
-              height={img.height}
-            />
-          </div>
-        ))}
+
+        <div className='overview-images'>
+          {data.showCaseImages?.map((img, idx) => (
+            <div key={idx} className='img-container'>
+              <Image
+                priority
+                src={img.url}
+                alt={img.altTitle}
+                width={img.width}
+                height={img.height}
+              />
+            </div>
+          ))}
+        </div>
       </section>
       
       <section className='works-enhance'>

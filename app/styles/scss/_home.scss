@@ -11,9 +11,9 @@
   }
 
   .home-about {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0;
     display: grid;
-    gap: 1rem;
+    gap: 4rem;
 
     .about-text {
       display: grid;
@@ -32,6 +32,9 @@
       h1 {
         display: grid;
         @include theme.XLrgFontSize;
+        justify-items: center;
+        text-align: center;
+        padding-bottom: 1.5rem;
         
         .main-text-col { @include theme.MainTextCol; }
         
@@ -42,7 +45,6 @@
         color: theme.$WhiteOpacityMid;
         @include theme.SmFontSize;
         line-height: 1.8;
-        padding: 2rem 0 1rem;
 
         span { color: theme.$Cream; }
       }
@@ -55,21 +57,20 @@
   }
 
   .about-skills {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0;
     display: grid;
     gap: 4rem;
 
     .skills-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 4rem 2rem;
+      gap: 4rem 2.5rem;
       justify-content: center;
 
       .skill-item {
         display: grid;
         gap: 0.5rem;
         justify-items: center;
-        padding: 0 1rem;
 
         .skills-icon { @include theme.SkillsIcon; }
 
@@ -116,123 +117,82 @@
 }
 
 @media only screen and (min-width: 28rem) {
+
   .home-container {
-    border: 1px solid white;
     
-    h2 { @include theme.LrgFontSize; }
-  
+    h2 { @include theme.LrgXFontSize; }
+    
     .home-about {
-      padding: 2rem 1rem;
-      display: grid;
-      gap: 1rem;
-
-    .about-text {
-      display: grid;
-      order: 2;
-      justify-items: center;
-      text-align: center;
-
-      .spaced-text-lrg {
-        color: theme.$WhiteOpacityMid;
-        letter-spacing: 0.3rem;
-        text-transform: uppercase;
-        @include theme.XsmFontSize;
-        padding-bottom: 0.5rem;
+      
+      .about-text {
+        h1 { @include theme.EXLrgFontSize; }
       }
-            
-      h1 {
-        display: grid;
-        @include theme.EXLrgFontSize;
-        
-        .main-text-col { @include theme.MainTextCol; }
-        
-        .coral-text-col { @include theme.CoralTextCol; }
-      }
-
-      .text-body {
-        color: theme.$WhiteOpacityMid;
-        @include theme.SmFontSize;
-        line-height: 1.8;
-        padding: 2rem 0 1rem;
-
-        span { color: theme.$Cream; }
-      }
-    }
-    
-    .img-container { 
-      @include theme.ImgMain;
-      order: 1;
     }
   }
-
-  // .about-skills {
-  //   padding: 2rem 1rem;
-  //   display: grid;
-  //   gap: 4rem;
-
-  //   .skills-container {
-  //     display: flex;
-  //     flex-wrap: wrap;
-  //     gap: 4rem 2rem;
-  //     justify-content: center;
-
-  //     .skill-item {
-  //       display: grid;
-  //       gap: 0.5rem;
-  //       justify-items: center;
-  //       padding: 0 1rem;
-
-  //       .skills-icon { @include theme.SkillsIcon; }
-
-  //       .adobe-icon { background-image: url(/images/focus-imgs/adobe-icon.svg); }
-
-  //       .figma-icon { background-image: url(/images/focus-imgs/figma-icon.svg); }
-
-  //       .responsive-icon { background-image: url(/images/focus-imgs/responsive-icon.svg); }
-
-  //       .uxui-icon { background-image: url(/images/focus-imgs/uxui-icon.svg); }
-
-  //       .illustration-icon { background-image: url(/images/focus-imgs/illustrations-icon.svg); }
-
-  //       .digital-icon { background-image: url(/images/focus-imgs/digital-icon.svg); }
-
-  //       .web-design-icon { background-image: url(/images/focus-imgs/web-icon.svg); }
-
-  //       .concept-icon { background-image: url(/images/focus-imgs/concept-icon.svg); }
-
-  //       .html-icon { background-image: url(/images/focus-imgs/html-icon.svg); }
-
-  //       .css-icon { background-image: url(/images/focus-imgs/css-icon.svg); }
-
-  //       .scss-icon { background-image: url(/images/focus-imgs/sass-icon.svg); }
-
-  //       .js-icon { background-image: url(/images/focus-imgs/js-icon.svg); }
-
-  //       .react-icon { background-image: url(/images/focus-imgs/react-icon.svg); }
-
-  //       .net-icon { background-image: url(/images/focus-imgs/net-icon.svg); }
-
-  //       .nextjs-icon { background-image: url(/images/focus-imgs/next-icon.svg); }
-
-  //       .git-icon { background-image: url(/images/focus-imgs/git-icon.svg); }
-
-  //       .skill-text {
-  //         @include theme.XsmFontSize;
-  //         color: theme.$WhiteOpacityMid;
-  //         letter-spacing: 0.2em;
-  //       }
-  //     }
-  //   }
-  // }
-}
 }
 
 @media only screen and (min-width: 42rem) { }
 
-@media only screen and (min-width: 52.5rem) { }
+@media only screen and (min-width: 52.5rem) {
 
-@media only screen and (min-width: 70rem) { }
+  .home-container {
 
-@media only screen and (min-width: 90rem) { }
+    h2 { 
+      @include theme.XLrgFontSize;
+      text-align: left;
+      place-self: start;
+    }
 
-@media only screen and (min-width: 106rem) { }
+    .home-about {
+      padding: 2.5rem 1.5rem;
+
+      .about-text {
+        h1 { @include theme.EXXLrgFontSize; }
+      }
+    }
+
+    .about-skills { padding: 2.5rem 1.5rem; }
+  }
+
+}
+
+@media only screen and (min-width: 65rem) {
+  
+  .home-container {
+    gap: 2rem;
+
+    .home-about {
+      padding: 4.5rem 1.5rem;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3.5rem;
+      align-items: center;
+
+      .about-text {
+        order: 1;
+        text-align: left;
+        justify-items: start;
+
+        h1 { 
+          text-align: left;
+          justify-items: start;
+        }
+      }
+    }
+
+    .about-skills { padding: 2.5rem 1.5rem; }
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+
+  .home-container {
+    width: 70rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 100rem) {
+
+  .home-container { width: 85rem;  }
+}

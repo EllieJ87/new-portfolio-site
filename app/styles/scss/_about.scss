@@ -54,6 +54,8 @@
       h1 {
         display: grid;
         @include theme.XLrgFontSize;
+        justify-items: center;
+        text-align: center;
       
         .main-text-col { @include theme.MainTextCol; }
       
@@ -105,6 +107,7 @@
       gap: 2rem;
       justify-content: center;
 
+
       .inner-container {
         display: grid;
         gap: 2rem;
@@ -116,11 +119,12 @@
         .roles-header {
           display: grid;
           gap: 1rem;
+          justify-items: center;
+          text-align: center;
         
           h3 {
             @include theme.CoralTextCol;
             @include theme.SmMedFontSize;
-            text-align: center;
           }
 
           .work-title,
@@ -223,6 +227,7 @@
         li {
           padding: 1.25rem 1rem;
           border: 1px solid theme.$WhiteOpacityLight;
+          background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
           border-radius: 0.5rem;
           display: grid;
           gap: 1rem;
@@ -277,19 +282,202 @@
       } 
     }
   }
-
-
-
 }
 
-@media only screen and (min-width: 26rem) { }
+@media only screen and (min-width: 28rem) {
+  .about-container {
+    
+    h2 {  @include theme.LrgXFontSize; }
+  
+    .about-header {
+      
+      .about-top {
+        h1 { @include theme.EXLrgFontSize; }
+      }
+    }
+  
+    .about-roles {
+      
+      .roles-container {
+        
+        .inner-container {
+          padding: 2rem 1.5rem;
+        
+          .roles-header {
+            
+            h3 { @include theme.MedLrgFontSize; }
+          }
+        }
+        
+        .previous-work {
+          li {
+            .roles-header {
+              h3 { @include theme.MedLrgFontSize; }
+            }
+          }
+        }
+      
+        .current-interests {
+          li {
+            padding: 2rem 1.5rem;
+          
+            p { @include theme.SmFontSize; }
+          }
+        }
+      }
+    }
+  
+    .ending-quote {
+      h2 { @include theme.LrgFontSize; }
+    }
+  }
+}
 
 @media only screen and (min-width: 42rem) { }
 
-@media only screen and (min-width: 52.5rem) { }
+@media only screen and (min-width: 52.5rem) {
+  
+  .about-container {
+    
+    h2 {  
+      @include theme.XLrgFontSize;
+      text-align: left;
+      place-self: start;
+    }
+  
+    .about-header {      
+      .about-top {
+        width: 40rem;
+        margin: 0 auto;
 
-@media only screen and (min-width: 70rem) { }
+        h1 { @include theme.EXXLrgFontSize; }
+      }
+    }
+  
+    .about-roles {      
+      .roles-container {        
+        .inner-container {
+          .roles-header {
+            justify-items: start;
+            grid-template-columns: repeat(2, 1fr);
+            
+            h3 { 
+              @include theme.LrgXFontSize;
+              grid-column: 1 / span 2;
+              padding-bottom: 1rem;
+            }
 
-@media only screen and (min-width: 90rem) { }
+            .work-date { place-self: end; }
+          }
 
-@media only screen and (min-width: 106rem) { }
+          .work-container {
+            .sub-header { text-align: left; }
+
+            .course-work {
+              .role-course { text-align: left; }
+            }
+          }
+        }
+        
+        .previous-work {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 4rem 2rem;
+
+          li {
+            border: initial;
+            border-left: 1px solid theme.$WhiteOpacityMid;
+            border-radius: 0;
+            align-content: flex-start;
+            padding: 2rem 1.5rem;
+
+            .roles-header {
+              justify-items: start;
+
+              h3 { text-align: left; }
+
+              p { text-align: left; }
+            }
+          }
+        }
+      
+        .current-interests {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 4rem 2rem;
+
+          li {
+            justify-items: start;
+            border: initial;
+            border-left: 1px solid theme.$WhiteOpacityMid;
+            border-radius: 0;
+            align-content: flex-start;
+          
+            p { text-align: left; }
+          }
+        }
+      }
+    }
+  
+    .ending-quote {
+      padding: 2rem 1.5rem;
+      width: 43rem;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 65rem) {
+
+  .about-container {
+
+    .about-roles {
+      .sub-container {
+        grid-template-columns: 26rem 1fr;
+        position: relative;
+
+        h2 {
+          position: sticky;
+          top: 0;
+        }
+
+        .inner-container {
+          border: initial;
+          border-left: 1px solid theme.$WhiteOpacityMid;
+          border-radius: 0;
+          align-content: flex-start;
+
+          .roles-header { text-align: left; }
+        }
+      }
+
+      .roles-container {
+        .previous-work {
+          grid-template-columns: 1fr;
+          
+          .roles-header {
+            grid-template-columns: 17.5rem 1fr;
+            
+            h3 {  grid-column: 1 / span 2; }
+
+            .work-date { place-self: end; }
+          }
+        }
+      }
+    }
+    
+
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+
+  .about-container {
+    width: 70rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 100rem) {
+
+  .about-container { width: 85rem;  }
+}

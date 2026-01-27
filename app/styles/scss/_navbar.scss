@@ -181,6 +181,8 @@
             color: theme.$WhiteOpacityMid;
             @include theme.SmFontSize;
             font-weight: 200;
+
+            &:hover { color: theme.$Cream; }
           }
         }
       
@@ -201,7 +203,27 @@
             }
           }
         }
+        
+        .home-link-active,
+        .about-link-active,
+        .work-link-active { 
+          a { color: theme.$White; }
+        }
       }
     }
   }
 } 
+
+@media only screen and (min-width: 75rem) {
+
+  .dashboard-header {
+    width: 70rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 100rem) {
+
+  .dashboard-header { width: 85rem;  }
+}
