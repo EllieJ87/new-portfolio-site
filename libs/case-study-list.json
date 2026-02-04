@@ -5,16 +5,17 @@
       "slug": "job-results-page",
       "mainTitle": "Optimised Job Search", 
       "mainTitleHighlight" : "Experience",
+      "ccsClass" : "results-container",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/results/results-show.png",
         "altTitle" : "The Bigjobsite website - results page",
-        "width" : 1200,
-        "height" : 800
+        "width" : 1600,
+        "height" : 1200
       },
       
-      "role" :"Web Designer & Front-End Developer",
-      "timeLine" : "4 Months",
+      "role" :"UX / UI Designer & Front-End Developer",
+      "timeLine" : "5 Months",
 
       "overviewPoints" : [
         {
@@ -32,16 +33,17 @@
       "slug": "job-details-page",
       "mainTitle": "Clear & Engaging", 
       "mainTitleHighlight" : "Job Details",
+      "ccsClass" : "details-container",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/details/job-details-show.png",
         "altTitle" : "The Bigjobsite website - results page",
-        "width" : 1200,
-        "height" : 800
+        "width" : 1600,
+        "height" : 1200
       },
       
-      "role" :"Web Designer & Front-End Developer",
-      "timeLine" : "4 Months",
+      "role" :"UX / UI Designer & Front-End Developer",
+      "timeLine" : "3 Months",
 
       "overviewPoints" : [
         {
@@ -59,16 +61,17 @@
       "slug": "company-pages",
       "mainTitle": "Customisable Company", 
       "mainTitleHighlight" : "Profiles",
+      "ccsClass" : "company-container",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/company/company-profile-show.png",
         "altTitle" : "The Bigjobsite website - results page",
-        "width" : 1200,
-        "height" : 800
+        "width" : 1600,
+        "height" : 1200
       },
       
-      "role" :"Web Designer & Front-End Developer",
-      "timeLine" : "4 Months",
+      "role" :"UX / UI Designer & Front-End Developer",
+      "timeLine" : "9 Months",
  
       "overviewPoints" : [
         {
@@ -87,18 +90,19 @@
     {
       "id": 1,
       "slug": "industry-job-platforms",
-      "mainTitle": "Scalable & Custom Career", 
-      "mainTitleHighlight" : "Experiences",
+      "mainTitle": "Tailored Platforms for", 
+      "mainTitleHighlight" : "Every Sector",
+      "ccsClass" : "industry-container",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/job-platform/job-platform-show.png",
         "altTitle" : "The Bigjobsite website - results page",
-        "width" : 1200,
-        "height" : 800
+        "width" : 1600,
+        "height" : 1200
       },
       
-      "role" :"Web Designer & Front-End Developer",
-      "timeLine" : "4 Months",
+      "role" :"UX / UI Designer & Front-End Developer",
+      "timeLine" : "6 Months",
  
       "overviewPoints" : [
         {
@@ -116,16 +120,17 @@
       "slug": "my-job-dna",
       "mainTitle": "Interactive Career Path", 
       "mainTitleHighlight" : "Finder",
+      "ccsClass" : "myjobdna-container",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/my-job-dna/my-job-dna-show.png",
         "altTitle" : "The Bigjobsite website - results page",
-        "width" : 1200,
-        "height" : 800
+        "width" : 1600,
+        "height" : 1200
       },
       
-      "role" :"Web Designer & Front-End Developer",
-      "timeLine" : "4 Months",
+      "role" :"UX / UI Designer & Front-End Developer",
+      "timeLine" : "8 Months",
 
       "overviewPoints" : [
         {
@@ -145,16 +150,17 @@
       "id": 1,
       "mainTitle": "Digital Brand Experience for", 
       "mainTitleHighlight" : "Disrupted Cloud",
+      "ccsClass" : "disrupted-container",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/disrupted-cloud-main.png",
         "altTitle" : "The Bigjobsite website - results page",
-        "width" : 1200,
-        "height" : 800
+        "width" : 1600,
+        "height" : 1200
       },
       
       "role" :"Web Designer & Front-End Developer",
-      "timeLine" : "4 Months",
+      "timeLine" : "1 Month",
 
       "overviewPoints" : [
         {
@@ -171,17 +177,18 @@
     },
     {
       "id": 2,
-      "mainTitle": "Ranger Game: Interactive", 
+      "mainTitle": "Interactive", 
       "mainTitleHighlight" : "Space Adventure",
+      "ccsClass" : "ranger-container",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/ranger-game-main.png",
         "altTitle" : "The Bigjobsite website - results page",
-        "width" : 1200,
-        "height" : 800
+        "width" : 1600,
+        "height" : 1200
       },
       
-      "role" :"Web Designer & Front-End Developer",
+      "role" :"UX / UI Designer & Developer",
       "timeLine" : "4 Months",
 
       "overviewPoints" : [

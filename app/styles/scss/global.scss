@@ -69,4 +69,7 @@ button {
   border: 0;
 }
 
+.custom-cursor { @include theme.Cursor; }
+
+
 #detach-button-host { display: none; }

@@ -1,6 +1,7 @@
 @use 'variables' as theme;
 
 .about-container {
+  padding: 2rem 1rem 4rem;
   
   h2 { 
     @include theme.MedLrgFontSize;
@@ -29,7 +30,39 @@
             list-style: none;
             
             li {
+              background: linear-gradient(90deg, theme.$HintBlack, theme.$SubBlack);
+              border: 1px solid theme.$WhiteOpacityLight;
+              border-radius: 0.5rem;
+              padding: 0.75rem 0.5rem;
+
               &:last-of-type { margin-right: 3rem; }
+
+              .about-img-container {
+                border-radius: 0.5rem;
+                width: 14rem;
+                height: 14rem;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;                
+              }
+              
+              .me-blue { background-image: url(/images/me-imgs/me-and-blue.webp); }
+
+              .me-heart { 
+                background-image: url(/images/me-imgs/me-heart.webp);
+                background-size: 115%;
+                background-position: center -6rem;
+              }
+
+              .me-kimono { background-image: url(/images/me-imgs/me-kimono.webp); }
+
+              .me-shiho { background-image: url(/images/me-imgs/me-and-shiho.webp); }
+
+              .me-korea {
+                background-image: url(/images/me-imgs/me-korea.webp);
+                background-size: 120%;
+                background-position: bottom;
+              }
             }
           }
         }
@@ -99,14 +132,21 @@
   
   .about-roles {
     display: grid;
-    gap: 4rem;
+    gap: 6rem;
     padding: 2rem 1rem;
 
     .roles-container {
       display: grid;
       gap: 2rem;
       justify-content: center;
-
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  
+      &.in-view {
+        opacity: 1;
+        transform: translateY(0);
+      }
 
       .inner-container {
         display: grid;
@@ -232,13 +272,41 @@
           display: grid;
           gap: 1rem;
           justify-items: center;
-          
-          h3 {
-            @include theme.CoralTextCol;
-            @include theme.SmMedFontSize;
-            text-align: center;
+
+          .interests-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            
+            h3 {
+              @include theme.CoralTextCol;
+              @include theme.SmMedFontSize;
+              order: 2
+            }
+            
+            .interests-icon { 
+              @include theme.SkillsIcon;
+              order: 1;
+            }
+
+            .knitting-icon { background-image: url(/images/icons/knitting-icon.svg); }
+
+            .languages-icon { 
+              background-image: url(/images/icons/languages-icon.svg);
+              width: 3rem;
+              height: 3rem;
+            }
+
+            .drawing-icon { 
+              background-image: url(/images/icons/drawing-icon.svg);
+              width: 2rem;
+              height: 2rem;
+            }
+
+            .travel-icon { background-image: url(/images/icons/travel-icon.svg); }
+
           }
-          
+
           p {
             color: theme.$WhiteOpacityMid;
             @include theme.XsmFontSize;
@@ -250,10 +318,18 @@
   }
 
   .ending-quote {
-    padding: 4rem 0.75rem;
+    padding: 8rem 1rem 4rem;
     display: grid;
     gap: 4rem;
     justify-items: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    
+    &.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
     
     h2 {
       @include theme.MedLrgFontSize;
@@ -410,6 +486,18 @@
             border-left: 1px solid theme.$WhiteOpacityMid;
             border-radius: 0;
             align-content: flex-start;
+            
+            .interests-header {
+              justify-content: space-between;
+              width: 100%;
+              gap: 0;
+            
+              h3 { order: 1; }
+            
+              .interests-icon { order: 2; }
+            
+              .drawing-icon { transform: scaleX(-1); }
+            }
           
             p { text-align: left; }
           }
@@ -418,9 +506,10 @@
     }
   
     .ending-quote {
-      padding: 2rem 1.5rem;
+      padding: 12rem 1.5rem 4rem;
       width: 43rem;
       margin: 0 auto;
+      gap: 6rem;
     }
   }
 }

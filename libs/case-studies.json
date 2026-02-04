@@ -5,18 +5,26 @@
       "slug": "job-results-page",
       "mainTitle": "Optimised Job Search", 
       "mainTitleHighlight" : "Experience",
+      "ccsClass" : "works-results",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/results/results-main.png",
         "altTitle" : "The BIG Jobsite : original results page",          
-        "width" : 1200,
-        "height" : 800
+        "width" : 1440,
+        "height" : 900
+      },
+      
+      "showImage": {
+        "url" : "/images/works/results/results-show.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1600,
+        "height" : 1200
       },
 
-      "role" :"Web Designer & Front-End Developer",
+      "role" :"UX / UI Designer & Front-End Developer",
       "expertise" : "UX/UI Design",
-      "tools" : "Figma | .Net",
-      "timeLine" : "4 Months",
+      "tools" : "Adobe | Figma | HTML | CSS | JavaScript",
+      "timeLine" : "5 Months",
       
       "summary": {
         "title" : "Project Overview",
@@ -38,16 +46,18 @@
 
       "showCaseImages": [
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/results/results-one.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-one"
         },
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/results/results-two.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-two"
         }
       ],
 
@@ -59,28 +69,28 @@
 
         "evaluateEnhanceImages": [
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/results/results-old-wireframe-one.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/results/results-old-wireframe-two.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/results/results-old-wireframe-three.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/results/results-old-wireframe-four.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           }
         ]
       },
@@ -122,10 +132,10 @@
         "title" : "Finalised Wireframe",
 
         "wireframeImage": {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/results/results-full-wireframe.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1440,
+          "height" : 4835
         }
       },
 
@@ -143,18 +153,26 @@
       "slug": "job-details-page",
       "mainTitle": "Clear & Engaging", 
       "mainTitleHighlight" : "Job Details",
+      "ccsClass" : "works-details",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/details/job-details-main.png",
         "altTitle" : "The BIG Jobsite : original results page",          
-        "width" : 1200,
-        "height" : 800
+        "width" : 1440,
+        "height" : 900
+      },
+      
+      "showImage": {
+        "url" : "/images/works/details/job-details-show.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1600,
+        "height" : 1200
       },
 
-      "role" :"Web Designer & Front-End Developer",
+      "role" :"UX / UI Designer & Front-End Developer",
       "expertise" : "UX/UI Design",
-      "tools" : "Figma | .Net",
-      "timeLine" : "4 Months",
+      "tools" : "Adobe | Figma | HTML | CSS | JavaScript",
+      "timeLine" : "3 Months",
       
       "summary": {
         "title" : "Project Overview",
@@ -176,16 +194,18 @@
 
       "showCaseImages": [
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/details/job-details-one.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-one"
         },
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/details/job-details-two.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-two"
         }
       ],
 
@@ -197,28 +217,22 @@
 
         "evaluateEnhanceImages": [
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/details/job-details-old-wireframe-one.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/details/job-details-old-wireframe-two.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/details/job-details-old-wireframe-three.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
-          },
-          {
-            "url" : "/images/placeholder-image.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           }
         ]
       },
@@ -260,10 +274,10 @@
         "title" : "Finalised Wireframe",
 
         "wireframeImage": {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/details/job-details-full-wireframe.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1440,
+          "height" : 4494
         }
       },
 
@@ -281,18 +295,26 @@
       "slug": "company-pages",
       "mainTitle": "Customisable Company", 
       "mainTitleHighlight" : "Profiles",
+      "ccsClass" : "works-company",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/company/company-profile-main.png",
         "altTitle" : "The BIG Jobsite : original results page",          
-        "width" : 1200,
-        "height" : 800
+        "width" : 1440,
+        "height" : 900
+      },
+      
+      "showImage": {
+        "url" : "/images/works/company/company-profile-show.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1600,
+        "height" : 1200
       },
 
-      "role" :"Web Designer & Front-End Developer",
+      "role" :"UX / UI Designer & Front-End Developer",
       "expertise" : "UX/UI Design",
-      "tools" : "Figma | .Net",
-      "timeLine" : "4 Months",
+      "tools" : "Adobe | Figma | HTML | CSS | JavaScript",
+      "timeLine" : "9 Months",
       
       "summary": {
         "title" : "Project Overview",
@@ -314,16 +336,18 @@
 
       "showCaseImages": [
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/company/company-profile-one.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-one"
         },
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/company/company-profile-two.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-two"
         }
       ],
 
@@ -335,28 +359,28 @@
 
         "evaluateEnhanceImages": [
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/company/company-profile-old-wireframe-one.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/company/company-profile-old-wireframe-two.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/company/company-profile-old-wireframe-three.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/company/company-profile-old-wireframe-four.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           }
         ]
       },
@@ -393,10 +417,10 @@
         "title" : "Finalised Wireframe",
 
         "wireframeImage": {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/company/company-profile-full-wireframe.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1440,
+          "height" : 3963
         }
       },
 
@@ -415,20 +439,28 @@
     {
       "id": 4,
       "slug": "industry-job-platforms",
-      "mainTitle": "Scalable & Custom Career", 
-      "mainTitleHighlight" : "Experiences",
+      "mainTitle": "Tailored Platforms for", 
+      "mainTitleHighlight" : "Every Sector",
+      "ccsClass" : "works-industry",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/job-platform/job-platform-main.png",
         "altTitle" : "The BIG Jobsite : original results page",          
-        "width" : 1200,
-        "height" : 800
+        "width" : 1440,
+        "height" : 900
+      },
+      
+      "showImage": {
+        "url" : "/images/works/job-platform/job-platform-show.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1600,
+        "height" : 1200
       },
 
-      "role" :"Web Designer & Front-End Developer",
+      "role" :"UX / UI Designer & Front-End Developer",
       "expertise" : "UX/UI Design",
-      "tools" : "Figma | .Net",
-      "timeLine" : "4 Months",
+      "tools" : "Adobe | Figma | HTML | CSS | JavaScript",
+      "timeLine" : "6 Months",
       
       "summary": {
         "title" : "Project Overview",
@@ -450,16 +482,18 @@
 
       "showCaseImages": [
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/job-platform/job-platform-one.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-one"
         },
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/job-platform/job-platform-two.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-two"
         }
       ],
 
@@ -471,28 +505,28 @@
 
         "validationImages": [
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/job-platform/job-platform-old-wireframe-one.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/job-platform/job-platform-old-wireframe-two.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/job-platform/job-platform-old-wireframe-three.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/job-platform/job-platform-old-wireframe-four.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           }
         ]
       },
@@ -534,10 +568,10 @@
         "title" : "Finalised Wireframe",
 
         "wireframeImage": {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/job-platform/job-platform-full-wireframe.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1440,
+          "height" : 2706
         }
       },
 
@@ -555,18 +589,26 @@
       "slug": "my-job-dna",
       "mainTitle": "Interactive Career Path", 
       "mainTitleHighlight" : "Finder",
+      "ccsClass" : "works-myjobdna",
 
       "mainImage": {
-        "url" : "/images/placeholder-image.png",
+        "url" : "/images/works/my-job-dna/my-job-dna-main.png",
         "altTitle" : "The BIG Jobsite : original results page",          
-        "width" : 1200,
-        "height" : 800
+        "width" : 1440,
+        "height" : 900
+      },
+      
+      "showImage": {
+        "url" : "/images/works/my-job-dna/my-job-dna-show.png",
+        "altTitle" : "The Bigjobsite website - results page",
+        "width" : 1600,
+        "height" : 1200
       },
 
-      "role" :"Web Designer & Front-End Developer",
+      "role" :"UX / UI Designer & Front-End Developer",
       "expertise" : "UX/UI Design",
-      "tools" : "Figma | .Net",
-      "timeLine" : "4 Months",
+      "tools" : "Adobe | Figma | HTML | CSS | JavaScript | React | Next.js",
+      "timeLine" : "8 Months",
       
       "summary": {
         "title" : "Project Overview",
@@ -588,16 +630,18 @@
 
       "showCaseImages": [
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/my-job-dna/my-job-dna-one.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-one"
         },
         {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/my-job-dna/my-job-dna-two.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1600,
+          "height" : 1200,
+          "ccsClass" : "image-two"
         }
       ],
 
@@ -609,28 +653,28 @@
 
         "validationImages": [
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-one.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-two.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+             "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-three.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           },
           {
-            "url" : "/images/placeholder-image.png",
+            "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-four.png",
             "altTitle" : "The BIG Jobsite : original results page",          
-            "width" : 1200,
-            "height" : 800
+            "width" : 390,
+            "height" : 932
           }
         ]
       },
@@ -672,10 +716,10 @@
         "title" : "Finalised Wireframe",
 
         "wireframeImage": {
-          "url" : "/images/placeholder-image.png",
+          "url" : "/images/works/my-job-dna/my-job-dna-full-wireframe.png",
           "altTitle" : "The BIG Jobsite : original results page",          
-          "width" : 1200,
-          "height" : 800
+          "width" : 1440,
+          "height" : 2575
         }
       },
 

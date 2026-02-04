@@ -2,7 +2,7 @@
 
 .home-container { 
   display: grid;
-  gap: 3rem;
+  gap: 6rem;
 
   h2 { 
     @include theme.MedLrgFontSize;
@@ -11,7 +11,7 @@
   }
 
   .home-about {
-    padding: 2rem 1rem 0;
+    padding: 8rem 1rem 0;
     display: grid;
     gap: 4rem;
 
@@ -144,9 +144,12 @@
     }
 
     .home-about {
-      padding: 2.5rem 1.5rem;
+      padding: 8rem 1.5rem 0;
 
       .about-text {
+        width: 43rem;
+        margin: 0 auto;
+    
         h1 { @include theme.EXXLrgFontSize; }
       }
     }
@@ -159,10 +162,9 @@
 @media only screen and (min-width: 65rem) {
   
   .home-container {
-    gap: 2rem;
 
     .home-about {
-      padding: 4.5rem 1.5rem;
+      padding: 8rem 1.5rem;
       grid-template-columns: repeat(2, 1fr);
       gap: 3.5rem;
       align-items: center;

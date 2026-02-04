@@ -20,64 +20,19 @@ const Marquee = () => {
       <div className='inner-scroll' ref={scrollRef}>
         <ul>
           <li>
-            <div className='about-img-container'>
-              <Image
-                priority
-                src='/images/placeholder-image.png'
-                className='about-img'
-                alt='Picture of myself'
-                width={200}
-                height={200}
-              />
-            </div>
+            <div className='about-img-container me-blue'></div>
           </li>
           <li>
-            <div className='about-img-container'>
-              <Image
-                priority
-                src='/images/placeholder-image.png'
-                className='about-img'
-                alt='Picture of myself'
-                width={200}
-                height={200}
-              />
-            </div>
+            <div className='about-img-container me-heart'></div>
           </li>
           <li>
-            <div className='about-img-container'>
-              <Image
-                priority
-                src='/images/placeholder-image.png'
-                className='about-img'
-                alt='Picture of myself'
-                width={200}
-                height={200}
-              />
-            </div>
+            <div className='about-img-container me-kimono'></div>
           </li>
           <li>
-            <div className='about-img-container'>
-              <Image
-                priority
-                src='/images/placeholder-image.png'
-                className='about-img'
-                alt='Picture of myself'
-                width={200}
-                height={200}
-              />
-            </div>
+            <div className='about-img-container me-shiho'></div>
           </li>
           <li>
-            <div className='about-img-container'>
-              <Image
-                priority
-                src='/images/placeholder-image.png'
-                className='about-img'
-                alt='Picture of myself'
-                width={200}
-                height={200}
-              />
-            </div>
+            <div className='about-img-container me-korea'></div>
           </li>
         </ul>
       </div>

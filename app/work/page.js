@@ -4,8 +4,8 @@ import data from '/libs/case-study-list.json'
 import CaseStudyList from '../Components/CaseStudyList'
 
 export const metadata = {
-  title: "EJ : Case Studies",
-  description: "Ellie J case studies and projects she has worked on",
+  title: "Ellie's Work",
+  description: "Ellie' works and projects she has worked on",
 };
 
 const CaseStudy = () => {

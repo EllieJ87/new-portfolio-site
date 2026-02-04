@@ -8,8 +8,8 @@ import AmendLayout from '/app/Components/AmendLayout';
 import CaseNotFound from '/app/Components/CaseNotFound';
 
 export const metadata = {
-  title: "EJ : Case Studies",
-  description: "Ellie J case studies and projects she has worked on",
+  title: "Ellie's Work",
+  description: "Ellie' works and projects she has worked on",
 };
 
 const allCaseStudies = [
@@ -44,20 +44,20 @@ const CaseStudyPage = async ({ params }) => {
         <h2>More Works</h2>
         {randomCase.map((item) => {
           return (
-            <div key={item.id} className='work-card'>
+            <Link key={item.id} href={`/work/${item.slug}`} className='work-card'>
               <div className='img-container'>
                 <Image
-                  src={item.mainImage.url}
-                  alt={item.mainImage.altTitle}
-                  width={200}
-                  height={100}
+                  src={item.showImage.url}
+                  alt={item.showImage.altTitle}
+                  width={item.showImage.width}
+                  height={item.showImage.height}
                 />
               </div>
               <h3>
                 <span className='main-text-col'>{item.mainTitle}</span> <span className='coral-text-col'>{item.mainTitleHighlight}</span>
               </h3>
-              <Link href={`/work/${item.slug}`} className='link-arrow'>View Case Study</Link>
-            </div>
+              <p className='link-arrow'>View Case Study</p>
+            </Link>
           );
         })}
       </nav>

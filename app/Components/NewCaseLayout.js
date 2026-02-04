@@ -2,10 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import BackButton from './BackButton'
+import ScrollReveal from '../Components/ScrollReveal'
 
 const NewCaseLayout = ({ data }) => {
   return (
-    <div className='works-container'>
+    <div className={`works-container ${data.ccsClass}`}>
       <BackButton />
 
       <section className='works-header'>
@@ -43,7 +44,10 @@ const NewCaseLayout = ({ data }) => {
         </ul>
       </section>
 
-      <section className='works-overview'>
+      <ScrollReveal
+        as='section'
+        className='works-overview'
+      >
         <h2>{data.summary.title}</h2>
         <p className='summary-overview'>{data.summary.mainSummary}</p>
         
@@ -60,7 +64,7 @@ const NewCaseLayout = ({ data }) => {
         
         <div className='overview-images'>
           {data.showCaseImages?.map((img, idx) => (
-            <div key={idx} className='img-container'>
+            <div key={idx} className={`img-container ${img.ccsClass}`}>
               <Image
                 priority
                 src={img.url}
@@ -71,9 +75,12 @@ const NewCaseLayout = ({ data }) => {
             </div>
           ))}
         </div>
-      </section>
+      </ScrollReveal>
       
-      <section className='works-enhance'>
+      <ScrollReveal
+        as='section'
+        className='works-enhance'
+      >
         <h2>{data.validationNextSteps.title}</h2>
         <p>{data.validationNextSteps.validationSummary}</p>
 
@@ -90,9 +97,12 @@ const NewCaseLayout = ({ data }) => {
             </div>
           ))}
         </div>
-      </section>
+      </ScrollReveal>
       
-      <section className='works-improvements'>
+      <ScrollReveal
+        as='section'
+        className='works-improvements'
+      >
         <h2>{data.improvements.title}</h2>
         <p>{data.improvements.mainSummary}</p>
         
@@ -106,9 +116,12 @@ const NewCaseLayout = ({ data }) => {
             ))}
           </ul>
         )}
-      </section>
+      </ScrollReveal>
 
-      <section className='works-wireframe'>
+      <ScrollReveal
+        as='section'
+        className='works-wireframe'
+      >
         <h2>{data.wireframe.title}</h2>
         <div className='img-container'>
           <Image
@@ -119,14 +132,17 @@ const NewCaseLayout = ({ data }) => {
             height={data.wireframe.wireframeImage.height}
           />
         </div>
-      </section>
+      </ScrollReveal>
       
-      <section className='works-outcome'>
+      <ScrollReveal
+        as='section'
+        className='works-outcome'
+      >
         <h2>{data.outcome.title}</h2>
         <p>{data.outcome.outcomeSummary}</p>
 
         <Link href={data.outcome.outcomeLink} className='live-link' target='_blank'>Live Preview</Link>
-      </section>
+      </ScrollReveal>
 
     </div>
   )

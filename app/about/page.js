@@ -1,10 +1,11 @@
 import React from 'react';
 import ImageMarquee from '../Components/ImageMarquee';
-import Link from 'next/link';
+// import Link from 'next/link';
+import ScrollReveal from '../Components/ScrollReveal'
 
 export const metadata = {
-  title: "EJ : About",
-  description: "About Ellie J and her life as a Web Designer / Front-End Developer",
+  title: "About Ellie",
+  description: "About Ellie and her life as a UI Developer",
 };
 
 const About = () => {
@@ -36,7 +37,10 @@ const About = () => {
 
       <section className='about-roles'>
 
-        <article className='roles-container sub-container'>
+        <ScrollReveal 
+          as='article'
+          className='roles-container sub-container'
+        >
           <h2>Current Work</h2>
           
           <div className='inner-container'>
@@ -62,9 +66,12 @@ const About = () => {
               </ul>
             </div>
           </div>
-        </article>
+        </ScrollReveal>
 
-        <article className='roles-container sub-container'>
+        <ScrollReveal 
+          as='article'
+          className='roles-container sub-container'
+        >
           <h2>Courses</h2>
 
           <div className='inner-container'>
@@ -94,9 +101,12 @@ const About = () => {
 
           </div>
 
-        </article>
+        </ScrollReveal>
 
-        <article className='roles-container sub-container'>
+        <ScrollReveal
+          as='article'
+          className='roles-container sub-container'
+        >
           <h2>Past Experience</h2>
           <ul className='previous-work'>
             <li>
@@ -135,39 +145,61 @@ const About = () => {
               </div>
             </li>
           </ul>
-        </article>
+        </ScrollReveal>
 
-        <article className='roles-container'>
+        <ScrollReveal 
+          as='article'
+          className='roles-container'
+        >
           <h2>My Enjoyment</h2>
 
           <ul className='current-interests'>
             <li>
-              <h3>Knitting & Crafting</h3>
+              <div className='interests-header'>
+                <h3>Knitting & Crafting</h3>
+                <span className='interests-icon knitting-icon'></span>
+              </div>
               <p>I enjoy working with my hands through knitting, crochet, and other crafts, which encourages patience, precision, and an appreciation for structure. Creating something from scratch—stitch by stitch—mirrors how I approach building interfaces and refining details in my design work.</p>
             </li>
+
             <li>
-              <h3>Languages</h3>
+              <div className='interests-header'>
+                <h3>Languages</h3>
+                <span className='interests-icon languages-icon'></span>
+              </div>
               <p>I have a strong interest in learning languages and exploring different cultures. I&apos;ve studied Danish and Japanese and am currently learning Korean, driven by curiosity around communication, cultural nuance, and how people interact across different contexts—both digitally and in everyday life.</p>
             </li>
+
             <li>
-              <h3>Drawing</h3>
+              <div className='interests-header'>
+                <h3>Drawing</h3>
+                <span className='interests-icon drawing-icon'></span>
+              </div>
               <p>Drawing both by hand and digitally allows me to explore composition, form, and visual storytelling outside of code. It&apos;s a creative outlet that helps sharpen my eye for layout, balance, and detail, which naturally feeds back into my UI and design work.</p>
             </li>
+
             <li>
-              <h3>Travelling</h3>
+              <div className='interests-header'>
+                <h3>Travelling</h3>
+                <span className='interests-icon travel-icon'></span>
+              </div>
               <p>Travelling across Asia and Europe has given me exposure to diverse cultures, design styles, and ways of thinking. Experiencing different environments and perspectives continually influences how I approach accessibility, usability, and user-centred design.</p>
             </li>
           </ul>
-        </article>
+        </ScrollReveal>
       </section>
 
-      <section className='ending-quote'>
+      <ScrollReveal 
+        as='section'
+        className='ending-quote'
+      >
         <h2>
           <span className='main-text-col'>I craft digitial experiences that are intuitive as they are visually engaging,</span> <span className='coral-text-col'>blending clean code with thoughtful design.</span>
         </h2>
         
         <a href='/images/placeholder-image.png' download='placeholder-image.png' className='download-link'>Download Resume</a>
-      </section>
+
+      </ScrollReveal>
 
     </div>
   )
