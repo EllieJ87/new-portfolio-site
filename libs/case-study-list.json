@@ -9,7 +9,7 @@
 
       "mainImage": {
         "url" : "/images/works/results/results-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : results page",
         "width" : 1600,
         "height" : 1200
       },
@@ -37,7 +37,7 @@
 
       "mainImage": {
         "url" : "/images/works/details/job-details-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : details page",
         "width" : 1600,
         "height" : 1200
       },
@@ -65,7 +65,7 @@
 
       "mainImage": {
         "url" : "/images/works/company/company-profile-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : company profile page",
         "width" : 1600,
         "height" : 1200
       },
@@ -96,7 +96,7 @@
 
       "mainImage": {
         "url" : "/images/works/job-platform/job-platform-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : job platform page",
         "width" : 1600,
         "height" : 1200
       },
@@ -124,7 +124,7 @@
 
       "mainImage": {
         "url" : "/images/works/my-job-dna/my-job-dna-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "MY JOB DNA : site",
         "width" : 1600,
         "height" : 1200
       },
@@ -154,7 +154,7 @@
 
       "mainImage": {
         "url" : "/images/works/disrupted-cloud-main.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "Disrupted Cloud : site",
         "width" : 1600,
         "height" : 1200
       },
@@ -183,7 +183,7 @@
 
       "mainImage": {
         "url" : "/images/works/ranger-game-main.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "Ranger Game : site",
         "width" : 1600,
         "height" : 1200
       },

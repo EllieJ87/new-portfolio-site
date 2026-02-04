@@ -9,14 +9,14 @@
 
       "mainImage": {
         "url" : "/images/works/results/results-main.png",
-        "altTitle" : "The BIG Jobsite : original results page",          
+        "altTitle" : "The BIG Jobsite : results page",          
         "width" : 1440,
         "height" : 900
       },
       
       "showImage": {
         "url" : "/images/works/results/results-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : results page",
         "width" : 1600,
         "height" : 1200
       },
@@ -47,14 +47,14 @@
       "showCaseImages": [
         {
           "url" : "/images/works/results/results-one.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : results page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-one"
         },
         {
           "url" : "/images/works/results/results-two.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : results page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-two"
@@ -133,7 +133,7 @@
 
         "wireframeImage": {
           "url" : "/images/works/results/results-full-wireframe.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : results final wireframe",          
           "width" : 1440,
           "height" : 4835
         }
@@ -157,14 +157,14 @@
 
       "mainImage": {
         "url" : "/images/works/details/job-details-main.png",
-        "altTitle" : "The BIG Jobsite : original results page",          
+        "altTitle" : "The BIG Jobsite : job details page",          
         "width" : 1440,
         "height" : 900
       },
       
       "showImage": {
         "url" : "/images/works/details/job-details-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : job details page",
         "width" : 1600,
         "height" : 1200
       },
@@ -195,14 +195,14 @@
       "showCaseImages": [
         {
           "url" : "/images/works/details/job-details-one.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : job details page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-one"
         },
         {
           "url" : "/images/works/details/job-details-two.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : job details page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-two"
@@ -218,19 +218,19 @@
         "evaluateEnhanceImages": [
           {
             "url" : "/images/works/details/job-details-old-wireframe-one.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original job details page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/details/job-details-old-wireframe-two.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original job details page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/details/job-details-old-wireframe-three.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original job details page",          
             "width" : 390,
             "height" : 932
           }
@@ -275,7 +275,7 @@
 
         "wireframeImage": {
           "url" : "/images/works/details/job-details-full-wireframe.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : job details final wireframe",          
           "width" : 1440,
           "height" : 4494
         }
@@ -299,14 +299,14 @@
 
       "mainImage": {
         "url" : "/images/works/company/company-profile-main.png",
-        "altTitle" : "The BIG Jobsite : original results page",          
+        "altTitle" : "The BIG Jobsite : company profile page",          
         "width" : 1440,
         "height" : 900
       },
       
       "showImage": {
         "url" : "/images/works/company/company-profile-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : company profile page",
         "width" : 1600,
         "height" : 1200
       },
@@ -337,14 +337,14 @@
       "showCaseImages": [
         {
           "url" : "/images/works/company/company-profile-one.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : company profile page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-one"
         },
         {
           "url" : "/images/works/company/company-profile-two.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : company profile page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-two"
@@ -360,25 +360,25 @@
         "evaluateEnhanceImages": [
           {
             "url" : "/images/works/company/company-profile-old-wireframe-one.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original company profile page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/company/company-profile-old-wireframe-two.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original company profile page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/company/company-profile-old-wireframe-three.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original company profile page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/company/company-profile-old-wireframe-four.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original company profile page",          
             "width" : 390,
             "height" : 932
           }
@@ -418,7 +418,7 @@
 
         "wireframeImage": {
           "url" : "/images/works/company/company-profile-full-wireframe.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : company profile final wireframe",          
           "width" : 1440,
           "height" : 3963
         }
@@ -445,14 +445,14 @@
 
       "mainImage": {
         "url" : "/images/works/job-platform/job-platform-main.png",
-        "altTitle" : "The BIG Jobsite : original results page",          
+        "altTitle" : "The BIG Jobsite : job platform page",          
         "width" : 1440,
         "height" : 900
       },
       
       "showImage": {
         "url" : "/images/works/job-platform/job-platform-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "The Bigjobsite website : job platform page",
         "width" : 1600,
         "height" : 1200
       },
@@ -483,14 +483,14 @@
       "showCaseImages": [
         {
           "url" : "/images/works/job-platform/job-platform-one.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : job platform page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-one"
         },
         {
           "url" : "/images/works/job-platform/job-platform-two.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : job platform page",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-two"
@@ -506,25 +506,25 @@
         "validationImages": [
           {
             "url" : "/images/works/job-platform/job-platform-old-wireframe-one.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original job platform page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/job-platform/job-platform-old-wireframe-two.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original job platform page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/job-platform/job-platform-old-wireframe-three.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original job platform page",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/job-platform/job-platform-old-wireframe-four.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "The BIG Jobsite : original job platform page",          
             "width" : 390,
             "height" : 932
           }
@@ -569,7 +569,7 @@
 
         "wireframeImage": {
           "url" : "/images/works/job-platform/job-platform-full-wireframe.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "The BIG Jobsite : job platform final wireframe",          
           "width" : 1440,
           "height" : 2706
         }
@@ -593,14 +593,14 @@
 
       "mainImage": {
         "url" : "/images/works/my-job-dna/my-job-dna-main.png",
-        "altTitle" : "The BIG Jobsite : original results page",          
+        "altTitle" : "MY JOB DNA : site",          
         "width" : 1440,
         "height" : 900
       },
       
       "showImage": {
         "url" : "/images/works/my-job-dna/my-job-dna-show.png",
-        "altTitle" : "The Bigjobsite website - results page",
+        "altTitle" : "MY JOB DNA : site",
         "width" : 1600,
         "height" : 1200
       },
@@ -631,14 +631,14 @@
       "showCaseImages": [
         {
           "url" : "/images/works/my-job-dna/my-job-dna-one.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "MY JOB DNA : site",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-one"
         },
         {
           "url" : "/images/works/my-job-dna/my-job-dna-two.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "MY JOB DNA : site",          
           "width" : 1600,
           "height" : 1200,
           "ccsClass" : "image-two"
@@ -654,25 +654,25 @@
         "validationImages": [
           {
             "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-one.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "MY JOB DNA : site",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-two.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "MY JOB DNA : site",          
             "width" : 390,
             "height" : 932
           },
           {
              "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-three.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "MY JOB DNA : site",          
             "width" : 390,
             "height" : 932
           },
           {
             "url" : "/images/works/my-job-dna/my-job-dna-old-wireframe-four.png",
-            "altTitle" : "The BIG Jobsite : original results page",          
+            "altTitle" : "MY JOB DNA : site",          
             "width" : 390,
             "height" : 932
           }
@@ -717,7 +717,7 @@
 
         "wireframeImage": {
           "url" : "/images/works/my-job-dna/my-job-dna-full-wireframe.png",
-          "altTitle" : "The BIG Jobsite : original results page",          
+          "altTitle" : "MY JOB DNA : final wireframe",          
           "width" : 1440,
           "height" : 2575
         }

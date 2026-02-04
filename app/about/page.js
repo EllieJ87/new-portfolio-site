@@ -30,7 +30,7 @@ const About = () => {
             <p><span className='contrast-col'>Inspired</span> by everything from <span className='contrast-col'>beautifully designed interfaces</span> to Asian culture, anime and gaming, I bring curiosity and attention to detail to every project. My goal is to create <span className='contrast-col'>digital experiences</span> that are intuitive, engaging, and visually compelling.</p>
           </div>
           
-          <a href='/images/placeholder-image.png' download='placeholder-image.png' className='download-link'>Download Resume</a> 
+          <a href='/images/ellie-j-cv.pdf' download='ellie-j-cv.pdf' className='download-link'>Download Resume</a> 
         </div>
 
       </section>
@@ -197,7 +197,7 @@ const About = () => {
           <span className='main-text-col'>I craft digitial experiences that are intuitive as they are visually engaging,</span> <span className='coral-text-col'>blending clean code with thoughtful design.</span>
         </h2>
         
-        <a href='/images/placeholder-image.png' download='placeholder-image.png' className='download-link'>Download Resume</a>
+        <a href='/images/ellie-j-cv.pdf' download='ellie-j-cv.pdf' className='download-link'>Download Resume</a>
 
       </ScrollReveal>
 
