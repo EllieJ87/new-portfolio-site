@@ -102,7 +102,7 @@ const Navbar = () => {
       <header className={`dashboard-header ${showHeader ? 'visible' : 'hidden'}`}>
         <h2>
           <TypewriterComponent options={{
-              strings: ["Ellie's Portfolio", 'UI Developer', 'Web Designer', 'Front-End Developer'],
+              strings: ["Ellie's Portfolio", 'UX/UI Designer', 'Front-End Developer', ],
               autoStart: true,
               loop: true,
             }}

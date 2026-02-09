@@ -188,6 +188,8 @@
             letter-spacing: 0.09rem;
             text-align: center;
           }
+
+          .course-header {  color: theme.$WhiteOpacityMid; }
         
           .current-work {
             display: grid;
@@ -200,6 +202,8 @@
               color: theme.$WhiteOpacityMid;
               line-height: 1.6;
               font-style: 300;
+
+              .contrast-col { color: theme.$White; }
             }
           }
 
@@ -210,7 +214,6 @@
             .role-course {
               display: grid;
               gap: 0.75rem;
-              text-align: center;
 
               .job-title {
                 color: rgba(228, 228, 228, 0.9);

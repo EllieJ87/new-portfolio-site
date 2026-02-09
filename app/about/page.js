@@ -18,16 +18,19 @@ const About = () => {
         </div>
 
         <div className='about-top'>
-          <p className='spaced-text-lrg'>Cafting Engaging Digital Experiences</p>
+          <p className='spaced-text-lrg'>Crafting Engaging Digital Experiences</p>
         
           <h1>
-            <span className='main-text-col'>UI Developer</span>
-            <span className='coral-text-col'>& Design Enthusiast</span>
+            <span className='main-text-col'>UX/UI Designer</span>
+            <span className='coral-text-col'>with Front-End Expertise</span>
           </h1>
 
           <div className='about-text'>
-            <p>I combine front-end development with a <span className='contrast-col'>creative eye</span> for design to build responsive, user-friendly websites that balance functionality, accessibility, and visual appeal. At ATTB Group, I <span className='contrast-col'>craft clean, maintainable code</span> using HTML, CSS, JavaScript, and React, while optimizing performance and enhancing usability.</p>
-            <p><span className='contrast-col'>Inspired</span> by everything from <span className='contrast-col'>beautifully designed interfaces</span> to Asian culture, anime and gaming, I bring curiosity and attention to detail to every project. My goal is to create <span className='contrast-col'>digital experiences</span> that are intuitive, engaging, and visually compelling.</p>
+            <p>I design intuitive, accessible, and <span className='contrast-col'>visually engaging</span> digital experiences, combining UX/UI design with front-end development to bring <span className='contrast-col'>ideas to life</span>. My work focuses on creating <span className='contrast-col'>responsive interfaces</span> that balance user needs, usability, and visual clarity.</p>
+            
+            <p>At ATTB Group, I design and implement interfaces using Figma, HTML, CSS, JavaScript, and React, collaborating closely with developers and marketing teams to <span className='contrast-col'>improve usability, performance, and user engagement</span>.</p>
+            
+            <p><span className='contrast-col'>Inspired</span> by thoughtfully crafted interfaces and influences from Asian culture, anime, and gaming, I bring curiosity, attention to detail, and a user-first mindset to every project. My goal is to <span className='contrast-col'>create digital experiences</span> that feel intuitive, engaging, and meaningful for users.</p>
           </div>
           
           <a href='/images/ellie-j-cv.pdf' download='ellie-j-cv.pdf' className='download-link'>Download Resume</a> 
@@ -50,19 +53,20 @@ const About = () => {
               <p className='work-date'>Jul 2022 - Present</p>
             </div>
 
-            <div className='work-container'>
-              <p className='sub-header'>Key Achievements & Responsibilities</p>
-              
+            <div className='work-container'>            
               <ul className='current-work'>
-                <li>Designed and implemented responsive websites, improving mobile usability and driving a 70% increase in mobile engagement.</li>
-                <li>Optimised website performance and accessibility, reducing page load times by 1 second and ensuring 100% accessibility.</li>
-                <li>Developed reusable HTML, CSS, JavaScript, SCSS, jQuery and React components, cutting new page development time by 25%.</li>
-                <li>Enhance website visuals, graphics, and UI elements, boosting user engagement with core site features.</li>
-                <li>Created landing pages with strategic CTA&apos;s, increasing conversions by 15%.</li>
-                <li>Redesigned corporate websites, raising user engagement by 45% and enhancing overall user experience.</li>
-                <li>Improved page load speeds by 35% through efficient coding and optimisation.</li>
-                <li>Supported SEO campaigns, improving search engine visibility performance by 30%.</li>
-                <li>Increased email click rates, through re-design and catering for dark screen users, and improving mobile usability by 80%.</li>
+                <li>Redesigned websites and landing pages, improving user engagement by 45% and enhancing overall usability.</li>
+                <li>Implemented responsive, accessible UI components, boosting mobile engagement by 70%.</li>
+                <li>Conducted light user research using heatmaps and A/B tests to inform interface improvements and optimize conversion paths.</li>
+                <li>Developed reusable UI components to accelerate prototyping and maintain design consistency.</li>
+                <li>Improved navigation and interaction design across key features, increasing task completion efficiency.</li>
+                <li>Supported marketing campaigns with visually compelling assets and strategic CTAs, improving conversions by 15%.</li>
+              </ul>
+              
+              <p className='sub-header'>Key Projects</p>              
+              <ul className='current-work'>
+                <li><span className='contrast-col'>Full website development:</span> JobDNA (React, Next.js, TypeScript), TheBIGJobsite, Disrupted Cloud.</li>
+                <li><span className='contrast-col'>Marketing & UX assets:</span> wireframes, prototypes, social graphics, email designs, interactive landing pages.</li>
               </ul>
             </div>
           </div>
@@ -83,18 +87,29 @@ const About = () => {
             </div>
 
             <div className='work-container'>
+              <p className='course-header'>Focused on responsive web development, JavaScript interactivity, and UX/UI best practices.</p>
               <ul className='course-work'>
                 <li className='role-course'>
-                  <p className='job-title'>EllChan_Anime</p>
-                  <p>Developed a responsive web portfolio using HTML, CSS, and Bootstrap to showcase original artwork. An interactive gallery with compressed, responsive images and artwork descriptions, and implemented a validated contact form integrated with a third-party email service. Improved performance and mobile usability by resolving layout and navigation issues, including horizontal scrolling caused by banner imagery, and managed version control and deployment via GitHub.</p>
+                  <p className='job-title'>EllChan_Anime - Responsive Web Portfolio</p>
+                  <ul className='current-work'>
+                    <li>Designed an interactive gallery showcasing artwork, optimized for mobile usability and navigation.</li>
+                    <li>Implemented validated contact form and managed deployment via GitHub.</li>
+                  </ul>
                 </li>
                 <li className='role-course'>
-                  <p className='job-title'>Ranger Game</p>
-                  <p>Developed a choice-based space adventure game using JavaScript, HTML, CSS, and Bootstrap. Utilised DOM manipulation and object-driven logic to dynamically update imagery, text, and user options based on player decisions. Implemented gameplay mechanics for health, ammo, and fuel that trigger branching scenarios and seven distinct endings. Enhanced engagement with CSS animations and JavaScript-controlled sound functionality</p>
+                  <p className='job-title'>Ranger Game - Interactive Choice-Based Game</p>
+                  <ul className='current-work'>
+                    <li>Developed interactive branching scenarios and multiple outcomes.</li>
+                    <li>Enhanced engagement through intuitive decision-making mechanics, CSS animations, and sound interactions.</li>
+                  </ul>
                 </li>
                 <li className='role-course'>
-                  <p className='job-title'>E-commerce Product Page</p>
-                  <p>Developed an E-commerce product page for “Sneakers” using JavaScript, HTML, and SCSS. Built a mobile-friendly image carousel for browsing thumbnails and a desktop product modal with active thumbnails and carousel navigation. Implemented shopping cart functionality allowing users to add, remove, and checkout items, with toast pop-ups providing real-time feedback on interactions.</p>
+                  <p className='job-title'>E-commerce Product Page - “Sneakers”</p>
+                  <ul className='current-work'>
+                    <li>Designed mobile-first product page with image carousel and desktop modal interactions.</li>
+                    <li>Implemented interactive shopping cart with real-time feedback.</li>
+                    <li>Optimised layout and task flow for seamless user experience on mobile and desktop.</li>
+                  </ul>
                 </li>
               </ul>
             </div>
