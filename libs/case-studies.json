@@ -287,7 +287,7 @@
           "The Job Details Page redesign delivered a modern, mobile-first experience that streamlined user interactions and improved engagement. Redundant CTAs were removed, a single-step email sign-up simplified job alert subscriptions, and a “Key Facts” summary at the top enhanced content readability. The “Similar Jobs” section was reorganised for clarity and relevance, and the top search bar allowed users to quickly explore other roles. Overall, the page became visually cleaner, easier to navigate, and more conversion-focused, balancing usability, engagement, and a seamless experience across devices."
         ],
 
-        "outcomeLink" : "https://www.thebigjobsite.com/details/5CE6D9C536F192501895ED31FD9D5F41/sales-executive-sales-executive"
+        "outcomeLink" : "https://www.thebigjobsite.com"
       }
     },
     {
@@ -324,7 +324,7 @@
           {
             "id": 1,
             "pointTitle": "Objective",
-            "pointPara": "Redesign company pages to give each employer a unique, customizable presence that reflects their brand identity and highlights key content such as culture, values, employee stories, and job listings. Improve the jobseeker experience by making company exploration more engaging and intuitive." 
+            "pointPara": "Redesign company pages to give each employer a unique, customisable presence that reflects their brand identity and highlights key content such as culture, values, employee stories, and job listings. Improve the jobseeker experience by making company exploration more engaging and intuitive." 
           },
           {
             "id": 2,
@@ -387,7 +387,7 @@
       
       "improvements": {
         "title": "Opportunities for Improvement",
-        "mainSummary" : "Although the new design significantly improved engagement and flexibility, there are still opportunities to enhance analytics, personalization, and interactivity for both employers and jobseekers.",
+        "mainSummary" : "Although the new design significantly improved engagement and flexibility, there are still opportunities to enhance analytics, personalisation, and interactivity for both employers and jobseekers.",
 
         "points": [
           {
@@ -470,7 +470,7 @@
           {
             "id": 1,
             "pointTitle": "Objective",
-            "pointPara": "Design and develop multiple niche job sites with distinct branding while using a unified HTML foundation to reduce code redundancy. Each site needed to be visually appealing, responsive, SEO-friendly, and easy to maintain and scale for new industries." 
+            "pointPara": "Design and develop multiple Industry Job Platforms with distinct branding while using a unified HTML foundation to reduce code redundancy. Each site needed to be visually appealing, responsive, SEO-friendly, and easy to maintain and scale for new industries." 
           },
           {
             "id": 2,
@@ -578,7 +578,7 @@
       "outcome": {
         "title" : "The Outcome",
         "outcomeSummary" : [
-          "The Industry Job Platforms project delivered a suite of visually unique, mobile-optimized job boards built on a scalable and maintainable HTML foundation. Each site features custom branding, themed icons, responsive layouts, and SEO-friendly structures while sharing a consistent underlying architecture. The modular design system allows new niche sites to be deployed efficiently, reducing development effort and ensuring consistent UX across the suite. The project successfully balanced individuality with consistency, providing partners with tailored platforms that can be expanded and enhanced over time."
+          "The Industry Job Platforms project delivered a suite of visually unique, mobile-optimised job boards built on a scalable and maintainable HTML foundation. Each site features custom branding, themed icons, responsive layouts, and SEO-friendly structures while sharing a consistent underlying architecture. The modular design system allows new niche sites to be deployed efficiently, reducing development effort and ensuring consistent UX across the suite. The project successfully balanced individuality with consistency, providing partners with tailored platforms that can be expanded and enhanced over time."
         ],
 
         "outcomeLink" : "https://www.searchengineerjobs.com"
